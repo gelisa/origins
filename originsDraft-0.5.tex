@@ -7,7 +7,7 @@
 \usepackage{amsthm}
 \usepackage{amssymb,amsfonts}
 \usepackage{multicol}
-\usepackage{color}
+\usepackage{xcolor}
 \usepackage{changepage}
 \usepackage{hyperref}
 \usepackage{fancyhdr}
@@ -47,6 +47,7 @@
 \newcommand{\figref}[1]{\figurename~\ref{#1}}
 \newcommand{\red}[1]{\textcolor{red}{#1}}
 \newcommand{\blue}[1]{\textcolor{blue}{#1}}
+\newcommand{\gray}[1]{\textcolor{gray}{#1}}
 %%%%%%%%%
 
 
@@ -70,66 +71,30 @@
  \includecomment{comment}
  
  \section*{COLOR CODE}
-% \paragraph{\textcolor{blue}{Blue: }perhabs reformulate}
+\paragraph{\textcolor{blue}{Blue: } expand/shorten and reformulate}
 \paragraph{\red{Red: }comments, todo}
+\paragraph{\gray{Gray: }Old pieces that have to be recycled into new structure.}
  
 \section{Introduction} 
-We are interested in the conceptual problem of how early prebiotic polymerization processes 
-might have led from short nonspecific random sequences to sequences that are longer and more specific.  
-We frame a physics question, rather than a chemical one:  we are looking for a simple system, 
-which would be able to qualify for ``being alive'',  while staying simple enough to be formed 
-spontaneously. In this framework precise chemical composition is not of a great importance, and 
-our agents(?) don't have to be chemical similar or related to ones in the prebiotic world.
 
-There is a large body of literature that addresses prebiotical plausibility of various chemical 
-systems. \cite{Orgel,}.  
-We, on the other hand, are focused here on matters of principle of the possible mechanisms 
-by which informational polymers could have arisen from random polymers.  
+\noindent\red{\textbf{Background Statement.}} The question of OoL bothers people for a long time. 
+Many steps on the path from mixture of small organic to the most primitive cells are mystery. 
+There are many debates on what was the first informational polymer, what appeared first: 
+metabolism or replicators and how genetic code came into play.
 
-Some important modeling works have considered the matter of how homopolymers or random 
-polymers could be made long enough for biochemistry to take over \cite{}.  
-\blue{These are intended to address the well-known problem that neither DNA \cite{} nor proteins 
-  \cite{} nor other potential prebiotic polymers \cite{} are able to break out of what we call the 
-  ``Flory problem''. }
-By Flory problem, we mean that the main types of polymerizations lead to exponential relationship
-between length and abundance \cite{Flory1953,??}.  In particular, a broad range of experiments 
-of  polymerizations under pre-biotic conditions show that rarely do DNA molecules or RNA 
-or proteins ever reach chain lengths longer than a few monomers long \cite{}.  
-\begin{comment}
- \red{here's an issue that there're experiments, where longer chains were reached by means
-   of some prebiotically plausible catalysts: \cite{}. Address this issue.}
-\end{comment}
-And, these are much too short to initiate biology. 
+\noindent\red{\textbf{Problem Statement.}} One of the main problems is the problem of short 
+chains: it lays in the very beginning of the path from prebiotic soup to replicating, information 
+carrying entities. 
+\subsection{Flory problem}
+If we allow monomers and oligomers to polymerize, say by adding activated monomers, then it will 
+have exponential lengths distribution (see fig. \ref{fig:flory} and appendix section 
+\ref{sec:flory})
 
-Here, we address both the Flory problem of reaching long chains, 
-and the informational problem of how random-sequence polymers could become informational.
-
-
-
- 
-
-
-
-\section{Flory problem}
-Suppose one has a plenty of monomers either in closed reservoir or in the system that allows 
-import of monomers and waste output. Suppose there are also two competing mechanism acting upon 
-the system: 
-\par (a) Growth: reactions like
-\begin{itemize}
- \item (Activated) monomer addition
- \item Ligation of two oligomers
-\end{itemize}
-\par (b) Degradation: reactions like
-\begin{itemize}
- \item Full degradation/leaving a vesicle/dilution
- \item Hydrolysis of bonds of polymers.
-\end{itemize}
-In systems like these the steady state distribution of length will be exponential
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.9\textwidth]{pictures/flory.png} 
   \caption{We are dealing with an exponential length distribution. 
-    Rate constants: growth=1, import=100, degradation=0.1}
+    Model described in \ref{sec:flory}}
   \label{fig:flory}
 \end{figure}
 
@@ -139,7 +104,54 @@ polymer abundance:
   \frac{\pq{10mers}}{\pq{1mers}}=10^{-3},\qquad\frac{\pq{20mers}}{\pq{1mers}}=10^{-7}
 \end{equation} 
 \red{I think here adding maybe another polymerization model and also a couple of variant of 
-     ``realistic'' parameters. In some compact way, so that it doesn't take much attention.}
+  ``realistic'' parameters. In some compact way, so that it doesn't take much attention.}
+
+\noindent\red{\textbf{Activity Statement.}} We sought a simple structure based mechanism, which 
+would lead to reasonable lengths of polymers information formation, inheritance and complexity of 
+the system.
+
+\noindent\red{\textbf{Forecasting Statement.}}Here, we address both the Flory problem of reaching 
+long chains, and the informational problem
+
+\gray{\textbf{Old.}\\
+We are interested in the conceptual problem of how early prebiotic polymerization processes 
+might have led from short nonspecific random sequences to sequences that are longer and more specific.  
+We frame a physics question, rather than a chemical one:  we are looking for a simple system, 
+which would be able to qualify for ``being alive'',  while staying simple enough to be formed 
+spontaneously. In this framework precise chemical composition is not of a great importance, and 
+our agents(?) don't have to be chemical similar or related to ones in the prebiotic world.}
+
+\gray{
+There is a large body of literature that addresses prebiotical plausibility of various chemical 
+systems. \cite{Orgel,}.  
+We, on the other hand, are focused here on matters of principle of the possible mechanisms 
+by which informational polymers could have arisen from random polymers.  
+}
+
+\gray{
+Some important modeling works have considered the matter of how homopolymers or random 
+polymers could be made long enough for biochemistry to take over \cite{}.  
+\blue{These are intended to address the well-known problem that neither DNA \cite{} nor proteins 
+  \cite{} nor other potential prebiotic polymers \cite{} are able to break out of what we call the 
+  ``Flory problem''. }
+By Flory problem, we mean that the main types of polymerizations lead to exponential relationship
+between length and abundance \cite{Flory1953,??}.  In particular, a broad range of experiments 
+of  polymerizations under pre-biotic conditions show that rarely do DNA molecules or RNA 
+or proteins ever reach chain lengths longer than a few monomers long \cite{}. 
+ \red{here's an issue that there're experiments, where longer chains were reached by means
+   of some prebiotically plausible catalysts: \cite{}. Address this issue.}
+And, these are much too short to initiate biology. 
+}
+
+
+
+
+
+ 
+
+
+
+
 
 \section{HP model Foldamers}
 Here, we adopt the HP model -- one of the simplest models of proteins for which sequence 
@@ -216,6 +228,24 @@ at low concentrations to longer lengths, specific sequences and higher concentra
 
 
  \newpage
+\appendix
+\section{Flory problem derivation}\label{sec:flory}
+Suppose one has a plenty of monomers either in closed reservoir or in the system that allows 
+import of monomers and waste output. Suppose there are also two competing mechanism acting upon 
+the system: 
+\par (a) Growth: reactions like
+\begin{itemize}
+  \item (Activated) monomer addition
+  \item Ligation of two oligomers
+\end{itemize}
+\par (b) Degradation: reactions like
+\begin{itemize}
+  \item Full degradation/leaving a vesicle/dilution
+  \item Hydrolysis of bonds of polymers.
+\end{itemize}
+In systems like these the steady state distribution of length will be exponential
+Rate constants: growth=1, import=100, degradation=0.1
+
  \section{To sort}
  
  \begin{enumerate}
