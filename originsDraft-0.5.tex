@@ -72,9 +72,9 @@
  \includecomment{comment}
  
  \section*{COLOR CODE}
-\paragraph{\textcolor{blue}{Blue: } expand/shorten and reformulate}
+\paragraph{\textcolor{blue}{Blue: } reformulate}
 \paragraph{\red{Red: }comments, todo}
-\paragraph{\gray{Gray: }Old pieces that have to be recycled into new structure.}
+
  
 \section{Introduction} 
 
@@ -241,8 +241,8 @@ monomer.
 \end{figure}
 
 
-\section{Materials and methods}
-\subsection{Simulations}
+\section{Materials and methods}\label{sec:mat}
+\subsection{Simulations}\label{sec:mat-sim}
 To test our hypothesis we performed direct stochastic simulations on several. We used 
 \blue{PDMmod} method \cite{Bernatskiy}\footnote{C++ library and description can be found 
 here: \url{https://github.com/abernatskiy/pdmmod}}. Stochastic simulations keep track of each 
@@ -271,7 +271,8 @@ $\propto 1$.
 \item Hydrolysis has constant rate $d_h$ per bond; it varies from $\propto 0.01$ to $\propto 1$.
 \item Folding and unfolding reactions happen very quickly with the rates $k_{unf}\gg1$ and 
 $k_{unf}\cdot\exp(E_{native}/kT)$ correspondingly.
-\item Catalysis rate is $\ga\cdot\exp(E_{hydroph}\cdot n_{contcats}/kT)$
+\item Catalysis rate is proportional to the exponent of hydrophobic energy $E_h$ and number of 
+contacting hydrophobes $n_c$: $\ga\cdot\exp(E_{h}\cdot n_{c}/kT)$
 \item Some experiments also include aggregation reactions for the long hydrophobic chains.
 \end{itemize}
 We looked at the lengths distribution in steady state. In order to account for stochastic effects 
@@ -280,13 +281,32 @@ chains to investigate correlations between sequences and internal dynamics. The 
 performed on Computing Cluster of Laufer Center. See \blue{appendix} for simulation details.
 
 \paragraph{Experiment 1. Reproduction of Flory distribution.}
-Short description
+We started simulations with small pool of monomers (20 H and 20 P). We ran 30 identical  
+simulations for 200 s each, with measurements taken every 0.1s. Steady state is being achieved 
+around 30-50s. To calculate length distribution, we took one trajectory and calculated average 
+over time over all time points after 100s; so we got 1000 time points for every chain length, over 
+which we averaged. The rate of conversion of activated monomers into regular ones is $a=100$. We 
+took dilution rate of $d=0.5$. We ran experiments for 2 hydrolysis rates: $d_h=0.3$ and $d_h=0.03$.
+We varied hydrolysis and dilution rates. Experiments with $d_h=0$ reproduce accurate exponential 
+curves; adding hydrolysis, however, slows down distribution around short lengths. This effect is 
+due to constant concentration of activated monomers: there's no competition for ``food''. This 
+enriches population of short chains, however doesn't affect longer chains significantly, leaving 
+their distribution nearly exponential.
 
 \paragraph{Experiment 2. Study how folding affects length distributions.}
-Short description
+In addition to the parameters of the  experiment 1 we also added non-zero hydrophobic energy and 
+introduced folding and unfolding reactions.
+ Hydrophobic energy is taken $E_h=2kT$ and rate of unfolding is $k_{unf}=100$. We varied parameters 
+around given values and didn't notice qualitative changes of the system's behavior.
+From the figure \ref{fig:sim.flory-fold} in section \ref{sec:res} we can see 
+that presence of folding doesn't affect length distribution significantly.
 
 \paragraph{Experiment 3. Introduction of HP-catalysis.}
-Short description
+In addition to folding in this \textit{in-silico} experiment we introduced interaction between 
+proteins. All parameters are as above. We varied parameters of the simulations, and noticed 
+significant stability of the length distribution towards change of $d_h$ and $d$. distribution is 
+sensitive towards hydrophobic energy, as expected. Chain length distribution has a noticeably 
+non-exponential behavior in the region when $E_h= 1-3 kT$
 
 \paragraph{Experiment 4. HP-catalysis and aggregation.}
 Short description
@@ -298,45 +318,80 @@ Short description
 
 
 
-\section{Results}
+\section{Results and discussion}\label{sec:res}
+\paragraph{Simulation: folding.} Presence of folding reactions and absence of catalysis ones 
+relationship between abundance and length at steady state follows exponential distribution for 
+longer chains and is slower than exponential for short chains. While presence of folding makes 
+some of the folded sequences get higher than average for their length populations, these 
+populations are never more than few-fold of average population of regular sequences and don't 
+change nature of the distribution.
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.85\textwidth]{pictures/flory-last.pdf} 
-  \caption{...}
-  \label{fig:sim.flory}
+  \includegraphics[width=0.85\textwidth]{pictures/flory-and-fold.pdf} 
+  \caption{Dashed lines represent polymerization without folding or catalysis. Solid lines 
+correspond to simulations run with folding but without catalysis. For details of simulations see 
+section \ref{sec:mat-sim}, Experiment 2. }
+  \label{fig:sim.flory-fold}
 \end{figure}
 
-\red{ Show how the Flory curve gets shifted.  Show the 
-effect of folding alone.  Show how autocats help.  Show how this bridges across from short lengths 
-at low concentrations to longer lengths, specific sequences and higher concentrations.}
+\paragraph{Simulation: folding and HP-catalysis.} Presence of catalysis in the system skews the 
+distribution significantly, and while it leaves average chain length about the same it brings 
+substantial excess of long sequence compared to the cases without catalysis\ref{fig:sim.flory-hp}. 
+The system is fairly stable towards hydrolysis and dilution parameters. It allows for 1 order of 
+magnitude change in those parameters without significant change in the behavior of the system. 
+Sequences responsible for the skew of the distribution are few in numbers they all are catalysts 
+and have long stretches of hydrophobs, which also means that they are products of catalysis. In 
+the figure \ref{fig:example1} there examples of several sequences. The lines represent average 
+over 30 time evolutions. For this particular experiment, concentration of monomers at steady 
+state is $\propto 100$. Most of the longer sequences have average populations $\ll 1$. However for 
+the most of the chain lengths there are few sequences, which dominate populations significantly.
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.85\textwidth]{pictures/flory-and-hp.pdf} 
+  \caption{Dashed lines represent polymerization without folding or catalysis. Solid lines 
+correspond to simulations run with folding and catalysis reactions on. For details of simulations 
+see \ref{sec:mat-sim}, Experiment 3. }
+  \label{fig:sim.flory-hp}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.85\textwidth]{pictures/example1.pdf} 
+  \caption{Some examples of dominating autocatalytic sequences. Gray lines represent regular 
+non-catalytic sequence. structures on the right are native structures of autocatalytic sequences. }
+  \label{fig:example1}
+\end{figure}
+
+\red{Some discussion on what it means and that it is still not enough for a proper inheritance and 
+evolution, however it allows us to get to longer sequences, some of which can be ``magical''.}
 
 
 
  \newpage
 \appendix
 \section{Flory problem derivation}\label{sec:flory-derivation}
-Suppose one has a plenty of monomers either in closed reservoir or in the system that allows 
-import of monomers and waste output. Suppose there are also two competing mechanism acting upon 
-the system: 
-\par (a) Growth: reactions like
-\begin{itemize}
-  \item (Activated) monomer addition
-  \item Ligation of two oligomers
-\end{itemize}
-\par (b) Degradation: reactions like
-\begin{itemize}
-  \item Full degradation/leaving a vesicle/dilution
-  \item Hydrolysis of bonds of polymers.
-\end{itemize}
-In systems like these the steady state distribution of length will be exponential
-Rate constants: growth=1, import=100, degradation=0.1
+% Suppose one has a plenty of monomers either in closed reservoir or in the system that allows 
+% import of monomers and waste output. Suppose there are also two competing mechanism acting upon 
+% the system: 
+% \par (a) Growth: reactions like
+% \begin{itemize}
+%   \item (Activated) monomer addition
+%   \item Ligation of two oligomers
+% \end{itemize}
+% \par (b) Degradation: reactions like
+% \begin{itemize}
+%   \item Full degradation/leaving a vesicle/dilution
+%   \item Hydrolysis of bonds of polymers.
+% \end{itemize}
+% In systems like these the steady state distribution of length will be exponential
+% Rate constants: growth=1, import=100, degradation=0.1
 
 \section{Simulation details}
 
 
 
  \bibliography{/data/research/31.mendeleyBibtex/Origins}
- \bibliographystyle{apalike}
+  \bibliographystyle{unsrt}
 
 
 \end{document}
