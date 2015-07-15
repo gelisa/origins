@@ -9,7 +9,7 @@
 \usepackage{multicol}
 \usepackage{xcolor}
 \usepackage{changepage}
-\usepackage{hyperref}
+% \usepackage{hyperref}
 \usepackage{fancyhdr}
 % \usepackage{showkeys}
 \usepackage{textcomp}
@@ -245,11 +245,11 @@ monomer.
 \subsection{Simulations}\label{sec:mat-sim}
 To test our hypothesis we performed direct stochastic simulations on several. We used 
 \blue{PDMmod} method \cite{Bernatskiy}\footnote{C++ library and description can be found 
-here: \url{https://github.com/abernatskiy/pdmmod}}. Stochastic simulations keep track of each 
+here: https://github.com/abernatskiy/pdmmod}. Stochastic simulations keep track of each 
 molecular specie in the system. However simulations are limited due to computational reasons. First 
 of all we have to explore conformational space of every polymer. This task is NP-hard (we use 
 HPSandbox algorithm\cite{lau1989lattice,Dill2008} \footnote{Python implementation and description 
-can be found here: \url{http://hp-lattice.readthedocs.org/en/latest/}}), so we had to limit 
+can be found here: http://hp-lattice.readthedocs.org/en/latest/}), so we had to limit 
 maximum chain lengths to 25. We also try to keep total number of species in the low thousands, to 
 avoid computational costs. We do it by introducing dilution parameter $d$: molecules are being 
 removed from the system with probabilities $\propto d$. This mimics a protocell splitting and 
