@@ -49,6 +49,7 @@
 \newcommand{\red}[1]{\textcolor{red}{#1}}
 \newcommand{\blue}[1]{\textcolor{blue}{#1}}
 \newcommand{\gray}[1]{\textcolor{gray}{#1}}
+% \renewcommand{\baselinestretch}{2} 
 %%%%%%%%%
 
 
@@ -112,7 +113,7 @@ amplify their chain lengths.
 heavy tail chain lengths distribution and selects the sequences based on the physical principle: 
 hydrophobic interaction. 
 \red{write about autocatalytic sets here and cite Kauffman, maybe also mention far from 
-equilibrium statement.}
+equilibrium statement. mention composomes, mention lipid vesicles \cite{Luisi1999,Deamer2008}}
 Our \textit{in-silico} experiments demonstrate that binary polymers 
 capable of primitive folding and hydrophobic interaction is a working mechanism. Not only we get 
 longer chains and selection. Our systems gives reasonable computational diversity of the sequences.
@@ -123,6 +124,17 @@ longer chains and selection. Our systems gives reasonable computational diversit
 In the systems with spontaneous polymerization chain lengths of the produced polymers follow 
 exponential (Flory) distribution (see fig. \ref{fig:flory} and appendix section 
 \ref{sec:flory-derivation}).
+Probabal prebiotic concentrations of a.a here \cite{Aubrey2009}
+\blue{Experimental results for RNA yield:}
+\begin{itemize}
+ \item max 10mers \cite{Ferris1996} in solution
+ \item up to 55mers on mineral surfaces \cite{Ferris1996} (primary product contains 20-40 mers)
+\end{itemize}
+\blue{Experimental results for peptides yield:}
+\begin{itemize}
+ \item 
+\end{itemize}
+
 
 \begin{figure}[h!]
   \centering
@@ -318,7 +330,7 @@ Short description
 
 
 
-\section{Results and discussion}\label{sec:res}
+\section{Results}\label{sec:res}
 \paragraph{Simulation: folding.} Presence of folding reactions and absence of catalysis ones 
 relationship between abundance and length at steady state follows exponential distribution for 
 longer chains and is slower than exponential for short chains. While presence of folding makes 
@@ -365,26 +377,12 @@ non-catalytic sequence. structures on the right are native structures of autocat
 \red{Some discussion on what it means and that it is still not enough for a proper inheritance and 
 evolution, however it allows us to get to longer sequences, some of which can be ``magical''.}
 
+\section{Discussion}
 
 
  \newpage
 \appendix
-\section{Flory problem derivation}\label{sec:flory-derivation}
-% Suppose one has a plenty of monomers either in closed reservoir or in the system that allows 
-% import of monomers and waste output. Suppose there are also two competing mechanism acting upon 
-% the system: 
-% \par (a) Growth: reactions like
-% \begin{itemize}
-%   \item (Activated) monomer addition
-%   \item Ligation of two oligomers
-% \end{itemize}
-% \par (b) Degradation: reactions like
-% \begin{itemize}
-%   \item Full degradation/leaving a vesicle/dilution
-%   \item Hydrolysis of bonds of polymers.
-% \end{itemize}
-% In systems like these the steady state distribution of length will be exponential
-% Rate constants: growth=1, import=100, degradation=0.1
+
 
 \section{Simulation details}
 
