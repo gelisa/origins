@@ -316,6 +316,36 @@ We looked at the lengths distribution in steady state. In order to account for s
 we took average over several realizations. We also looked at the time evolutions of specific 
 chains to investigate correlations between sequences and internal dynamics. The simulations were 
 performed on Computing Cluster of Laufer Center. See \blue{appendix} for simulation details.
+\begin{center}
+\begin{table}[h]
+\begin{tabular}{| p{3.5cm} | l | p{3cm}| p{3.4cm}| p{3.4cm} |}
+\hline
+Constant name & Symbol  & Normalized simulation value & Simulation 
+value (deduced) per $1M$& Value from literature, per $1M$\\
+\hline
+Polymerization rate constant & $\ga$ &  1 & $\propto 1\,month^{-1}$ & ??\\
+\hline
+Hydrolysis  rate constant & $d_h$ & $\propto 10^{-1}\textendash10^{-4}$ & $\propto 1\,month^{-1}-- 
+10^{-3}year^{-1}$ & $\propto 10^{-3}year^{-1}$ 
+\cite{Bryant1996,Smith1998,Danger2012}\\
+\hline
+Dilution rate constant & $d$&$\propto 10^{-2}-1$ & $\propto 0.1year^{-1} -- 
+10^{-3}year^{-1}$ & \begin{center}\textemdash \end{center}
+ Is\,used\,to\,keep model from 
+overflowing \\
+\hline
+Monomer import rate constant & $a$ & $\propto 10^2-10^3$  & $\propto 1 - 10^2 day^{-1}$ & ??\\
+\hline
+Number of rotational freedoms& $z$ & $1.5-2.5$  & $1.5-2.5$ & 
+??\\
+\hline 
+Hydrophobic energy per $kT$ & $e_h$ & $1-2$ & $1-2$ & $0-3.3$ \cite{Wimley1996}
+\\ \hline
+\end{tabular}
+\caption{!}
+\label{tab:methods}
+\end{table}
+\end{center}
 
 \paragraph{Experiment 1. Reproduction of Flory distribution.}
 We started simulations with small pool of monomers (20 H and 20 P). We ran 30 identical  
