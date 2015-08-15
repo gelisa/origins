@@ -82,26 +82,32 @@
 \section{Introduction} 
 
 % \marginnote{\red{Background Statement}} 
-\textbf{Functioning of modern organisms is not possible nucleic 
-acids and proteins.} Cells produce these extremely long polymers with cell machinery 
+\textbf{Functioning of modern organisms is not possible without nucleic 
+acids and proteins.} Cells produce these extremely long polymers with complex cell machinery 
 like ribosomes and polymerases -- also extremely long polymers. 
-Therefore question ``how long 
-polymers can be produced prebiotically?'' is crucial for the origin of life research.
-we know that amino acids can be produced prebiotically \cite{Miller1953} and are abundant in 
+Therefore question ``how long polymers can be produced prebiotically?'' is crucial for the origin 
+of life research whether one's approach is information first or metabolism first.
+We know that amino acids can be produced prebiotically \cite{Miller1953} and are abundant in 
 stony meteorites \cite{Sephton2002}; significant progress has been made in synthesis of 
 single nucleotides \cite{Powner2009a}. \textbf{However a discovery of a mechanism of prebiotic 
-production of biochemically 
-long polypeptides or nucleic acids despite certain success 
+production of biochemically long polypeptides or nucleic acids despite certain success 
 \cite{Shock1992,Martin1998,PAECHT-HOROWITZ1970,Lambert2008,Leman2004a,Orgel2004,Ferris1996} is 
-still in the future.}
+still in the future.} One of the problems is that both RNA and peptides favor hydrolysis  over 
+polymerization in aqueous solutions, in other words in the prebiotic soup. Both polymers wouldn't 
+survive if exposed to solution, especially at high temperature\cite{Pace1991}.
 
-Spontaneous polymerization processes fall under what we call Flory problem (for details see 
+Several mechanism were proposed to increase yields of oligomers: adsorption to 
+clays\cite{Rao1980,Lambert2008}, minerals\cite{Bernal1949,Ferris1996}, evaporation of tidal 
+pools\cite{Nelson2001}, concentration in ice through eutectic melts \cite{Kanavarioti2001}, 
+freezing conditions\cite{Bada2004} or temperature cycles. 
+
+However the main problem with spontaneous polymerization processes is that it fall under what we 
+call Flory problem (for details see 
 sec.\ref{sec:flory}): chain length follow exponential distribution and desirably long chains are 
 present in negligible quantities. While increasing equilibrium constant by means of catalysis or 
 changing conditions to dry medium would lead to longer chain lengths, it will still give 
-exponentially decreasing distribution of length. We show the proof of it for the case of monomer 
-addition in \ref{sec:flory-derivation}. The proof for polymer concatenation is present in 
-\cite{Derr2012}. This dynamics can be observed even in some autocatalytic systems \cite{Wu2009}.
+exponentially decreasing distribution of length. The proof for polymer concatenation is present 
+in \cite{Derr2012}. This dynamics can be observed even in some autocatalytic systems \cite{Wu2009}.
 
 This suggests that first catalysts emerged from mixture of short sequences, which were both 
 not diverse and had poor information content. Therefore the problem of short chains also brings 
@@ -113,7 +119,9 @@ amplify their chain lengths.
 
  We present here a physical mechanism, which give rise to 
 heavy tail chain lengths distribution and selects the sequences based on the physical principle: 
-hydrophobic interaction. 
+hydrophobic interaction. Our mechanism doesn't have to be the only one. It can be successfully 
+applied if there another accelerating processes such as adsorption or wetting and drying cycles, 
+for example.
 \red{write about autocatalytic sets here and cite Kauffman, maybe also mention far from 
 equilibrium statement. mention composomes, mention lipid vesicles \cite{Luisi1999,Deamer2008}}
 Our \textit{in-silico} experiments demonstrate that binary polymers 
@@ -122,16 +130,32 @@ longer chains and selection. Our systems gives reasonable computational diversit
 
 
    
-\section{Flory problem}\label{sec:flory} Production of long oligo-peptides and oligo-nucleotides 
+\section{Flory problem}
+\label{sec:flory} Production of long oligo-peptides and oligo-nucleotides 
 has focused much interests\cite{Shapiro1984,Ferris1996,Kanavarioti2001,Brack2007,Danger2012}.
-Results vary. For nucleotides polymerization maximum length reached can range from 10 to 
-55\footnote{primary product contains 20-40-mers} nucleotides long depending on conditions 
-\cite{Ferris1996,Kanavarioti2001}. For the peptides results are more modest with some experiments 
-getting only 2-3mers \cite{Leman2004a} and up to 6 mers \cite{Rode1999}.
+
+Results vary. Maximum length of biopolymers reached (both nucleic acids and peptides) in the lab 
+during non-enzymatic synthesis range from 2-3mers to 
+55\footnote{primary product contains 20-40-mers, mean chain length is expected to be 
+30\cite{Ferris1996}} monomers long depending on conditions: 
+Ferris et al. max 55, average 30\cite{Ferris1996}, Rode et al. 2-3 mers
+\cite{Rode1999}, max 11, average 4 \cite{Kanavarioti2001}, \cite{Leman2004a}. 
+
+See data for \cite{Kanavarioti2001} in fig \ref{fig:some_flory}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.9\textwidth]{pictures/some_flory.png} 
+  \caption{Experimental relsults from \cite{Kanavarioti2001} and their fitting to Flory 
+distribution. \red{\textbf{I left too much information here intentionally. We can decide, 
+what to leave during the meeting. I want to Show that at least some experimental results match 
+Flory distribution at longer chains: dashed -- experiment, solid -- fit.}}}
+  \label{fig:some_flory}
+\end{figure}
+
 
 The problem is that in the systems with spontaneous polymerization distribution of chain lengths 
-of the produced polymers has an exponential asymptote  (see fig. 
-\ref{fig:flory}). Depending on the actual system it can can follow for example actual exponential 
+of the produced polymers has an exponential asymptote  (see fig. \ref{fig:flory}). Depending on the 
+actual system it can can follow for example actual exponential 
 law  $f(a)\propto a^l$\cite{nowak2008prevolutionary,Derr2012} or a Flory distribution 
 $f(a)=a^2l(1-a)^{l-1}$\cite{Flory1953}, where $a$ is an empirical constant and $l$ is a chain 
 length. 
