@@ -141,7 +141,7 @@ during non-enzymatic synthesis range from 2-3mers to
 Ferris et al. max 55, average 30\cite{Ferris1996}, Rode et al. 2-3 mers
 \cite{Rode1999}, max 11, average 4 \cite{Kanavarioti2001}, \cite{Leman2004a}. 
 
-See data for \cite{Kanavarioti2001} in fig \ref{fig:some_flory}
+In \cite{Kanavarioti2001} nucleotides polymerization was considered. Authors used below zero temperature to enhance polymerization. They also provided data for other experiments with nucleotide polymerization. See fig \ref{fig:some_flory}
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.9\textwidth]{pictures/some_flory.png} 
@@ -192,7 +192,7 @@ therefore decreases free energy. This decreases in free energy allows proteins k
 hydrophobic core.
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.7\textwidth]{pictures/hydrophobic-effect.pdf} 
+  \includegraphics[width=0.4\textwidth]{pictures/hydrophobic-effect.pdf} 
   \caption{Hydrophobic effect is an entropic effect originating from the disruption of 
 hydrogen bonds between water molecules by the non-polar solute.
 When hydrophobic molecules are placed in the water, water molecules form cage-like 
@@ -288,8 +288,8 @@ HPSandbox algorithm\cite{lau1989lattice,Dill2008} \footnote{Python implementatio
 can be found here: http://hp-lattice.readthedocs.org/en/latest/}), so we had to limit 
 maximum chain lengths to 25. We also try to keep total number of species in the low thousands, to 
 avoid computational costs. We do it by introducing dilution parameter $d$: molecules are being 
-removed from the system with probabilities $\propto d$. This mimics a protocell splitting and 
-loose of materials due to it. Total number of molecules varies from simulation to simulation, 
+removed from the system with probabilities $\propto d$. 
+This either can mimic a protocell splitting and loose of materials due to it or in the case when system isn't bounded by any borders tha fact that some molecules will diffuse away. Total number of molecules varies from simulation to simulation, 
 however it mostly holds in the region \red{insert}.
 
 We start our simulations with a small pool of monomers, usually below 100 molecules. 
@@ -310,9 +310,7 @@ for benzoylglycylphenylalanine ($t_{1/2} = 128 y$)\cite{Bryant1996}, $6.3  10^{-
 constants. This way we account for polymerization conditions, which happens on the order of days 
 to years.
 
-\item Activated monomers decay into regular ones with the rate $a\gg1$. This 
-imitates input of food into the system. It is safe to assume that decay of activated monomers 
-happens much faster than spontaneous growth of polymers. Therefore we explore values of $a\propto 
+\item We also import monomers into system with rate $a\gg1$. It is safe to assume that we would have enough monomers in the system and import of monomers wouldn't be a bottleneck of reactions chain. Therefore we explore big values of $a\propto 
 10^2,10^3\ga$
 
 \item Dilution parameter $d$ mimics cell division and loss of the matter because of that. From 
@@ -322,7 +320,7 @@ d\ll\ga$. Therefore we explore valued of $d$ from $\propto 0.01\ga$ to $\propto 
 values of $a$ we'll explore various populations from $\propto 10^2$ to $\propto 10^5$ monomers per 
 cell.
 
-\item Folding and unfolding reactions happen very quickly with the unfolding rate constants of 
+\item (\red{Fix this after discussion}) Folding and unfolding reactions happen very quickly with the unfolding rate constants of 
 $k_{unf}\gg\ga$ and folding rate constant of $k_{unf}\cdot\exp(E_{native}/kT)$.
 
 $E_h$ in our experiments is around $1-2$kT\red{\cite{}}. $k_{unf}$ we keep $\propto 10^2$, which 
@@ -418,14 +416,14 @@ populations are never more than few-fold of average population of regular sequen
 change nature of the distribution.
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.85\textwidth]{pictures/flory-and-fold.pdf} 
+  \includegraphics[width=0.8\textwidth]{pictures/flory-and-fold.pdf} 
   \caption{Dashed lines represent polymerization without folding or catalysis. Solid lines 
 correspond to simulations run with folding but without catalysis. For details of simulations see 
 section \ref{sec:mat-sim}, Experiment 2. }
   \label{fig:sim.flory-fold}
 \end{figure}
 
-\paragraph{Simulation: folding and HP-catalysis.} Presence of catalysis in the system skews the 
+\paragraph{Simulation: folding and HP-catalysis.}Presence of catalysis in the system skews the 
 distribution significantly, and while it leaves average chain length about the same it brings 
 substantial excess of long sequence compared to the cases without catalysis\ref{fig:sim.flory-hp}. 
 The system is fairly stable towards hydrolysis and dilution parameters. It allows for 1 order of 
@@ -438,15 +436,6 @@ state is $\propto 100$. Most of the longer sequences have average populations $\
 the most of the chain lengths there are few sequences, which dominate populations significantly.
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.99\textwidth]{pictures/flory-and-hp.pdf} 
-  \caption{Dashed lines represent polymerization without folding or catalysis. Solid lines 
-correspond to simulations run with folding and catalysis reactions on. For details of simulations 
-see \ref{sec:mat-sim}, Experiment 3. }
-  \label{fig:sim.flory-hp}
-\end{figure}
-
-\begin{figure}[h!]
-  \centering
   \includegraphics[width=0.85\textwidth]{pictures/example1.pdf} 
   \caption{Some examples of dominating autocatalytic sequences. Gray lines represent regular 
 non-catalytic sequence. structures on the right are native structures of autocatalytic sequences. }
@@ -456,8 +445,11 @@ non-catalytic sequence. structures on the right are native structures of autocat
 
 
 \section{Discussion}
-\red{Some discussion on what it means and that it is still not enough for a proper inheritance and 
-evolution, however it allows us to get to longer sequences, some of which can be ``magical''.}
+In our analysis of a polymerization prebiotic systems we applied a physical principle of hydrophobic interactions to an 
+old idea  of autocatalytic sets \cite{Kauffman1986}. In one or another form the idea of autocatalysis was applied to 
+various systems \cite{}.   They key difference with our work is 
+that hydrophobic interaction provides a simple physical set up which produces non-linear dynamics with complex feedback.
+This enables system to devolop a non-trivial selection mechanism. 
 
  \newpage
 \appendix
