@@ -66,7 +66,10 @@
 
 \wikilink{research\_calculations}{Research: Calculations}
 
-\section{Stability}\label{sec:stability}
+\wikilink{folding\_kinetics\_and\_dynamics}{Self}
+
+\section{2D}
+\subsection{Stability}\label{sec:stability}
 We  calculate average and median number of contacts in native sequences, according to 
 HP-model. It is measured in the units of hydrophobic energy per $kT$.
 \begin{figure}[h!]
@@ -93,7 +96,7 @@ And full free energy of folding will be (per $1kT$):
  \gD G = -bNe_h -be_h+N\ln z
 \end{equation} 
 
-\section{Kinetcis}
+\subsection{Kinetcis}
 There's a theory of protein folding introduced by Ghosh and Dill in a series of papers 
 \cite{Ghosh2010,Dill2011} and more. It is based on simple equilibrium thermodynamics and leads to 
 the following conclusion regarding chain length distribution:
@@ -142,7 +145,7 @@ k_u = \frac{1}{z^N}exp(16.15-1.28 \sqrt{N} -bNe_h -be_h)
 This gives the following dependencies for $k_u$ and $k_f$: see fig.\ref{fig:k_unf_N}
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.95\textwidth]{pictures/kf-ku.png} 
+  \includegraphics[width=0.85\textwidth]{pictures/kf-ku.png} 
   \caption{Folding and unfolding rates as a function of chain length. $e_h=1.5,z=1.5$ This numbers 
 are chosen so that equilibrium constant is around $10^2-10^4$ when chain lengths are short (around 
 15-30), see figure \ref{fig:K}}
@@ -150,11 +153,44 @@ are chosen so that equilibrium constant is around $10^2-10^4$ when chain lengths
 \end{figure}
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.95\textwidth]{pictures/K.png} 
+  \includegraphics[width=0.85\textwidth]{pictures/K.png} 
   \caption{Equilibrium constant as a function of chain length. $e_h=1.5,z=1.5$ This numbers are 
 chosen so that equilibrium constant is around 
 $10^2-10^4$ when chain lengths are short (around 15-30)}
   \label{fig:k_unf_N}
+\end{figure}
+
+\section{3D}
+
+Let's repeat the procedure for 3-dimensional proteins.
+From \cite{Dill2011} we can take a figure 1D, which has a fitted curve for $\gD G(N)$ at 
+37\textcelsius. Determine parameters from it returns:
+  \begin{equation}
+   \gD G(N) = 0.067N+7.012 kJ/mol
+  \end{equation} 
+Adding to it folding rate constant from  (\ref{eq:lnk})
+\begin{equation*}
+    \ln k_f=16.15-1.28 \sqrt{N}
+\end{equation*} 
+will get
+\begin{equation}
+ \ln k_f-\ln k_u=\gD G/kT
+\end{equation} 
+or for $k_u$
+\begin{equation}
+ \ln k_u=\ln k_f-\gD G/kT= 16.15-1.28 \sqrt{N}-(0.067N+7.012 )/2.5775
+\end{equation} 
+so
+\begin{equation}
+ k_u = \exp(13.43 -0.026N - 1.28 \sqrt{N})
+\end{equation} 
+This leads to the following folding and unfolding rate constants (see fig \ref{fig:ku-kf-3D})
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.85\textwidth]{pictures/kf-ku-3D.png} 
+  \caption{Folding and unfolding rates as a function of chain length for 3D proteins. Data taken 
+from \cite{Dill2011}}
+  \label{fig:ku-kf-3D}
 \end{figure}
 
   \bibliography{/data/research/31.mendeleyBibtex/library}
