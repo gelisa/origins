@@ -1,25 +1,34 @@
-\documentclass[12pt]{paper}
-\usepackage[english]{babel}
-\usepackage{indentfirst}
-\usepackage{graphicx}
-\usepackage{latexsym}
-\usepackage{amsmath}
-\usepackage{amsthm}
-\usepackage{amssymb,amsfonts}
-\usepackage{multicol}
-\usepackage{xcolor}
-\usepackage{changepage}
-%  \usepackage{hyperref}
+\documentclass[twoside,twocolumn,9pt]{article}
+\usepackage{extsizes}
+\usepackage[super,sort&compress,comma]{natbib} 
+\usepackage[version=3]{mhchem}
+\usepackage[left=1.5cm, right=1.5cm, top=1.785cm, bottom=2.0cm]{geometry}
+\usepackage{balance}
+\usepackage{widetext}
+\usepackage{times,mathptmx}
+\usepackage{sectsty}
+\usepackage{graphicx} 
+\usepackage{lastpage}
+\usepackage[format=plain,justification=raggedright,singlelinecheck=false,font={stretch=1.125,small,
+sf},labelfont=bf,labelsep=space]{caption}
+\usepackage{float}
 \usepackage{fancyhdr}
-% \usepackage{showkeys}
-\usepackage{textcomp}
-\usepackage{mathtools}
-\usepackage{comment}
-\usepackage[normalem]{ulem}
-\usepackage{marginnote}
-\usepackage[numbers,sort&compress]{natbib}
-%%%%%
-\mathtoolsset{showonlyrefs=false}
+\usepackage{fnpos}
+\usepackage[english]{babel}
+\usepackage{lipsum}
+\usepackage{array}
+\usepackage{droidsans}
+\usepackage{charter}
+\usepackage[T1]{fontenc}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{setspace}
+\usepackage[compact]{titlesec}
+
+
+
+\usepackage{epstopdf}%This line makes .eps figures into .pdf - please comment out if not required.
+
+\definecolor{cream}{RGB}{222,217,201}
 
 \newcommand{\ga}{\alpha}
 \newcommand{\gb}{\beta}
@@ -50,51 +59,167 @@
 \newcommand{\red}[1]{\textcolor{red}{#1}}
 \newcommand{\blue}[1]{\textcolor{blue}{#1}}
 \newcommand{\gray}[1]{\textcolor{gray}{#1}}
-% \renewcommand{\baselinestretch}{2} 
-%%%%%%%%%
+% \renewcommand{\baselinestretch}
 
-
-\setlength{\textheight}{20cm}
-%\changetext{0cm}{0cm}{0cm}{0cm}{0cm}
-\changepage{2.5cm}{3.0cm}{-4cm}{-1.0cm}{-2cm}{-2cm}{-0.6cm}{0.5cm}{0cm}
-%{length of the text}{width of the text}{}{shift to the right}
-%{}{}{}{}{from text to pagenumber}
-%\pagenumbering{roman}
-\pagestyle{fancy}
-\lhead{\bf \today}
-\chead{\bf HP world}
-\rhead{ \begin{bf}EG,KD\end{bf}}
-\title{HP world paper: March 19, 2015 -- \today}
-\author{}
-\date{\today}
 
 \begin{document}
- \maketitle
- \tableofcontents
- \includecomment{comment}
- 
- \section*{COLOR CODE}
-\paragraph{\textcolor{blue}{Blue: } reformulate}
-\paragraph{\red{Red: }comments, todo}
+\pagestyle{fancy}
+\thispagestyle{plain}
+\fancypagestyle{plain}{
 
- 
+%%%HEADER%%%
+\fancyhead[C]{\includegraphics[width=18.5cm]{head_foot/header_bar}}
+\fancyhead[L]{\hspace{0cm}\vspace{1.5cm}\includegraphics[height=30pt]{head_foot/journal_name}}
+\fancyhead[R]{\hspace{0cm}\vspace{1.7cm}\includegraphics[height=55pt]{head_foot/RSC_LOGO_CMYK}}
+\renewcommand{\headrulewidth}{0pt}
+}
+%%%END OF HEADER%%%
+
+%%%PAGE SETUP - Please do not change any commands within this section%%%
+\makeFNbottom
+\makeatletter
+\renewcommand\LARGE{\@setfontsize\LARGE{15pt}{17}}
+\renewcommand\Large{\@setfontsize\Large{12pt}{14}}
+\renewcommand\large{\@setfontsize\large{10pt}{12}}
+\renewcommand\footnotesize{\@setfontsize\footnotesize{7pt}{10}}
+\renewcommand\scriptsize{\@setfontsize\scriptsize{7pt}{7}}
+\makeatother
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\renewcommand\footnoterule{\vspace*{1pt}% 
+\color{cream}\hrule width 3.5in height 0.4pt \color{black} \vspace*{5pt}} 
+\setcounter{secnumdepth}{5}
+
+\makeatletter 
+\renewcommand\@biblabel[1]{#1}            
+\renewcommand\@makefntext[1]% 
+{\noindent\makebox[0pt][r]{\@thefnmark\,}#1}
+\makeatother 
+\renewcommand{\figurename}{\small{Fig.}~}
+\sectionfont{\sffamily\Large}
+\subsectionfont{\normalsize}
+\subsubsectionfont{\bf}
+\setstretch{1.125} %In particular, please do not alter this line.
+\setlength{\skip\footins}{0.8cm}
+\setlength{\footnotesep}{0.25cm}
+\setlength{\jot}{10pt}
+\titlespacing*{\section}{0pt}{4pt}{4pt}
+\titlespacing*{\subsection}{0pt}{15pt}{1pt}
+%%%END OF PAGE SETUP%%%
+
+%%%FOOTER%%%
+\fancyfoot{}
+\fancyfoot[LO,RE]{\vspace{-7.1pt}\includegraphics[height=9pt]{head_foot/LF}}
+\fancyfoot[CO]{\vspace{-7.1pt}\hspace{13.2cm}\includegraphics{head_foot/RF}}
+\fancyfoot[CE]{\vspace{-7.2pt}\hspace{-14.2cm}\includegraphics{head_foot/RF}}
+\fancyfoot[RO]{\footnotesize{\sffamily{1--\pageref{LastPage} ~\textbar  \hspace{2pt}\thepage}}}
+\fancyfoot[LE]{\footnotesize{\sffamily{\thepage~\textbar\hspace{3.45cm} 1--\pageref{LastPage}}}}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt} 
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\arrayrulewidth}{1pt}
+\setlength{\columnsep}{6.5mm}
+\setlength\bibsep{1pt}
+%%%END OF FOOTER%%%
+
+%%%FIGURE SETUP - please do not change any commands within this section%%%
+\makeatletter 
+\newlength{\figrulesep} 
+\setlength{\figrulesep}{0.5\textfloatsep} 
+
+\newcommand{\topfigrule}{\vspace*{-1pt}% 
+\noindent{\color{cream}\rule[-\figrulesep]{\columnwidth}{1.5pt}} }
+
+\newcommand{\botfigrule}{\vspace*{-2pt}% 
+\noindent{\color{cream}\rule[\figrulesep]{\columnwidth}{1.5pt}} }
+
+\newcommand{\dblfigrule}{\vspace*{-1pt}% 
+\noindent{\color{cream}\rule[-\figrulesep]{\textwidth}{1.5pt}} }
+
+\makeatother
+%%%END OF FIGURE SETUP%%%
+
+%%%TITLE AND AUTHORS%%%
+\twocolumn[
+  \begin{@twocolumnfalse}
+\vspace{3cm}
+\sffamily
+\begin{tabular}{m{4.5cm} p{13.5cm} }
+
+\includegraphics{head_foot/DOI} & \noindent\LARGE{\textbf{HP world model of early origin 
+of biopolymers$^\dag$}} \\
+ & \vspace{0.3cm} \\
+
+ & \noindent\large{Elizaveta Guseva,$^{\ast}$\textit{$^{a}$} Ronald N 
+Zuckermann,\textit{$^{b\ddag}$} and Ken A Dill\textit{$^{a}$}} \\
+
+\includegraphics{head_foot/dates} & \\
+
+\end{tabular}
+
+ \end{@twocolumnfalse} \vspace{0.6cm}
+
+  ]
+%%%END OF TITLE AND AUTHORS%%%
+
+%%%FONT SETUP - please do not change any commands within this section
+\renewcommand*\rmdefault{bch}\normalfont\upshape
+\rmfamily
+\section*{}
+\vspace{-1cm}
+
+
+%%%FOOTNOTES%%%
+
+\footnotetext{\red{\textit{$^{a}$~Address, Address, Town, Country. Fax: XX XXXX XXXX; Tel: XX XXXX 
+XXXX; E-mail: xxxx@aaa.bbb.ccc}}}
+\footnotetext{\red{\textit{$^{b}$~Address, Address, Town, Country. }}}
+
+%Please use \dag to cite the ESI in the main text of the article.
+%If you article does not have ESI 
+%please remove the the \dag symbol from the title and the  footnotetext below.
+\footnotetext{\red{\dag~Electronic Supplementary Information (ESI) available: [details of any 
+supplementary information available should be included here]. See DOI: 10.1039/b000000x/}}
+%additional addresses can be cited as above using the lower-case letters, c, d, e... 
+%If all authors are from the same address, no letter is required
+
+\footnotetext{\red{\ddag~Additional footnotes to the title and authors can be included 
+\emph{e.g.}\ `Present address:' or `These authors contributed equally to this work' as above using 
+the symbols: \ddag, \textsection, and \P. Please place the appropriate symbol next to the author's 
+name and include a \texttt{\textbackslash footnotetext} entry in the the correct place in the 
+list.}}
+
+%%%END OF FOOTNOTES%%%
+
+%%%ABSTRACT%%%%
+
+\sffamily{\red{\textbf{The abstract should be a single paragraph which summarises the content of 
+the article. Any references in the abstract should be written out in full \textit{e.g.} [Surname 
+\textit{et al., Journal Title}, 2000, \textbf{35}, 3523].}}}
+
+%%%END OF ABSTRACT%%%%
+
+\rmfamily %Please do not remove this line.
+
+%%%MAIN TEXT%%%%
+
  
 \section{Introduction} 
 
-% \marginnote{\red{Background Statement}} 
-\textbf{Functioning of modern organisms is not possible without nucleic 
-acids and proteins.} Cells produce these extremely long polymers with complex cell machinery 
-like ribosomes and polymerases -- also extremely long polymers. 
-Therefore question ``how long polymers can be produced prebiotically?'' is crucial for the origin 
-of life research whether one's approach is information first or metabolism first.
-We know that amino acids can be produced prebiotically \cite{Miller1953} and are abundant in 
-stony meteorites \cite{Sephton2002}; significant progress has been made in synthesis of 
-single nucleotides \cite{Powner2009a}. \textbf{However a discovery of a mechanism of prebiotic 
-production of biochemically long polypeptides or nucleic acids despite certain success 
-\cite{Shock1992,Martin1998,PAECHT-HOROWITZ1970,Lambert2008,Leman2004a,Orgel2004,Ferris1996} is 
-still in the future.} One of the problems is that both RNA and peptides favor hydrolysis  over 
-polymerization in aqueous solutions, in other words in the prebiotic soup. Both polymers wouldn't 
-survive if exposed to solution, especially at high temperature\cite{Pace1991}.
+% Functioning of modern organisms is not possible without nucleic 
+% acids and proteins. Cells produce these extremely long polymers with complex cell machinery 
+% like ribosomes and polymerases -- also extremely long polymers. 
+% Therefore question ``how long polymers can be produced prebiotically?'' is crucial for the origin 
+% of life research whether one's approach is information first or metabolism first.
+Two important puzzles in understanding the early origins of life are: how prebiotic polymerization 
+processes could have produced long chains of protein-like or nucleic acids-like molecules, and how 
+information molecules could have arisen from random sequences.
+While we know that amino acids can be produced prebiotically \cite{Miller1953} and are abundant in 
+stony meteorites \cite{Sephton2002} and significant progress has been made in synthesis of 
+single nucleotides \cite{Powner2009a}; a discovery of a mechanism of prebiotic 
+production of biochemically long polypeptides or nucleic acids despite certain success, is 
+ still in the future, and chains obtained non-enzymatically are typically short 
+\cite{Shock1992,Martin1998,PAECHT-HOROWITZ1970,Lambert2008,Leman2004a,Orgel2004,Ferris1996}.
 
 Several mechanism were proposed to increase yields of oligomers: adsorption to 
 clays\cite{Rao1980,Lambert2008}, minerals\cite{Bernal1949,Ferris1996}, evaporation of tidal 
@@ -130,7 +255,7 @@ longer chains and selection. Our systems gives reasonable computational diversit
 
 
    
-\section{Flory problem}
+\section{The ``Flory problem'' of obtaining long chains}
 \label{sec:flory} Production of long oligo-peptides and oligo-nucleotides 
 has focused much interests\cite{Shapiro1984,Ferris1996,Kanavarioti2001,Brack2007,Danger2012}.
 
@@ -138,13 +263,14 @@ Results vary. Maximum length of biopolymers reached (both nucleic acids and pept
 during non-enzymatic synthesis range from 2-3mers to 
 55\footnote{primary product contains 20-40-mers, mean chain length is expected to be 
 30\cite{Ferris1996}} monomers long depending on conditions: 
-Ferris et al. max 55, average 30\cite{Ferris1996}, Rode et al. 2-3 mers
-\cite{Rode1999}, max 11, average 4 \cite{Kanavarioti2001}, \cite{Leman2004a}. 
+Ferris et al. max 55\red{conditions?}, average 30\cite{Ferris1996}, Rode et al. 2-3 mers
+\cite{Rode1999}\red{conditions?}, max 11, average 4 \cite{Kanavarioti2001}\red{conditions?}, 
+\cite{Leman2004a}\red{conditions?}. 
 
 In \cite{Kanavarioti2001} nucleotides polymerization was considered. Authors used below zero temperature to enhance polymerization. They also provided data for other experiments with nucleotide polymerization. See fig \ref{fig:some_flory}
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.9\textwidth]{pictures/some_flory.png} 
+  \includegraphics[width=\columnwidth]{pictures/some_flory.png} 
   \caption{Experimental relsults from \cite{Kanavarioti2001} and their fitting to Flory 
 distribution. \red{\textbf{I left too much information here intentionally. We can decide, 
 what to leave during the meeting. I want to Show that at least some experimental results match 
@@ -157,15 +283,15 @@ The problem is that in the systems with spontaneous polymerization distribution 
 of the produced polymers has an exponential asymptote  (see fig. \ref{fig:flory}). Depending on the 
 actual system it can can follow for example actual exponential 
 law  $f(a)\propto a^l$\cite{nowak2008prevolutionary,Derr2012} or a Flory distribution 
-$f(a)=a^2l(1-a)^{l-1}$\cite{Flory1953}, where $a$ is an empirical constant and $l$ is a chain 
-length. 
+$f(a)=a^2l(1-a)^{l-1}$\cite{Flory1953}, where $l$ is a chain length and $a$ is an empirical 
+constant, which is related to the average chain length: $\bar l = a(2- a)$
 In either case, given low prebiotic concentrations of amino acids and nucleotides with estimations 
 of submillimolar to submicromolar\cite{Aubrey2009,Kanavarioti2001,Lazcano1996}, longer chains 
 would not be observable.
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.9\textwidth]{pictures/flory2.pdf} 
+  \includegraphics[width=\columnwidth]{pictures/flory2.pdf} 
   \caption{Spontaneous polymerization gives Flory length distribution with exponential asymptote.}
   \label{fig:flory}
 \end{figure}
@@ -192,12 +318,8 @@ therefore decreases free energy. This decreases in free energy allows proteins k
 hydrophobic core.
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.4\textwidth]{pictures/hydrophobic-effect.pdf} 
-  \caption{Hydrophobic effect is an entropic effect originating from the disruption of 
-hydrogen bonds between water molecules by the non-polar solute.
-When hydrophobic molecules are placed in the water, water molecules form cage-like 
-structures around them. When hydrophobes come into contact, water 
-molecules get released; this increases entropy and therefore decreases free energy. }
+  \includegraphics[width=\columnwidth]{pictures/hp-model.pdf} 
+  \caption{Hydrophobic effect is an entropic effect responsible for protein folding. }
   \label{fig:hydro-effect}
 \end{figure}
 
@@ -215,15 +337,15 @@ prebiotic polymers and consider only principles of spontaneous polymerization.
 of the same chain more energetically favorable than others. Moreover certain chains will have a 
 unique conformation, which delivers free energy minimum. This conformations are called native 
 states, and sequences, which have native state, are considered being capable of folding (see fig. 
-\ref{fig:hp-model} ).
+\ref{fig:hydro-effect} ).
 \end{itemize}
 
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=0.6\textwidth]{pictures/hp-model.pdf} 
-  \caption{}
-  \label{fig:hp-model}
-\end{figure}
+% \begin{figure}[h!]
+%   \centering
+%   \includegraphics[width=\columnwidth]{pictures/hp-model.pdf} 
+%   \caption{}
+%   \label{fig:hp-model}
+% \end{figure}
 Because of the ability to form hydrophobic contacts in water, even hetero-polymers that 
 are as simple as HP-polymers will often fold up, even as short chains. 
 While short HP chains will not necessarily have great stability qualities (they will often be 
@@ -267,7 +389,7 @@ be protected from hydrolysis and will be able to localize growing chain with the
 monomer.
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.85\textwidth]{pictures/hp-catalysis.pdf} 
+  \includegraphics[width=0.9\columnwidth]{pictures/hp-catalysis.pdf} 
   \caption{Catalyst catalyzes a growing of an unfolded hp-polymer. 
            Having just 3-4 hydrophobic contacts is enough to lower an 
            activation barrier for $\propto 100$ times at room 
@@ -323,7 +445,7 @@ cell.
 \item (\red{Fix this after discussion}) Folding and unfolding reactions happen very quickly with the unfolding rate constants of 
 $k_{unf}\gg\ga$ and folding rate constant of $k_{unf}\cdot\exp(E_{native}/kT)$.
 
-$E_h$ in our experiments is around $1-2$kT\red{\cite{}}. $k_{unf}$ we keep $\propto 10^2$, which 
+$E_h$ in our experiments is around $1-2$kT\red{\cite{?}}. $k_{unf}$ we keep $\propto 10^2$, which 
 gives us range of unfolding rates from a reaction per hours and days and range of folding rates 
 from a reaction per hours to fractions of a second.
 
@@ -339,7 +461,7 @@ we took average over several realizations. We also looked at the time evolutions
 chains to investigate correlations between sequences and internal dynamics. The simulations were 
 performed on Computing Cluster of Laufer Center. See \blue{appendix} for simulation details.
 \begin{center}
-\begin{table}[h]
+\begin{table*}[h]
 \begin{tabular}{| p{3.5cm} | l | p{3cm}| p{3.4cm}| p{3.4cm} |}
 \hline
 Constant name & Symbol  & Normalized simulation value & Simulation 
@@ -368,7 +490,7 @@ Hydrophobic energy per $kT$ & $e_h$ & $1-2$ & $1-2$ & $0-3.3$ \cite{Wimley1996}
 meausered in terms of it. However mapping one of the constants to lab/prebiotic values fixes the rest of the rate 
 constants. We compare them with the ones found in the origins of life literature.}
 \label{tab:methods}
-\end{table}
+\end{table*}
 \end{center}
 
 \paragraph{Experiment 1. Reproduction of Flory distribution.}
@@ -418,7 +540,7 @@ populations are never more than few-fold of average population of regular sequen
 change nature of the distribution.
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.8\textwidth]{pictures/flory-and-fold.pdf} 
+  \includegraphics[width=\columnwidth]{pictures/flory-and-fold.pdf} 
   \caption{Dashed lines represent polymerization without folding or catalysis. Solid lines 
 correspond to simulations run with folding but without catalysis. For details of simulations see 
 section \ref{sec:mat-sim}, Experiment 2. }
@@ -436,9 +558,17 @@ the figure \ref{fig:example1} there examples of several sequences. The lines rep
 over 30 time evolutions. For this particular experiment, concentration of monomers at steady 
 state is $\propto 100$. Most of the longer sequences have average populations $\ll 1$. However for 
 the most of the chain lengths there are few sequences, which dominate populations significantly.
+\begin{figure*}[h!]
+  \centering
+  \includegraphics[width=0.95\textwidth]{pictures/flory-and-hp.pdf} 
+  \caption{Dashed lines represent polymerization without folding or catalysis. Solid lines 
+correspond to simulations run with folding and catalysis. For details of simulations see 
+section \ref{sec:mat-sim}, Experiment 2. }
+  \label{fig:sim.flory-fold}
+\end{figure*}
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.85\textwidth]{pictures/example1.pdf} 
+  \includegraphics[width=\columnwidth]{pictures/example1.pdf} 
   \caption{Some examples of dominating autocatalytic sequences. Gray lines represent regular 
 non-catalytic sequence. structures on the right are native structures of autocatalytic sequences. }
   \label{fig:example1}
@@ -462,15 +592,27 @@ a natural way to increase naturally extremely low yields of oligomers produced n
 exponential growth, which is necessary for efficient self-replication. In one or another form the idea of 
 autocatalysis was applied to various systems 
 \cite{segre1998graded,nowak2008prevolutionary,Wu2009,Hordijk2010,Walker2012,Chen2012,Markovitch2012}. The idea of 
-autocatalysis was applied by Wu and Higgs to homo-polymers: the sytem 
+autocatalysis was applied by Wu and Higgs to homo-polymers: while sytem of homopolymers cannot be 
+complex and capable of storing information, authors showed that their system has bistability and 
+increased proportion of long polymers. 
 
+In a series of works 
+\cite{nowak2008prevolutionary,Ohtsuki2009,Chen2012,Derr2012} authors investigated binary polymers 
+either capable of autocatalysis or replication. They showed that while autocatalytic system has 
+bistability and increased ratio of longer polymers, one has to increase catalysis rate 
+exponentially in order to get exponential growth of longer chains. Self-replication system on the 
+other hand didn't show bistability, but on a positive side, relatively low replication rate 
+constant brought up significant growth of longer polymers. It was also shown that self-replication 
+enhances complexity of the system. The autocatalysis mechanism of this series is however very 
+simple It's a self-replication performed by means of catalysis: for every reaction catalyst has to 
+get attached to a growing molecule and then dissociate from it.
 
 They key difference with our work is 
 that hydrophobic interaction provides a simple physical set up which produces non-linear dynamics with complex feedback.
-This enables system to develop a non-trivial selection mechanism. 
+This enables system to develop a non-trivial selection mechanism. Our system, as being based on 
+\cite{Ohtsuki2009} model, experience bistability \red{proof?}, has semi-periodic fluctuations  and 
+has complex structure \red{reformulate, how to show?}
 \begin{itemize}
- \item Autocatalysis and bistability
- \item Replication and autocatalysis
  \item Lipid systems
  \item AB molecules by Sarah...
 \end{itemize}
@@ -557,7 +699,6 @@ M\propto \frac{a}{\ga}\frac{d}{2\ga} ,\qquad d\ll\ga
 
 
  \bibliography{/data/research/31.mendeleyBibtex/library}
-  \bibliographystyle{unsrt}
-
+\bibliographystyle{rsc}
 
 \end{document}
