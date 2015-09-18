@@ -75,7 +75,8 @@ HP-model. It is measured in the units of hydrophobic energy per $kT$.
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.85\textwidth]{pictures/hp-depth-length.png} 
-  \caption{Depth of the energy well is measured in the units of $e_h=E_h/kT$, where $e_h$ is an 
+  \caption{Depth of the energy well is measured in the units of $e_{h\phi}=E_{h\phi}/kT$, where 
+$e_{h\phi}$ is an 
 energy of one hydrophobic contact per $1kT$.}
   \label{fig:hp-depth-length}
 \end{figure}
@@ -87,13 +88,13 @@ freedoms.
 Fitting a line on a figure \ref{fig:hp-depth-length} to the HP-model minimums yields the following 
 dependency for the energy well depth (per $1kT$):
 \begin{equation}
-\gD G_0= -kNe_h-be_h= -0.5Ne_h +1.34e_h
+\gD G_0= -kNe_{h\phi}-be_{h\phi}= -0.5Ne_{h\phi} +1.34e_{h\phi}
 \end{equation} 
-where $N$ is a chain length and $e_h$ is an absolute value of the energy 
+where $N$ is a chain length and $e_{h\phi}$ is an absolute value of the energy 
 of one hydrophobic contact.
 And full free energy of folding will be (per $1kT$):
 \begin{equation}
- \gD G = -kNe_h -be_h+N\ln z
+ \gD G = -kNe_{h\phi} -be_{h\phi}+N\ln z
 \end{equation} 
 
 \subsection{Kinetcis}
@@ -136,17 +137,18 @@ which gives
 \end{equation} 
 Substituting $\ln k_f $ from equation \eqref{eq:lnk} and fitted $\gD G_0$ we get:
 \begin{equation}
-\ln k_u = 16.15-1.28 \sqrt{N} -kNe_h -be_h+N\ln z
+\ln k_u = 16.15-1.28 \sqrt{N} -kNe_{h\phi} -be_{h\phi}+N\ln z
 \end{equation} 
 Therefore
-\begin{equation}
-k_u = \frac{1}{z^N}exp(16.15-1.28 \sqrt{N} -kNe_h -be_h)
+\begin{equation}\label{eq:ku_2d}
+k_u = \frac{1}{z^N}\exp(16.15-1.28 \sqrt{N} -kNe_{h\phi} -be_{h\phi})
 \end{equation} 
 This gives the following dependencies for $k_u$ and $k_f$: see fig.\ref{fig:k_unf_N}
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.85\textwidth]{pictures/kf-ku.png} 
-  \caption{Folding and unfolding rates as a function of chain length. $e_h=1.5,z=1.5$ This numbers 
+  \caption{Folding and unfolding rates as a function of chain length. $e_{h\phi}=1.5,z=1.5$ This 
+numbers 
 are chosen so that equilibrium constant is around $10^2-10^4$ when chain lengths are short (around 
 15-30), see figure \ref{fig:K}}
   \label{fig:k_unf_N}
@@ -154,12 +156,56 @@ are chosen so that equilibrium constant is around $10^2-10^4$ when chain lengths
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.85\textwidth]{pictures/K.png} 
-  \caption{Equilibrium constant as a function of chain length. $e_h=1.5,z=1.5$ This numbers are 
+  \caption{Equilibrium constant as a function of chain length. $e_{h\phi}=1.5,z=1.5$ This numbers 
+are 
 chosen so that equilibrium constant is around 
 $10^2-10^4$ when chain lengths are short (around 15-30)}
   \label{fig:k_unf_N}
 \end{figure}
 
+\subsection{HP-model results}
+If we use modification of (\ref{eq:ku_2d}):
+\begin{equation}
+ k_u = \exp(16.15-1.28 \sqrt{N} -kNe_{h\phi} -be_{h\phi})
+\end{equation}
+and correspondingly $k_f=k_u\exp(\gD G)$:
+ \begin{equation}
+ k_f = \frac{1}{z^N}\exp(16.15-1.28 \sqrt{N} -kNe_{h\phi} -be_{h\phi})\exp(n_{h\phi}E_{h\phi})
+\end{equation} 
+We will get the following dependencies (it's good for $\gD G$, but not su much for $k_f$): see 
+fig. \ref{fig:fold_new}. The folding rate drops rather low. I think it affects simulation in a 
+negative way.
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.95\textwidth]{pictures/foldingModel1.png} 
+  \caption{Free energy, folding and unfolding rates as a function of chain length. }
+  \label{fig:fold_new}
+\end{figure}  
+However, if we fix $k_u$ and then just keep $k_f$ so that $\ln(k_f/k_u)=\gD G$,
+then we'll get folding rate, which grows too quickly.
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.95\textwidth]{pictures/foldingModel2.png} 
+  \caption{Free energy, folding and unfolding rates as a function of chain length. $k_u$ is fixed: 
+$k_f=1.0$ }
+  \label{fig:fold_old_n_z}
+\end{figure} 
+I used formula
+\begin{equation}
+ k_u = \exp(12-10.1 \sqrt{N} -kNe_{h\phi} -be_{h\phi})
+\end{equation}
+and correspondingly $k_f=k_u\exp(\gD G)$ so that numbers were reasonable...
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.95\textwidth]{pictures/foldingModel3.png} 
+  \caption{Free energy, folding and unfolding rates as a function of chain length. $ k_u = 
+\exp(12-10.1 \sqrt{N} -kNe_{h\phi} -be_{h\phi})$}
+\end{figure} 
+
+
+
+\newpage
+\newpage
 \section{3D}
 
 Let's repeat the procedure for 3-dimensional proteins.
