@@ -127,9 +127,29 @@ pools\cite{Nelson2001}, concentration in ice through eutectic melts \cite{Kanava
 freezing conditions\cite{Bada2004} or temperature cycles. 
 
 However the main problem with spontaneous polymerization processes is that it fall under what we 
-call Flory problem (for details see 
-sec.\ref{sec:flory}): chain length follow exponential distribution and desirably long chains are 
-present in negligible quantities. While increasing equilibrium constant by means of catalysis or 
+call Flory problem: chain length distribution has an exponential asymptote, and desirably long 
+chains are present in negligible quantities.
+
+The Flory or Flory-Schulz distribution describes the relative ratios of polymers of different 
+length after a polymerization process, based on their relative probabilities of 
+occurrence\cite{Flory1953}. 
+\begin{equation}
+ f(a)=a^2l(1-a)^{l-1}
+\end{equation} 
+Figure \ref{fig:flory} represents Flory distribution  with different average chain length. 
+This distribution gives the following polymer abundance for the blue line:
+\begin{equation}
+  \frac{\pq{10mers}}{\pq{1mers}}\propto10^{-4},\qquad\frac{\pq{20mers}}{\pq{1mers}}\propto10^{-9}
+\end{equation} 
+For such a system, if we start with nano-molar concentrations of monomers, 40-mers will have 
+concentrations $\propto 10^{-23} $ mol/L, which is just a few molecules per liter. 
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\columnwidth]{pictures/flory2.pdf} 
+  \caption{Spontaneous polymerization gives Flory length distribution with exponential asymptote.}
+  \label{fig:flory}
+\end{figure}
+ While increasing equilibrium constant by means of catalysis or 
 changing conditions to dry medium would lead to longer chain lengths, it will still give 
 exponentially decreasing distribution of length. The proof for polymer concatenation is present 
 in \cite{Derr2012}. This dynamics can be observed even in some autocatalytic systems \cite{Wu2009}.
@@ -189,73 +209,39 @@ In either case, given low prebiotic concentrations of amino acids and nucleotide
 of submillimolar to submicromolar\cite{Aubrey2009,Kanavarioti2001,Lazcano1996}, longer chains 
 would not be observable.
 
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=\columnwidth]{pictures/flory2.pdf} 
-  \caption{Spontaneous polymerization gives Flory length distribution with exponential asymptote.}
-  \label{fig:flory}
-\end{figure}
-Figure \ref{fig:flory} represents Flory distribution with different average chain length. 
-This distribution gives the following 
-polymer abundance for the blue line:
-\begin{equation}
-  \frac{\pq{10mers}}{\pq{1mers}}\propto10^{-4},\qquad\frac{\pq{20mers}}{\pq{1mers}}\propto10^{-9}
-\end{equation} 
-For such a system, if we start with nano-molar concentrations of monomers, 40-mers will have 
-concentrations $\propto 10^{-23} $ mol/L, which is just a few molecules per liter. 
 
-We worked through several models of spontaneous polymerization, and all of they yield exponential 
-or near-exponential length distribution.
 
-\section{We use hydrophobic effect to solve Flory problem}
-
-Hydrophobic effect is an effect which lays in the core of protein folding. It is mostly an 
-entropic effect originating from the disruption of hydrogen bonds between water 
-molecules by the nonpolar solute. \cite{Silverstein1998}. When hydrophobic molecules are placed in 
-the water, water molecules form cage-like structures around them (see fig. \ref{fig:hydro-effect}). 
-When hydrophobes come into contact, water molecules get released; this increases entropy and 
-therefore decreases free energy. This decreases in free energy allows proteins keep a tight 
-hydrophobic core.
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=\columnwidth]{pictures/hp-model.pdf} 
-  \caption{Hydrophobic effect is an entropic effect responsible for protein folding. }
-  \label{fig:hydro-effect}
-\end{figure}
-
-\subsection{We use HP model to represent prebiotic polymerization}
-To describe effect of hydrophobic interaction on prebiotic polymerization, we adopt the HP model 
--- one of the simplest models of proteins; it's well studied and sequence space is well 
-understood\cite{lau1989lattice,Chan1991,Miller1995,Yue1995,agarwala1997local}. While initially HP 
-model was introduced as a model for proteins, we are indifferent to exact chemical nature of the 
-prebiotic polymers and consider only principles of spontaneous polymerization.
-\paragraph{HP model features:} 
-\begin{itemize}
- \item It is a two dimensional square lattice model of protein folding
- \item It has 2 types of monomers: hydrophobic (H) and polar (P). 
- \item HP model has a folding code: presence of hydrophobic interaction makes some conformations 
+\section{Foldable polymers can help solving Flory problem}
+We suggest that random synthesis of foldable polymers can lead to longer chains that carry 
+information.
+Here we propose a model of prebiotic synthesis of foldable polymers, such as proteins or RNAs, 
+using the HP lattice model\cite{lau1989lattice,Chan1991,Miller1995,Yue1995,agarwala1997local}. The 
+HP model supports two types of monomers: H (hydrophobic) and P (polar). It has been used 
+extensively to study sequence-structure relationship in pretein-like molecules. HP model has a 
+folding code: presence of hydrophobic interaction makes some conformations 
 of the same chain more energetically favorable than others. Moreover certain chains will have a 
 unique conformation, which delivers free energy minimum. This conformations are called native 
 states, and sequences, which have native state, are considered being capable of folding (see fig. 
 \ref{fig:hydro-effect} ).
-\end{itemize}
 
-% \begin{figure}[h!]
-%   \centering
-%   \includegraphics[width=\columnwidth]{pictures/hp-model.pdf} 
-%   \caption{}
-%   \label{fig:hp-model}
-% \end{figure}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\columnwidth]{pictures/hp-model.pdf} 
+  \caption{HH-pairs are favorable in water. Interaction between them lowers free energy $\gD G$ of 
+the chain, allowing for some conformations to get stability.}
+  \label{fig:hydro-effect}
+\end{figure}
+
 Because of the ability to form hydrophobic contacts in water, even hetero-polymers that 
 are as simple as HP-polymers will often fold up, even as short chains. 
 While short HP chains will not necessarily have great stability qualities (they will often be 
 fairly amorphous ``oil-drop''-like balls that are ensembles of conformations), some HP 
-sequences will fold more uniquely than others. Latter will spend most of the time in the native 
-state. And, what is important, it has been shown that a 
+sequences will fold uniquely. They will spend most of the time in this unique state with the 
+lowest free energy -- native state. And, what is important, it has been shown that a 
 relatively large fraction of sequence space will fold to compact structures or compact ensemble 
 structures\cite{lau1989lattice}.
 
-\subsection{HP-foldamers can work as prebiotic catalysts}
+\subsection{Some HP-foldamers may also be prebiotic catalysts}
 Our central premise is that the same promiscuous hydrophobic interactions that can cause random 
 HP heteropolymers to collapse into compact, folded, structures. However hydrophobic 
 interaction will also cause polymer-polymer attraction and binding between molecules.  In some 
@@ -298,135 +284,7 @@ monomer.
 \end{figure}
 
 
-\section{Materials and methods}\label{sec:mat}
-\subsection{Simulations}\label{sec:mat-sim}
-To test our hypothesis we performed direct stochastic simulations on several. We used 
-\blue{PDMmod} method \cite{Bernatskiy}
-% \footnote{C++ library and description can be found here: https://github.com/abernatskiy/pdmmod}. 
-Stochastic simulations keep track of each 
-molecular specie in the system. However simulations are limited due to computational reasons. First 
-of all we have to explore conformational space of every polymer. This task is NP-hard (we use 
-HPSandbox algorithm\cite{lau1989lattice,Dill2008} \footnote{Python implementation and description 
-can be found here: http://hp-lattice.readthedocs.org/en/latest/}), so we had to limit 
-maximum chain lengths to 25. We also try to keep total number of species in the low thousands, to 
-avoid computational costs. We do it by introducing dilution parameter $d$: molecules are being 
-removed from the system with probabilities $\propto d$. 
-This either can mimic a protocell splitting and loose of materials due to it or in the case when system isn't bounded by any borders tha fact that some molecules will diffuse away. Total number of molecules varies from simulation to simulation, 
-however it mostly holds in the region \red{insert}.
 
-We start our simulations with a small pool of monomers, usually below 100 molecules. 
-\begin{itemize}
- \item We assume that there are enough of activated monomers in the system, so that their 
-concentrations are constant. This way we don't have to track them in the simulations.
-
-\item Polymers can therefore spontaneously grow with the rate $\ga$. Without loss of generality we 
-can put this parameter equal 1; all other rates with be relative to the growth rate in this case.
-
-\item Hydrolysis has constant rate $d_h$ per bond. Half-life time of hydrolysis bonds in neutral 
-conditions and temperatures around room temperature are on the order of hundreds of 
-years\footnote{Hydrolysis rate constants of oligopeptides in 
-neutral conditions are of the order of $10^{-11}-10^{-10}$: $1.3  10^{-10} M^{-1}s^{-1} $ 
-for benzoylglycylphenylalanine ($t_{1/2} = 128 y$)\cite{Bryant1996}, $6.3  10^{-11} M^{-1} s^{-1}$
-($t_{1/2}=350 y$) for glycylglycine and $9.3 10^{-11}M^{-1} s^{-1}$ for glycylvaline
-\cite{Smith1998}.}. We test hydrolysis rate constants to be about $0.001-1$ of polymerization rate 
-constants. This way we account for polymerization conditions, which happens on the order of days 
-to years.
-
-\item We also import monomers into system with rate $a\gg1$. It is safe to assume that we would have enough monomers in the system and import of monomers wouldn't be a bottleneck of reactions chain. Therefore we explore big values of $a\propto 
-10^2,10^3\ga$
-
-\item Dilution parameter $d$ mimics cell division and loss of the matter because of that. From 
-\ref{sec:nowak-steady} we see that total mass of the system is  $ M\propto\frac{a}{\ga}, \qquad 
-d\approx \ga\quad \mbox{or}\quad d\gg \ga$ and $M\propto \frac{a}{\ga}\frac{d}{2\ga} ,\qquad 
-d\ll\ga$. Therefore we explore valued of $d$ from $\propto 0.01\ga$ to $\propto 1\ga$. Given 
-values of $a$ we'll explore various populations from $\propto 10^2$ to $\propto 10^5$ monomers per 
-cell.
-
-\item (\red{Fix this after discussion}) Folding and unfolding reactions happen very quickly with the unfolding rate constants of 
-$k_{unf}\gg\ga$ and folding rate constant of $k_{unf}\cdot\exp(E_{native}/kT)$.
-
-$E_h$ in our experiments is around $1-2$kT\red{\cite{?}}. $k_{unf}$ we keep $\propto 10^2$, which 
-gives us range of unfolding rates from a reaction per hours and days and range of folding rates 
-from a reaction per hours to fractions of a second.
-
-\item Catalysis rate is proportional to the exponent of hydrophobic energy $E_h$ and number of 
-contacting hydrophobes $n_c$: $\ga\cdot\exp(E_{h}\cdot n_{c}/kT)$. Number of hydrophobic contacts 
-for the short HP-sequences is about $3-6$. With the hydrophobic energies of $1-2$kT this gives us 
-catalysis rates around hours and days for one reaction.
-
-% \item Some experiments also include aggregation reactions for the long hydrophobic chains.
-\end{itemize}
-We looked at the lengths distribution in steady state. In order to account for stochastic effects 
-we took average over several realizations. We also looked at the time evolutions of specific 
-chains to investigate correlations between sequences and internal dynamics. The simulations were 
-performed on Computing Cluster of Laufer Center. See \blue{appendix} for simulation details.
-\begin{center}
-\begin{table*}[h]
-\begin{tabular}{| p{3.5cm} | l | p{3cm}| p{3.4cm}| p{3.4cm} |}
-\hline
-Constant name & Symbol  & Normalized simulation value & Simulation 
-value (deduced) per $1M$& Value from literature, per $1M$\\
-\hline
-Polymerization rate constant & $\ga$ &  1 & $\propto 1\,month^{-1}$ & ??\\
-\hline
-Hydrolysis  rate constant & $d_h$ & $\propto 10^{-1}\textendash10^{-4}$ & $\propto 1\,month^{-1}-- 
-10^{-3}year^{-1}$ & $\propto 10^{-3}year^{-1}$ 
-\cite{Bryant1996,Smith1998,Danger2012}\\
-\hline
-Dilution rate constant & $d$&$\propto 10^{-2}-1$ & $\propto 0.1year^{-1} -- 
-10^{-3}year^{-1}$ & \begin{center}\textemdash \end{center}
- Is\,used\,to\,keep model from 
-overflowing \\
-\hline
-Monomer import rate constant & $a$ & $\propto 10^2-10^3$  & $\propto 1 - 10^2 day^{-1}$ & ??\\
-\hline
-Number of rotational freedoms& $z$ & $1.5-2.5$  & $1.5-2.5$ & 
-??\\
-\hline 
-Hydrophobic energy per $kT$ & $e_h$ & $1-2$ & $1-2$ & $0-3.3$ \cite{Wimley1996}
-\\ \hline
-\end{tabular}
-\caption{Parameters of our simulations: we set polymerization rate constant to 1. All other rate constants were 
-meausered in terms of it. However mapping one of the constants to lab/prebiotic values fixes the rest of the rate 
-constants. We compare them with the ones found in the origins of life literature.}
-\label{tab:methods}
-\end{table*}
-\end{center}
-
-\paragraph{Experiment 1. Reproduction of Flory distribution.}
-We started simulations with small pool of monomers (20 H and 20 P). We ran 30 identical  
-simulations for 200 s each, with measurements taken every 0.1s. Steady state is being achieved 
-around 30-50s. To calculate length distribution, we took one trajectory and calculated average 
-over time over all time points after 100s; so we got 1000 time points for every chain length, over 
-which we averaged. The rate of conversion of activated monomers into regular ones is $a=100$. We 
-took dilution rate of $d=0.5$. We ran experiments for 2 hydrolysis rates: $d_h=0.3$ and $d_h=0.03$.
-We varied hydrolysis and dilution rates. Experiments with $d_h=0$ reproduce accurate exponential 
-curves; adding hydrolysis, however, slows down distribution around short lengths. This effect is 
-due to constant concentration of activated monomers: there's no competition for ``food''. This 
-enriches population of short chains, however doesn't affect longer chains significantly, leaving 
-their distribution nearly exponential.
-
-\paragraph{Experiment 2. Study how folding affects length distributions.}
-In addition to the parameters of the  experiment 1 we also added non-zero hydrophobic energy and 
-introduced folding and unfolding reactions.
- Hydrophobic energy is taken $E_h=2kT$ and rate of unfolding is $k_{unf}=100$. We varied parameters 
-around given values and didn't notice qualitative changes of the system's behavior.
-From the figure \ref{fig:sim.flory-fold} in section \ref{sec:res} we can see 
-that presence of folding doesn't affect length distribution significantly.
-
-\paragraph{Experiment 3. Introduction of HP-catalysis.}
-In addition to folding in this \textit{in-silico} experiment we introduced interaction between 
-proteins. All parameters are as above. We varied parameters of the simulations, and noticed 
-significant stability of the length distribution towards change of $d_h$ and $d$. distribution is 
-sensitive towards hydrophobic energy, as expected. Chain length distribution has a noticeably 
-non-exponential behavior in the region when $E_h= 1-3 kT$
-
-% \paragraph{Experiment 4. HP-catalysis and aggregation.}
-% Short description
-% 
-% 
-% \paragraph{Experiment 5. Study of internal dynamics.}
-% Short description
 
 
 
@@ -528,6 +386,146 @@ direct mapping between surface to volume ration in 3D case to perimeter to area 
 \end{itemize}
 
 
+\section{Materials and methods}\label{sec:mat}
+\subsection{Simulations}\label{sec:mat-sim}
+To test our hypothesis we performed direct stochastic simulations on several. We used 
+\blue{PDMmod} method \cite{Bernatskiy}
+% \footnote{C++ library and description can be found here: https://github.com/abernatskiy/pdmmod}. 
+Stochastic simulations keep track of each 
+molecular specie in the system. However simulations are limited due to computational reasons. 
+First 
+of all we have to explore conformational space of every polymer. This task is NP-hard (we use 
+HPSandbox algorithm\cite{lau1989lattice,Dill2008} \footnote{Python implementation and description 
+can be found here: http://hp-lattice.readthedocs.org/en/latest/}), so we had to limit 
+maximum chain lengths to 25. We also try to keep total number of species in the low thousands, to 
+avoid computational costs. We do it by introducing dilution parameter $d$: molecules are being 
+removed from the system with probabilities $\propto d$. 
+This either can mimic a protocell splitting and loose of materials due to it or in the case when 
+system isn't bounded by any borders tha fact that some molecules will diffuse away. Total number of 
+molecules varies from simulation to simulation, 
+however it mostly holds in the region \red{insert}.
+
+We start our simulations with a small pool of monomers, usually below 100 molecules. 
+\begin{itemize}
+ \item We assume that there are enough of activated monomers in the system, so that their 
+concentrations are constant. This way we don't have to track them in the simulations.
+
+\item Polymers can therefore spontaneously grow with the rate $\ga$. Without loss of generality we 
+can put this parameter equal 1; all other rates with be relative to the growth rate in this case.
+
+\item Hydrolysis has constant rate $d_h$ per bond. Half-life time of hydrolysis bonds in neutral 
+conditions and temperatures around room temperature are on the order of hundreds of 
+years\footnote{Hydrolysis rate constants of oligopeptides in 
+neutral conditions are of the order of $10^{-11}-10^{-10}$: $1.3  10^{-10} M^{-1}s^{-1} $ 
+for benzoylglycylphenylalanine ($t_{1/2} = 128 y$)\cite{Bryant1996}, $6.3  10^{-11} M^{-1} s^{-1}$
+($t_{1/2}=350 y$) for glycylglycine and $9.3 10^{-11}M^{-1} s^{-1}$ for glycylvaline
+\cite{Smith1998}.}. We test hydrolysis rate constants to be about $0.001-1$ of polymerization rate 
+constants. This way we account for polymerization conditions, which happens on the order of days 
+to years.
+
+\item We also import monomers into system with rate $a\gg1$. It is safe to assume that we would 
+have enough monomers in the system and import of monomers wouldn't be a bottleneck of reactions 
+chain. Therefore we explore big values of $a\propto 
+10^2,10^3\ga$
+
+\item Dilution parameter $d$ mimics cell division and loss of the matter because of that. From 
+\ref{sec:nowak-steady} we see that total mass of the system is  $ M\propto\frac{a}{\ga}, \qquad 
+d\approx \ga\quad \mbox{or}\quad d\gg \ga$ and $M\propto \frac{a}{\ga}\frac{d}{2\ga} ,\qquad 
+d\ll\ga$. Therefore we explore valued of $d$ from $\propto 0.01\ga$ to $\propto 1\ga$. Given 
+values of $a$ we'll explore various populations from $\propto 10^2$ to $\propto 10^5$ monomers per 
+cell.
+
+\item (\red{Fix this after discussion}) Folding and unfolding reactions happen very quickly with 
+the unfolding rate constants of 
+$k_{unf}\gg\ga$ and folding rate constant of $k_{unf}\cdot\exp(E_{native}/kT)$.
+
+$E_h$ in our experiments is around $1-2$kT\red{\cite{?}}. $k_{unf}$ we keep $\propto 10^2$, which 
+gives us range of unfolding rates from a reaction per hours and days and range of folding rates 
+from a reaction per hours to fractions of a second.
+
+\item Catalysis rate is proportional to the exponent of hydrophobic energy $E_h$ and number of 
+contacting hydrophobes $n_c$: $\ga\cdot\exp(E_{h}\cdot n_{c}/kT)$. Number of hydrophobic contacts 
+for the short HP-sequences is about $3-6$. With the hydrophobic energies of $1-2$kT this gives us 
+catalysis rates around hours and days for one reaction.
+
+% \item Some experiments also include aggregation reactions for the long hydrophobic chains.
+\end{itemize}
+We looked at the lengths distribution in steady state. In order to account for stochastic effects 
+we took average over several realizations. We also looked at the time evolutions of specific 
+chains to investigate correlations between sequences and internal dynamics. The simulations were 
+performed on Computing Cluster of Laufer Center. See \blue{appendix} for simulation details.
+\begin{center}
+\begin{table*}[h]
+\begin{tabular}{| p{3.5cm} | l | p{3cm}| p{3.4cm}| p{3.4cm} |}
+\hline
+Constant name & Symbol  & Normalized simulation value & Simulation 
+value (deduced) per $1M$& Value from literature, per $1M$\\
+\hline
+Polymerization rate constant & $\ga$ &  1 & $\propto 1\,month^{-1}$ & ??\\
+\hline
+Hydrolysis  rate constant & $d_h$ & $\propto 10^{-1}\textendash10^{-4}$ & $\propto 1\,month^{-1}-- 
+10^{-3}year^{-1}$ & $\propto 10^{-3}year^{-1}$ 
+\cite{Bryant1996,Smith1998,Danger2012}\\
+\hline
+Dilution rate constant & $d$&$\propto 10^{-2}-1$ & $\propto 0.1year^{-1} -- 
+10^{-3}year^{-1}$ & \begin{center}\textemdash \end{center}
+ Is\,used\,to\,keep model from 
+overflowing \\
+\hline
+Monomer import rate constant & $a$ & $\propto 10^2-10^3$  & $\propto 1 - 10^2 day^{-1}$ & ??\\
+\hline
+Number of rotational freedoms& $z$ & $1.5-2.5$  & $1.5-2.5$ & 
+??\\
+\hline 
+Hydrophobic energy per $kT$ & $e_h$ & $1-2$ & $1-2$ & $0-3.3$ \cite{Wimley1996}
+\\ \hline
+\end{tabular}
+\caption{Parameters of our simulations: we set polymerization rate constant to 1. All other rate 
+constants were 
+meausered in terms of it. However mapping one of the constants to lab/prebiotic values fixes the 
+rest of the rate 
+constants. We compare them with the ones found in the origins of life literature.}
+\label{tab:methods}
+\end{table*}
+\end{center}
+
+\paragraph{Experiment 1. Reproduction of Flory distribution.}
+We started simulations with small pool of monomers (20 H and 20 P). We ran 30 identical  
+simulations for 200 s each, with measurements taken every 0.1s. Steady state is being achieved 
+around 30-50s. To calculate length distribution, we took one trajectory and calculated average 
+over time over all time points after 100s; so we got 1000 time points for every chain length, over 
+which we averaged. The rate of conversion of activated monomers into regular ones is $a=100$. We 
+took dilution rate of $d=0.5$. We ran experiments for 2 hydrolysis rates: $d_h=0.3$ and $d_h=0.03$.
+We varied hydrolysis and dilution rates. Experiments with $d_h=0$ reproduce accurate exponential 
+curves; adding hydrolysis, however, slows down distribution around short lengths. This effect is 
+due to constant concentration of activated monomers: there's no competition for ``food''. This 
+enriches population of short chains, however doesn't affect longer chains significantly, leaving 
+their distribution nearly exponential.
+
+\paragraph{Experiment 2. Study how folding affects length distributions.}
+In addition to the parameters of the  experiment 1 we also added non-zero hydrophobic energy and 
+introduced folding and unfolding reactions.
+ Hydrophobic energy is taken $E_h=2kT$ and rate of unfolding is $k_{unf}=100$. We varied 
+parameters 
+around given values and didn't notice qualitative changes of the system's behavior.
+From the figure \ref{fig:sim.flory-fold} in section \ref{sec:res} we can see 
+that presence of folding doesn't affect length distribution significantly.
+
+\paragraph{Experiment 3. Introduction of HP-catalysis.}
+In addition to folding in this \textit{in-silico} experiment we introduced interaction between 
+proteins. All parameters are as above. We varied parameters of the simulations, and noticed 
+significant stability of the length distribution towards change of $d_h$ and $d$. distribution is 
+sensitive towards hydrophobic energy, as expected. Chain length distribution has a noticeably 
+non-exponential behavior in the region when $E_h= 1-3 kT$
+
+% \paragraph{Experiment 4. HP-catalysis and aggregation.}
+% Short description
+% 
+% 
+% \paragraph{Experiment 5. Study of internal dynamics.}
+% Short description
+
+
  \newpage
 \appendix
 
@@ -599,6 +597,6 @@ M\propto \frac{a}{\ga}\frac{d}{2\ga} ,\qquad d\ll\ga
 
 
  \bibliography{/data/research/31.mendeleyBibtex/library}
-\bibliographystyle{rsc}
+\bibliographystyle{achemso}
 
 \end{document}
