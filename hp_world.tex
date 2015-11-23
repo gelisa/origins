@@ -5,7 +5,7 @@
 %EXTRA PACKAGES%
 % \usepackage{multicol}
 \usepackage{xcolor}
-
+\usepackage{textcomp}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Place any additional macros here.  Please use \newcommand* where
@@ -130,27 +130,32 @@ However the main problem with spontaneous polymerization processes is that it fa
 call Flory problem: chain length distribution has an exponential asymptote, and desirably long 
 chains are present in negligible quantities.
 
-Production of long oligo-peptides and oligo-nucleotides 
-has focused much interests\cite{Shapiro1984,Ferris1996,Kanavarioti2001,Brack2007,Danger2012}.
-
-Results vary. Maximum length of biopolymers reached (both nucleic acids and peptides) in the lab 
+Maximum length of biopolymers reached (both nucleic acids and peptides) in the lab 
 during non-enzymatic synthesis range from 2-3mers to 
 55\footnote{primary product contains 20-40-mers, mean chain length is expected to be 
-30\cite{Ferris1996}} monomers long depending on conditions: 
-Ferris et al. max 55\red{conditions?}, average 30\cite{Ferris1996}, Rode et al. 2-3 mers
-\cite{Rode1999}\red{conditions?}, max 11, average 4 \cite{Kanavarioti2001}\red{conditions?}, 
-\cite{Leman2004a}\red{conditions?}. 
+30\cite{Ferris1996}} monomers long depending on conditions.  
 
-In \cite{Kanavarioti2001} nucleotides polymerization was considered. Authors used below zero 
-temperature to enhance polymerization. They also provided data for other experiments with 
-nucleotide polymerization. See fig \ref{fig:some_flory}
+Ferris et al.\cite{Ferris1996} got sequencens up to length 55, with most of the product being 
+20-40mers. They started from decanucleotide [$^{32}$P]dA(pdA)$_8$pA adsorbed on 
+Na$^+$-montmorillonite and daily addad ImpA. After 14 days at 25\textcelsius\, primary product 
+contained 20-40mers with some sequences exceeding 50-mers.
+
+Rode et al.\cite{Rode1997,Rode1999} used various mineral catalysts such as calciumm 
+montmorillonite, hectorite,  silica, alumina for elongation mixture of Gly and Gly$_2$ at 
+40\textcelsius\, got sequences up to length 6 after 14 reaction days.
+
+Kanavarioti et al.\cite{Kanavarioti2001} got oligouridylates up to 11 bases long with average 
+value of 4. They froze samples of phosphoimidazolide-activated uridine to react at 
+-18\textcelsius\, in the presence of metal ions in dilute solutions.
+
+Some representative data is shown on fig \ref{fig:some_flory} along with fitted Flory-Schulz 
+distributions.
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\columnwidth]{pictures/some_flory.png} 
   \caption{Experimental relsults from \cite{Kanavarioti2001} and their fitting to Flory 
-distribution. \red{\textbf{I left too much information here intentionally. We can decide, 
-what to leave during the meeting. I want to Show that at least some experimental results match 
-Flory distribution at longer chains: dashed -- experiment, solid -- fit.}}}
+distribution. Data points: Kanavarioti\cite{Kanavarioti2001}, Ding\cite{Ding1996}, 
+Ferris\cite{Ferris1999} }
   \label{fig:some_flory}
 \end{figure}
 
@@ -169,12 +174,17 @@ heavy tail chain lengths distribution and selects the sequences based on the phy
 hydrophobic interaction. Our mechanism doesn't have to be the only one. It can be successfully 
 applied if there another accelerating processes such as adsorption or wetting and drying cycles, 
 for example.
-\red{write about autocatalytic sets here and cite Kauffman, maybe also mention far from 
-equilibrium statement. mention composomes, mention lipid vesicles \cite{Luisi1999,Deamer2008}}
+% \red{write about autocatalytic sets here and cite Kauffman, maybe also mention far from 
+% equilibrium statement. mention composomes, mention lipid vesicles \cite{Luisi1999,Deamer2008}}
 Our \textit{in-silico} experiments demonstrate that binary polymers 
 capable of primitive folding and hydrophobic interaction is a working mechanism. Not only we get 
 longer chains and selection. Our systems gives reasonable computational diversity of the sequences.
 
+While our mechanism is an implementation of an autocatalytic process, such as for example 
+introduced in \cite{Kauffman1986}, in addition to autocatalysis itself it provides a simple 
+physical non-linear relation between sequence of polymer and its catalytic/substrate abilities, 
+therefore giving an opportunity to experimentally test \red{\textbf{Something more about 
+experiments, connection to Ron's lab??}}
 
    
 \section{The ``Flory problem'' of obtaining long chains}
