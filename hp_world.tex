@@ -190,11 +190,13 @@ experiments, connection to Ron's lab??}}
 \section{The ``Flory problem'' of obtaining long chains}
 \label{sec:flory} 
 The Flory or Flory-Schulz distribution describes the relative ratios of polymers of different 
-length after a polymerization process, based on their relative probabilities of 
+lengths after a polymerization process, based on their relative probabilities of 
 occurrence\cite{Flory1953}. 
 \begin{equation}
- f(a)=a^2l(1-a)^{l-1}
+ f(a)=a^2l(1-a)^{l-1},
 \end{equation} 
+where $l$ is a chain length and $a$ is an empirical 
+constant, which is related to the average chain length: $\bar l = a(2- a)$
 Figure \ref{fig:flory} represents Flory distribution  with different average chain length. 
 This distribution gives the following polymer abundance for the blue line:
 \begin{equation}
@@ -208,6 +210,7 @@ concentrations $\propto 10^{-23} $ mol/L, which is just a few molecules per lite
   \caption{Spontaneous polymerization gives Flory length distribution with exponential asymptote.}
   \label{fig:flory}
 \end{figure}
+
  While increasing equilibrium constant by means of catalysis or 
 changing conditions to dry medium would lead to longer chain lengths, it will still give 
 exponentially decreasing distribution of length. The proof for polymer concatenation is present 
@@ -217,8 +220,7 @@ The problem is that in the systems with spontaneous polymerization distribution 
 of the produced polymers has an exponential asymptote  (see fig. \ref{fig:flory}). Depending on the 
 actual system it can can follow for example actual exponential 
 law  $f(a)\propto a^l$\cite{nowak2008prevolutionary,Derr2012} or a Flory distribution 
-$f(a)=a^2l(1-a)^{l-1}$\cite{Flory1953}, where $l$ is a chain length and $a$ is an empirical 
-constant, which is related to the average chain length: $\bar l = a(2- a)$
+$f(a)=a^2l(1-a)^{l-1}$\cite{Flory1953}.
 In either case, given low prebiotic concentrations of amino acids and nucleotides with estimations 
 of submillimolar to submicromolar\cite{Aubrey2009,Kanavarioti2001,Lazcano1996}, longer chains 
 would not be observable.
