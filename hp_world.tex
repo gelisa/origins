@@ -64,16 +64,16 @@
 \author{Elizaveta Guseva}
 \email{elizaveta.guseva@stonybrook.edu}
 \affiliation[Stony Brook University]
-{Laufer Center for Physical and Quantitative Biology, Stony Brook University, Stony Brook}
+{Laufer Center for Physical and Quantitative Biology, Stony Brook University, Stony Brook, NY, (United States)}
 % \altaffiliation{A shared footnote}
 \author{Ronald N Zuckermann}
-\affiliation{Zuckermann's Lab}
+\affiliation{Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)}
 \author{Ken A Dill}
 \email{dill@laufercenter.org}
 \phone{+1631 632 5400}
 \fax{+1631 632 5405}
 \affiliation[Stony Brook University]
-{Laufer Center for Physical and Quantitative Biology, Stony Brook University, Stony Brook}
+{Laufer Center for Physical and Quantitative Biology, Stony Brook University, Stony Brook, NY, (United States)}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -166,6 +166,15 @@ contained 20-40mers with some sequences exceeding 0-5mers.
 Kanavarioti et al.\cite{Kanavarioti2001} got oligouridylates up to 11 bases long with average 
 value of 4. They froze samples of phosphoimidazolide-activated uridine to react at 
 -18\textcelsius\, in the presence of metal ions in dilute solutions.
+
+Thermodynamics of aqueous solutions
+normally doesn't allow for any significant quantities of oligo-peptides to be formed, even 2-3mers.
+Leman et al. \cite{Leman2004a} Showed thatcarbonyl sulfide (COS), a simple volcanic gas, brings about the
+formation of oligo-peptides from amino acids under mild conditions in aqueous
+solution. They got up to 80\% yields of oligo-peptides in minutes to hours at room temperature.
+While product is 2-3mers with most of the product being 2-mers. Experiments are performed in 25\textcelsius,
+with pH varied between 5.9 and 9.8.
+
 
 Some representative data is shown on fig \ref{fig:some_flory} along with fitted Flory-Schulz 
 distributions.
@@ -361,7 +370,7 @@ section \ref{sec:mat-sim}, Experiment 2. }
 \end{figure*}
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=\columnwidth]{pictures/example1.pdf} 
+  \includegraphics[width=\columnwidth]{pictures/good_seqs.pdf} 
   \caption{Some examples of dominating autocatalytic sequences. Gray lines represent regular 
 non-catalytic sequence. structures on the right are native structures of autocatalytic sequences. }
   \label{fig:example1}
@@ -421,6 +430,13 @@ polymers  can be sustained by the mutual catalysis of the ligation reaction. The
 that a system with ligation and hydrolysis is capable of first order phase transition, depending concentration. 
 In their system the maximum length of heteropolymers is determined kinetically as a simple function of the ratio
 between ligation and breakage rates
+
+\item In \cite{Walker2012} authors considered a system with finite monomer source, spontaneous reversible polymerization
+and template ligation of binary polymers. With stochastic simulations, they studied how kinetic rates of polymerization/degradation
+affect ability of sequences to explore sequence space. Similarly to our results, the higher the ratio of degradation rate
+over polymerization rate (in our case (hydrolysis and hydrophobic energy), the higher the diversity 
+of the pool, and the lower it, the higher number of functional sequences is observed (functional polymers are randomly assigned). Functional sequences are able to emerge spontaneously,
+they don't dominate the pool, allowing for further pool exploration. While \cite{Walker2012} and our system are kinetically different they experience rather similar dynamics.
 \end{itemize}
 
 Many studies focused on how in a particular situation autocatalytic systems could arose and on 
@@ -457,7 +473,6 @@ and polynomial length distribution \red{??}
 
 \red{
 \begin{itemize}
- \item AB molecules by Sarah..
  \item Hordijk2010.
 \end{itemize}
 }
@@ -474,7 +489,7 @@ direct mapping between surface to volume ratio in 3D case to perimeter to area r
 
 \section{Materials and methods}\label{sec:mat}
 \subsection{Simulations}\label{sec:mat-sim}
-To test our hypothesis we performed direct stochastic simulations on several. We used 
+To test our hypothesis we performed direct stochastic simulations on several sets of parameters. We used 
 \blue{PDMmod} method \cite{Bernatskiy}
 % \footnote{C++ library and description can be found here: https://github.com/abernatskiy/pdmmod}. 
 Stochastic simulations keep track of each 
