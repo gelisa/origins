@@ -1,11 +1,12 @@
 \documentclass[journal=jacsat,manuscript=article,layout=twocolumn]{achemso}
 \usepackage[version=3]{mhchem} % Formula subscripts using \ce{}
 \usepackage[T1]{fontenc}       % Use modern font encodings
-
+% \usepackage[active]{preview}
 %EXTRA PACKAGES%
 % \usepackage{multicol}
 \usepackage{xcolor}
 \usepackage{textcomp}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Place any additional macros here.  Please use \newcommand* where
@@ -99,9 +100,9 @@
 
 
 \begin{document}
-\abstract{\footnotesize How living systems arose prebiotically from random physico-chemical 
+\abstract{\footnotesize How living systems arose prebiotically from random physical-chemical 
 processes is a
-longstanding question. When did undirected chemical reactions begin to capitalize on
+longstanding question. When did undirected(??) chemical reactions begin to capitalize on
 fitness and undergo Darwinian evolution? 
 Many origins-of-life studies are post-informational (postbiotic), i.e. focusing on
 processes that happen after there is already a molecular code and an ability to
@@ -151,16 +152,16 @@ chains are present in negligible quantities.
 Maximum length of biopolymers reached (both nucleic acids and peptides) in the lab 
 during non-enzymatic synthesis range from 2-3mers to 
 55\footnote{primary product contains 20-40-mers, mean chain length is expected to be 
-30\cite{Ferris1996}} monomers long depending on conditions.  
+30\cite{Ferris1996}} monomers long depending on conditions and initial length of substrate.  
 
-Ferris et al.\cite{Ferris1996} got sequencens up to length 55, with most of the product being 
-20-40mers. They started from decanucleotide [$^{32}$P]dA(pdA)$_8$pA adsorbed on 
-Na$^+$-montmorillonite and daily addad ImpA. After 14 days at 25\textcelsius\, primary product 
-contained 20-40mers with some sequences exceeding 50-mers.
-
-Rode et al.\cite{Rode1997,Rode1999} used various mineral catalysts such as calciumm 
+Rode et al.\cite{Rode1997,Rode1999} used various mineral catalysts such as calcium 
 montmorillonite, hectorite,  silica, alumina for elongation mixture of Gly and Gly$_2$ at 
 40\textcelsius\, got sequences up to length 6 after 14 reaction days.
+
+Ferris et al.\cite{Ferris1996} got sequences up to length 55, with most of the product being 
+20-40mers. They started from decanucleotide [$^{32}$P]dA(pdA)$_8$pA adsorbed on 
+Na$^+$-montmorillonite and daily added ImpA. After 14 days at 25\textcelsius\, primary product 
+contained 20-40mers with some sequences exceeding 0-5mers.
 
 Kanavarioti et al.\cite{Kanavarioti2001} got oligouridylates up to 11 bases long with average 
 value of 4. They froze samples of phosphoimidazolide-activated uridine to react at 
@@ -171,7 +172,7 @@ distributions.
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\columnwidth]{pictures/some_flory.png} 
-  \caption{Experimental relsults from \cite{Kanavarioti2001} and their fitting to Flory 
+  \caption{Experimental results from \cite{Kanavarioti2001} and their fitting to Flory 
 distribution. Data points: Kanavarioti\cite{Kanavarioti2001}, Ding\cite{Ding1996}, 
 Ferris\cite{Ferris1999} }
   \label{fig:some_flory}
@@ -251,7 +252,7 @@ information.
 Here we propose a model of prebiotic synthesis of foldable polymers, such as proteins or RNAs, 
 using the HP lattice model\cite{lau1989lattice,Chan1991,Miller1995,Yue1995,agarwala1997local}. The 
 HP model supports two types of monomers: H (hydrophobic) and P (polar). It has been used 
-extensively to study sequence-structure relationship in pretein-like molecules. HP model has a 
+extensively to study sequence-structure relationship in protein-like molecules. HP model has a 
 folding code: presence of hydrophobic interaction makes some conformations 
 of the same chain more energetically favorable than others. Moreover certain chains will have a 
 unique conformation, which delivers free energy minimum. This conformations are called native 
@@ -345,7 +346,7 @@ substantial excess of long sequence compared to the cases without catalysis\ref{
 The system is fairly stable towards hydrolysis and dilution parameters. It allows for 1 order of 
 magnitude change in those parameters without significant change in the behavior of the system. 
 Sequences responsible for the skew of the distribution are few in numbers they all are catalysts 
-and have long stretches of hydrophobs, which also means that they are products of catalysis. In 
+and have long stretches of hydrophobes, which also means that they are products of catalysis. In 
 the figure \ref{fig:example1} there examples of several sequences. The lines represent average 
 over 30 time evolutions. For this particular experiment, concentration of monomers at steady 
 state is $\propto 100$. Most of the longer sequences have average populations $\ll 1$. However for 
@@ -375,11 +376,11 @@ non-catalytic sequence. structures on the right are native structures of autocat
 
 \subsection{Autocatalysis}
 Withing networks of chemical reactions of living systems there are many interactions and 
-interdependencies. They make final systems functionally closed and self-sustaining, when out of 
+inter-dependencies. They make final systems functionally closed and self-sustaining, when out of 
 available resources system produces whatever chemical components it needs. However probability of 
 emergence of such a system out of mixture of simple molecules is essentially zero, and question of 
-how it's possible, botheres many minds. Because functional closeness and self-maintainance are 
-prominents properties of life significant amount of research since 1970s was focused on 
+how it's possible, bothers many minds. Because functional closeness and self-maintenance are 
+prominent properties of life significant amount of research since 1970s was focused on 
 autocatalytic sets -- collections of entities, each of which can be created catalytically by 
 other entities within the set, such that as a whole, the set is able to catalyze its own production.
 
@@ -387,11 +388,11 @@ This notion of an autocatalytic sets became popular in the origins of life commu
 several reasons. To mention a couple:
 \begin{enumerate}
  \item First, autocatalysis is a powerful mechanism, which 
-produces complex dynamics: in all known chemical systems bistability, oscillations or generation of 
+produces complex dynamics: in all known chemical systems bi-stability, oscillations or generation of 
 waves can be 
 explained by one chemical mechanism, and at least one stage of it must be 
 autocatalytic\cite{Prigozhin1990}. Production 
-of phyical-chemical complexity is one of the steps towards discovering origin of life. 
+of physical-chemical complexity is one of the steps towards discovering origin of life. 
 \item Second, autocatalysis seems to be 
 a natural way to increase naturally extremely low yields of oligomers produced non-enzymatically and 
 get an 
@@ -402,39 +403,47 @@ exponential growth, which is necessary for efficient self-replication.
 hydrophobic interactions to this old idea  of autocatalytic sets \cite{Kauffman1986,Eigen1978}. 
 
 
-Here are some examples of othero models using autocatalytic sets
-
- Several studies\cite{Eigen1978,Dyson1985,Kauffman1986} focused on how such self-sustaining 
-systems could work if they already exist. They investigated under whic conditions these systems 
+Here are some examples of other models using autocatalytic sets
+\begin{itemize}
+ \item Several studies\cite{Eigen1978,Dyson1985,Kauffman1986} focused on how such self-sustaining 
+systems could work if they already exist. They investigated under which conditions these systems 
 indeed are self-maintaining.
 
-In a more recent series of works \cite{segre1998graded,Segre2000,Markovitch2012} 
+\item In a more recent series of works \cite{segre1998graded,Segre2000,Markovitch2012} 
  authors numerically studied auto and cross catalysis in an artificial chemical system of 
  small mutually catalyzing  molecules. They found parameters of the system for which one can observe 
-diversity and repllication fidelity.
+diversity and replication fidelity.
  Appearance of these desirable properties requires high mutual catalysis propensity.
+
+\item In \cite{Tkachenko2014} authors studied random heteropolymers capable of template 
+assisted ligation and random breakage. In such a system, they showed,  long-chained
+polymers  can be sustained by the mutual catalysis of the ligation reaction. They discovered
+that a system with ligation and hydrolysis is capable of first order phase transition, depending concentration. 
+In their system the maximum length of heteropolymers is determined kinetically as a simple function of the ratio
+between ligation and breakage rates
+\end{itemize}
 
 Many studies focused on how in a particular situation autocatalytic systems could arose and on 
 different properties of the emergent results based on type of autocatalytic mechanisms.
 \begin{itemize}
 \item The idea of 
-autocatalysis was applied by Wu and Higgs\cite{Wu2009} to homo-polymers: while sytem of 
+autocatalysis was applied by Wu and Higgs\cite{Wu2009} to homo-polymers: while system of 
 homopolymers cannot be 
-complex and capable of storing information, authors showed that their system has bistability and 
+complex and capable of storing information, authors showed that their system has bi-stability and 
 increased proportion of long polymers.
  \item In a series of works \cite{nowak2008prevolutionary,Ohtsuki2009,Chen2012,Derr2012} 
  authors investigated binary polymers 
 either capable of autocatalysis or replication. They showed that while autocatalytic system has 
-bistability and increased ratio of longer polymers, one has to increase catalysis rate 
+bi-stability and increased ratio of longer polymers, one has to increase catalysis rate 
 exponentially in order to get exponential growth of longer chains. Self-replication system on the 
-other hand didn't show bistability, but on a positive side, relatively low replication rate 
+other hand didn't show bi-stability, but on a positive side, relatively low replication rate 
 constant brought up significant growth of longer polymers. It was also shown that self-replication 
 enhances complexity of the system. The autocatalysis mechanism of this series is however very 
 simple It's a self-replication performed by means of catalysis: for every reaction catalyst has to 
 get attached to a growing molecule and then dissociate from it.
 
 
-Significant progress has been made in attempts to make artificial autocatalytis sets in a 
+Significant progress has been made in attempts to make artificial autocatalytic sets in a 
 laboratory\cite{VonKiedrowski1986,Lincoln2009,Vaidya2012}. These experiments, while working with 
 simple artificially designed systems, exhibit a nice example of original principle.
 
@@ -442,13 +451,12 @@ simple artificially designed systems, exhibit a nice example of original princip
 They key difference with our work is 
 that hydrophobic interaction provides a simple physical set up which produces non-linear dynamics with complex feedback.
 This enables system to develop a non-trivial selection mechanism. Our system, as being based on 
-\cite{Ohtsuki2009} model, experience bistability, has semi-periodic fluctuations  
+\cite{Ohtsuki2009} model, experience bi-stability, has semi-periodic fluctuations  
 and polynomial length distribution \red{??} 
 \end{itemize}
 
 \red{
 \begin{itemize}
- \item Sergei
  \item AB molecules by Sarah..
  \item Hordijk2010.
 \end{itemize}
@@ -458,9 +466,9 @@ and polynomial length distribution \red{??}
 \subsection{2D-3D}
 \begin{itemize}
  \item Folding and unfolding rates are likely underestimated in 2D case
- \item Overall length dependence is stepper in 2D case
+ \item Overall length dependence is steeper in 2D case
  \item However cases are very similar and it's possible to do a mapping between them: there's a 
-direct mapping between surface to volume ration in 3D case to perimeter to area ratio in 2D case
+direct mapping between surface to volume ratio in 3D case to perimeter to area ratio in 2D case
 \end{itemize}
 
 
@@ -479,7 +487,7 @@ maximum chain lengths to 25. We also try to keep total number of species in the 
 avoid computational costs. We do it by introducing dilution parameter $d$: molecules are being 
 removed from the system with probabilities $\propto d$. 
 This either can mimic a protocell splitting and loose of materials due to it or in the case when 
-system isn't bounded by any borders tha fact that some molecules will diffuse away. Total number of 
+system isn't bounded by any borders the fact that some molecules will diffuse away. Total number of 
 molecules varies from simulation to simulation, 
 however it mostly holds in the region \red{insert}.
 
@@ -560,7 +568,7 @@ Hydrophobic energy per $kT$ & $e_h$ & $1-2$ & $1-2$ & $0-3.3$ \cite{Wimley1996}
 \end{tabular}
 \caption{Parameters of our simulations: we set polymerization rate constant to 1. All other rate 
 constants were 
-meausered in terms of it. However mapping one of the constants to lab/prebiotic values fixes the 
+measured in terms of it. However mapping one of the constants to lab/prebiotic values fixes the 
 rest of the rate 
 constants. We compare them with the ones found in the origins of life literature.}
 \label{tab:methods}
@@ -678,3 +686,13 @@ M\propto \frac{a}{\ga}\frac{d}{2\ga} ,\qquad d\ll\ga
 \bibliographystyle{achemso}
 
 \end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
+
+%  LocalWords:  prebiotic prebiotically nucleotides polypeptides mers
+%  LocalWords:  enzymatically oligomers clays asymptote biopolymers
+%  LocalWords:  peptides et al montmorillonite hectorite Gly unf dx
+%  LocalWords:  oligouridylates phosphoimidazolide lp
