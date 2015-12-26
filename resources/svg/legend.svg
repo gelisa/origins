@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="18cm" height="5cm" viewBox="683 330 348 91" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="684.645" y="334.229" width="38.7097" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="684.645" y="334.229" width="38.7097" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="684.645" y="334.229" width="38.7097" height="40"/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="835,355.229 848.333,352.562 841.667,341.896 852.333,348.562 855,335.229 857.667,348.562 868.333,341.896 861.667,352.562 875,355.229 861.667,357.896 868.333,368.562 857.667,361.896 855,375.229 852.333,361.896 841.667,368.562 848.333,357.896 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="835,355.229 848.333,352.562 841.667,341.896 852.333,348.562 855,335.229 857.667,348.562 868.333,341.896 861.667,352.562 875,355.229 861.667,357.896 868.333,368.562 857.667,361.896 855,375.229 852.333,361.896 841.667,368.562 848.333,357.896 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="835,355.229 848.333,352.562 841.667,341.896 852.333,348.562 855,335.229 857.667,348.562 868.333,341.896 861.667,352.562 875,355.229 861.667,357.896 868.333,368.562 857.667,361.896 855,375.229 852.333,361.896 841.667,368.562 848.333,357.896 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="991.645" y="337.229" width="38.7097" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="991.645" y="337.229" width="38.7097" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="991.645" y="337.229" width="38.7097" height="40"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="723.355" y1="354.229" x2="822.764" y2="355.119"/>
+    <polygon style="fill: #ffffff" points="822.72,360.119 832.764,355.209 822.809,350.12 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="822.72,360.119 832.764,355.209 822.809,350.12 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="868.333" y1="356.562" x2="979.409" y2="357.163"/>
+    <polygon style="fill: #ffffff" points="979.382,362.163 989.409,357.217 979.436,352.163 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="979.382,362.163 989.409,357.217 979.436,352.163 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="686" y="395.229">
+    <tspan x="686" y="395.229">state</tspan>
+    <tspan x="686" y="411.229">(source)</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="830" y="398.229">
+    <tspan x="830" y="398.229">process</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="991" y="401.229">
+    <tspan x="991" y="401.229">state</tspan>
+    <tspan x="991" y="417.229">(sink)</tspan>
+  </text>
+</svg>
