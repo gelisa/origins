@@ -11,7 +11,7 @@
    version="1.1"
    width="1000"
    id="svg6778"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.48.5 r10040"
    sodipodi:docname="tst-seqs.svg">
   <metadata
      id="metadata7280">
@@ -34,15 +34,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1842"
-     inkscape:window-height="1025"
+     inkscape:window-width="1858"
+     inkscape:window-height="1024"
      id="namedview7278"
      showgrid="true"
-     inkscape:zoom="1.02"
-     inkscape:cx="462.33861"
-     inkscape:cy="547.56344"
-     inkscape:window-x="76"
-     inkscape:window-y="32"
+     inkscape:zoom="0.51"
+     inkscape:cx="783.23529"
+     inkscape:cy="363.95636"
+     inkscape:window-x="-2"
+     inkscape:window-y="33"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg6778">
     <inkscape:grid
@@ -61,2162 +61,956 @@
          height="230.39215"
          x="-345.09805"
          y="647.05884" /></flowRegion><flowPara
-       id="flowPara7436" /></flowRoot>  <line
-     x1="813.70929"
-     x2="813.70929"
-     y1="361.07843"
-     y2="331.07843"
-     id="line8225"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="813.70929"
-     cy="361.07843"
-     r="13"
-     id="circle8227"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="813.70929"
-     x2="843.70929"
-     y1="331.07843"
-     y2="331.07843"
-     id="line8229"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="813.70929"
-     cy="331.07843"
-     r="13"
-     id="circle8231"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="843.70929"
-     x2="873.70923"
-     y1="331.07843"
-     y2="331.07843"
-     id="line8233"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="843.70929"
-     cy="331.07843"
-     r="13"
-     id="circle8235"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="873.70923"
-     x2="873.70923"
-     y1="331.07843"
-     y2="361.07843"
-     id="line8237"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="873.70923"
-     cy="331.07843"
-     r="13"
-     id="circle8239"
-     style="fill:#0000ff;stroke:#000000" />
-  <line
-     x1="873.70923"
-     x2="843.70929"
-     y1="361.07843"
-     y2="361.07843"
-     id="line8241"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="873.70923"
-     cy="361.07843"
-     r="13"
-     id="circle8243"
-     style="fill:#0000ff;stroke:#000000" />
-  <line
-     x1="843.70929"
-     x2="843.70929"
-     y1="361.07843"
-     y2="391.07843"
-     id="line8245"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="843.70929"
-     cy="361.07843"
-     r="13"
-     id="circle8247"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="843.70929"
-     x2="813.70929"
-     y1="391.07843"
-     y2="391.07843"
-     id="line8249"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="843.70929"
-     cy="391.07843"
-     r="13"
-     id="circle8251"
-     style="fill:#0000ff;stroke:#000000" />
-  <line
-     x1="813.70929"
-     x2="783.70929"
-     y1="391.07843"
-     y2="391.07843"
-     id="line8253"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="813.70929"
-     cy="391.07843"
-     r="13"
-     id="circle8255"
-     style="fill:#0000ff;stroke:#000000" />
-  <line
-     x1="783.70929"
-     x2="783.70929"
-     y1="391.07843"
-     y2="361.07843"
-     id="line8257"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="783.70929"
-     cy="391.07843"
-     r="13"
-     id="circle8259"
-     style="fill:#0000ff;stroke:#000000" />
-  <line
-     x1="783.70929"
-     x2="753.70929"
-     y1="361.07843"
-     y2="361.07843"
-     id="line8261"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="783.70929"
-     cy="361.07843"
-     r="13"
-     id="circle8263"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="753.70929"
-     x2="753.70929"
-     y1="361.07843"
-     y2="331.07843"
-     id="line8265"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="753.70929"
-     cy="361.07843"
-     r="13"
-     id="circle8267"
-     style="fill:#0000ff;stroke:#000000" />
-  <line
-     x1="753.70929"
-     x2="783.70929"
-     y1="331.07843"
-     y2="331.07843"
-     id="line8269"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="753.70929"
-     cy="331.07843"
-     r="13"
-     id="circle8271"
-     style="fill:#0000ff;stroke:#000000" />
-  <line
-     x1="783.70929"
-     x2="783.70929"
-     y1="331.07843"
-     y2="301.07843"
-     id="line8273"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="783.70929"
-     cy="331.07843"
-     r="13"
-     id="circle8275"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="783.70929"
-     x2="813.70929"
-     y1="301.07843"
-     y2="301.07843"
-     id="line8277"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="783.70929"
-     cy="301.07843"
-     r="13"
-     id="circle8279"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="813.70929"
-     x2="843.70929"
-     y1="301.07843"
-     y2="301.07843"
-     id="line8281"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="813.70929"
-     cy="301.07843"
-     r="13"
-     id="circle8283"
-     style="fill:#ff0000;stroke:#000000" />
-  <circle
-     cx="843.70929"
-     cy="301.07843"
-     r="13"
-     id="circle8285"
-     style="fill:#ff0000;stroke:#000000" />
-  <g
-     id="g10068"
-     transform="matrix(-1,0,0,1,1015.8985,-0.98039216)">
-    <line
-       id="line8287"
-       y2="358.83093"
-       y1="358.83093"
-       x2="356.48679"
-       x1="326.48679"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle8289"
-       r="13"
-       cy="358.83093"
-       cx="326.48679"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line8291"
-       y2="358.83093"
-       y1="358.83093"
-       x2="386.48679"
-       x1="356.48679"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle8293"
-       r="13"
-       cy="358.83093"
-       cx="356.48679"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line8295"
-       y2="358.83093"
-       y1="358.83093"
-       x2="416.48679"
-       x1="386.48679"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle8297"
-       r="13"
-       cy="358.83093"
-       cx="386.48679"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line8299"
-       y2="358.83093"
-       y1="358.83093"
-       x2="446.48682"
-       x1="416.48679"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle8301"
-       r="13"
-       cy="358.83093"
-       cx="416.48679"
-       style="fill:#0000ff;stroke:#000000" />
-    <line
-       id="line8303"
-       y2="358.83093"
-       y1="358.83093"
-       x2="476.48682"
-       x1="446.48682"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle8305"
-       r="13"
-       cy="358.83093"
-       cx="446.48682"
-       style="fill:#0000ff;stroke:#000000" />
-    <line
-       id="line8307"
-       y2="358.83093"
-       y1="358.83093"
-       x2="506.48682"
-       x1="476.48682"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle8309"
-       r="13"
-       cy="358.83093"
-       cx="476.48682"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line8311"
-       y2="358.83093"
-       y1="358.83093"
-       x2="536.48682"
-       x1="506.48682"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle8313"
-       r="13"
-       cy="358.83093"
-       cx="506.48682"
-       style="fill:#0000ff;stroke:#000000" />
-    <line
-       id="line8315"
-       y2="358.83093"
-       y1="358.83093"
-       x2="566.48682"
-       x1="536.48682"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle8317"
-       r="13"
-       cy="358.83093"
-       cx="536.48682"
-       style="fill:#0000ff;stroke:#000000" />
-    <line
-       id="line8319"
-       y2="358.83093"
-       y1="358.83093"
-       x2="596.48682"
-       x1="566.48682"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle8321"
-       r="13"
-       cy="358.83093"
-       cx="566.48682"
-       style="fill:#0000ff;stroke:#000000" />
-    <line
-       id="line8323"
-       y2="358.83093"
-       y1="358.83093"
-       x2="626.48682"
-       x1="596.48682"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle8325"
-       r="13"
-       cy="358.83093"
-       cx="596.48682"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line8327"
-       y2="358.83093"
-       y1="358.83093"
-       x2="656.48682"
-       x1="626.48682"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle8329"
-       r="13"
-       cy="358.83093"
-       cx="626.48682"
-       style="fill:#0000ff;stroke:#000000" />
-    <line
-       id="line8331"
-       y2="358.83093"
-       y1="358.83093"
-       x2="686.48682"
-       x1="656.48682"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle8333"
-       r="13"
-       cy="358.83093"
-       cx="656.48682"
-       style="fill:#0000ff;stroke:#000000" />
-    <line
-       id="line8335"
-       y2="358.83093"
-       y1="358.83093"
-       x2="716.48682"
-       x1="686.48682"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle8337"
-       r="13"
-       cy="358.83093"
-       cx="686.48682"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line8339"
-       y2="358.83093"
-       y1="358.83093"
-       x2="746.48682"
-       x1="716.48682"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle8341"
-       r="13"
-       cy="358.83093"
-       cx="716.48682"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line8343"
-       y2="358.83093"
-       y1="358.83093"
-       x2="776.48682"
-       x1="746.48682"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle8345"
-       r="13"
-       cy="358.83093"
-       cx="746.48682"
-       style="fill:#ff0000;stroke:#000000" />
-    <circle
-       id="circle8347"
-       r="13"
-       cy="358.83093"
-       cx="776.48682"
-       style="fill:#ff0000;stroke:#000000" />
-  </g>
-  <text
-     xml:space="preserve"
-     style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:50px;line-height:125%;font-family:'Century SchoolBook URW';-inkscape-font-specification:'Century SchoolBook URW Medium';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-     x="127.45097"
-     y="377.45096"
-     id="text9091"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       id="tspan9093"
-       x="127.45097"
-       y="377.45096">56%H</tspan></text>
-  <text
-     xml:space="preserve"
-     style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:50px;line-height:125%;font-family:'Century SchoolBook URW';-inkscape-font-specification:'Century SchoolBook URW Medium';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-     x="83.450981"
-     y="331.37256"
-     id="text9233"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       id="tspan9235"
-       x="83.450981"
-       y="331.37256">#2</tspan></text>
-  <g
-     id="g7381"
-     transform="translate(817.84314,125.49019)">
-    <line
-       id="line6906"
-       y2="370"
-       y1="400"
-       x2="0"
-       x1="0"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6908"
-       r="13"
-       cy="400"
-       cx="0"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6910"
-       y2="340"
-       y1="370"
-       x2="0"
-       x1="0"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6912"
-       r="13"
-       cy="370"
-       cx="0"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6914"
-       y2="340"
-       y1="340"
-       x2="30"
-       x1="0"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6916"
-       r="13"
-       cy="340"
-       cx="0"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6918"
-       y2="370"
-       y1="340"
-       x2="30"
-       x1="30"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6920"
-       r="13"
-       cy="340"
-       cx="30"
-       style="fill:#0000ff;stroke:#000000" />
-    <line
-       id="line6922"
-       y2="370"
-       y1="370"
-       x2="60"
-       x1="30"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6924"
-       r="13"
-       cy="370"
-       cx="30"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6926"
-       y2="400"
-       y1="370"
-       x2="60"
-       x1="60"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6928"
-       r="13"
-       cy="370"
-       cx="60"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6930"
-       y2="400"
-       y1="400"
-       x2="30"
-       x1="60"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6932"
-       r="13"
-       cy="400"
-       cx="60"
-       style="fill:#0000ff;stroke:#000000" />
-    <line
-       id="line6934"
-       y2="430"
-       y1="400"
-       x2="30"
-       x1="30"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6936"
-       r="13"
-       cy="400"
-       cx="30"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6938"
-       y2="430"
-       y1="430"
-       x2="0"
-       x1="30"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6940"
-       r="13"
-       cy="430"
-       cx="30"
-       style="fill:#0000ff;stroke:#000000" />
-    <line
-       id="line6942"
-       y2="430"
-       y1="430"
-       x2="-30"
-       x1="0"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6944"
-       r="13"
-       cy="430"
-       cx="0"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6946"
-       y2="400"
-       y1="430"
-       x2="-30"
-       x1="-30"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6948"
-       r="13"
-       cy="430"
-       cx="-30"
-       style="fill:#0000ff;stroke:#000000" />
-    <line
-       id="line6950"
-       y2="370"
-       y1="400"
-       x2="-30"
-       x1="-30"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6952"
-       r="13"
-       cy="400"
-       cx="-30"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6954"
-       y2="370"
-       y1="370"
-       x2="-60"
-       x1="-30"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6956"
-       r="13"
-       cy="370"
-       cx="-30"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6958"
-       y2="340"
-       y1="370"
-       x2="-60"
-       x1="-60"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6960"
-       r="13"
-       cy="370"
-       cx="-60"
-       style="fill:#0000ff;stroke:#000000" />
-    <line
-       id="line6962"
-       y2="340"
-       y1="340"
-       x2="-30"
-       x1="-60"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6964"
-       r="13"
-       cy="340"
-       cx="-60"
-       style="fill:#0000ff;stroke:#000000" />
-    <circle
-       id="circle6966"
-       r="13"
-       cy="340"
-       cx="-30"
-       style="fill:#ff0000;stroke:#000000" />
-  </g>
-  <g
-     id="g7348"
-     transform="matrix(-1,0,0,1,691.37256,13.72549)">
+       id="flowPara7436" /></flowRoot>  <g
+     id="g4412"
+     transform="translate(-3.37256,-98.72549)">
     <line
        id="line6968"
-       y2="500"
-       y1="500"
-       x2="30"
-       x1="0"
-       style="stroke:#000000;stroke-width:2" />
+       y2="513.72546"
+       y1="513.72546"
+       x2="661.37256"
+       x1="691.37256"
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none" />
     <circle
+       transform="matrix(-1,0,0,1,691.37256,13.72549)"
        id="circle6970"
        r="13"
        cy="500"
        cx="0"
-       style="fill:#ff0000;stroke:#000000" />
+       style="fill:#ff0000;stroke:#000000"
+       sodipodi:cx="0"
+       sodipodi:cy="500"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 13,500 c 0,7.1797 -5.8202983,13 -13,13 -7.1797017,0 -13,-5.8203 -13,-13 0,-7.1797 5.8202983,-13 13,-13 7.1797017,0 13,5.8203 13,13 z" />
     <line
        id="line6972"
-       y2="500"
-       y1="500"
-       x2="60"
-       x1="30"
-       style="stroke:#000000;stroke-width:2" />
+       y2="513.72546"
+       y1="513.72546"
+       x2="631.37256"
+       x1="661.37256"
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none" />
     <circle
+       transform="matrix(-1,0,0,1,691.37256,13.72549)"
        id="circle6974"
        r="13"
        cy="500"
        cx="30"
-       style="fill:#ff0000;stroke:#000000" />
+       style="fill:#ff0000;stroke:#000000"
+       sodipodi:cx="30"
+       sodipodi:cy="500"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 43,500 c 0,7.1797 -5.820298,13 -13,13 -7.179702,0 -13,-5.8203 -13,-13 0,-7.1797 5.820298,-13 13,-13 7.179702,0 13,5.8203 13,13 z" />
     <line
        id="line6976"
-       y2="500"
-       y1="500"
-       x2="90"
-       x1="60"
-       style="stroke:#000000;stroke-width:2" />
+       y2="513.72546"
+       y1="513.72546"
+       x2="601.37256"
+       x1="631.37256"
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none" />
     <circle
+       transform="matrix(-1,0,0,1,691.37256,13.72549)"
        id="circle6978"
        r="13"
        cy="500"
        cx="60"
-       style="fill:#ff0000;stroke:#000000" />
+       style="fill:#ff0000;stroke:#000000"
+       sodipodi:cx="60"
+       sodipodi:cy="500"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 73,500 c 0,7.1797 -5.820298,13 -13,13 -7.179702,0 -13,-5.8203 -13,-13 0,-7.1797 5.820298,-13 13,-13 7.179702,0 13,5.8203 13,13 z" />
     <line
        id="line6980"
-       y2="500"
-       y1="500"
-       x2="120"
-       x1="90"
-       style="stroke:#000000;stroke-width:2" />
+       y2="513.72546"
+       y1="513.72546"
+       x2="571.37256"
+       x1="601.37256"
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none" />
     <circle
+       transform="matrix(-1,0,0,1,691.37256,13.72549)"
        id="circle6982"
        r="13"
        cy="500"
        cx="90"
-       style="fill:#0000ff;stroke:#000000" />
+       style="fill:#0000ff;stroke:#000000"
+       sodipodi:cx="90"
+       sodipodi:cy="500"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 103,500 c 0,7.1797 -5.820298,13 -13,13 -7.179702,0 -13,-5.8203 -13,-13 0,-7.1797 5.820298,-13 13,-13 7.179702,0 13,5.8203 13,13 z" />
     <line
        id="line6984"
-       y2="500"
-       y1="500"
-       x2="150"
-       x1="120"
-       style="stroke:#000000;stroke-width:2" />
+       y2="513.72546"
+       y1="513.72546"
+       x2="541.37256"
+       x1="571.37256"
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none" />
     <circle
+       transform="matrix(-1,0,0,1,691.37256,13.72549)"
        id="circle6986"
        r="13"
        cy="500"
        cx="120"
-       style="fill:#ff0000;stroke:#000000" />
+       style="fill:#ff0000;stroke:#000000"
+       sodipodi:cx="120"
+       sodipodi:cy="500"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 133,500 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
     <line
        id="line6988"
-       y2="500"
-       y1="500"
-       x2="180"
-       x1="150"
-       style="stroke:#000000;stroke-width:2" />
+       y2="513.72546"
+       y1="513.72546"
+       x2="511.37256"
+       x1="541.37256"
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none" />
     <circle
+       transform="matrix(-1,0,0,1,691.37256,13.72549)"
        id="circle6990"
        r="13"
        cy="500"
        cx="150"
-       style="fill:#ff0000;stroke:#000000" />
+       style="fill:#ff0000;stroke:#000000"
+       sodipodi:cx="150"
+       sodipodi:cy="500"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 163,500 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
     <line
        id="line6992"
-       y2="500"
-       y1="500"
-       x2="210"
-       x1="180"
-       style="stroke:#000000;stroke-width:2" />
+       y2="513.72546"
+       y1="513.72546"
+       x2="481.37256"
+       x1="511.37256"
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none" />
     <circle
+       transform="matrix(-1,0,0,1,691.37256,13.72549)"
        id="circle6994"
        r="13"
        cy="500"
        cx="180"
-       style="fill:#0000ff;stroke:#000000" />
+       style="fill:#0000ff;stroke:#000000"
+       sodipodi:cx="180"
+       sodipodi:cy="500"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 193,500 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
     <line
        id="line6996"
-       y2="500"
-       y1="500"
-       x2="240"
-       x1="210"
-       style="stroke:#000000;stroke-width:2" />
+       y2="513.72546"
+       y1="513.72546"
+       x2="451.37256"
+       x1="481.37256"
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none" />
     <circle
+       transform="matrix(-1,0,0,1,691.37256,13.72549)"
        id="circle6998"
        r="13"
        cy="500"
        cx="210"
-       style="fill:#ff0000;stroke:#000000" />
+       style="fill:#ff0000;stroke:#000000"
+       sodipodi:cx="210"
+       sodipodi:cy="500"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 223,500 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
     <line
        id="line7000"
-       y2="500"
-       y1="500"
-       x2="270"
-       x1="240"
-       style="stroke:#000000;stroke-width:2" />
+       y2="513.72546"
+       y1="513.72546"
+       x2="421.37256"
+       x1="451.37256"
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none" />
     <circle
+       transform="matrix(-1,0,0,1,691.37256,13.72549)"
        id="circle7002"
        r="13"
        cy="500"
        cx="240"
-       style="fill:#0000ff;stroke:#000000" />
+       style="fill:#0000ff;stroke:#000000"
+       sodipodi:cx="240"
+       sodipodi:cy="500"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 253,500 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
     <line
        id="line7004"
-       y2="500"
-       y1="500"
-       x2="300"
-       x1="270"
-       style="stroke:#000000;stroke-width:2" />
+       y2="513.72546"
+       y1="513.72546"
+       x2="391.37256"
+       x1="421.37256"
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none" />
     <circle
+       transform="matrix(-1,0,0,1,691.37256,13.72549)"
        id="circle7006"
        r="13"
        cy="500"
        cx="270"
-       style="fill:#ff0000;stroke:#000000" />
+       style="fill:#ff0000;stroke:#000000"
+       sodipodi:cx="270"
+       sodipodi:cy="500"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 283,500 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
     <line
        id="line7008"
-       y2="500"
-       y1="500"
-       x2="330"
-       x1="300"
-       style="stroke:#000000;stroke-width:2" />
+       y2="513.72546"
+       y1="513.72546"
+       x2="361.37256"
+       x1="391.37256"
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none" />
     <circle
+       transform="matrix(-1,0,0,1,691.37256,13.72549)"
        id="circle7010"
        r="13"
        cy="500"
        cx="300"
-       style="fill:#0000ff;stroke:#000000" />
+       style="fill:#0000ff;stroke:#000000"
+       sodipodi:cx="300"
+       sodipodi:cy="500"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 313,500 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
     <line
        id="line7012"
-       y2="500"
-       y1="500"
-       x2="360"
-       x1="330"
-       style="stroke:#000000;stroke-width:2" />
+       y2="513.72546"
+       y1="513.72546"
+       x2="331.37256"
+       x1="361.37256"
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none" />
     <circle
+       transform="matrix(-1,0,0,1,691.37256,13.72549)"
        id="circle7014"
        r="13"
        cy="500"
        cx="330"
-       style="fill:#ff0000;stroke:#000000" />
+       style="fill:#ff0000;stroke:#000000"
+       sodipodi:cx="330"
+       sodipodi:cy="500"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 343,500 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
     <line
        id="line7016"
-       y2="500"
-       y1="500"
-       x2="390"
-       x1="360"
-       style="stroke:#000000;stroke-width:2" />
+       y2="513.72546"
+       y1="513.72546"
+       x2="301.37256"
+       x1="331.37256"
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none" />
     <circle
+       transform="matrix(-1,0,0,1,691.37256,13.72549)"
        id="circle7018"
        r="13"
        cy="500"
        cx="360"
-       style="fill:#ff0000;stroke:#000000" />
+       style="fill:#ff0000;stroke:#000000"
+       sodipodi:cx="360"
+       sodipodi:cy="500"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 373,500 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
     <line
        id="line7020"
-       y2="500"
-       y1="500"
-       x2="420"
-       x1="390"
-       style="stroke:#000000;stroke-width:2" />
+       y2="513.72546"
+       y1="513.72546"
+       x2="271.37256"
+       x1="301.37256"
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none" />
     <circle
+       transform="matrix(-1,0,0,1,691.37256,13.72549)"
        id="circle7022"
        r="13"
        cy="500"
        cx="390"
-       style="fill:#0000ff;stroke:#000000" />
+       style="fill:#0000ff;stroke:#000000"
+       sodipodi:cx="390"
+       sodipodi:cy="500"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 403,500 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
     <line
        id="line7024"
-       y2="500"
-       y1="500"
-       x2="450"
-       x1="420"
-       style="stroke:#000000;stroke-width:2" />
+       y2="513.72546"
+       y1="513.72546"
+       x2="241.37256"
+       x1="271.37256"
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none" />
     <circle
+       transform="matrix(-1,0,0,1,691.37256,13.72549)"
        id="circle7026"
        r="13"
        cy="500"
        cx="420"
-       style="fill:#0000ff;stroke:#000000" />
+       style="fill:#0000ff;stroke:#000000"
+       sodipodi:cx="420"
+       sodipodi:cy="500"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 433,500 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
     <circle
+       transform="matrix(-1,0,0,1,691.37256,13.72549)"
        id="circle7028"
        r="13"
        cy="500"
        cx="450"
-       style="fill:#ff0000;stroke:#000000" />
+       style="fill:#ffaaaa;stroke:#000000"
+       sodipodi:cx="450"
+       sodipodi:cy="500"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 463,500 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
   </g>
   <text
      xml:space="preserve"
-     style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:50px;line-height:125%;font-family:'Century SchoolBook URW';-inkscape-font-specification:'Century SchoolBook URW Medium';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-     x="133.33334"
-     y="533.33331"
+     style="font-size:50px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century SchoolBook URW;-inkscape-font-specification:Century SchoolBook URW Medium"
+     x="116.66668"
+     y="433.33331"
      id="text7418"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan7420"
-       x="133.33334"
-       y="533.33331">63%H</tspan></text>
+       x="116.66668"
+       y="433.33331">63%H</tspan></text>
   <text
      xml:space="preserve"
-     style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:50px;line-height:125%;font-family:'Century SchoolBook URW';-inkscape-font-specification:'Century SchoolBook URW Medium';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-     x="95.215683"
-     y="485.29413"
-     id="text9237"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       id="tspan9239"
-       x="95.215683"
-       y="485.29413">#3</tspan></text>
-  <g
-     id="g7315"
-     transform="translate(772.74509,600.98038)">
-    <line
-       id="line6782"
-       y2="70"
-       y1="100"
-       x2="0"
-       x1="0"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6784"
-       r="13"
-       cy="100"
-       cx="0"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6786"
-       y2="40"
-       y1="70"
-       x2="0"
-       x1="0"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6788"
-       r="13"
-       cy="70"
-       cx="0"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6790"
-       y2="40"
-       y1="40"
-       x2="30"
-       x1="0"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6792"
-       r="13"
-       cy="40"
-       cx="0"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6794"
-       y2="10"
-       y1="40"
-       x2="30"
-       x1="30"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6796"
-       r="13"
-       cy="40"
-       cx="30"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6798"
-       y2="10"
-       y1="10"
-       x2="60"
-       x1="30"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6800"
-       r="13"
-       cy="10"
-       cx="30"
-       style="fill:#0000ff;stroke:#000000" />
-    <line
-       id="line6802"
-       y2="40"
-       y1="10"
-       x2="60"
-       x1="60"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6804"
-       r="13"
-       cy="10"
-       cx="60"
-       style="fill:#0000ff;stroke:#000000" />
-    <line
-       id="line6806"
-       y2="40"
-       y1="40"
-       x2="90"
-       x1="60"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6808"
-       r="13"
-       cy="40"
-       cx="60"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6810"
-       y2="70"
-       y1="40"
-       x2="90"
-       x1="90"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6812"
-       r="13"
-       cy="40"
-       cx="90"
-       style="fill:#0000ff;stroke:#000000" />
-    <line
-       id="line6814"
-       y2="100"
-       y1="70"
-       x2="90"
-       x1="90"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6816"
-       r="13"
-       cy="70"
-       cx="90"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6818"
-       y2="100"
-       y1="100"
-       x2="60"
-       x1="90"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6820"
-       r="13"
-       cy="100"
-       cx="90"
-       style="fill:#0000ff;stroke:#000000" />
-    <line
-       id="line6822"
-       y2="130"
-       y1="100"
-       x2="60"
-       x1="60"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6824"
-       r="13"
-       cy="100"
-       cx="60"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6826"
-       y2="130"
-       y1="130"
-       x2="30"
-       x1="60"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6828"
-       r="13"
-       cy="130"
-       cx="60"
-       style="fill:#0000ff;stroke:#000000" />
-    <line
-       id="line6830"
-       y2="100"
-       y1="130"
-       x2="30"
-       x1="30"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6832"
-       r="13"
-       cy="130"
-       cx="30"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6834"
-       y2="70"
-       y1="100"
-       x2="30"
-       x1="30"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6836"
-       r="13"
-       cy="100"
-       cx="30"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6838"
-       y2="70"
-       y1="70"
-       x2="60"
-       x1="30"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6840"
-       r="13"
-       cy="70"
-       cx="30"
-       style="fill:#ff0000;stroke:#000000" />
-    <circle
-       id="circle6842"
-       r="13"
-       cy="70"
-       cx="60"
-       style="fill:#ff0000;stroke:#000000" />
-  </g>
-  <g
-     id="g7282"
-     transform="translate(243.33333,477.45097)">
-    <line
-       id="line6844"
-       y2="200"
-       y1="200"
-       x2="30"
-       x1="0"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6846"
-       r="13"
-       cy="200"
-       cx="0"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6848"
-       y2="200"
-       y1="200"
-       x2="60"
-       x1="30"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6850"
-       r="13"
-       cy="200"
-       cx="30"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6852"
-       y2="200"
-       y1="200"
-       x2="90"
-       x1="60"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6854"
-       r="13"
-       cy="200"
-       cx="60"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6856"
-       y2="200"
-       y1="200"
-       x2="120"
-       x1="90"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6858"
-       r="13"
-       cy="200"
-       cx="90"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6860"
-       y2="200"
-       y1="200"
-       x2="150"
-       x1="120"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6862"
-       r="13"
-       cy="200"
-       cx="120"
-       style="fill:#0000ff;stroke:#000000" />
-    <line
-       id="line6864"
-       y2="200"
-       y1="200"
-       x2="180"
-       x1="150"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6866"
-       r="13"
-       cy="200"
-       cx="150"
-       style="fill:#0000ff;stroke:#000000" />
-    <line
-       id="line6868"
-       y2="200"
-       y1="200"
-       x2="210"
-       x1="180"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6870"
-       r="13"
-       cy="200"
-       cx="180"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6872"
-       y2="200"
-       y1="200"
-       x2="240"
-       x1="210"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6874"
-       r="13"
-       cy="200"
-       cx="210"
-       style="fill:#0000ff;stroke:#000000" />
-    <line
-       id="line6876"
-       y2="200"
-       y1="200"
-       x2="270"
-       x1="240"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6878"
-       r="13"
-       cy="200"
-       cx="240"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6880"
-       y2="200"
-       y1="200"
-       x2="300"
-       x1="270"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6882"
-       r="13"
-       cy="200"
-       cx="270"
-       style="fill:#0000ff;stroke:#000000" />
-    <line
-       id="line6884"
-       y2="200"
-       y1="200"
-       x2="330"
-       x1="300"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6886"
-       r="13"
-       cy="200"
-       cx="300"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6888"
-       y2="200"
-       y1="200"
-       x2="360"
-       x1="330"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6890"
-       r="13"
-       cy="200"
-       cx="330"
-       style="fill:#0000ff;stroke:#000000" />
-    <line
-       id="line6892"
-       y2="200"
-       y1="200"
-       x2="390"
-       x1="360"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6894"
-       r="13"
-       cy="200"
-       cx="360"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6896"
-       y2="200"
-       y1="200"
-       x2="420"
-       x1="390"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6898"
-       r="13"
-       cy="200"
-       cx="390"
-       style="fill:#ff0000;stroke:#000000" />
-    <line
-       id="line6900"
-       y2="200"
-       y1="200"
-       x2="450"
-       x1="420"
-       style="stroke:#000000;stroke-width:2" />
-    <circle
-       id="circle6902"
-       r="13"
-       cy="200"
-       cx="420"
-       style="fill:#ff0000;stroke:#000000" />
-    <circle
-       id="circle6904"
-       r="13"
-       cy="200"
-       cx="450"
-       style="fill:#ff0000;stroke:#000000" />
-  </g>
-  <text
-     xml:space="preserve"
-     style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:50px;line-height:125%;font-family:'Century SchoolBook URW';-inkscape-font-specification:'Century SchoolBook URW Medium';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-     x="133.33333"
-     y="694.11761"
+     style="font-size:50px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century SchoolBook URW;-inkscape-font-specification:Century SchoolBook URW Medium"
+     x="114.70588"
+     y="657.84308"
      id="text7414"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan7416"
-       x="133.33333"
-       y="694.11761">69%H</tspan></text>
-  <text
-     xml:space="preserve"
-     style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:50px;line-height:125%;font-family:'Century SchoolBook URW';-inkscape-font-specification:'Century SchoolBook URW Medium';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-     x="96.196068"
-     y="651.96075"
-     id="text9241"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       id="tspan9243"
-       x="96.196068"
-       y="651.96075">#4</tspan></text>
-  <line
-     x1="764.90198"
-     x2="764.90198"
-     y1="852.94116"
-     y2="822.94116"
-     id="line7030"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="764.90198"
-     cy="852.94116"
-     r="13"
-     id="circle7032"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="764.90198"
-     x2="794.90198"
-     y1="822.94116"
-     y2="822.94116"
-     id="line7034"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="764.90198"
-     cy="822.94116"
-     r="13"
-     id="circle7036"
-     style="fill:#0000ff;stroke:#000000" />
-  <line
-     x1="794.90198"
-     x2="824.90198"
-     y1="822.94116"
-     y2="822.94116"
-     id="line7038"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="794.90198"
-     cy="822.94116"
-     r="13"
-     id="circle7040"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="824.90198"
-     x2="854.90198"
-     y1="822.94116"
-     y2="822.94116"
-     id="line7042"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="824.90198"
-     cy="822.94116"
-     r="13"
-     id="circle7044"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="854.90198"
-     x2="854.90198"
-     y1="822.94116"
-     y2="852.94116"
-     id="line7046"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="854.90198"
-     cy="822.94116"
-     r="13"
-     id="circle7048"
-     style="fill:#0000ff;stroke:#000000" />
-  <line
-     x1="854.90198"
-     x2="824.90198"
-     y1="852.94116"
-     y2="852.94116"
-     id="line7050"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="854.90198"
-     cy="852.94116"
-     r="13"
-     id="circle7052"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="824.90198"
-     x2="824.90198"
-     y1="852.94116"
-     y2="882.94116"
-     id="line7054"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="824.90198"
-     cy="852.94116"
-     r="13"
-     id="circle7056"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="824.90198"
-     x2="854.90198"
-     y1="882.94116"
-     y2="882.94116"
-     id="line7058"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="824.90198"
-     cy="882.94116"
-     r="13"
-     id="circle7060"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="854.90198"
-     x2="854.90198"
-     y1="882.94116"
-     y2="912.94116"
-     id="line7062"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="854.90198"
-     cy="882.94116"
-     r="13"
-     id="circle7064"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="854.90198"
-     x2="824.90198"
-     y1="912.94116"
-     y2="912.94116"
-     id="line7066"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="854.90198"
-     cy="912.94116"
-     r="13"
-     id="circle7068"
-     style="fill:#0000ff;stroke:#000000" />
-  <line
-     x1="824.90198"
-     x2="794.90198"
-     y1="912.94116"
-     y2="912.94116"
-     id="line7070"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="824.90198"
-     cy="912.94116"
-     r="13"
-     id="circle7072"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="794.90198"
-     x2="764.90198"
-     y1="912.94116"
-     y2="912.94116"
-     id="line7074"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="794.90198"
-     cy="912.94116"
-     r="13"
-     id="circle7076"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="764.90198"
-     x2="764.90198"
-     y1="912.94116"
-     y2="882.94116"
-     id="line7078"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="764.90198"
-     cy="912.94116"
-     r="13"
-     id="circle7080"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="764.90198"
-     x2="794.90198"
-     y1="882.94116"
-     y2="882.94116"
-     id="line7082"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="764.90198"
-     cy="882.94116"
-     r="13"
-     id="circle7084"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="794.90198"
-     x2="794.90198"
-     y1="882.94116"
-     y2="852.94116"
-     id="line7086"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="794.90198"
-     cy="882.94116"
-     r="13"
-     id="circle7088"
-     style="fill:#ff0000;stroke:#000000" />
-  <circle
-     cx="794.90198"
-     cy="852.94116"
-     r="13"
-     id="circle7090"
-     style="fill:#ff0000;stroke:#000000" />
+       x="114.70588"
+       y="657.84308">69%H</tspan></text>
   <g
-     id="g4660"
-     transform="translate(-90,0)">
+     id="g4574"
+     transform="translate(4.4902039,1.294128)">
     <line
-       style="stroke:#000000;stroke-width:2"
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7092"
+       y2="864.70587"
+       y1="864.70587"
+       x2="264.5098"
+       x1="234.5098" />
+    <circle
+       transform="translate(-90,0)"
+       style="fill:#ffaaaa;stroke:#000000"
+       id="circle7094"
+       r="13"
+       cy="864.70587"
+       cx="324.5098"
+       sodipodi:cx="324.5098"
+       sodipodi:cy="864.70587"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 337.5098,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+    <line
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line7096"
+       y2="864.70587"
+       y1="864.70587"
+       x2="294.5098"
+       x1="264.5098" />
+    <circle
+       transform="translate(-90,0)"
+       style="fill:#0000ff;stroke:#000000"
+       id="circle7098"
+       r="13"
+       cy="864.70587"
+       cx="354.5098"
+       sodipodi:cx="354.5098"
+       sodipodi:cy="864.70587"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 367.5098,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+    <line
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line7100"
+       y2="864.70587"
+       y1="864.70587"
+       x2="324.5098"
+       x1="294.5098" />
+    <circle
+       transform="translate(-90,0)"
+       style="fill:#ff0000;stroke:#000000"
+       id="circle7102"
+       r="13"
+       cy="864.70587"
+       cx="384.5098"
+       sodipodi:cx="384.5098"
+       sodipodi:cy="864.70587"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 397.5098,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+    <line
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line7104"
        y2="864.70587"
        y1="864.70587"
        x2="354.5098"
        x1="324.5098" />
     <circle
+       transform="translate(-90,0)"
        style="fill:#ff0000;stroke:#000000"
-       id="circle7094"
+       id="circle7106"
        r="13"
        cy="864.70587"
-       cx="324.5098" />
+       cx="414.5098"
+       sodipodi:cx="414.5098"
+       sodipodi:cy="864.70587"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 427.5098,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
     <line
-       style="stroke:#000000;stroke-width:2"
-       id="line7096"
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line7108"
        y2="864.70587"
        y1="864.70587"
        x2="384.5098"
        x1="354.5098" />
     <circle
+       transform="translate(-90,0)"
        style="fill:#0000ff;stroke:#000000"
-       id="circle7098"
+       id="circle7110"
        r="13"
        cy="864.70587"
-       cx="354.5098" />
+       cx="444.5098"
+       sodipodi:cx="444.5098"
+       sodipodi:cy="864.70587"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 457.5098,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
     <line
-       style="stroke:#000000;stroke-width:2"
-       id="line7100"
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line7112"
        y2="864.70587"
        y1="864.70587"
        x2="414.5098"
        x1="384.5098" />
     <circle
-       style="fill:#ff0000;stroke:#000000"
-       id="circle7102"
-       r="13"
-       cy="864.70587"
-       cx="384.5098" />
-    <line
-       style="stroke:#000000;stroke-width:2"
-       id="line7104"
-       y2="864.70587"
-       y1="864.70587"
-       x2="444.5098"
-       x1="414.5098" />
-    <circle
-       style="fill:#ff0000;stroke:#000000"
-       id="circle7106"
-       r="13"
-       cy="864.70587"
-       cx="414.5098" />
-    <line
-       style="stroke:#000000;stroke-width:2"
-       id="line7108"
-       y2="864.70587"
-       y1="864.70587"
-       x2="474.5098"
-       x1="444.5098" />
-    <circle
-       style="fill:#0000ff;stroke:#000000"
-       id="circle7110"
-       r="13"
-       cy="864.70587"
-       cx="444.5098" />
-    <line
-       style="stroke:#000000;stroke-width:2"
-       id="line7112"
-       y2="864.70587"
-       y1="864.70587"
-       x2="504.5098"
-       x1="474.5098" />
-    <circle
+       transform="translate(-90,0)"
        style="fill:#ff0000;stroke:#000000"
        id="circle7114"
        r="13"
        cy="864.70587"
-       cx="474.5098" />
+       cx="474.5098"
+       sodipodi:cx="474.5098"
+       sodipodi:cy="864.70587"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 487.5098,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
     <line
-       style="stroke:#000000;stroke-width:2"
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7116"
        y2="864.70587"
        y1="864.70587"
-       x2="534.50983"
-       x1="504.5098" />
+       x2="444.50983"
+       x1="414.5098" />
     <circle
+       transform="translate(-90,0)"
        style="fill:#ff0000;stroke:#000000"
        id="circle7118"
        r="13"
        cy="864.70587"
-       cx="504.5098" />
+       cx="504.5098"
+       sodipodi:cx="504.5098"
+       sodipodi:cy="864.70587"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 517.5098,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
     <line
-       style="stroke:#000000;stroke-width:2"
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7120"
+       y2="864.70587"
+       y1="864.70587"
+       x2="474.50983"
+       x1="444.50983" />
+    <circle
+       transform="translate(-90,0)"
+       style="fill:#ff0000;stroke:#000000"
+       id="circle7122"
+       r="13"
+       cy="864.70587"
+       cx="534.50983"
+       sodipodi:cx="534.50983"
+       sodipodi:cy="864.70587"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 547.50983,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+    <line
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line7124"
+       y2="864.70587"
+       y1="864.70587"
+       x2="504.50983"
+       x1="474.50983" />
+    <circle
+       transform="translate(-90,0)"
+       style="fill:#ff0000;stroke:#000000"
+       id="circle7126"
+       r="13"
+       cy="864.70587"
+       cx="564.50983"
+       sodipodi:cx="564.50983"
+       sodipodi:cy="864.70587"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 577.50983,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+    <line
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line7128"
+       y2="864.70587"
+       y1="864.70587"
+       x2="534.50983"
+       x1="504.50983" />
+    <circle
+       transform="translate(-90,0)"
+       style="fill:#0000ff;stroke:#000000"
+       id="circle7130"
+       r="13"
+       cy="864.70587"
+       cx="594.50983"
+       sodipodi:cx="594.50983"
+       sodipodi:cy="864.70587"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 607.50983,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+    <line
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line7132"
        y2="864.70587"
        y1="864.70587"
        x2="564.50983"
        x1="534.50983" />
     <circle
+       transform="translate(-90,0)"
        style="fill:#ff0000;stroke:#000000"
-       id="circle7122"
+       id="circle7134"
        r="13"
        cy="864.70587"
-       cx="534.50983" />
+       cx="624.50983"
+       sodipodi:cx="624.50983"
+       sodipodi:cy="864.70587"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 637.50983,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
     <line
-       style="stroke:#000000;stroke-width:2"
-       id="line7124"
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line7136"
        y2="864.70587"
        y1="864.70587"
        x2="594.50983"
        x1="564.50983" />
     <circle
+       transform="translate(-90,0)"
        style="fill:#ff0000;stroke:#000000"
-       id="circle7126"
+       id="circle7138"
        r="13"
        cy="864.70587"
-       cx="564.50983" />
+       cx="654.50983"
+       sodipodi:cx="654.50983"
+       sodipodi:cy="864.70587"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 667.50983,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
     <line
-       style="stroke:#000000;stroke-width:2"
-       id="line7128"
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line7140"
        y2="864.70587"
        y1="864.70587"
        x2="624.50983"
        x1="594.50983" />
     <circle
-       style="fill:#0000ff;stroke:#000000"
-       id="circle7130"
+       transform="translate(-90,0)"
+       style="fill:#ff0000;stroke:#000000"
+       id="circle7142"
        r="13"
        cy="864.70587"
-       cx="594.50983" />
+       cx="684.50983"
+       sodipodi:cx="684.50983"
+       sodipodi:cy="864.70587"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 697.50983,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
     <line
-       style="stroke:#000000;stroke-width:2"
-       id="line7132"
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line7144"
        y2="864.70587"
        y1="864.70587"
        x2="654.50983"
        x1="624.50983" />
     <circle
+       transform="translate(-90,0)"
        style="fill:#ff0000;stroke:#000000"
-       id="circle7134"
+       id="circle7146"
        r="13"
        cy="864.70587"
-       cx="624.50983" />
+       cx="714.50983"
+       sodipodi:cx="714.50983"
+       sodipodi:cy="864.70587"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 727.50983,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
     <line
-       style="stroke:#000000;stroke-width:2"
-       id="line7136"
+       style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line7148"
        y2="864.70587"
        y1="864.70587"
        x2="684.50983"
        x1="654.50983" />
     <circle
-       style="fill:#ff0000;stroke:#000000"
-       id="circle7138"
-       r="13"
-       cy="864.70587"
-       cx="654.50983" />
-    <line
-       style="stroke:#000000;stroke-width:2"
-       id="line7140"
-       y2="864.70587"
-       y1="864.70587"
-       x2="714.50983"
-       x1="684.50983" />
-    <circle
-       style="fill:#ff0000;stroke:#000000"
-       id="circle7142"
-       r="13"
-       cy="864.70587"
-       cx="684.50983" />
-    <line
-       style="stroke:#000000;stroke-width:2"
-       id="line7144"
-       y2="864.70587"
-       y1="864.70587"
-       x2="744.50983"
-       x1="714.50983" />
-    <circle
-       style="fill:#ff0000;stroke:#000000"
-       id="circle7146"
-       r="13"
-       cy="864.70587"
-       cx="714.50983" />
-    <line
-       style="stroke:#000000;stroke-width:2"
-       id="line7148"
-       y2="864.70587"
-       y1="864.70587"
-       x2="774.50983"
-       x1="744.50983" />
-    <circle
+       transform="translate(-90,0)"
        style="fill:#ff0000;stroke:#000000"
        id="circle7150"
        r="13"
        cy="864.70587"
-       cx="744.50983" />
+       cx="744.50983"
+       sodipodi:cx="744.50983"
+       sodipodi:cy="864.70587"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 757.50983,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
     <circle
+       transform="translate(-90,0)"
        style="fill:#ff0000;stroke:#000000"
        id="circle7152"
        r="13"
        cy="864.70587"
-       cx="774.50983" />
+       cx="774.50983"
+       sodipodi:cx="774.50983"
+       sodipodi:cy="864.70587"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       d="m 787.50983,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
   </g>
   <text
      xml:space="preserve"
-     style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:50px;line-height:125%;font-family:'Century SchoolBook URW';-inkscape-font-specification:'Century SchoolBook URW Medium';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-     x="129.41176"
-     y="887.25488"
+     style="font-size:50px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century SchoolBook URW;-inkscape-font-specification:Century SchoolBook URW Medium"
+     x="114.70588"
+     y="883.33331"
      id="text7422"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan7424"
-       x="129.41176"
-       y="887.25488">81%H</tspan></text>
-  <text
-     xml:space="preserve"
-     style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:50px;line-height:125%;font-family:'Century SchoolBook URW';-inkscape-font-specification:'Century SchoolBook URW Medium';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-     x="86.392151"
-     y="833.33331"
-     id="text9245"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       id="tspan9247"
-       x="86.392151"
-       y="833.33331">#5</tspan></text>
-  <line
-     x1="804.11768"
-     x2="804.11768"
-     y1="205.88239"
-     y2="175.88239"
-     id="line7154"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="804.11768"
-     cy="205.88239"
-     r="13"
-     id="circle7156"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="804.11768"
-     x2="834.11768"
-     y1="175.88239"
-     y2="175.88239"
-     id="line7158"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="804.11768"
-     cy="175.88239"
-     r="13"
-     id="circle7160"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="834.11768"
-     x2="864.11768"
-     y1="175.88239"
-     y2="175.88239"
-     id="line7162"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="834.11768"
-     cy="175.88239"
-     r="13"
-     id="circle7164"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="864.11768"
-     x2="864.11768"
-     y1="175.88239"
-     y2="205.88239"
-     id="line7166"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="864.11768"
-     cy="175.88239"
-     r="13"
-     id="circle7168"
-     style="fill:#0000ff;stroke:#000000" />
-  <line
-     x1="864.11768"
-     x2="834.11768"
-     y1="205.88239"
-     y2="205.88239"
-     id="line7170"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="864.11768"
-     cy="205.88239"
-     r="13"
-     id="circle7172"
-     style="fill:#0000ff;stroke:#000000" />
-  <line
-     x1="834.11768"
-     x2="834.11768"
-     y1="205.88239"
-     y2="235.88239"
-     id="line7174"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="834.11768"
-     cy="205.88239"
-     r="13"
-     id="circle7176"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="834.11768"
-     x2="804.11768"
-     y1="235.88239"
-     y2="235.88239"
-     id="line7178"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="834.11768"
-     cy="235.88239"
-     r="13"
-     id="circle7180"
-     style="fill:#0000ff;stroke:#000000" />
-  <line
-     x1="804.11768"
-     x2="774.11768"
-     y1="235.88239"
-     y2="235.88239"
-     id="line7182"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="804.11768"
-     cy="235.88239"
-     r="13"
-     id="circle7184"
-     style="fill:#0000ff;stroke:#000000" />
-  <line
-     x1="774.11768"
-     x2="774.11768"
-     y1="235.88239"
-     y2="205.88239"
-     id="line7186"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="774.11768"
-     cy="235.88239"
-     r="13"
-     id="circle7188"
-     style="fill:#0000ff;stroke:#000000" />
-  <line
-     x1="774.11768"
-     x2="774.11768"
-     y1="205.88239"
-     y2="175.88239"
-     id="line7190"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="774.11768"
-     cy="205.88239"
-     r="13"
-     id="circle7192"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="774.11768"
-     x2="774.11768"
-     y1="175.88239"
-     y2="145.88239"
-     id="line7194"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="774.11768"
-     cy="175.88239"
-     r="13"
-     id="circle7196"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="774.11768"
-     x2="804.11768"
-     y1="145.88239"
-     y2="145.88239"
-     id="line7198"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="774.11768"
-     cy="145.88239"
-     r="13"
-     id="circle7200"
-     style="fill:#0000ff;stroke:#000000" />
-  <line
-     x1="804.11768"
-     x2="804.11768"
-     y1="145.88239"
-     y2="115.88239"
-     id="line7202"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="804.11768"
-     cy="145.88239"
-     r="13"
-     id="circle7204"
-     style="fill:#ff0000;stroke:#000000" />
-  <line
-     x1="804.11768"
-     x2="834.11768"
-     y1="115.88239"
-     y2="115.88239"
-     id="line7206"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="804.11768"
-     cy="115.88239"
-     r="13"
-     id="circle7208"
-     style="fill:#0000ff;stroke:#000000" />
-  <line
-     x1="834.11768"
-     x2="834.11768"
-     y1="115.88239"
-     y2="145.88239"
-     id="line7210"
-     style="stroke:#000000;stroke-width:2" />
-  <circle
-     cx="834.11768"
-     cy="115.88239"
-     r="13"
-     id="circle7212"
-     style="fill:#0000ff;stroke:#000000" />
-  <circle
-     cx="834.11768"
-     cy="145.88239"
-     r="13"
-     id="circle7214"
-     style="fill:#ff0000;stroke:#000000" />
+       x="114.70588"
+       y="883.33331">81%H</tspan></text>
   <g
-     id="g4497"
-     transform="translate(-90,0)">
+     id="g4379"
+     transform="translate(1.5132141,-0.19610596)">
     <line
-       style="stroke:#000000;stroke-width:2"
+       style="stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7216"
-       y2="190.19611"
-       y1="190.19611"
-       x2="746.48676"
-       x1="776.48676" />
-    <circle
-       transform="scale(-1,1)"
-       style="fill:#ff0000;stroke:#000000"
-       id="circle7218"
-       r="13"
-       cy="190.19611"
-       cx="-776.48676" />
-    <line
-       style="stroke:#000000;stroke-width:2"
-       id="line7220"
-       y2="190.19611"
-       y1="190.19611"
-       x2="716.48676"
-       x1="746.48676" />
-    <circle
-       transform="scale(-1,1)"
-       style="fill:#ff0000;stroke:#000000"
-       id="circle7222"
-       r="13"
-       cy="190.19611"
-       cx="-746.48676" />
-    <line
-       style="stroke:#000000;stroke-width:2"
-       id="line7224"
-       y2="190.19611"
-       y1="190.19611"
-       x2="686.48676"
-       x1="716.48676" />
-    <circle
-       transform="scale(-1,1)"
-       style="fill:#ff0000;stroke:#000000"
-       id="circle7226"
-       r="13"
-       cy="190.19611"
-       cx="-716.48676" />
-    <line
-       style="stroke:#000000;stroke-width:2"
-       id="line7228"
        y2="190.19611"
        y1="190.19611"
        x2="656.48676"
        x1="686.48676" />
     <circle
-       transform="scale(-1,1)"
-       style="fill:#0000ff;stroke:#000000"
-       id="circle7230"
+       transform="matrix(-1,0,0,1,-90,0)"
+       style="fill:#ff0000;stroke:#000000"
+       id="circle7218"
        r="13"
        cy="190.19611"
-       cx="-686.48676" />
+       cx="-776.48676"
+       d="m -763.48676,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
+       sodipodi:cx="-776.48676"
+       sodipodi:cy="190.19611"
+       sodipodi:rx="13"
+       sodipodi:ry="13" />
     <line
-       style="stroke:#000000;stroke-width:2"
-       id="line7232"
+       style="stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line7220"
        y2="190.19611"
        y1="190.19611"
        x2="626.48676"
        x1="656.48676" />
     <circle
-       transform="scale(-1,1)"
-       style="fill:#0000ff;stroke:#000000"
-       id="circle7234"
+       transform="matrix(-1,0,0,1,-90,0)"
+       style="fill:#ff0000;stroke:#000000"
+       id="circle7222"
        r="13"
        cy="190.19611"
-       cx="-656.48676" />
+       cx="-746.48676"
+       d="m -733.48676,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
+       sodipodi:cx="-746.48676"
+       sodipodi:cy="190.19611"
+       sodipodi:rx="13"
+       sodipodi:ry="13" />
     <line
-       style="stroke:#000000;stroke-width:2"
-       id="line7236"
+       style="stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line7224"
        y2="190.19611"
        y1="190.19611"
        x2="596.48676"
        x1="626.48676" />
     <circle
-       transform="scale(-1,1)"
+       transform="matrix(-1,0,0,1,-90,0)"
        style="fill:#ff0000;stroke:#000000"
-       id="circle7238"
+       id="circle7226"
        r="13"
        cy="190.19611"
-       cx="-626.48676" />
+       cx="-716.48676"
+       d="m -703.48676,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
+       sodipodi:cx="-716.48676"
+       sodipodi:cy="190.19611"
+       sodipodi:rx="13"
+       sodipodi:ry="13" />
     <line
-       style="stroke:#000000;stroke-width:2"
-       id="line7240"
+       style="stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line7228"
        y2="190.19611"
        y1="190.19611"
        x2="566.48676"
        x1="596.48676" />
     <circle
-       transform="scale(-1,1)"
+       transform="matrix(-1,0,0,1,-90,0)"
        style="fill:#0000ff;stroke:#000000"
-       id="circle7242"
+       id="circle7230"
        r="13"
        cy="190.19611"
-       cx="-596.48676" />
+       cx="-686.48676"
+       d="m -673.48676,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
+       sodipodi:cx="-686.48676"
+       sodipodi:cy="190.19611"
+       sodipodi:rx="13"
+       sodipodi:ry="13" />
     <line
-       style="stroke:#000000;stroke-width:2"
-       id="line7244"
+       style="stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line7232"
        y2="190.19611"
        y1="190.19611"
        x2="536.48676"
        x1="566.48676" />
     <circle
-       transform="scale(-1,1)"
+       transform="matrix(-1,0,0,1,-90,0)"
+       style="fill:#0000ff;stroke:#000000"
+       id="circle7234"
+       r="13"
+       cy="190.19611"
+       cx="-656.48676"
+       d="m -643.48676,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
+       sodipodi:cx="-656.48676"
+       sodipodi:cy="190.19611"
+       sodipodi:rx="13"
+       sodipodi:ry="13" />
+    <line
+       style="stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line7236"
+       y2="190.19611"
+       y1="190.19611"
+       x2="506.48676"
+       x1="536.48676" />
+    <circle
+       transform="matrix(-1,0,0,1,-90,0)"
+       style="fill:#ff0000;stroke:#000000"
+       id="circle7238"
+       r="13"
+       cy="190.19611"
+       cx="-626.48676"
+       d="m -613.48676,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
+       sodipodi:cx="-626.48676"
+       sodipodi:cy="190.19611"
+       sodipodi:rx="13"
+       sodipodi:ry="13" />
+    <line
+       style="stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line7240"
+       y2="190.19611"
+       y1="190.19611"
+       x2="476.48676"
+       x1="506.48676" />
+    <circle
+       transform="matrix(-1,0,0,1,-90,0)"
+       style="fill:#0000ff;stroke:#000000"
+       id="circle7242"
+       r="13"
+       cy="190.19611"
+       cx="-596.48676"
+       d="m -583.48676,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
+       sodipodi:cx="-596.48676"
+       sodipodi:cy="190.19611"
+       sodipodi:rx="13"
+       sodipodi:ry="13" />
+    <line
+       style="stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line7244"
+       y2="190.19611"
+       y1="190.19611"
+       x2="446.48676"
+       x1="476.48676" />
+    <circle
+       transform="matrix(-1,0,0,1,-90,0)"
        style="fill:#0000ff;stroke:#000000"
        id="circle7246"
        r="13"
        cy="190.19611"
-       cx="-566.48676" />
+       cx="-566.48676"
+       d="m -553.48676,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
+       sodipodi:cx="-566.48676"
+       sodipodi:cy="190.19611"
+       sodipodi:rx="13"
+       sodipodi:ry="13" />
     <line
-       style="stroke:#000000;stroke-width:2"
+       style="stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7248"
        y2="190.19611"
        y1="190.19611"
-       x2="506.48679"
-       x1="536.48676" />
+       x2="416.48679"
+       x1="446.48676" />
     <circle
-       transform="scale(-1,1)"
+       transform="matrix(-1,0,0,1,-90,0)"
        style="fill:#0000ff;stroke:#000000"
        id="circle7250"
        r="13"
        cy="190.19611"
-       cx="-536.48676" />
+       cx="-536.48676"
+       d="m -523.48676,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
+       sodipodi:cx="-536.48676"
+       sodipodi:cy="190.19611"
+       sodipodi:rx="13"
+       sodipodi:ry="13" />
     <line
-       style="stroke:#000000;stroke-width:2"
+       style="stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7252"
-       y2="190.19611"
-       y1="190.19611"
-       x2="476.48679"
-       x1="506.48679" />
-    <circle
-       transform="scale(-1,1)"
-       style="fill:#ff0000;stroke:#000000"
-       id="circle7254"
-       r="13"
-       cy="190.19611"
-       cx="-506.48679" />
-    <line
-       style="stroke:#000000;stroke-width:2"
-       id="line7256"
-       y2="190.19611"
-       y1="190.19611"
-       x2="446.48679"
-       x1="476.48679" />
-    <circle
-       transform="scale(-1,1)"
-       style="fill:#ff0000;stroke:#000000"
-       id="circle7258"
-       r="13"
-       cy="190.19611"
-       cx="-476.48679" />
-    <line
-       style="stroke:#000000;stroke-width:2"
-       id="line7260"
-       y2="190.19611"
-       y1="190.19611"
-       x2="416.48679"
-       x1="446.48679" />
-    <circle
-       transform="scale(-1,1)"
-       style="fill:#0000ff;stroke:#000000"
-       id="circle7262"
-       r="13"
-       cy="190.19611"
-       cx="-446.48679" />
-    <line
-       style="stroke:#000000;stroke-width:2"
-       id="line7264"
        y2="190.19611"
        y1="190.19611"
        x2="386.48679"
        x1="416.48679" />
     <circle
-       transform="scale(-1,1)"
+       transform="matrix(-1,0,0,1,-90,0)"
        style="fill:#ff0000;stroke:#000000"
-       id="circle7266"
+       id="circle7254"
        r="13"
        cy="190.19611"
-       cx="-416.48679" />
+       cx="-506.48679"
+       d="m -493.48679,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
+       sodipodi:cx="-506.48679"
+       sodipodi:cy="190.19611"
+       sodipodi:rx="13"
+       sodipodi:ry="13" />
     <line
-       style="stroke:#000000;stroke-width:2"
-       id="line7268"
+       style="stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line7256"
        y2="190.19611"
        y1="190.19611"
        x2="356.48679"
        x1="386.48679" />
     <circle
-       transform="scale(-1,1)"
-       style="fill:#0000ff;stroke:#000000"
-       id="circle7270"
+       transform="matrix(-1,0,0,1,-90,0)"
+       style="fill:#ff0000;stroke:#000000"
+       id="circle7258"
        r="13"
        cy="190.19611"
-       cx="-386.48679" />
+       cx="-476.48679"
+       d="m -463.48679,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
+       sodipodi:cx="-476.48679"
+       sodipodi:cy="190.19611"
+       sodipodi:rx="13"
+       sodipodi:ry="13" />
     <line
-       style="stroke:#000000;stroke-width:2"
-       id="line7272"
+       style="stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line7260"
        y2="190.19611"
        y1="190.19611"
        x2="326.48679"
        x1="356.48679" />
     <circle
-       transform="scale(-1,1)"
+       transform="matrix(-1,0,0,1,-90,0)"
+       style="fill:#0000ff;stroke:#000000"
+       id="circle7262"
+       r="13"
+       cy="190.19611"
+       cx="-446.48679"
+       d="m -433.48679,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
+       sodipodi:cx="-446.48679"
+       sodipodi:cy="190.19611"
+       sodipodi:rx="13"
+       sodipodi:ry="13" />
+    <line
+       style="stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line7264"
+       y2="190.19611"
+       y1="190.19611"
+       x2="296.48679"
+       x1="326.48679" />
+    <circle
+       transform="matrix(-1,0,0,1,-90,0)"
+       style="fill:#ff0000;stroke:#000000"
+       id="circle7266"
+       r="13"
+       cy="190.19611"
+       cx="-416.48679"
+       d="m -403.48679,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
+       sodipodi:cx="-416.48679"
+       sodipodi:cy="190.19611"
+       sodipodi:rx="13"
+       sodipodi:ry="13" />
+    <line
+       style="stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line7268"
+       y2="190.19611"
+       y1="190.19611"
+       x2="266.48679"
+       x1="296.48679" />
+    <circle
+       transform="matrix(-1,0,0,1,-90,0)"
+       style="fill:#0000ff;stroke:#000000"
+       id="circle7270"
+       r="13"
+       cy="190.19611"
+       cx="-386.48679"
+       d="m -373.48679,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
+       sodipodi:cx="-386.48679"
+       sodipodi:cy="190.19611"
+       sodipodi:rx="13"
+       sodipodi:ry="13" />
+    <line
+       style="stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="line7272"
+       y2="190.19611"
+       y1="190.19611"
+       x2="236.48679"
+       x1="266.48679" />
+    <circle
+       transform="matrix(-1,0,0,1,-90,0)"
        style="fill:#0000ff;stroke:#000000"
        id="circle7274"
        r="13"
        cy="190.19611"
-       cx="-356.48679" />
+       cx="-356.48679"
+       d="m -343.48679,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
+       sodipodi:cx="-356.48679"
+       sodipodi:cy="190.19611"
+       sodipodi:rx="13"
+       sodipodi:ry="13" />
     <circle
-       transform="scale(-1,1)"
-       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(-1,0,0,1,-90,0)"
+       style="fill:#ffaaaa;stroke:#000000"
        id="circle7276"
        r="13"
        cy="190.19611"
-       cx="-326.48679" />
+       cx="-326.48679"
+       d="m -313.48679,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
+       sodipodi:cx="-326.48679"
+       sodipodi:cy="190.19611"
+       sodipodi:rx="13"
+       sodipodi:ry="13" />
   </g>
   <text
      xml:space="preserve"
-     style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:50px;line-height:125%;font-family:'Century SchoolBook URW';-inkscape-font-specification:'Century SchoolBook URW Medium';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-     x="129.41176"
-     y="202.94116"
+     style="font-size:50px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century SchoolBook URW;-inkscape-font-specification:Century SchoolBook URW Medium"
+     x="116.66666"
+     y="206.86273"
      id="text7426"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan7428"
-       x="129.41176"
-       y="202.94116">50%H</tspan></text>
+       x="116.66666"
+       y="206.86273">50%H</tspan></text>
   <text
      xml:space="preserve"
-     style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:50px;line-height:125%;font-family:'Century SchoolBook URW';-inkscape-font-specification:'Century SchoolBook URW Medium';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+     style="font-size:50px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century SchoolBook URW;-inkscape-font-specification:Century SchoolBook URW Medium"
      x="85.411766"
      y="161.76471"
      id="text9229"
@@ -2224,89 +1018,1527 @@
        sodipodi:role="line"
        id="tspan9231"
        x="85.411766"
-       y="161.76471">#1</tspan></text>
+       y="161.76471" /></text>
   <text
      xml:space="preserve"
-     style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Century SchoolBook URW';-inkscape-font-specification:'Century SchoolBook URW Medium';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-     x="509.60782"
-     y="39.803921"
+     style="font-size:40px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century SchoolBook URW;-inkscape-font-specification:Century SchoolBook URW Medium"
+     x="540"
+     y="68.920082"
      id="text9287"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan9289"
-       x="509.60782"
-       y="39.803921">indicates beginning of the sequence</tspan></text>
-  <text
-     xml:space="preserve"
-     style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Century SchoolBook URW';-inkscape-font-specification:'Century SchoolBook URW Medium';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-     x="764.37805"
-     y="861.12323"
-     id="text10324"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       id="tspan10326"
-       x="764.37805"
-       y="861.12323">x</tspan></text>
+       x="540"
+       y="68.920082">indicates beginning of the sequence</tspan></text>
   <circle
      cx="-128.08131"
      cy="31.183964"
      r="13"
      id="circle7276-1"
-     style="fill:#ff0000;stroke:#000000"
-     transform="scale(-1,1)" />
-  <text
-     xml:space="preserve"
-     style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Century SchoolBook URW';-inkscape-font-specification:'Century SchoolBook URW Medium';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-     x="127.60883"
-     y="38.942997"
-     id="text10324-1"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       id="tspan10326-1"
-       x="127.60883"
-       y="38.942997">x</tspan></text>
-  <text
-     sodipodi:linespacing="125%"
-     id="text10380"
-     y="709.53473"
-     x="773.25891"
-     style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Century SchoolBook URW';-inkscape-font-specification:'Century SchoolBook URW Medium';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-     xml:space="preserve"><tspan
-       y="709.53473"
-       x="773.25891"
-       id="tspan10382"
-       sodipodi:role="line">x</tspan></text>
-  <text
-     xml:space="preserve"
-     style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Century SchoolBook URW';-inkscape-font-specification:'Century SchoolBook URW Medium';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-     x="787.96484"
-     y="475.22101"
-     id="text10384"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       id="tspan10386"
-       x="787.96484"
-       y="475.22101">x</tspan></text>
-  <text
-     sodipodi:linespacing="125%"
-     id="text10388"
-     y="310.51514"
-     x="843.84717"
-     style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Century SchoolBook URW';-inkscape-font-specification:'Century SchoolBook URW Medium';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-     xml:space="preserve"><tspan
-       y="310.51514"
-       x="843.84717"
-       id="tspan10390"
-       sodipodi:role="line">x</tspan></text>
-  <text
-     xml:space="preserve"
-     style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Century SchoolBook URW';-inkscape-font-specification:'Century SchoolBook URW Medium';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-     x="834.04327"
-     y="154.63278"
-     id="text10392"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       id="tspan10394"
-       x="834.04327"
-       y="154.63278">x</tspan></text>
+     style="fill:#ffaaaa;stroke:#000000"
+     transform="matrix(-1,0,0,1,10.145718,23.724165)"
+     sodipodi:cx="-128.08131"
+     sodipodi:cy="31.183964"
+     sodipodi:rx="13"
+     sodipodi:ry="13" />
+  <g
+     id="g8951">
+    <line
+       id="line5968"
+       y2="640"
+       y1="676"
+       x2="778.20001"
+       x1="778.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       style="fill:#ffaaaa;stroke:#000000"
+       id="circle5970"
+       r="11"
+       cy="100"
+       cx="0"
+       sodipodi:cx="0"
+       sodipodi:cy="100"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       transform="matrix(1.2,0,0,1.2,778.2,556)"
+       d="m 11,100 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.075132 4.9248678,-11 11,-11 6.0751322,0 11,4.924868 11,11 z" />
+    <line
+       id="line5972"
+       y2="604"
+       y1="640"
+       x2="778.20001"
+       x1="778.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle5974"
+       r="11"
+       cy="70"
+       cx="0"
+       sodipodi:cx="0"
+       sodipodi:cy="70"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,778.2,556)"
+       d="m 11,70 c 0,6.075132 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.924868 -11,-11 0,-6.075132 4.9248678,-11 11,-11 6.0751322,0 11,4.924868 11,11 z" />
+    <line
+       id="line5976"
+       y2="604"
+       y1="604"
+       x2="814.20001"
+       x1="778.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle5978"
+       r="11"
+       cy="40"
+       cx="0"
+       sodipodi:cx="0"
+       sodipodi:cy="40"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,778.2,556)"
+       d="m 11,40 c 0,6.075132 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.924868 -11,-11 0,-6.075132 4.9248678,-11 11,-11 6.0751322,0 11,4.924868 11,11 z" />
+    <line
+       id="line5980"
+       y2="568"
+       y1="604"
+       x2="814.20001"
+       x1="814.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle5982"
+       r="11"
+       cy="40"
+       cx="30"
+       sodipodi:cx="30"
+       sodipodi:cy="40"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,778.2,556)"
+       d="m 41,40 c 0,6.075132 -4.924868,11 -11,11 -6.075132,0 -11,-4.924868 -11,-11 0,-6.075132 4.924868,-11 11,-11 6.075132,0 11,4.924868 11,11 z" />
+    <line
+       id="line5984"
+       y2="568"
+       y1="568"
+       x2="850.20001"
+       x1="814.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle5986"
+       r="11"
+       cy="10"
+       cx="30"
+       sodipodi:cx="30"
+       sodipodi:cy="10"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#0000ff;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,778.2,556)"
+       d="M 41,10 C 41,16.075132 36.075132,21 30,21 23.924868,21 19,16.075132 19,10 19,3.9248678 23.924868,-1 30,-1 36.075132,-1 41,3.9248678 41,10 z" />
+    <line
+       id="line5988"
+       y2="604"
+       y1="568"
+       x2="850.20001"
+       x1="850.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle5990"
+       r="11"
+       cy="10"
+       cx="60"
+       sodipodi:cx="60"
+       sodipodi:cy="10"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#0000ff;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,778.2,556)"
+       d="M 71,10 C 71,16.075132 66.075132,21 60,21 53.924868,21 49,16.075132 49,10 49,3.9248678 53.924868,-1 60,-1 66.075132,-1 71,3.9248678 71,10 z" />
+    <line
+       id="line5992"
+       y2="604"
+       y1="604"
+       x2="886.20001"
+       x1="850.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle5994"
+       r="11"
+       cy="40"
+       cx="60"
+       sodipodi:cx="60"
+       sodipodi:cy="40"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,778.2,556)"
+       d="m 71,40 c 0,6.075132 -4.924868,11 -11,11 -6.075132,0 -11,-4.924868 -11,-11 0,-6.075132 4.924868,-11 11,-11 6.075132,0 11,4.924868 11,11 z" />
+    <line
+       id="line5996"
+       y2="640"
+       y1="604"
+       x2="886.20001"
+       x1="886.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle5998"
+       r="11"
+       cy="40"
+       cx="90"
+       sodipodi:cx="90"
+       sodipodi:cy="40"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#0000ff;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,778.2,556)"
+       d="m 101,40 c 0,6.075132 -4.924868,11 -11,11 -6.075132,0 -11,-4.924868 -11,-11 0,-6.075132 4.924868,-11 11,-11 6.075132,0 11,4.924868 11,11 z" />
+    <line
+       id="line6000"
+       y2="676"
+       y1="640"
+       x2="886.20001"
+       x1="886.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6002"
+       r="11"
+       cy="70"
+       cx="90"
+       sodipodi:cx="90"
+       sodipodi:cy="70"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,778.2,556)"
+       d="m 101,70 c 0,6.075132 -4.924868,11 -11,11 -6.075132,0 -11,-4.924868 -11,-11 0,-6.075132 4.924868,-11 11,-11 6.075132,0 11,4.924868 11,11 z" />
+    <line
+       id="line6004"
+       y2="676"
+       y1="676"
+       x2="850.20001"
+       x1="886.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6006"
+       r="11"
+       cy="100"
+       cx="90"
+       sodipodi:cx="90"
+       sodipodi:cy="100"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#0000ff;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,778.2,556)"
+       d="m 101,100 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.075132 4.924868,-11 11,-11 6.075132,0 11,4.924868 11,11 z" />
+    <line
+       id="line6008"
+       y2="712"
+       y1="676"
+       x2="850.20001"
+       x1="850.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6010"
+       r="11"
+       cy="100"
+       cx="60"
+       sodipodi:cx="60"
+       sodipodi:cy="100"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,778.2,556)"
+       d="m 71,100 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.075132 4.924868,-11 11,-11 6.075132,0 11,4.924868 11,11 z" />
+    <line
+       id="line6012"
+       y2="712"
+       y1="712"
+       x2="814.20001"
+       x1="850.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6014"
+       r="11"
+       cy="130"
+       cx="60"
+       sodipodi:cx="60"
+       sodipodi:cy="130"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#0000ff;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,778.2,556)"
+       d="m 71,130 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6016"
+       y2="676"
+       y1="712"
+       x2="814.20001"
+       x1="814.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6018"
+       r="11"
+       cy="130"
+       cx="30"
+       sodipodi:cx="30"
+       sodipodi:cy="130"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,778.2,556)"
+       d="m 41,130 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6020"
+       y2="640"
+       y1="676"
+       x2="814.20001"
+       x1="814.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6022"
+       r="11"
+       cy="100"
+       cx="30"
+       sodipodi:cx="30"
+       sodipodi:cy="100"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,778.2,556)"
+       d="m 41,100 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.075132 4.924868,-11 11,-11 6.075132,0 11,4.924868 11,11 z" />
+    <line
+       id="line6024"
+       y2="640"
+       y1="640"
+       x2="850.20001"
+       x1="814.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6026"
+       r="11"
+       cy="70"
+       cx="30"
+       sodipodi:cx="30"
+       sodipodi:cy="70"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,778.2,556)"
+       d="m 41,70 c 0,6.075132 -4.924868,11 -11,11 -6.075132,0 -11,-4.924868 -11,-11 0,-6.075132 4.924868,-11 11,-11 6.075132,0 11,4.924868 11,11 z" />
+    <circle
+       transform="matrix(1.0222222,0,0,1.0222222,788.46668,568.44445)"
+       sodipodi:ry="13"
+       sodipodi:rx="13"
+       sodipodi:cy="70"
+       sodipodi:cx="60"
+       style="fill:#ff0000;stroke:#000000"
+       id="circle6028"
+       r="13"
+       cy="70"
+       cx="60"
+       d="m 73,70 c 0,7.179702 -5.820298,13 -13,13 -7.179702,0 -13,-5.820298 -13,-13 0,-7.179702 5.820298,-13 13,-13 7.179702,0 13,5.820298 13,13 z" />
+  </g>
+  <g
+     id="g8984">
+    <line
+       id="line6092"
+       y2="397.79999"
+       y1="433.79999"
+       x2="851"
+       x1="851"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6094"
+       r="11"
+       cy="400"
+       cx="0"
+       sodipodi:cx="0"
+       sodipodi:cy="400"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,851,-46.2)"
+       d="m 11,400 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+    <line
+       id="line6096"
+       y2="361.79999"
+       y1="397.79999"
+       x2="851"
+       x1="851"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6098"
+       r="11"
+       cy="370"
+       cx="0"
+       sodipodi:cx="0"
+       sodipodi:cy="370"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,851,-46.2)"
+       d="m 11,370 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+    <line
+       id="line6100"
+       y2="361.79999"
+       y1="361.79999"
+       x2="887"
+       x1="851"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6102"
+       r="11"
+       cy="340"
+       cx="0"
+       sodipodi:cx="0"
+       sodipodi:cy="340"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,851,-46.2)"
+       d="m 11,340 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+    <line
+       id="line6104"
+       y2="397.79999"
+       y1="361.79999"
+       x2="887"
+       x1="887"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6106"
+       r="11"
+       cy="340"
+       cx="30"
+       sodipodi:cx="30"
+       sodipodi:cy="340"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#0000ff;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,851,-46.2)"
+       d="m 41,340 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6108"
+       y2="397.79999"
+       y1="397.79999"
+       x2="923"
+       x1="887"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6110"
+       r="11"
+       cy="370"
+       cx="30"
+       sodipodi:cx="30"
+       sodipodi:cy="370"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,851,-46.2)"
+       d="m 41,370 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6112"
+       y2="433.79999"
+       y1="397.79999"
+       x2="923"
+       x1="923"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6114"
+       r="11"
+       cy="370"
+       cx="60"
+       sodipodi:cx="60"
+       sodipodi:cy="370"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,851,-46.2)"
+       d="m 71,370 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6116"
+       y2="433.79999"
+       y1="433.79999"
+       x2="887"
+       x1="923"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6118"
+       r="11"
+       cy="400"
+       cx="60"
+       sodipodi:cx="60"
+       sodipodi:cy="400"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#0000ff;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,851,-46.2)"
+       d="m 71,400 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6120"
+       y2="469.79999"
+       y1="433.79999"
+       x2="887"
+       x1="887"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6122"
+       r="11"
+       cy="400"
+       cx="30"
+       sodipodi:cx="30"
+       sodipodi:cy="400"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,851,-46.2)"
+       d="m 41,400 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6124"
+       y2="469.79999"
+       y1="469.79999"
+       x2="851"
+       x1="887"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6126"
+       r="11"
+       cy="430"
+       cx="30"
+       sodipodi:cx="30"
+       sodipodi:cy="430"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#0000ff;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,851,-46.2)"
+       d="m 41,430 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6128"
+       y2="469.79999"
+       y1="469.79999"
+       x2="815"
+       x1="851"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6130"
+       r="11"
+       cy="430"
+       cx="0"
+       sodipodi:cx="0"
+       sodipodi:cy="430"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,851,-46.2)"
+       d="m 11,430 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+    <line
+       id="line6132"
+       y2="433.79999"
+       y1="469.79999"
+       x2="815"
+       x1="815"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6134"
+       r="11"
+       cy="430"
+       cx="-30"
+       sodipodi:cx="-30"
+       sodipodi:cy="430"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#0000ff;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,851,-46.2)"
+       d="m -19,430 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6136"
+       y2="397.79999"
+       y1="433.79999"
+       x2="815"
+       x1="815"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6138"
+       r="11"
+       cy="400"
+       cx="-30"
+       sodipodi:cx="-30"
+       sodipodi:cy="400"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,851,-46.2)"
+       d="m -19,400 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6140"
+       y2="397.79999"
+       y1="397.79999"
+       x2="779"
+       x1="815"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6142"
+       r="11"
+       cy="370"
+       cx="-30"
+       sodipodi:cx="-30"
+       sodipodi:cy="370"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,851,-46.2)"
+       d="m -19,370 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6144"
+       y2="361.79999"
+       y1="397.79999"
+       x2="779"
+       x1="779"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6146"
+       r="11"
+       cy="370"
+       cx="-60"
+       sodipodi:cx="-60"
+       sodipodi:cy="370"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#0000ff;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,851,-46.2)"
+       d="m -49,370 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6148"
+       y2="361.79999"
+       y1="361.79999"
+       x2="815"
+       x1="779"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6150"
+       r="11"
+       cy="340"
+       cx="-60"
+       sodipodi:cx="-60"
+       sodipodi:cy="340"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#0000ff;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,851,-46.2)"
+       d="m -49,340 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <circle
+       style="fill:#ffaaaa;stroke:#000000"
+       transform="matrix(1.0222222,0,0,1.0222222,845.26672,14.244444)"
+       sodipodi:ry="13"
+       sodipodi:rx="13"
+       sodipodi:cy="340"
+       sodipodi:cx="-30"
+       id="circle6152"
+       r="13"
+       cy="340"
+       cx="-30"
+       d="m -17,340 c 0,7.1797 -5.820298,13 -13,13 -7.179702,0 -13,-5.8203 -13,-13 0,-7.1797 5.820298,-13 13,-13 7.179702,0 13,5.8203 13,13 z" />
+  </g>
+  <g
+     id="g8918">
+    <line
+       id="line6216"
+       y2="808.79999"
+       y1="844.79999"
+       x2="780"
+       x1="780"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6218"
+       r="11"
+       cy="600"
+       cx="0"
+       sodipodi:cx="0"
+       sodipodi:cy="600"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ffaaaa;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,780,124.8)"
+       d="m 11,600 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+    <line
+       id="line6220"
+       y2="808.79999"
+       y1="808.79999"
+       x2="816"
+       x1="780"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6222"
+       r="11"
+       cy="570"
+       cx="0"
+       sodipodi:cx="0"
+       sodipodi:cy="570"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#0000ff;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,780,124.8)"
+       d="m 11,570 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+    <line
+       id="line6224"
+       y2="808.79999"
+       y1="808.79999"
+       x2="852"
+       x1="816"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6226"
+       r="11"
+       cy="570"
+       cx="30"
+       sodipodi:cx="30"
+       sodipodi:cy="570"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,780,124.8)"
+       d="m 41,570 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6228"
+       y2="808.79999"
+       y1="808.79999"
+       x2="888"
+       x1="852"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6230"
+       r="11"
+       cy="570"
+       cx="60"
+       sodipodi:cx="60"
+       sodipodi:cy="570"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,780,124.8)"
+       d="m 71,570 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6232"
+       y2="844.79999"
+       y1="808.79999"
+       x2="888"
+       x1="888"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6234"
+       r="11"
+       cy="570"
+       cx="90"
+       sodipodi:cx="90"
+       sodipodi:cy="570"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#0000ff;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,780,124.8)"
+       d="m 101,570 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6236"
+       y2="844.79999"
+       y1="844.79999"
+       x2="852"
+       x1="888"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6238"
+       r="11"
+       cy="600"
+       cx="90"
+       sodipodi:cx="90"
+       sodipodi:cy="600"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,780,124.8)"
+       d="m 101,600 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6240"
+       y2="880.79999"
+       y1="844.79999"
+       x2="852"
+       x1="852"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6242"
+       r="11"
+       cy="600"
+       cx="60"
+       sodipodi:cx="60"
+       sodipodi:cy="600"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,780,124.8)"
+       d="m 71,600 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6244"
+       y2="880.79999"
+       y1="880.79999"
+       x2="888"
+       x1="852"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6246"
+       r="11"
+       cy="630"
+       cx="60"
+       sodipodi:cx="60"
+       sodipodi:cy="630"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,780,124.8)"
+       d="m 71,630 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6248"
+       y2="916.79999"
+       y1="880.79999"
+       x2="888"
+       x1="888"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6250"
+       r="11"
+       cy="630"
+       cx="90"
+       sodipodi:cx="90"
+       sodipodi:cy="630"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,780,124.8)"
+       d="m 101,630 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6252"
+       y2="916.79999"
+       y1="916.79999"
+       x2="852"
+       x1="888"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6254"
+       r="11"
+       cy="660"
+       cx="90"
+       sodipodi:cx="90"
+       sodipodi:cy="660"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#0000ff;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,780,124.8)"
+       d="m 101,660 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6256"
+       y2="916.79999"
+       y1="916.79999"
+       x2="816"
+       x1="852"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6258"
+       r="11"
+       cy="660"
+       cx="60"
+       sodipodi:cx="60"
+       sodipodi:cy="660"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,780,124.8)"
+       d="m 71,660 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6260"
+       y2="916.79999"
+       y1="916.79999"
+       x2="780"
+       x1="816"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6262"
+       r="11"
+       cy="660"
+       cx="30"
+       sodipodi:cx="30"
+       sodipodi:cy="660"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,780,124.8)"
+       d="m 41,660 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6264"
+       y2="880.79999"
+       y1="916.79999"
+       x2="780"
+       x1="780"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6266"
+       r="11"
+       cy="660"
+       cx="0"
+       sodipodi:cx="0"
+       sodipodi:cy="660"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,780,124.8)"
+       d="m 11,660 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+    <line
+       id="line6268"
+       y2="880.79999"
+       y1="880.79999"
+       x2="816"
+       x1="780"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6270"
+       r="11"
+       cy="630"
+       cx="0"
+       sodipodi:cx="0"
+       sodipodi:cy="630"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,780,124.8)"
+       d="m 11,630 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+    <line
+       id="line6272"
+       y2="844.79999"
+       y1="880.79999"
+       x2="816"
+       x1="816"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6274"
+       r="11"
+       cy="630"
+       cx="30"
+       sodipodi:cx="30"
+       sodipodi:cy="630"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,780,124.8)"
+       d="m 41,630 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <circle
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.0222222,0,0,1.0222222,785.33333,231.86667)"
+       sodipodi:ry="13"
+       sodipodi:rx="13"
+       sodipodi:cy="600"
+       sodipodi:cx="30"
+       id="circle6276"
+       r="13"
+       cy="600"
+       cx="30"
+       d="m 43,600 c 0,7.1797 -5.820298,13 -13,13 -7.179702,0 -13,-5.8203 -13,-13 0,-7.1797 5.820298,-13 13,-13 7.179702,0 13,5.8203 13,13 z" />
+  </g>
+  <g
+     id="g9017">
+    <line
+       id="line6340"
+       y2="190"
+       y1="226"
+       x2="814.20001"
+       x1="814.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6342"
+       r="11"
+       cy="900"
+       cx="0"
+       sodipodi:cx="0"
+       sodipodi:cy="900"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,814.2,-854)"
+       d="m 11,900 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+    <line
+       id="line6344"
+       y2="190"
+       y1="190"
+       x2="850.20001"
+       x1="814.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6346"
+       r="11"
+       cy="870"
+       cx="0"
+       sodipodi:cx="0"
+       sodipodi:cy="870"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,814.2,-854)"
+       d="m 11,870 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+    <line
+       id="line6348"
+       y2="190"
+       y1="190"
+       x2="886.20001"
+       x1="850.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6350"
+       r="11"
+       cy="870"
+       cx="30"
+       sodipodi:cx="30"
+       sodipodi:cy="870"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,814.2,-854)"
+       d="m 41,870 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6352"
+       y2="226"
+       y1="190"
+       x2="886.20001"
+       x1="886.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6354"
+       r="11"
+       cy="870"
+       cx="60"
+       sodipodi:cx="60"
+       sodipodi:cy="870"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#0000ff;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,814.2,-854)"
+       d="m 71,870 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6356"
+       y2="226"
+       y1="226"
+       x2="850.20001"
+       x1="886.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6358"
+       r="11"
+       cy="900"
+       cx="60"
+       sodipodi:cx="60"
+       sodipodi:cy="900"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#0000ff;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,814.2,-854)"
+       d="m 71,900 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6360"
+       y2="262"
+       y1="226"
+       x2="850.20001"
+       x1="850.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6362"
+       r="11"
+       cy="900"
+       cx="30"
+       sodipodi:cx="30"
+       sodipodi:cy="900"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,814.2,-854)"
+       d="m 41,900 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6364"
+       y2="262"
+       y1="262"
+       x2="814.20001"
+       x1="850.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6366"
+       r="11"
+       cy="930"
+       cx="30"
+       sodipodi:cx="30"
+       sodipodi:cy="930"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#0000ff;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,814.2,-854)"
+       d="m 41,930 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6368"
+       y2="262"
+       y1="262"
+       x2="778.20001"
+       x1="814.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6370"
+       r="11"
+       cy="930"
+       cx="0"
+       sodipodi:cx="0"
+       sodipodi:cy="930"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#0000ff;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,814.2,-854)"
+       d="m 11,930 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+    <line
+       id="line6372"
+       y2="226"
+       y1="262"
+       x2="778.20001"
+       x1="778.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6374"
+       r="11"
+       cy="930"
+       cx="-30"
+       sodipodi:cx="-30"
+       sodipodi:cy="930"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#0000ff;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,814.2,-854)"
+       d="m -19,930 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6376"
+       y2="190"
+       y1="226"
+       x2="778.20001"
+       x1="778.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6378"
+       r="11"
+       cy="900"
+       cx="-30"
+       sodipodi:cx="-30"
+       sodipodi:cy="900"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,814.2,-854)"
+       d="m -19,900 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6380"
+       y2="154"
+       y1="190"
+       x2="778.20001"
+       x1="778.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6382"
+       r="11"
+       cy="870"
+       cx="-30"
+       sodipodi:cx="-30"
+       sodipodi:cy="870"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,814.2,-854)"
+       d="m -19,870 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6384"
+       y2="154"
+       y1="154"
+       x2="814.20001"
+       x1="778.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6386"
+       r="11"
+       cy="840"
+       cx="-30"
+       sodipodi:cx="-30"
+       sodipodi:cy="840"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#0000ff;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,814.2,-854)"
+       d="m -19,840 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <line
+       id="line6388"
+       y2="118"
+       y1="154"
+       x2="814.20001"
+       x1="814.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6390"
+       r="11"
+       cy="840"
+       cx="0"
+       sodipodi:cx="0"
+       sodipodi:cy="840"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,814.2,-854)"
+       d="m 11,840 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+    <line
+       id="line6392"
+       y2="118"
+       y1="118"
+       x2="850.20001"
+       x1="814.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6394"
+       r="11"
+       cy="810"
+       cx="0"
+       sodipodi:cx="0"
+       sodipodi:cy="810"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#0000ff;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,814.2,-854)"
+       d="m 11,810 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+    <line
+       id="line6396"
+       y2="154"
+       y1="118"
+       x2="850.20001"
+       x1="850.20001"
+       style="stroke:#000000;stroke-width:12" />
+    <circle
+       id="circle6398"
+       r="11"
+       cy="810"
+       cx="30"
+       sodipodi:cx="30"
+       sodipodi:cy="810"
+       sodipodi:rx="11"
+       sodipodi:ry="11"
+       style="fill:#0000ff;stroke:#000000"
+       transform="matrix(1.2,0,0,1.2,814.2,-854)"
+       d="m 41,810 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+    <circle
+       id="circle6400"
+       r="13"
+       cy="840"
+       cx="30"
+       sodipodi:cx="30"
+       sodipodi:cy="840"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       style="fill:#ff0000;stroke:#000000"
+       transform="matrix(1.0222222,0,0,1.0222222,819.53328,-704.26667)"
+       d="m 43,840 c 0,7.1797 -5.820298,13 -13,13 -7.179702,0 -13,-5.8203 -13,-13 0,-7.1797 5.820298,-13 13,-13 7.179702,0 13,5.8203 13,13 z" />
+  </g>
+  <g
+     id="g8761">
+    <line
+       id="line8025"
+       y2="640"
+       y1="640"
+       x2="269"
+       x1="239"
+       style="stroke:#000000;stroke-width:10" />
+    <circle
+       id="circle8027"
+       r="13"
+       cy="200"
+       cx="0"
+       sodipodi:cx="0"
+       sodipodi:cy="200"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       style="fill:#ffaaaa;stroke:#000000"
+       transform="translate(239,440)"
+       d="m 13,200 c 0,7.1797 -5.8202983,13 -13,13 -7.1797017,0 -13,-5.8203 -13,-13 0,-7.1797 5.8202983,-13 13,-13 7.1797017,0 13,5.8203 13,13 z" />
+    <line
+       id="line8029"
+       y2="640"
+       y1="640"
+       x2="299"
+       x1="269"
+       style="stroke:#000000;stroke-width:10" />
+    <circle
+       id="circle8031"
+       r="13"
+       cy="200"
+       cx="30"
+       sodipodi:cx="30"
+       sodipodi:cy="200"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       style="fill:#ff0000;stroke:#000000"
+       transform="translate(239,440)"
+       d="m 43,200 c 0,7.1797 -5.820298,13 -13,13 -7.179702,0 -13,-5.8203 -13,-13 0,-7.1797 5.820298,-13 13,-13 7.179702,0 13,5.8203 13,13 z" />
+    <line
+       id="line8033"
+       y2="640"
+       y1="640"
+       x2="329"
+       x1="299"
+       style="stroke:#000000;stroke-width:10" />
+    <circle
+       id="circle8035"
+       r="13"
+       cy="200"
+       cx="60"
+       sodipodi:cx="60"
+       sodipodi:cy="200"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       style="fill:#ff0000;stroke:#000000"
+       transform="translate(239,440)"
+       d="m 73,200 c 0,7.1797 -5.820298,13 -13,13 -7.179702,0 -13,-5.8203 -13,-13 0,-7.1797 5.820298,-13 13,-13 7.179702,0 13,5.8203 13,13 z" />
+    <line
+       id="line8037"
+       y2="640"
+       y1="640"
+       x2="359"
+       x1="329"
+       style="stroke:#000000;stroke-width:10" />
+    <circle
+       id="circle8039"
+       r="13"
+       cy="200"
+       cx="90"
+       sodipodi:cx="90"
+       sodipodi:cy="200"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       style="fill:#ff0000;stroke:#000000"
+       transform="translate(239,440)"
+       d="m 103,200 c 0,7.1797 -5.820298,13 -13,13 -7.179702,0 -13,-5.8203 -13,-13 0,-7.1797 5.820298,-13 13,-13 7.179702,0 13,5.8203 13,13 z" />
+    <line
+       id="line8041"
+       y2="640"
+       y1="640"
+       x2="389"
+       x1="359"
+       style="stroke:#000000;stroke-width:10" />
+    <circle
+       id="circle8043"
+       r="13"
+       cy="200"
+       cx="120"
+       sodipodi:cx="120"
+       sodipodi:cy="200"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       style="fill:#0000ff;stroke:#000000"
+       transform="translate(239,440)"
+       d="m 133,200 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+    <line
+       id="line8045"
+       y2="640"
+       y1="640"
+       x2="419"
+       x1="389"
+       style="stroke:#000000;stroke-width:10" />
+    <circle
+       id="circle8047"
+       r="13"
+       cy="200"
+       cx="150"
+       sodipodi:cx="150"
+       sodipodi:cy="200"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       style="fill:#0000ff;stroke:#000000"
+       transform="translate(239,440)"
+       d="m 163,200 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+    <line
+       id="line8049"
+       y2="640"
+       y1="640"
+       x2="449"
+       x1="419"
+       style="stroke:#000000;stroke-width:10" />
+    <circle
+       id="circle8051"
+       r="13"
+       cy="200"
+       cx="180"
+       sodipodi:cx="180"
+       sodipodi:cy="200"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       style="fill:#ff0000;stroke:#000000"
+       transform="translate(239,440)"
+       d="m 193,200 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+    <line
+       id="line8053"
+       y2="640"
+       y1="640"
+       x2="479"
+       x1="449"
+       style="stroke:#000000;stroke-width:10" />
+    <circle
+       id="circle8055"
+       r="13"
+       cy="200"
+       cx="210"
+       sodipodi:cx="210"
+       sodipodi:cy="200"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       style="fill:#0000ff;stroke:#000000"
+       transform="translate(239,440)"
+       d="m 223,200 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+    <line
+       id="line8057"
+       y2="640"
+       y1="640"
+       x2="509"
+       x1="479"
+       style="stroke:#000000;stroke-width:10" />
+    <circle
+       id="circle8059"
+       r="13"
+       cy="200"
+       cx="240"
+       sodipodi:cx="240"
+       sodipodi:cy="200"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       style="fill:#ff0000;stroke:#000000"
+       transform="translate(239,440)"
+       d="m 253,200 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+    <line
+       id="line8061"
+       y2="640"
+       y1="640"
+       x2="539"
+       x1="509"
+       style="stroke:#000000;stroke-width:10" />
+    <circle
+       id="circle8063"
+       r="13"
+       cy="200"
+       cx="270"
+       sodipodi:cx="270"
+       sodipodi:cy="200"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       style="fill:#0000ff;stroke:#000000"
+       transform="translate(239,440)"
+       d="m 283,200 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+    <line
+       id="line8065"
+       y2="640"
+       y1="640"
+       x2="569"
+       x1="539"
+       style="stroke:#000000;stroke-width:10" />
+    <circle
+       id="circle8067"
+       r="13"
+       cy="200"
+       cx="300"
+       sodipodi:cx="300"
+       sodipodi:cy="200"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       style="fill:#ff0000;stroke:#000000"
+       transform="translate(239,440)"
+       d="m 313,200 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+    <line
+       id="line8069"
+       y2="640"
+       y1="640"
+       x2="599"
+       x1="569"
+       style="stroke:#000000;stroke-width:10" />
+    <circle
+       id="circle8071"
+       r="13"
+       cy="200"
+       cx="330"
+       sodipodi:cx="330"
+       sodipodi:cy="200"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       style="fill:#0000ff;stroke:#000000"
+       transform="translate(239,440)"
+       d="m 343,200 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+    <line
+       id="line8073"
+       y2="640"
+       y1="640"
+       x2="629"
+       x1="599"
+       style="stroke:#000000;stroke-width:10" />
+    <circle
+       id="circle8075"
+       r="13"
+       cy="200"
+       cx="360"
+       sodipodi:cx="360"
+       sodipodi:cy="200"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       style="fill:#ff0000;stroke:#000000"
+       transform="translate(239,440)"
+       d="m 373,200 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+    <line
+       id="line8077"
+       y2="640"
+       y1="640"
+       x2="659"
+       x1="629"
+       style="stroke:#000000;stroke-width:10" />
+    <circle
+       id="circle8079"
+       r="13"
+       cy="200"
+       cx="390"
+       sodipodi:cx="390"
+       sodipodi:cy="200"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       style="fill:#ff0000;stroke:#000000"
+       transform="translate(239,440)"
+       d="m 403,200 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+    <line
+       id="line8081"
+       y2="640"
+       y1="640"
+       x2="689"
+       x1="659"
+       style="stroke:#000000;stroke-width:10" />
+    <circle
+       id="circle8083"
+       r="13"
+       cy="200"
+       cx="420"
+       sodipodi:cx="420"
+       sodipodi:cy="200"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       style="fill:#ff0000;stroke:#000000"
+       transform="translate(239,440)"
+       d="m 433,200 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+    <circle
+       id="circle8085"
+       r="13"
+       cy="200"
+       cx="450"
+       sodipodi:cx="450"
+       sodipodi:cy="200"
+       sodipodi:rx="13"
+       sodipodi:ry="13"
+       style="fill:#ff0000;stroke:#000000"
+       transform="translate(239,440)"
+       d="m 463,200 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+  </g>
 </svg>

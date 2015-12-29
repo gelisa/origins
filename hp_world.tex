@@ -141,8 +141,16 @@ structures essential for biological function is estimated to be around 30-60 mon
 mechanisms of chain polymerizations, it has been clear that chain syntheses are stochastic, whereby 
 the concentrations of longer chains are exponentially smaller than of shorter chains. 
 
-Correspondingly, it is known that prebiotic polymerizations of amino acids and nucleotides 
-lead predominantly to short chains. Leman et al. showed that carbonyl sulfide (COS), a simple 
+Correspondingly, 
+\sout{it is known that}\footnote{\red{Here, we say it is known then one can get 
+only short sequences, and then mention studies. It looks like people tried to prove this point with 
+their studies, but they in fact tried to overcome difficulties, like no polymerization in water 
+solutions at all. }} 
+\textbf{experimental studies which are intended to find out possible ways of } 
+prebiotic polymerizations of 
+amino acids and nucleotides 
+lead predominantly to short chains. Leman et al. 
+showed that carbonyl sulfide (COS), a simple 
 volcanic gas, brings about the formation of oligo-peptides from amino acids under mild conditions in 
 aqueous solution in minutes to hours. But the product is mainly dimers and 
 trimers~\cite{Leman2004a}.  In another study, using various mineral catalysts such as calcium 
@@ -154,6 +162,8 @@ starting from decanucleotides [$^{32}$P]dA(pdA)$_8$pA adsorbed on Na$^+$-montmor
 al. observed chains averaging lengths 20-40 after 14 days at 25\textcelsius\ \cite{Ferris1996}.  It 
 is not yet understood how prebiotic polymerizations could lead to the types of long protein or 
 nucleic-acid chains that are found in present-day cells.
+
+
 
    
 \section{The ``Flory problem'' of obtaining long chains}
@@ -183,12 +193,14 @@ negligible concentrations of $\propto 10^{-19} $ mol/L.
 \end{figure}
 
 The Flory distribution is a good model of prebiotic syntheses of peptide and nucleic 
-acid chains.  Figure~\ref{fig:some_flory}) shows that the Flory model fits known length 
+acid chains.  Figure~\ref{fig:some_flory} shows that the Flory model fits known length 
 distributions from various prebiotic syntheses (sometimes data is fit to an exponential law, 
 $f(a)\propto const^l$, which is slightly simpler but nearly identical in form 
 ~\cite{nowak2008prevolutionary,Derr2012}).  So, since prebiotic chemistry appears to give 
-submillimolar or submicromolar concentrations of monomers, longer chains have been expected to be 
-present in negligible concentrations~\cite{Aubrey2009,Kanavarioti2001,Lazcano1996}.  The Flory 
+submillimolar or submicromolar 
+concentrations\cite{Aubrey2009,Kanavarioti2001,Lazcano1996}\red{check citations} of monomers, 
+longer chains have been expected to be 
+present in negligible concentrations.  The Flory 
 problem is not solved by improving the catalyst~\cite{Derr2012}. The problem is in the equilibrium, 
 not the kinetics.  The slope of the Flory plot is governed by $a$, the equilibrium constant for 
 bonding each monomer into the chain.
@@ -208,22 +220,24 @@ magenta -- Ferris~\cite{Ferris1999}}
 
  A key premise of the present work is that some puzzles of prebiotic chemistry may be 
  resolvable by recognizing the special properties of HP polymers.  HP polymers are copolymers in 
-which the monomer units can be categorized as hydrophobic (H) or polar (P), in particular sequences. 
+which the monomer units can be categorized as hydrophobic (H) or polar (P)\textbf{, in particular 
+sequences}\red{??}. 
  An example of present-day HP polymers is proteins: the 20 amino acids can be divided into H or P.  
 In HP polymers, the sequence patterning of the H and P monomers lead to a solvation-based encoding 
-of sequence-structure relationships [  ].  Our studies below lead to two main conclusions.  First, 
+of sequence-structure relationships~\cite{Chan1991}.  Our studies below lead to two main 
+conclusions.  First, 
 even random processes that synthesize random HP sequences will lead to some selection that can 
 concentrate some sequences and structures over others.  Second, some folded HP sequences can have 
 primitive catalytic and autocatalytic abilities, based on their exposed hydrophobic surfaces, 
 whereby certain chains can help to polymerize other chains.  Thus, HP polymers appear to have 
-properties that can explain how prebiotic chemistry might escape the Flory Problem.  
+features that can explain how prebiotic chemistry might escape the Flory Problem.  
 
-The properties of HP polymers have been studied extensively as a model for the folding and 
+HP polymers have been studied extensively as a model for the folding and 
 evolution of proteins~\cite{lau1989lattice,Chan1991,Miller1995,Yue1995,agarwala1997local}.  Such 
 studies have shown that stably folded structures of proteins to a large extent can be explained by 
 binary pattern of polar and hydrophobic residues and do not require knowledge of specific 
 interresidue contacts~\cite{Yue1992,Xiong1995,Fisher2011}. They have further demonstrated that 
-stably folded structures do not require and a large fraction of the space of random sequences can 
+a large fraction of the space of random sequences can 
 collapse into compact structures resembling native proteins\cite{lau1989lattice}; see fig. 
 \ref{fig:hydro-effect}.  RNA molecules are also able to fold in water, indicating differential 
 solvation.  While our present model focuses on hydrophobic interactions, it is simply intended as a 
@@ -233,9 +247,7 @@ concrete model of solvation, that could more broadly include hydrogen bonding or
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\columnwidth]{pictures/tst-seqs.pdf} 
-  \caption{\blue{E - let's keep all 4 of them.  But we need thicker lines showing the 
-  covalent bonds between beads.  We also need a clearer marker for bead 1: maybe a heavier circle, 
-or a different shade of color.} HH interactions are favorable in water, leading to different 
+  \caption{HH interactions are favorable in water, leading to different 
 compact states for different 
 HP sequences.}
   \label{fig:hydro-effect}
@@ -244,9 +256,13 @@ HP sequences.}
 
 \section{The model for HP polymerization kinetics}
 
- We consider a soup containing $H$ and $P$ monomers at concentration xxx.  
+ We consider a soup containing $H$ and $P$ monomers \sout{at concentration xxx} \red{There is no 
+indication of concentration in our system. I have ``populations'' and they vary largly. Maybe we 
+shouldn't mention any concentrations at all}.  
  A prerequisite for prebiotic origins are processes that are away from equilibrium.  In our case, 
-we assume a system in which activated monomers are plentiful, at concentration xxx, and supplied by 
+we assume a system in which activated monomers are plentiful\sout{, at concentration 
+xxx}\red{For activated monomers populations/concentration are purely abstract ideas.}, and 
+supplied by 
 an external source.  We assume that a given polymer in solution can elongate spontaneously with 
 rate $\ga$.  Without loss of generality we set the rate units of this model so that this parameter 
 equals 1; all other rates are taken relative to this growth rate.  We assume all polymers also 
@@ -780,7 +796,7 @@ non-exponential behavior in the region when $E_h= 1-3 kT$
 
 
 
- \bibliography{/data/research/31.mendeleyBibtex/library}
+ \bibliography{library}
 \bibliographystyle{achemso}
 
 \end{document}
