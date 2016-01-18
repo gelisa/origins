@@ -14,7 +14,7 @@
    viewBox="0 0 744.09448819 1052.3622047"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.48.5 r10040"
    sodipodi:docname="good_seqs.svg">
   <defs
      id="defs4">
@@ -858,16 +858,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
+     inkscape:zoom="0.9899495"
      inkscape:cx="421.50735"
-     inkscape:cy="356.81034"
+     inkscape:cy="639.65305"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1025"
+     inkscape:window-height="1024"
      inkscape:window-x="-2"
-     inkscape:window-y="32"
+     inkscape:window-y="33"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true">
@@ -887,7 +887,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1486,7 +1486,7 @@
          sodipodi:role="line"
          id="tspan5047"
          x="390"
-         y="356.36221">  </tspan></text>
+         y="356.36221" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1499,26 +1499,32 @@
          x="223.03046"
          y="72.260681">Population of 'successful' sequences</tspan></text>
     <g
-       id="g7630">
+       id="g7630"
+       transform="translate(298.88982,-9.3286187)">
       <path
          sodipodi:nodetypes="cccccccccccccccccc"
          inkscape:connector-curvature="0"
          id="path6554"
          d="m 384.89128,214.2643 22.54962,0 0,15.58986 0,15.58987 -15.58986,0 0,15.58986 -15.58986,0 0,-15.58986 -15.58987,0 0,15.58986 -15.58986,0 0,-15.58986 0,-15.58987 15.58986,0 0,-15.58986 15.58987,0 0,15.58986 24.56301,-0.1541"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.55898643;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:none;stroke:#000000;stroke-width:1.55898643;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
       <g
          id="g6701"
          transform="matrix(0,0.41506594,-0.41506594,0,453.70498,-71.307377)"
          style="fill:#ff0000">
         <circle
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle6703"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text6705"
@@ -1527,21 +1533,26 @@
              id="tspan6707"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          style="fill:#0000ff"
          id="g6629"
          transform="matrix(0,0.41514783,-0.41477737,0,468.96199,-71.449986)">
         <circle
-           style="fill:#0000ff;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#0000ff;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle6631"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text6633"
@@ -1550,7 +1561,7 @@
              id="tspan6635"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#0000ff;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#0000ff;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          transform="matrix(0,0.41515153,-0.41477726,0,469.56055,-55.674544)"
@@ -1561,15 +1572,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle6639"
-           style="fill:#0000ff;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#0000ff;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text6641"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#0000ff;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#0000ff;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan6643"
@@ -1584,15 +1600,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle6647"
-           style="fill:#0000ff;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#0000ff;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text6649"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#0000ff;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#0000ff;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan6651"
@@ -1603,14 +1624,19 @@
          transform="matrix(0,0.41506594,-0.41506594,0,407.07784,-55.621694)"
          style="fill:#ff0000">
         <circle
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle6655"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text6657"
@@ -1619,7 +1645,7 @@
              id="tspan6659"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          style="fill:#ff0000"
@@ -1630,15 +1656,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle6663"
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text6665"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan6667"
@@ -1649,14 +1680,19 @@
          transform="matrix(0,0.41506594,-0.41506594,0,422.25012,-71.072364)"
          style="fill:#ff0000">
         <circle
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle6671"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text6673"
@@ -1665,7 +1701,7 @@
              id="tspan6675"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          style="fill:#ff0000"
@@ -1676,15 +1712,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle6679"
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text6681"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan6683"
@@ -1695,14 +1736,19 @@
          transform="matrix(0,0.41506594,-0.41506594,0,438.00702,-55.900086)"
          style="fill:#ff0000">
         <circle
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle6687"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text6689"
@@ -1711,7 +1757,7 @@
              id="tspan6691"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          style="fill:#ff0000"
@@ -1722,15 +1768,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle6695"
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text6697"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan6699"
@@ -1745,15 +1796,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle6711"
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text6713"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan6715"
@@ -1764,14 +1820,19 @@
          transform="matrix(0,0.41506594,-0.41506594,0,454.35645,-55.794664)"
          style="fill:#ff0000">
         <circle
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle6719"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text6721"
@@ -1780,7 +1841,7 @@
              id="tspan6723"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          style="fill:#ff0000"
@@ -1791,15 +1852,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle6727"
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text6729"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan6731"
@@ -1810,14 +1876,19 @@
          transform="matrix(0,0.41506594,-0.41506594,0,438.00702,-70.933166)"
          style="fill:#ff0000">
         <circle
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle6735"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text6737"
@@ -1826,7 +1897,7 @@
              id="tspan6739"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          style="fill:#ff0000"
@@ -1839,15 +1910,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle6743"
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text6745"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan6747"
@@ -1860,14 +1936,19 @@
          transform="matrix(0,0.41506594,-0.41506594,0,421.97173,-24.859547)"
          style="fill:#ff0000">
         <circle
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle6751"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text6753"
@@ -1876,7 +1957,7 @@
              id="tspan6755"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          style="fill:#ff0000"
@@ -1889,15 +1970,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle6759"
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text6761"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan6763"
@@ -1908,14 +1994,19 @@
          id="g6765"
          transform="matrix(0,0.41458199,-0.41483681,0,453.54062,-24.357147)">
         <circle
-           style="fill:#0000ff;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#0000ff;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle6767"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text6769"
@@ -1924,18 +2015,18 @@
              id="tspan6771"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#0000ff;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#0000ff;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
     </g>
     <g
-       transform="matrix(0,-0.3897466,0.3897466,0,77.193716,621.13293)"
+       transform="matrix(0,-0.3897466,0.3897466,0,490.89845,435.4659)"
        id="g6773">
       <path
          sodipodi:nodetypes="ccccccccccccccccc"
          inkscape:connector-curvature="0"
          id="path5537"
          d="m 300,493.79077 0,-61.42857 40,0 0,-40 40,0 40,0 0,40 -40,0 0,40 -40,0 0,40 -40,0 0,40 40,0 40,0 0,-40 61.42857,0.71429"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
       <g
          transform="matrix(1.0653025,0,0,1.0005863,-432.89162,285.53428)"
          id="g24604"
@@ -1945,15 +2036,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle24606"
-           style="fill:#0000ff;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#0000ff;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text24608"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#0000ff;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#0000ff;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan24610"
@@ -1964,14 +2060,19 @@
          id="g5527"
          transform="matrix(1.0653025,0,0,1.0005863,-392.89163,245.53427)">
         <circle
-           style="fill:#0000ff;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#0000ff;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle5529"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text5531"
@@ -1980,21 +2081,26 @@
              id="tspan5533"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#0000ff;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#0000ff;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          style="fill:#0000ff"
          id="g5567"
          transform="matrix(1.0653025,0,0,1.0005863,-313.60591,244.82)">
         <circle
-           style="fill:#0000ff;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#0000ff;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle5569"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text5571"
@@ -2003,7 +2109,7 @@
              id="tspan5573"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#0000ff;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#0000ff;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          style="fill:#ff0000"
@@ -2014,15 +2120,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle5577"
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text5579"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan5581"
@@ -2033,14 +2144,19 @@
          transform="matrix(1.0649636,0,0,1.0649636,-432.4653,393.65089)"
          style="fill:#ff0000">
         <circle
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle5585"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text5587"
@@ -2049,7 +2165,7 @@
              id="tspan5589"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          style="fill:#ff0000"
@@ -2060,15 +2176,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle5593"
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text5595"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan5597"
@@ -2079,14 +2200,19 @@
          transform="matrix(1.0649636,0,0,1.0649636,-393.89387,355.07946)"
          style="fill:#ff0000">
         <circle
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle5601"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text5603"
@@ -2095,7 +2221,7 @@
              id="tspan5605"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          style="fill:#ff0000"
@@ -2106,15 +2232,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle5609"
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text5611"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan5613"
@@ -2125,14 +2256,19 @@
          transform="matrix(1.0649636,0,0,1.0649636,-353.17958,314.36518)"
          style="fill:#ff0000">
         <circle
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle5617"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text5619"
@@ -2141,7 +2277,7 @@
              id="tspan5621"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          style="fill:#ff0000"
@@ -2152,15 +2288,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle5625"
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text5627"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan5629"
@@ -2171,14 +2312,19 @@
          transform="matrix(1.0649636,0,0,1.0649636,-312.46529,272.9366)"
          style="fill:#ff0000">
         <circle
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle5633"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text5635"
@@ -2187,7 +2333,7 @@
              id="tspan5637"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          style="fill:#ff0000"
@@ -2198,15 +2344,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle5641"
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text5643"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan5645"
@@ -2217,14 +2368,19 @@
          transform="matrix(1.0649636,0,0,1.0649636,-351.751,275.07947)"
          style="fill:#ff0000">
         <circle
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle5649"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text5651"
@@ -2233,7 +2389,7 @@
              id="tspan5653"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          style="fill:#ff0000"
@@ -2244,15 +2400,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle5657"
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text5659"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan5661"
@@ -2265,14 +2426,19 @@
          transform="matrix(1.0649636,0,0,1.0649636,-353.17958,355.79375)"
          style="fill:#ff0000">
         <circle
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle24518"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text24520"
@@ -2281,7 +2447,7 @@
              id="tspan24522"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          style="fill:#ff0000"
@@ -2294,15 +2460,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle5665"
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text5667"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan5669"
@@ -2315,14 +2486,19 @@
          transform="matrix(1.0649636,0,0,1.0649636,-353.89387,392.93661)"
          style="fill:#ff0000">
         <circle
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle5673"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text5675"
@@ -2331,31 +2507,36 @@
              id="tspan5677"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
     </g>
     <g
        id="g7987"
-       transform="translate(7.0710678,0.25253814)">
+       transform="translate(279.97887,-212.21565)">
       <path
          sodipodi:nodetypes="cccccccccccccccccc"
          inkscape:connector-curvature="0"
          id="path6554-3"
          d="m 410.99785,572.43618 0.18573,16.56909 -16.16244,0.57257 0.57257,-16.16244 -15.15229,-0.0675 -0.43757,15.65736 0,15.58986 0,15.58987 15.58986,0 0,-15.58987 15.58987,0 0,15.58987 15.58986,0 0,-15.58987 15.58986,0 0,-15.58986 0,-15.58987 -16.99378,0 L 425,587.3622"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.55898643;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:none;stroke:#000000;stroke-width:1.55898643;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
       <g
          id="g6701-7"
          transform="matrix(0,0.41506594,-0.41506594,0,473.22255,287.59118)"
          style="fill:#ff0000">
         <circle
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle6703-7"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text6705-0"
@@ -2364,21 +2545,26 @@
              id="tspan6707-0"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          style="fill:#0000ff"
          id="g6629-1"
          transform="matrix(0,0.41514783,-0.41477737,0,503.88439,287.70111)">
         <circle
-           style="fill:#0000ff;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#0000ff;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle6631-1"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text6633-1"
@@ -2387,7 +2573,7 @@
              id="tspan6635-6"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#0000ff;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#0000ff;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          transform="matrix(0,0.41515153,-0.41477726,0,472.69724,334.19084)"
@@ -2398,15 +2584,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle6639-4"
-           style="fill:#0000ff;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#0000ff;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text6641-1"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#0000ff;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#0000ff;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan6643-6"
@@ -2421,15 +2612,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle6647-3"
-           style="fill:#0000ff;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#0000ff;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text6649-7"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#0000ff;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#0000ff;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan6651-5"
@@ -2440,14 +2636,19 @@
          transform="matrix(0,0.41506594,-0.41506594,0,442.00024,303.5294)"
          style="fill:#ff0000">
         <circle
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle6655-5"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text6657-0"
@@ -2456,7 +2657,7 @@
              id="tspan6659-7"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          style="fill:#ff0000"
@@ -2467,15 +2668,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle6663-5"
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text6665-3"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan6667-0"
@@ -2486,14 +2692,19 @@
          transform="matrix(0,0.41506594,-0.41506594,0,457.17252,288.07873)"
          style="fill:#ff0000">
         <circle
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle6671-8"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text6673-9"
@@ -2502,7 +2713,7 @@
              id="tspan6675-7"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          style="fill:#ff0000"
@@ -2513,15 +2724,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle6679-9"
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text6681-0"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan6683-1"
@@ -2532,14 +2748,19 @@
          transform="matrix(0,0.41506594,-0.41506594,0,472.92942,303.25101)"
          style="fill:#ff0000">
         <circle
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle6687-2"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text6689-2"
@@ -2548,7 +2769,7 @@
              id="tspan6691-9"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          style="fill:#ff0000"
@@ -2559,15 +2780,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle6695-3"
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text6697-6"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan6699-0"
@@ -2582,15 +2808,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle6711-9"
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text6713-8"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan6715-2"
@@ -2601,14 +2832,19 @@
          transform="matrix(0,0.41506594,-0.41506594,0,487.006,303.60897)"
          style="fill:#ff0000">
         <circle
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle6719-6"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text6721-9"
@@ -2617,7 +2853,7 @@
              id="tspan6723-8"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          style="fill:#ff0000"
@@ -2628,15 +2864,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle6727-1"
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text6729-8"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan6731-1"
@@ -2647,14 +2888,19 @@
          transform="matrix(0,0.41506594,-0.41506594,0,458.28221,302.86514)"
          style="fill:#ff0000">
         <circle
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle6735-1"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text6737-3"
@@ -2663,7 +2909,7 @@
              id="tspan6739-3"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          style="fill:#ff0000"
@@ -2676,15 +2922,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle6743-3"
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text6745-0"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan6747-5"
@@ -2697,14 +2948,19 @@
          transform="matrix(0,0.41506594,-0.41506594,0,456.89413,334.29155)"
          style="fill:#ff0000">
         <circle
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle6751-3"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text6753-6"
@@ -2713,7 +2969,7 @@
              id="tspan6755-0"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          style="fill:#ff0000"
@@ -2726,15 +2982,20 @@
            cy="148.11922"
            cx="688.17572"
            id="circle6759-0"
-           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#ff0000;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            sodipodi:linespacing="125%"
            id="text6761-0"
            y="155.66811"
            x="679.3656"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#ff0000;fill-opacity:1"
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:Sans Bold"
              y="155.66811"
              x="679.3656"
              id="tspan6763-3"
@@ -2745,14 +3006,19 @@
          id="g6765-4"
          transform="matrix(0,0.41458199,-0.41483681,0,488.46302,335.15109)">
         <circle
-           style="fill:#0000ff;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#0000ff;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle6767-8"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text6769-5"
@@ -2761,21 +3027,26 @@
              id="tspan6771-6"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#0000ff;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#0000ff;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
       <g
          style="fill:#0000ff"
          id="g6629-1-7"
          transform="matrix(0,0.41514783,-0.41477737,0,486.86409,287.85467)">
         <circle
-           style="fill:#0000ff;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#0000ff;stroke:#000000;stroke-width:1.46587169;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="circle6631-1-4"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z"
+           sodipodi:cx="688.17572"
+           sodipodi:cy="148.11922"
+           sodipodi:rx="14.658717"
+           sodipodi:ry="14.658717" />
         <text
            xml:space="preserve"
-           style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none"
+           style="font-size:18.02859879px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
            x="679.3656"
            y="155.66811"
            id="text6633-1-0"
@@ -2784,7 +3055,7 @@
              id="tspan6635-6-1"
              x="679.3656"
              y="155.66811"
-             style="font-style:normal;font-weight:bold;font-size:21.63431549px;-inkscape-font-specification:'Sans Bold';fill:#0000ff;fill-opacity:1">H</tspan></text>
+             style="font-size:21.63431549px;font-style:normal;font-weight:bold;fill:#0000ff;fill-opacity:1;-inkscape-font-specification:Sans Bold">H</tspan></text>
       </g>
     </g>
     <g
@@ -2846,7 +3117,8 @@
            id="circle6655-0"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z" />
         <text
            xml:space="preserve"
            style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
@@ -2869,7 +3141,8 @@
            id="circle6631-7"
            cx="688.17572"
            cy="148.11922"
-           r="14.658717" />
+           r="14.658717"
+           d="m 702.83444,148.11922 c 0,8.09578 -6.56293,14.65871 -14.65872,14.65871 -8.09579,0 -14.65872,-6.56293 -14.65872,-14.65871 0,-8.09579 6.56293,-14.65872 14.65872,-14.65872 8.09579,0 14.65872,6.56293 14.65872,14.65872 z" />
         <text
            xml:space="preserve"
            style="font-style:italic;font-weight:normal;font-size:18.02859879px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none"
@@ -2906,5 +3179,22 @@
            id="tspan7711"
            sodipodi:role="line">-- Polar monomer</tspan></text>
     </g>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="288.90363"
+       y="449.30112"
+       id="text13283"
+       sodipodi:linespacing="125%"
+       transform="translate(-4.9229925e-6,0)"><tspan
+         sodipodi:role="line"
+         id="tspan13285"
+         x="288.90363"
+         y="449.30112">2</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 405.00001,197.36219 225,0"
+       id="path13287"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>

@@ -1,0 +1,136 @@
+\documentclass[12pt]{paper}
+\usepackage[english]{babel}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb,amsfonts}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage{changepage}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+% \usepackage{showkeys}
+\usepackage{textcomp}
+\usepackage{mathtools}
+\usepackage{comment}
+\usepackage[normalem]{ulem}
+\usepackage{marginnote}
+\usepackage[numbers,sort&compress]{natbib}
+%%%%%
+\mathtoolsset{showonlyrefs=false}
+
+\newcommand{\ga}{\alpha}
+\newcommand{\gb}{\beta}
+\newcommand{\gam}{\gamma}
+\newcommand{\gd}{\delta}
+\newcommand{\eps}{\epsilon}
+\newcommand{\veps}{\varepsilon}
+\newcommand{\gz}{\zeta}
+\newcommand{\gt}{\theta}
+\newcommand{\gi}{\iota}
+\newcommand{\gk}{\kappa}
+\newcommand{\gl}{\lambda}
+\newcommand{\gs}{\sigma}
+\newcommand{\go}{\omega}
+\newcommand{\Gam}{\Gamma}
+\newcommand{\gD}{\Delta}
+\newcommand{\gT}{\Theta}
+\newcommand{\gL}{\Lambda}
+\newcommand{\gS}{\Sigma}
+\newcommand{\gO}{\Omega}
+
+%%%%%%%%%
+
+\newcommand{\pt}[1]{\left( #1\right)}
+\newcommand{\pq}[1]{\left[ #1 \right]}
+\newcommand{\pg}[1]{\left\{ #1\right\}}
+\newcommand{\figref}[1]{\figurename~\ref{#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+\newcommand{\gray}[1]{\textcolor{gray}{#1}}
+% \newcommand{\wikilink}[1]\href{plan.pdf}{Plan}\,(\href{plan.tex}{tex})
+% \renewcommand{\baselinestretch}{2} 
+%%%%%%%%%
+\newcommand{\wikilink}[2] { \href{#1.pdf}{#2}\,(\href{#1.tex}{edit})}
+
+\setlength{\textheight}{20cm}
+%\changetext{0cm}{0cm}{0cm}{0cm}{0cm}
+\changepage{3.4cm}{5cm}{-2cm}{-2.5cm}{-2.0cm}{-2cm}{0.3cm}{-0.5cm}{0.1cm}
+%{length of the text}{width of the text}{}{shift to the right}
+%{}{}{}{}{from text to pagenumber}
+%\pagenumbering{roman}
+\pagestyle{fancy}
+\lhead{\bf \today}
+\chead{\bf Bootstraping}
+\rhead{EG}
+\title{Bootstraping problem -- \today}
+\author{EG}
+\date{\today}
+
+\begin{document}
+ \maketitle
+ 
+ \wikilink{home}{Home}
+
+\wikilink{bootstraping_problem}{Self}
+ 
+ \tableofcontents
+ 
+\paragraph{The problem.} The evolutionary boot-strapping problem: in the von Neumann framework, at 
+least, $u_0$ is already a very complicated entity. It certainly seems implausible that it could 
+occur
+spontaneously or by chance. Similarly, in real biology, the modern (self-consistent!)
+genetic system could not have plausibly arisen by chance. It seems that we must
+therefore assume that something like $u_0$ (or a full blown genetic system) must itself
+be the product of an extended evolutionary process. Of course, the problem with
+this—and a major part of von Neumann’s own result—is that it seems that something
+like a genetic system is a pre-requisite to any such evolutionary 
+process.\footnote{\label{note1}Full citation from \cite{McMullin2000}}
+
+
+\paragraph{Genetic Relativism as possible solution}
+\textit{Genetic Relativism} \cite{McMullin1992}(Section 5.4) envisages that the mapping 
+between genotype (description tape) and phenotype (self-reproducing automaton) is not fixed or 
+absolute but may vary from one organism (automaton) to another.
+ \textit{Genetic Absolutism} says that genotype defines phenotype in one way.
+
+
+\paragraph{Before first replicator/general constructor}
+Prima facie, our solution based on Genetic Absolutism may seem to imply that a general constructive 
+automaton (i.e., capable of constructing a very wide range of target machines) is a pre-requisite to 
+any evolutionary growth of complexity. It is not. Indeed, we may say that, if such an implication 
+were present, we should probably have to regard our solution as defective, for it would entirely beg 
+the question of how such a relatively complex entity as $u_0$ (or something fairly close to it) 
+could arise in the first place. Conversely, once we recognise the possibility of evolution within 
+the framework of Genetic Relativism, we can at least see how such prior elaboration of the powers of 
+the constructive automata could occur ``in principle''; this insight remains valid, at least as a
+coherent conjecture, even if we have not demonstrated it in operation. This has a possible advantage 
+in relation to the solution of von Neumann’s problem in that it may permit us to
+work, initially at least, with significantly more primitive constructive automata as the bases
+of our self-reproducers.
+
+
+ 
+ 
+\paragraph{Enhancing Evolvobility}
+ Genetic Absolutism views all the self-reproducers under investigation as con-
+nected by a single ``genetic network'' of mutational changes. This is sufficient to solve von
+Neumann’s problem, as stated, which called only for exhibiting the possibility of mutational
+growth of complexity. In practice, however, we are interested in this as a basis for a Darwinian 
+growth of complexity. Roughly speaking, this can only occur, if at all, along paths
+in the genetic network which lead ``uphill'' in terms of ``fitness''. If the genetic network is
+fixed then this may impose severe limits on the practical paths of Darwinian evolution (and
+thus on the practical growth of complexity). Again, once we recognise the possibility of
+evolution within a framework of Genetic Relativism—which offers the possibility, in effect,
+of changing, or jumping between, different genetic networks—the practical possibilities for
+the (Darwinian) growth of complexity are evidently greatly increased.\footnotemark[1]
+
+
+ 
+
+  \bibliography{library}
+  \bibliographystyle{unsrt}
+ 
+\end{document}

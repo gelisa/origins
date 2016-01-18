@@ -260,11 +260,12 @@ HP sequences.}
 indication of concentration in our system. I have ``populations'' and they vary largly. Maybe we 
 shouldn't mention any concentrations at all}.  
  A prerequisite for prebiotic origins are processes that are away from equilibrium.  In our case, 
-we assume a system in which activated monomers are plentiful\sout{, at concentration 
-xxx}\red{For activated monomers populations/concentration are purely abstract ideas.}, and 
-supplied by 
-an external source.  We assume that a given polymer in solution can elongate spontaneously with 
-rate $\ga$.  Without loss of generality we set the rate units of this model so that this parameter 
+(``food'') monomers are supplied by 
+an external source with rate $a$ and any molecule be removed from the system with rate $d$; this 
+mimics cell growth and division. We assume a system in which activated monomers are plentiful\sout{, 
+at concentration xxx}\red{For activated monomers populations/concentration are purely abstract 
+ideas.}, and therefore any given polymer in solution elongates spontaneously with rate $\ga$.  
+Without loss of generality we set the rate units of this model so that this parameter 
 equals 1; all other rates are taken relative to this growth rate.  We assume all polymers also 
 undergo spontaneous hydrolysis; any bond can be broken with rate constant $d_h$.
 
@@ -276,7 +277,7 @@ conformation giving a maximum number of HH noncovalent contacts.  (Most sequence
 many low-energy states; we do not count these as folded structures.)  The conformational energy of 
 the native fold ($E_{nat}$) of any particular folded sequence equals the number of hydrophobic 
 interactions ($n_{h\phi}$) $\times$ the energy $E_H$, of one hydrophobic interaction, which is known 
-to be $\approx 1-2kT$ [  ]:
+to be $\approx 1-2kT$\cite{Ghosh2009}:
 \begin{equation}
  E_{nat}=n_{h\phi}E_H.
 \end{equation} 
@@ -286,7 +287,8 @@ sequence, we can readily compute the folding and unfolding rate coefficients fro
  \ln\pt{\frac{k_f}{k_u}}=-\gD G/kT = E_{nat}/kT-N\ln z,
 \end{equation} 
 for reversible folding, where $z$ is the number of rotational degrees of freedom per peptide bond.  
-For proteins in aqueous solution, the parameters are known~\cite{Ghosh2010,Dill2011} (see appendix), 
+For proteins in aqueous solution, the parameters are known~\cite{Ghosh2010,Dill2011} \red{(see 
+appendix)}, 
 giving the following expressions for folding and unfolding rates:
 \begin{equation}
 \begin{split}
@@ -310,23 +312,24 @@ contacting hydrophobes $n_c$: $\ga\cdot\exp(E_{H}\cdot n_{c}/kT)$. Some experime
 aggregation reactions for the long hydrophobic chains.
 
 Here is how we perform each calculation.  Monomers enter the system with rate constant $a\gg1$.  
-\blue{E - What is the rate that monomers enter?  Is it different than the rate that activated 
-monomers enter?  Is there a rate that activated monomers leave?  If so, why?  What's the physics you 
-envision of monomer exit?}  
+\blue{E - What is the rate that monomers enter? }\red{200. It's pretty random number just 
+any which is big enough} \blue{Is it different than the rate that activated monomers enter?} 
+\red{They don't enter}  \blue{Is there a rate that activated monomers leave?  If so, why? What's the 
+physics you envision } \red{Every molecule can leave, not only monomers. It represents dilution, 
+diffusion or whichever sink we can imagine.}
+ 
 
-It is safe to assume that decay of activated monomers happens much faster than spontaneous 
-growth of polymers. Therefore we explore values of $a\propto 10^2,10^3\ga$. Dilution parameter $d$ 
-mimics cell division and loss of the matter because of 
-that.
 
 
 \section{HP chain folding alone does not solve the Flory Problem}
 Our first computational experiment asks whether HP chain folding alone is sufficient to 
 alter the Flory chain-length polymerization distribution.  In short, we ask whether the few randomly 
 synthesized sequences that happen to fold, which therefore also happen to protect their interior 
-residues from hydrolysis, lead to changing the Flory-length distribution?  Details are in experiment 
-2; see \ref{sec:mat-sim}, compared to \ref{sec:mat-sim}  Experiment 1, which has the hydrophobic 
-energy set to 0 and run simulations without folding or catalysis.  Figure~\ref{fig:sim.flory-fold} 
+residues from hydrolysis, lead to changing the Flory length distribution?  Details are in 
+experiment 
+2; see Simulations, compared to Simulations  Experiment 1, which has the 
+hydrophobic energy set to 0 and run simulations without folding or catalysis.  
+Figure~\ref{fig:sim.flory-fold} 
 shows that chain folding alone, of the few foldable sequences, is not sufficient to escape the Flory 
 problem of the exponentially diminishing concentrations of chains with length.  Folding does 
 increase the abundances of some of the folded sequences.  But, their instances are so rare that they 
@@ -338,12 +341,7 @@ polymers escape the Flory Problem.
   \includegraphics[width=\columnwidth]{pictures/flory-and-fold.pdf} 
   \caption{Dashed lines represent polymerization without folding or catalysis. Solid lines 
 correspond to simulations run with folding but without catalysis. For details of simulations see 
-section \ref{sec:mat-sim}, Experiment 2. \\
-\blue{E - Can we expand the y-axis, 
-so that we can show what happens to the red dashed curve for chain length 25?  I've tried to 
-estimate this in the text above.}
-\blue{E - Let's also remove the headers over figures, and put that info into the figcap instead}
-\red{Ken -- To be done}}
+section \ref{sec:mat-sim}, Experiment 2. }
   \label{fig:sim.flory-fold}
 \end{figure}
 
@@ -357,7 +355,7 @@ exceptional catalytic functionalities.  Of course, prebiotic functionalities are
 much more primitive.  Our interest here is in how the most primitive catalysts might have begun.  
 Precision and complexity isn't a requirement for peptides to perform biological function. Studies 
 show that folded proteins generated from random libraries can sustain the growth of living 
-cells~\cite{Fisher2011} and specific bindings between small molecules and them are not 
+cells~\cite{Fisher2011} and specific bindings between them and small molecules are not 
 rare~\cite{Cherny2012}. These findings imply that some primitive foldamers could have had some 
 primitive catalytic capability.  The unique power in catalysis of a foldamer -- in contrast to other 
 polymeric structures -- is that it can resemble a microscale solid, with very precise positioning of 
@@ -391,7 +389,11 @@ that can estimate the size of protein sequence space relevant for such catalysis
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.9\columnwidth]{pictures/hp-catalysis.pdf} 
-  \caption{\red{To be added}}
+  \caption{Chain $A$ folds so that it has exposed hydrophobic monomers on its surface.  This patch 
+can serve as a sticky spot for another HP molecule $B$ and for an H monomer $C$.  Hydrophobic 
+interaction between three of them localizes growing chain and next monomer and reduces the kinetic 
+barrier of polymerization for $B$ and $C$ molecules by 3-4 hydrophobic interactions, increasing the 
+polymerization rate around $ 100$-fold }
   \label{fig:hp-catalysis}
 \end{figure}
 
@@ -744,6 +746,14 @@ non-exponential behavior in the region when $E_h= 1-3 kT$
            activation barrier for $\propto 100$ times at room 
            temperature.}
   \label{fig:hp-catalysis-b}
+\end{figure}
+
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\columnwidth]{pictures/flory-and-hp.pdf} 
+  \caption{}
+  \label{fig:flory-and-hp}
 \end{figure}
 
 \section{Details of the kinetic model.}

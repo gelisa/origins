@@ -12,7 +12,7 @@
    viewBox="48 106 1082 660"
    id="svg3663"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.48.5 r10040"
    sodipodi:docname="info-func-porymers-newview.svg">
   <metadata
      id="metadata3981">
@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -300,14 +300,14 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1025"
+     inkscape:window-height="1024"
      id="namedview3977"
      showgrid="false"
      inkscape:zoom="0.73275154"
      inkscape:cx="950.00424"
-     inkscape:cy="659.18981"
+     inkscape:cy="550.01228"
      inkscape:window-x="-2"
-     inkscape:window-y="32"
+     inkscape:window-y="33"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg3663"
      showguides="true" />
@@ -335,18 +335,18 @@
   </text>
   <g
      id="g3935"
-     transform="matrix(0.67646759,0,0,-0.67646759,617.89749,805.61564)">
+     transform="matrix(0.67646759,0,0,-0.67646759,615.58657,730.89576)">
     <polygon
        style="fill:#ffffff"
-       points="221.333,308.896 210.667,315.562 217.333,304.896 204,302.229 217.333,299.562 210.667,288.896 221.333,295.562 224,282.229 226.667,295.562 237.333,288.896 230.667,299.562 244,302.229 230.667,304.896 237.333,315.562 226.667,308.896 224,322.229 "
+       points="210.667,315.562 217.333,304.896 204,302.229 217.333,299.562 210.667,288.896 221.333,295.562 224,282.229 226.667,295.562 237.333,288.896 230.667,299.562 244,302.229 230.667,304.896 237.333,315.562 226.667,308.896 224,322.229 221.333,308.896 "
        id="polygon3937" />
     <polygon
-       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-       points="221.333,308.896 210.667,315.562 217.333,304.896 204,302.229 217.333,299.562 210.667,288.896 221.333,295.562 224,282.229 226.667,295.562 237.333,288.896 230.667,299.562 244,302.229 230.667,304.896 237.333,315.562 226.667,308.896 224,322.229 "
+       style="fill:none;stroke:#000000;stroke-width:2"
+       points="210.667,315.562 217.333,304.896 204,302.229 217.333,299.562 210.667,288.896 221.333,295.562 224,282.229 226.667,295.562 237.333,288.896 230.667,299.562 244,302.229 230.667,304.896 237.333,315.562 226.667,308.896 224,322.229 221.333,308.896 "
        id="polygon3939" />
     <polygon
-       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-       points="221.333,308.896 210.667,315.562 217.333,304.896 204,302.229 217.333,299.562 210.667,288.896 221.333,295.562 224,282.229 226.667,295.562 237.333,288.896 230.667,299.562 244,302.229 230.667,304.896 237.333,315.562 226.667,308.896 224,322.229 "
+       style="fill:none;stroke:#000000;stroke-width:2"
+       points="210.667,315.562 217.333,304.896 204,302.229 217.333,299.562 210.667,288.896 221.333,295.562 224,282.229 226.667,295.562 237.333,288.896 230.667,299.562 244,302.229 230.667,304.896 237.333,315.562 226.667,308.896 224,322.229 221.333,308.896 "
        id="polygon3941" />
   </g>
   <text
@@ -362,7 +362,7 @@
        y="366.19748" /></text>
   <g
      id="g3799"
-     transform="matrix(0.67646759,0,0,0.67646759,363.75666,303.35657)">
+     transform="matrix(0.67646759,0,0,0.67646759,361.44574,228.63669)">
     <rect
        style="fill:#00ff00"
        x="751.64502"
@@ -371,14 +371,14 @@
        height="40"
        id="rect3801" />
     <rect
-       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+       style="fill:none;stroke:#000000;stroke-width:2"
        x="751.64502"
        y="286"
        width="38.709702"
        height="40"
        id="rect3803" />
     <rect
-       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+       style="fill:none;stroke:#000000;stroke-width:2"
        x="751.64502"
        y="286"
        width="38.709702"
@@ -387,33 +387,33 @@
   </g>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.43705559px;font-family:'Oxygen Mono';-inkscape-font-specification:'Oxygen Mono';fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.50559199;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-     x="875.65393"
-     y="545.65179"
+     style="font-size:30.43705559px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.50559199;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;font-family:Oxygen Mono;-inkscape-font-specification:Oxygen Mono"
+     x="873.34302"
+     y="470.93192"
      id="text4980"><tspan
        sodipodi:role="line"
        id="tspan4982"
-       x="875.65393"
-       y="545.65179"
+       x="873.34302"
+       y="470.93192"
        style="fill:#000000;fill-opacity:1;stroke-width:0.50559199;stroke-miterlimit:4;stroke-dasharray:none">P</tspan></text>
   <path
-     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.25777769;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5306)"
-     d="m 664.91381,680.22536 95.80094,-70.00838"
+     style="fill:none;stroke:#000000;stroke-width:2.25777769;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#marker5306)"
+     d="M 662.60289,605.50548 758.40383,535.4971"
      id="path5036"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.25777769;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5303)"
-     d="m 870.61751,523.81086 -89.90553,67.79759"
+     style="fill:none;stroke:#000000;stroke-width:2.25777769;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#marker5303)"
+     d="m 868.30659,449.09098 -89.90553,67.79759"
      id="path5038"
      inkscape:connector-curvature="0" />
   <path
      inkscape:connector-curvature="0"
      id="path5322"
-     d="m 674.99455,336.49527 95.80095,70.00838"
-     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.25777769;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5324)" />
+     d="m 672.68363,261.77539 95.80095,70.00838"
+     style="fill:none;stroke:#000000;stroke-width:2.25777769;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#marker5324)" />
   <g
      id="g5508"
-     transform="translate(-464.49574,306.52821)">
+     transform="translate(-466.80666,231.80833)">
     <g
        transform="matrix(0.67646759,0,0,0.67646759,393.83205,-2.0149504)"
        id="g4972">
@@ -425,14 +425,14 @@
          height="40"
          id="rect4974" />
       <rect
-         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         style="fill:none;stroke:#000000;stroke-width:2"
          x="751.64502"
          y="286"
          width="38.709702"
          height="40"
          id="rect4976" />
       <rect
-         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         style="fill:none;stroke:#000000;stroke-width:2"
          x="751.64502"
          y="286"
          width="38.709702"
@@ -443,7 +443,7 @@
        id="text5387"
        y="243.34082"
        x="903.88391"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.43705559px;font-family:'Oxygen Mono';-inkscape-font-specification:'Oxygen Mono';fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.50559199;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="font-size:30.43705559px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.50559199;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;font-family:Oxygen Mono;-inkscape-font-specification:Oxygen Mono"
        xml:space="preserve"><tspan
          style="fill:#000000;fill-opacity:1;stroke-width:0.50559199;stroke-miterlimit:4;stroke-dasharray:none"
          y="243.34082"
@@ -453,7 +453,7 @@
   </g>
   <g
      id="g6362"
-     transform="translate(227.24088,-10.571728)">
+     transform="translate(224.92996,-85.291611)">
     <g
        transform="matrix(0.67646759,0,0,0.67646759,126.50178,498.80224)"
        id="g3727">
@@ -470,20 +470,20 @@
          width="38.709702"
          y="286"
          x="410.64499"
-         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+         style="fill:none;stroke:#000000;stroke-width:2" />
       <rect
          id="rect3733"
          height="40"
          width="38.709702"
          y="286"
          x="410.64499"
-         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+         style="fill:none;stroke:#000000;stroke-width:2" />
     </g>
     <text
        id="text5403"
        y="741.34119"
        x="409.47015"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.43705559px;font-family:'Oxygen Mono';-inkscape-font-specification:'Oxygen Mono';fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.50559199;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="font-size:30.43705559px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.50559199;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;font-family:Oxygen Mono;-inkscape-font-specification:Oxygen Mono"
        xml:space="preserve"><tspan
          style="fill:#000000;fill-opacity:1;stroke-width:0.50559199;stroke-miterlimit:4;stroke-dasharray:none"
          y="741.34119"
@@ -495,7 +495,7 @@
   </g>
   <g
      id="g5447"
-     transform="translate(239.5658,-14.397643)">
+     transform="translate(237.25488,-89.117526)">
     <g
        transform="matrix(0.67646759,0,0,0.67646759,127.4056,131.21497)"
        id="g4964">
@@ -507,14 +507,14 @@
          height="40"
          id="rect4966" />
       <rect
-         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         style="fill:none;stroke:#000000;stroke-width:2"
          x="410.64499"
          y="286"
          width="38.709702"
          height="40"
          id="rect4968" />
       <rect
-         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
+         style="fill:none;stroke:#000000;stroke-width:2"
          x="410.64499"
          y="286"
          width="38.709702"
@@ -525,7 +525,7 @@
        id="text5409"
        y="374.25659"
        x="408.57651"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.43705559px;font-family:'Oxygen Mono';-inkscape-font-specification:'Oxygen Mono';fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.50559199;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="font-size:30.43705559px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.50559199;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;font-family:Oxygen Mono;-inkscape-font-specification:Oxygen Mono"
        xml:space="preserve"><tspan
          style="fill:#000000;fill-opacity:1;stroke-width:0.50559199;stroke-miterlimit:4;stroke-dasharray:none"
          y="374.25659"
@@ -537,12 +537,12 @@
   </g>
   <g
      id="g5516"
-     transform="translate(-127.87114,26.906388)">
+     transform="translate(-130.18206,-47.813495)">
     <text
        id="text5415"
        y="499.7959"
        x="839.1369"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.36399174px;font-family:'Oxygen Mono';-inkscape-font-specification:'Oxygen Mono';fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.38182837;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="font-size:13.36399174px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.38182837;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;font-family:Oxygen Mono;-inkscape-font-specification:Oxygen Mono"
        xml:space="preserve"><tspan
          style="text-align:center;text-anchor:middle;stroke-width:0.38182837"
          y="499.7959"
@@ -557,42 +557,42 @@
   </g>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.36399174px;font-family:'Oxygen Mono';-inkscape-font-specification:'Oxygen Mono';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.38182837;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-     x="835.24487"
-     y="599.71448"
+     style="font-size:13.36399174px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.38182837;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;font-family:Oxygen Mono;-inkscape-font-specification:Oxygen Mono"
+     x="832.93396"
+     y="524.99457"
      id="text5421"><tspan
        sodipodi:role="line"
        id="tspan5423"
-       x="835.24487"
-       y="599.71448"
+       x="832.93396"
+       y="524.99457"
        style="stroke-width:0.38182837">Info.Polymer</tspan><tspan
        sodipodi:role="line"
-       x="835.24487"
-       y="616.41949"
+       x="832.93396"
+       y="541.69958"
        style="stroke-width:0.38182837"
        id="tspan5425">Polymerization</tspan></text>
   <g
      id="g5470"
-     transform="translate(241.87673,67.255013)">
+     transform="translate(239.56581,-7.4648697)">
     <g
        id="g5456"
        transform="matrix(0.67646759,0,0,0.67646759,387.57538,144.92585)">
       <polygon
          style="fill:#ffffff"
-         points="224,282.229 226.667,295.562 237.333,288.896 230.667,299.562 244,302.229 230.667,304.896 237.333,315.562 226.667,308.896 224,322.229 221.333,308.896 210.667,315.562 217.333,304.896 204,302.229 217.333,299.562 210.667,288.896 221.333,295.562 "
+         points="226.667,295.562 237.333,288.896 230.667,299.562 244,302.229 230.667,304.896 237.333,315.562 226.667,308.896 224,322.229 221.333,308.896 210.667,315.562 217.333,304.896 204,302.229 217.333,299.562 210.667,288.896 221.333,295.562 224,282.229 "
          id="polygon5458" />
       <polygon
-         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="224,282.229 226.667,295.562 237.333,288.896 230.667,299.562 244,302.229 230.667,304.896 237.333,315.562 226.667,308.896 224,322.229 221.333,308.896 210.667,315.562 217.333,304.896 204,302.229 217.333,299.562 210.667,288.896 221.333,295.562 "
+         style="fill:none;stroke:#000000;stroke-width:2"
+         points="226.667,295.562 237.333,288.896 230.667,299.562 244,302.229 230.667,304.896 237.333,315.562 226.667,308.896 224,322.229 221.333,308.896 210.667,315.562 217.333,304.896 204,302.229 217.333,299.562 210.667,288.896 221.333,295.562 224,282.229 "
          id="polygon5460" />
       <polygon
-         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-         points="224,282.229 226.667,295.562 237.333,288.896 230.667,299.562 244,302.229 230.667,304.896 237.333,315.562 226.667,308.896 224,322.229 221.333,308.896 210.667,315.562 217.333,304.896 204,302.229 217.333,299.562 210.667,288.896 221.333,295.562 "
+         style="fill:none;stroke:#000000;stroke-width:2"
+         points="226.667,295.562 237.333,288.896 230.667,299.562 244,302.229 230.667,304.896 237.333,315.562 226.667,308.896 224,322.229 221.333,308.896 210.667,315.562 217.333,304.896 204,302.229 217.333,299.562 210.667,288.896 221.333,295.562 224,282.229 "
          id="polygon5462" />
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.36399174px;font-family:'Oxygen Mono';-inkscape-font-specification:'Oxygen Mono';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.38182837;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="font-size:13.36399174px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.38182837;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;font-family:Oxygen Mono;-inkscape-font-specification:Oxygen Mono"
        x="602.61182"
        y="347.69446"
        id="text5464"><tspan
@@ -610,11 +610,11 @@
   <path
      inkscape:connector-curvature="0"
      id="path5479"
-     d="M 871.38782,496.91141 781.48229,429.11382"
-     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.25777769;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5481)" />
+     d="M 869.0769,422.19153 779.17137,354.39394"
+     style="fill:none;stroke:#000000;stroke-width:2.25777769;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#marker5481)" />
   <path
-     style="fill:none;fill-rule:evenodd;stroke:#a70000;stroke-width:2.25777769;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM)"
-     d="m 781.53133,401.7345 c 0,0 -6.40812,-58.70909 -25.86615,-76.48438 -19.45803,-17.7753 -76.16141,-15.45139 -76.16141,-15.45139"
+     style="fill:none;stroke:#a70000;stroke-width:2.25777769;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)"
+     d="m 779.22041,327.01462 c 0,0 -6.40812,-58.70909 -25.86615,-76.48438 -19.45803,-17.7753 -76.16141,-15.45139 -76.16141,-15.45139"
      id="path5487"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="czc" />
@@ -622,14 +622,14 @@
      sodipodi:nodetypes="czc"
      inkscape:connector-curvature="0"
      id="path5491"
-     d="m 767.46664,614.56113 c 0,0 -6.40812,58.70909 -25.86615,76.48438 -19.45803,17.7753 -76.16141,15.45139 -76.16141,15.45139"
-     style="fill:none;fill-rule:evenodd;stroke:#a30000;stroke-width:2.25777769;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5493)" />
+     d="m 765.15572,539.84125 c 0,0 -6.40812,58.70909 -25.86615,76.48438 -19.45803,17.7753 -76.16141,15.45139 -76.16141,15.45139"
+     style="fill:none;stroke:#a30000;stroke-width:2.25777769;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#marker5493)" />
   <g
      id="g5521"
-     transform="translate(-234.94395,-83.020869)">
+     transform="translate(-237.25487,-157.74075)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.36399174px;font-family:'Oxygen Mono';-inkscape-font-specification:'Oxygen Mono';fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.38182837;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="font-size:13.36399174px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.38182837;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;font-family:Oxygen Mono;-inkscape-font-specification:Oxygen Mono"
        x="839.1369"
        y="499.7959"
        id="text5523"><tspan
@@ -646,213 +646,65 @@
   </g>
   <g
      id="g5537"
-     transform="matrix(0.67646759,0,0,-0.67646759,436.21575,618.6388)">
+     transform="matrix(0.67646759,0,0,-0.67646759,433.90483,543.91892)">
     <polygon
        style="fill:#ffffff"
-       points="304.333,150.333 297.667,139.667 308.333,146.333 311,133 313.667,146.333 324.333,139.667 317.667,150.333 331,153 317.667,155.667 324.333,166.333 313.667,159.667 311,173 308.333,159.667 297.667,166.333 304.333,155.667 291,153 "
+       points="297.667,139.667 308.333,146.333 311,133 313.667,146.333 324.333,139.667 317.667,150.333 331,153 317.667,155.667 324.333,166.333 313.667,159.667 311,173 308.333,159.667 297.667,166.333 304.333,155.667 291,153 304.333,150.333 "
        id="polygon5539" />
     <polygon
-       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-       points="304.333,150.333 297.667,139.667 308.333,146.333 311,133 313.667,146.333 324.333,139.667 317.667,150.333 331,153 317.667,155.667 324.333,166.333 313.667,159.667 311,173 308.333,159.667 297.667,166.333 304.333,155.667 291,153 "
+       style="fill:none;stroke:#000000;stroke-width:2"
+       points="297.667,139.667 308.333,146.333 311,133 313.667,146.333 324.333,139.667 317.667,150.333 331,153 317.667,155.667 324.333,166.333 313.667,159.667 311,173 308.333,159.667 297.667,166.333 304.333,155.667 291,153 304.333,150.333 "
        id="polygon5541" />
     <polygon
-       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-       points="304.333,150.333 297.667,139.667 308.333,146.333 311,133 313.667,146.333 324.333,139.667 317.667,150.333 331,153 317.667,155.667 324.333,166.333 313.667,159.667 311,173 308.333,159.667 297.667,166.333 304.333,155.667 291,153 "
+       style="fill:none;stroke:#000000;stroke-width:2"
+       points="297.667,139.667 308.333,146.333 311,133 313.667,146.333 324.333,139.667 317.667,150.333 331,153 317.667,155.667 324.333,166.333 313.667,159.667 311,173 308.333,159.667 297.667,166.333 304.333,155.667 291,153 304.333,150.333 "
        id="polygon5543" />
   </g>
   <path
-     style="fill:none;fill-rule:evenodd;stroke:#a30000;stroke-width:2.25777769;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5547)"
-     d="m 528.55588,414.78985 c 0,0 -57.83876,4.74177 -75.35056,19.13997 -17.51179,14.3982 -15.22233,56.35653 -15.22233,56.35653"
+     style="fill:none;stroke:#a30000;stroke-width:2.25777769;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#marker5547)"
+     d="m 526.24496,340.06997 c 0,0 -57.83876,4.74177 -75.35056,19.13997 -17.51179,14.3982 -15.22233,56.35653 -15.22233,56.35653"
      id="path5545"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="czc" />
   <path
      inkscape:connector-curvature="0"
      id="path5551"
-     d="m 437.76902,498.00081 95.80094,-70.00838"
-     style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1.90914166;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5553)" />
+     d="m 435.4581,423.28093 95.80094,-70.00838"
+     style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1.90914166;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#marker5553)" />
   <g
-     transform="matrix(0.71984183,0,0,0.71984183,41.053463,-69.733893)"
-     id="g5664"
-     style="fill:#00ff00">
-    <rect
-       style="fill:#00ff00"
-       x="684.64502"
-       y="334.229"
-       width="38.709702"
-       height="40"
-       id="rect5666" />
-    <rect
-       style="fill:#00ff00;fill-opacity:0;stroke:#000000;stroke-width:2"
-       x="684.64502"
-       y="334.229"
-       width="38.709702"
-       height="40"
-       id="rect5668" />
-    <rect
-       style="fill:#00ff00;fill-opacity:0;stroke:#000000;stroke-width:2"
-       x="684.64502"
-       y="334.229"
-       width="38.709702"
-       height="40"
-       id="rect5670" />
-  </g>
-  <g
-     transform="matrix(0.71984183,0,0,0.71984183,41.053463,-69.733893)"
-     id="g5672">
-    <polygon
-       style="fill:#ffffff"
-       points="855,375.229 852.333,361.896 841.667,368.562 848.333,357.896 835,355.229 848.333,352.562 841.667,341.896 852.333,348.562 855,335.229 857.667,348.562 868.333,341.896 861.667,352.562 875,355.229 861.667,357.896 868.333,368.562 857.667,361.896 "
-       id="polygon5674" />
-    <polygon
-       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-       points="855,375.229 852.333,361.896 841.667,368.562 848.333,357.896 835,355.229 848.333,352.562 841.667,341.896 852.333,348.562 855,335.229 857.667,348.562 868.333,341.896 861.667,352.562 875,355.229 861.667,357.896 868.333,368.562 857.667,361.896 "
-       id="polygon5676" />
-    <polygon
-       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-       points="855,375.229 852.333,361.896 841.667,368.562 848.333,357.896 835,355.229 848.333,352.562 841.667,341.896 852.333,348.562 855,335.229 857.667,348.562 868.333,341.896 861.667,352.562 875,355.229 861.667,357.896 868.333,368.562 857.667,361.896 "
-       id="polygon5678" />
-  </g>
-  <g
-     transform="matrix(0.71984183,0,0,0.71984183,41.053463,-69.733893)"
-     id="g5680"
-     style="fill:#00ff00;fill-opacity:1">
-    <rect
-       style="fill:#00ff00;fill-opacity:1"
-       x="991.64502"
-       y="337.229"
-       width="38.709702"
-       height="40"
-       id="rect5682" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2"
-       x="991.64502"
-       y="337.229"
-       width="38.709702"
-       height="40"
-       id="rect5684" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:2"
-       x="991.64502"
-       y="337.229"
-       width="38.709702"
-       height="40"
-       id="rect5686" />
-  </g>
-  <g
-     transform="matrix(0.71984183,0,0,0.71984183,41.053463,-69.733893)"
-     id="g5688">
-    <line
-       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-       x1="723.35498"
-       y1="354.229"
-       x2="822.76398"
-       y2="355.11899"
-       id="line5690" />
-    <polygon
-       style="fill:#ffffff"
-       points="822.72,360.119 832.764,355.209 822.809,350.12 "
-       id="polygon5692" />
-    <polygon
-       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2"
-       points="822.72,360.119 832.764,355.209 822.809,350.12 "
-       id="polygon5694" />
-  </g>
-  <g
-     transform="matrix(0.71984183,0,0,0.71984183,41.053463,-69.733893)"
-     id="g5696"
-     style="fill:#9e0000;fill-opacity:1;stroke:#a70000;stroke-opacity:1">
-    <line
-       style="fill:#9e0000;fill-opacity:1;stroke:#a70000;stroke-width:2;stroke-opacity:1"
-       x1="868.33301"
-       y1="356.56201"
-       x2="979.409"
-       y2="357.16299"
-       id="line5698" />
-    <polygon
-       style="fill:#9e0000;fill-opacity:1;stroke:#a70000;stroke-opacity:1"
-       points="979.382,362.163 989.409,357.217 979.436,352.163 "
-       id="polygon5700" />
-    <polygon
-       style="fill:#9e0000;fill-opacity:1;stroke:#a70000;stroke-width:2;stroke-opacity:1"
-       points="979.382,362.163 989.409,357.217 979.436,352.163 "
-       id="polygon5702" />
-  </g>
-  <text
-     font-size="12.7998"
-     style="font-style:normal;font-weight:normal;font-size:9.2138319px;font-family:sans-serif;text-anchor:start;fill:#000000"
-     x="534.86493"
-     y="214.76848"
-     id="text5704">
-    <tspan
-       x="534.86493"
-       y="214.76848"
-       id="tspan5706">state</tspan>
-    <tspan
-       x="534.86493"
-       y="226.28596"
-       id="tspan5708">(source)</tspan>
-  </text>
-  <text
-     font-size="12.7998"
-     style="font-style:normal;font-weight:normal;font-size:9.2138319px;font-family:sans-serif;text-anchor:start;fill:#000000"
-     x="638.52222"
-     y="216.92799"
-     id="text5710">
-    <tspan
-       x="638.52222"
-       y="216.92799"
-       id="tspan5712">process</tspan>
-  </text>
-  <text
-     font-size="12.7998"
-     style="font-style:normal;font-weight:normal;font-size:9.2138319px;font-family:sans-serif;text-anchor:start;fill:#000000"
-     x="754.41675"
-     y="219.08754"
-     id="text5714">
-    <tspan
-       x="754.41675"
-       y="219.08754"
-       id="tspan5716">state</tspan>
-    <tspan
-       x="754.41675"
-       y="230.605"
-       id="tspan5718">(sink)</tspan>
-  </text>
-  <g
-     transform="matrix(0.67646759,0,0,-0.67646759,389.11599,623.05262)"
+     transform="matrix(0.67646759,0,0,-0.67646759,386.80507,548.33274)"
      id="g6371">
     <polygon
        id="polygon6373"
-       points="210.667,288.896 221.333,295.562 224,282.229 226.667,295.562 237.333,288.896 230.667,299.562 244,302.229 230.667,304.896 237.333,315.562 226.667,308.896 224,322.229 221.333,308.896 210.667,315.562 217.333,304.896 204,302.229 217.333,299.562 "
+       points="221.333,295.562 224,282.229 226.667,295.562 237.333,288.896 230.667,299.562 244,302.229 230.667,304.896 237.333,315.562 226.667,308.896 224,322.229 221.333,308.896 210.667,315.562 217.333,304.896 204,302.229 217.333,299.562 210.667,288.896 "
        style="fill:#ffffff" />
     <polygon
        id="polygon6375"
-       points="210.667,288.896 221.333,295.562 224,282.229 226.667,295.562 237.333,288.896 230.667,299.562 244,302.229 230.667,304.896 237.333,315.562 226.667,308.896 224,322.229 221.333,308.896 210.667,315.562 217.333,304.896 204,302.229 217.333,299.562 "
-       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+       points="221.333,295.562 224,282.229 226.667,295.562 237.333,288.896 230.667,299.562 244,302.229 230.667,304.896 237.333,315.562 226.667,308.896 224,322.229 221.333,308.896 210.667,315.562 217.333,304.896 204,302.229 217.333,299.562 210.667,288.896 "
+       style="fill:none;stroke:#000000;stroke-width:2" />
     <polygon
        id="polygon6377"
-       points="210.667,288.896 221.333,295.562 224,282.229 226.667,295.562 237.333,288.896 230.667,299.562 244,302.229 230.667,304.896 237.333,315.562 226.667,308.896 224,322.229 221.333,308.896 210.667,315.562 217.333,304.896 204,302.229 217.333,299.562 "
-       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2" />
+       points="221.333,295.562 224,282.229 226.667,295.562 237.333,288.896 230.667,299.562 244,302.229 230.667,304.896 237.333,315.562 226.667,308.896 224,322.229 221.333,308.896 210.667,315.562 217.333,304.896 204,302.229 217.333,299.562 210.667,288.896 "
+       style="fill:none;stroke:#000000;stroke-width:2" />
   </g>
   <path
-     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.33006573;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6383)"
-     d="m 469.09186,512.2315 161.04424,2.26044"
+     style="fill:none;stroke:#000000;stroke-width:2.33006573;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#marker6383)"
+     d="m 466.78094,437.51162 161.04424,2.26044"
      id="path6379"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:none;fill-rule:evenodd;stroke:#970000;stroke-width:2.25777769;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6387)"
-     d="m 662.2348,512.73352 201.12955,0.56249"
+     style="fill:none;stroke:#970000;stroke-width:2.25777769;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#marker6387)"
+     d="m 659.92388,438.01364 201.12955,0.56249"
      id="path6381"
      inkscape:connector-curvature="0" />
   <path
      inkscape:connector-curvature="0"
      id="path6391"
-     d="M 647.65983,677.66946 647.38996,532.5994"
-     style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:2.04573059;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6393)" />
+     d="M 645.34891,602.94958 645.07904,457.87952"
+     style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:2.04573059;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#marker6393)" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1.90914166;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6399)"
-     d="m 643.94356,337.50216 -95.80094,70.00838"
+     style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1.90914166;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#marker6399)"
+     d="M 641.63264,262.78228 545.8317,332.79066"
      id="path6397"
      inkscape:connector-curvature="0" />
 </svg>

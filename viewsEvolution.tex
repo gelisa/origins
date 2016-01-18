@@ -63,61 +63,50 @@
 %\pagenumbering{roman}
 \pagestyle{fancy}
 \lhead{\bf \today}
-\chead{\bf Home}
+\chead{\bf Views on evolution}
 \rhead{EG}
-\title{Origins: Home -- \today}
+\title{Views on evolution -- \today}
 \author{EG}
 \date{\today}
 
 \begin{document}
  \maketitle
+ 
+ \wikilink{home}{Home}
+
+\wikilink{viewsEvolution}{Self}
+ 
  \tableofcontents
+ \section{The system}
  
-\section{Administrative}
+ An entity: it has a phenotype and genotype and some kind of fitness function. It can be the case, 
+when $G=P$ or $G\neq P$
 
-
+ \paragraph{Example systems:}
 \begin{enumerate}
- \item \wikilink{plan}{Plan}
- \item \wikilink{tasks}{Tasks}
- \item \wikilink{open\_problems}{Open Problems}\red{no file}
- \item \wikilink{green\_ideas}{Random Green Ideas}\red{no file}
- \item \wikilink{numbers}{Numbers}
+ \item \textbf{Set of vectors.} Vectors are of fixed length and their elements belong to some 
+alphabet, for example $\{0,1\}$
+  \subitem Genotype -- sequence, Phenotype -- sequence $G=P$ obviously. Fitness function -- 
+closeness to some vector by some metric.
+  \item \textbf{Protein $G=P$.} A sequence of amino acids folds. Different folds are considered as 
+different organisms
+  \subitem Genotype -- set of dihedral angles, Phenotype = Genotype. Fitness function -- Free energy
+  \item \textbf{Protein $G\neq P$.} A sequence of amino acids folds. Different folds are considered 
+as different organisms
+  \subitem Genotype -- set of dihedral angles. Phenotype = fitness function = Free energy
+  \item \textbf{Robots in a maze.} Robots of certain fixed construction and varying neural networks.
+  \subitem Genotype -- Sequence of weights of neural networks. Phenotype -- behavior of the robot. 
+Fitness function -- how close the robot will come to a target. It can measure distance from 
+itself to the target. $G\neq P$
+\end{enumerate}
+
  
-\end{enumerate}
-
-\section{Primary Sources}
-\begin{enumerate}
- \item \wikilink{literature\_theory}{Literature: Theory}
- \item \wikilink{literature\_experiment}{Literature: Experiment}
- \item \wikilink{research\_calculations}{Research: Calculations}
- \item \wikilink{research\_simulations}{Research: Simulations}\red{no file}
-\end{enumerate}
-
-\section{Second Level Structures}
-\begin{enumerate}
- \item \wikilink{ideas}{Ideas}
-\end{enumerate}
-
-\section{Third Level Structures}
-
-
-\begin{enumerate}
- \item \wikilink{hp\_world}{HP World Article}
- \item \wikilink{twoPolymers}{Two Polymers joint}
- \item \wikilink{viewsEvolution}{Views on evolution}
- \item \wikilink{memories}{Different types of memory and their support of evolution}
-\end{enumerate}
-
-
-
-
-% == 3 Second Level Structures ==
-% # [[Ideas]]
-% == 4 Third Level Structures ==
-% #[[We use hydrophobic effect to solve Flory problem]]
-% 
-% 
-% == 5 Fourth Level Structures ==
-
+ 
+ \section{Optimization methods and their relation to biological and artificial evolution}
+ 
+ \subsection{Gradient descent}
+ 
+ \paragraph{Statement.} 
+ 
  
 \end{document}

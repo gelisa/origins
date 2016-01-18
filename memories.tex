@@ -11,12 +11,14 @@
 \usepackage{changepage}
 \usepackage{hyperref}
 \usepackage{fancyhdr}
+% \usepackage{showkeys}
 \usepackage{textcomp}
 \usepackage{mathtools}
 \usepackage{comment}
 \usepackage[normalem]{ulem}
 \usepackage{marginnote}
 \usepackage[numbers,sort&compress]{natbib}
+%%%%%
 \mathtoolsset{showonlyrefs=false}
 
 \newcommand{\ga}{\alpha}
@@ -48,54 +50,39 @@
 \newcommand{\red}[1]{\textcolor{red}{#1}}
 \newcommand{\blue}[1]{\textcolor{blue}{#1}}
 \newcommand{\gray}[1]{\textcolor{gray}{#1}}
+% \newcommand{\wikilink}[1]\href{plan.pdf}{Plan}\,(\href{plan.tex}{tex})
+% \renewcommand{\baselinestretch}{2} 
+%%%%%%%%%
 \newcommand{\wikilink}[2] { \href{#1.pdf}{#2}\,(\href{#1.tex}{edit})}
 
 \setlength{\textheight}{20cm}
+%\changetext{0cm}{0cm}{0cm}{0cm}{0cm}
 \changepage{3.4cm}{5cm}{-2cm}{-2.5cm}{-2.0cm}{-2cm}{0.3cm}{-0.5cm}{0.1cm}
+%{length of the text}{width of the text}{}{shift to the right}
+%{}{}{}{}{from text to pagenumber}
+%\pagenumbering{roman}
 \pagestyle{fancy}
 \lhead{\bf \today}
-\chead{\bf }
+\chead{\bf Memory types}
 \rhead{EG}
-\title{Tasks  -- \today}
+\title{Memory types and their support of evolution/life -- \today}
 \author{EG}
 \date{\today}
 
 \begin{document}
  \maketitle
-\wikilink{home}{Home}
+ 
+ \wikilink{home}{Home}
 
-\section{Urgent}
-\begin{enumerate}
- \item Send paper on autocatalysis to Ken
- \item Send new updated figures from the paper
- \item Send Dawkins and $G=P$, $G\neq P$ papers
-\end{enumerate}
-
-
-
-\section{HP world article}
-\begin{enumerate}
- \item See length distribution of simulations 7-13: in resources/expVSpol folder there are some 
-peculiar pictures
-\end{enumerate}
-
-\section{Two polymers}
-\begin{enumerate}
- \item Look futher into McMullin's work to look if he implemented his Genetic Relativism idea
- \item Look at Bar-Yam evolutionary works further
- \item Evolvability wiki article
- \item Lipson2005 also might be useful
-\end{enumerate}
-
-\section{In general, maybe}
-\begin{enumerate}
-\item Complexity:
-\subitem 503. Christof Adami, ``What is complexity?''
-BioEssays 24 (2002) : 1085-1094; \\
-http://www.krl.caltech.edu/~adami/BE2002.pdf.
-\subitem 504. Christof Adami, Charles Ofria, Travis C. Collier, “Evolution of biological
-complexity,” Proc. Nat. Acad. Sci. (USA) 97 (26 May 2000): 4463-4468; \\
-http://xxx.lanl.gov/PS\_cache/physics/pdf/0005/0005074.pdf.
-\end{enumerate}
-
+\wikilink{memories}{Self}
+ 
+ \tableofcontents
+ 
+ \section{Memory of solution}
+ 
+ \section{Reference memory}
+ 
+ \section{Archive memory}
+ 
+ 
 \end{document}
