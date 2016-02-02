@@ -256,18 +256,24 @@ HP sequences.}
 
 \section{The model for HP polymerization kinetics}
 
- We consider a soup containing $H$ and $P$ monomers \sout{at concentration xxx} \red{There is no 
-indication of concentration in our system. I have ``populations'' and they vary largly. Maybe we 
-shouldn't mention any concentrations at all}.  
- A prerequisite for prebiotic origins are processes that are away from equilibrium.  In our case, 
-(``food'') monomers are supplied by 
-an external source with rate $a$ and any molecule be removed from the system with rate $d$; this 
-mimics cell growth and division. We assume a system in which activated monomers are plentiful\sout{, 
-at concentration xxx}\red{For activated monomers populations/concentration are purely abstract 
-ideas.}, and therefore any given polymer in solution elongates spontaneously with rate $\ga$.  
+ We consider a soup containing $H$ and $P$ monomers. 
+ A prerequisite for prebiotic origins are processes that are far from equilibrium.  In our case, 
+``food'' ( $H$  and $P$ monomers) is supplied by an external source with rate $a$ and any molecule 
+be removed from the system with rate $d$; this 
+mimics cell growth and division. We assume that activation problem is solved and monomers can be 
+easily activated and therefore any given polymer in solution elongates by an addition of a monomer 
+with rate $\ga$.  
 Without loss of generality we set the rate units of this model so that this parameter 
 equals 1; all other rates are taken relative to this growth rate.  We assume all polymers also 
-undergo spontaneous hydrolysis; any bond can be broken with rate constant $d_h$.
+undergo spontaneous hydrolysis; any bond can be broken with rate constant $d_h$. Such a system 
+follows Flory dynamics and long polymers are rarely observed (see figure \ref{fig:sim_pure_flory}
+\begin{figure*}[ht!]
+  \centering
+  \includegraphics[width=0.47\textwidth]{pictures/floryDistrOnly16.pdf} 
+  \includegraphics[width=0.47\textwidth]{pictures/m019-d01dh01-scatter-hp.png} 
+  \caption{}
+  \label{fig:sim_pure_flory}
+\end{figure*}
 
  Now, in addition to this basic polymerization dynamics, we also account 
  for the fact that some sequences will fold into native HP structures, protecting its hydrophobic 
@@ -406,56 +412,68 @@ based on all those foldamers that have three $H$ monomers on their surfaces in t
 folded states (see SI for details). Presence of catalysis in the system skews the distribution 
 significantly. This distribution is fairly stable towards hydrolysis and dilution
 parameters. It allows for 1 order of magnitude change in those parameters without significant change 
-in the behavior of the system. Sequences responsible for the skew of the distribution are few 
-in numbers they all are catalysts and have long stretches of hydrophobes, which also means that they 
-are products of catalysis. 
+in the behavior of the system.
 
-This figure makes a key point of this paper, namely that the catalysis that results from some 
-foldamers -- even though it is weak -- can lead to solving the Flory Problem. \red{This claim isn't 
-true in general. There are plenty of systems with catalysis, which have exponential length 
-distribution. In our case, I would say, the most important factor is 
-complexity of hydrophobic interaction. While it allows autocatalysis, it also through folding 
-protects the very same molecules from hydrolysis.}
+This figure represent one of the key finding of this paper: a simple physical mechanism, such as 
+hydrophobic interaction is capable of generating autocatalytic sets of non-trivial structure (for 
+details see sec.\ref{sec:evolution}), which despite the initial weak catalytic forces of 
+interaction ($E_h\approx 1-2kT$) over time reaches the ability to dominate population. As it's 
+clear from the figure \ref{fig:sim.flory-fold} this mechanism also allow for solution of the Flory 
+problem.
 
-\blue{E - We need to understand this better, because it is the central physics of our paper. 
-What is it about our special folding/catalysis mechanism that works, and what is it about other 
-catalysis mechanisms that don't work?}
+Figure\,\ref{fig:stats-scatter-018} show populations of individual sequence as function of their 
+length. Colors represent type of the sequence: red -- for autocatalysts, blue -- for foldable, gray 
+-- for the rest. While autocatalysts constitute a minority of the sequence space ( $\approx 0.6\%$ 
+of all the represented in the experiment sequences; foldable but inactive sequences occupy $\approx 
+2.3\%$, regular sequences -- $\approx97.1\%$), their contribution to the total mass is impressive: 
+$\approx 15.7\%$; inactive folders -- $\approx 29.2\%;$ regular sequences $\approx 55.1\%$. 
+Moreover, the longer the chain length, the higher the input of autocatalysts into total mass of 
+that length (see figure \ref{fig:biomass}). This happens first of all due to increasing number of 
+autocatalysts among longer sequences (see fig.\ref{fig:hp-statistics} and also due to the fact that 
+folding along isn't capable of reaching longer chains. While at the shorter chains preservation 
+from hydrolysis by means of folding is enough at longer chains active influence of catalysis is 
+necessary.
 
-Accounting for the folding and catalysis of some HP sequences (unbroken red line) shows that the 
-populations of 25-mer chains, in the model estimation, will be about 6 orders of magnitude higher 
-than when not accounting for folding and catalysis.  And, that amplification factor increases for 
-longer chains.  
-More tests and details are given in the SI.
-\begin{figure*}[h!]
-  \centering
-  \includegraphics[width=0.95\textwidth]{pictures/flory-and-hp.pdf} 
-  \caption{Dashed lines represent polymerization without folding or catalysis. Solid lines 
-correspond to simulations run with folding and catalysis. For details of simulations see 
-section \ref{sec:mat-sim}, Experiment 2. }
-  \label{fig:sim.flory-fold}
-\end{figure*}
+
+
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=\columnwidth]{pictures/good_seqs.pdf} 
-  \caption{Some examples of dominating autocatalytic sequences. Gray lines represent regular 
-non-catalytic sequence. structures on the right are native structures of autocatalytic sequences. }
-  \label{fig:example1}
+  \includegraphics[width=\columnwidth]{pictures/twoDistr16.pdf} 
+  \caption{\footnotesize{Gray line represents polymerization without folding or catalysis. Red one 
+corresponds to a simulation run with folding and catalysis. For details of simulations see 
+section \ref{sec:mat-sim}, Experiment 2. }}
+  \label{fig:sim.flory-fold}
 \end{figure}
-\blue{E - We need a better fig here.  Here are 3 folded structures.  But, we are not showing 
-their autocat partner.  Can we show those?  And, can we indicate how the A folds the B and how the 
-B 
-folds the A?}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\columnwidth]{pictures/scatter0101-26.png} 
+  \caption{\footnotesize{This figure shows populations of individual sequences as functions of 
+their length. Autocatalytic sequences are shown in red, sequences that can fold but cannot act as 
+catalysts -- in blue, and all the other sequences in gray. Lower limit of $10^{-6}$ is due to 
+computational precision -- there are $10^6$ time steps over which we calculate average to get a 
+point on the graph. Therefore the minimum possible population correspond to the case when sequence 
+appeared only for one time instance.}}
+  \label{fig:stats-scatter-018}
+\end{figure}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\columnwidth]{pictures/biomass.pdf} 
+  \caption{\footnotesize{Gray line represents polymerization without folding or catalysis. Red one 
+corresponds to a simulation run with folding and catalysis. }}
+  \label{fig:biomass}
+\end{figure}
 
-\red{Ken -- There are no autocatalytic partners in this model. Each sequence, which can catalyze 
-can be catalyzed as well. It just happen to be so. So all catalysts are auto and cross 
-catalysts simultaneously. Direct interactions cannot be extracted from simulation results. There are 
-some correlations of populations of sequences, but I don't understand them and cannot use.}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\columnwidth]{pictures/hp-statistics.pdf} 
+  \caption{\red{To be enlarged. Also should go to the section on HP-model }}
+  \label{fig:biomass}
+\end{figure}
 
-\blue{E -- OK, very interesting.  So, we need to say this quite specifically in the text.  
-Below, I put in some possible text.  If it's correct, let's use it.  If not, let's fix it.  }
 
 \section{Bootstrapping and autocatalysis: HP foldamers can elongate other HP chains.} 
+\label{sec:evolution}
  It has long been recognized that life's origins 
  require some form of autocatalysis~\cite{Kauffman1986,Dyson1985,Eigen1978}.  But, what mechanism 
 at the molecular structural level might explain some type of molecular structural bootstrapping?  

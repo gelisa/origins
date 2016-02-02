@@ -11,7 +11,7 @@
    version="1.1"
    width="1000"
    id="svg6778"
-   inkscape:version="0.48.5 r10040"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="tst-seqs.svg">
   <metadata
      id="metadata7280">
@@ -21,7 +21,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -34,15 +34,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1858"
-     inkscape:window-height="1024"
+     inkscape:window-width="1879"
+     inkscape:window-height="1025"
      id="namedview7278"
      showgrid="true"
      inkscape:zoom="0.51"
-     inkscape:cx="783.23529"
+     inkscape:cx="487.15686"
      inkscape:cy="363.95636"
-     inkscape:window-x="-2"
-     inkscape:window-y="33"
+     inkscape:window-x="39"
+     inkscape:window-y="32"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg6778">
     <inkscape:grid
@@ -81,8 +81,7 @@
        sodipodi:cx="0"
        sodipodi:cy="500"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 13,500 c 0,7.1797 -5.8202983,13 -13,13 -7.1797017,0 -13,-5.8203 -13,-13 0,-7.1797 5.8202983,-13 13,-13 7.1797017,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        id="line6972"
        y2="513.72546"
@@ -100,8 +99,7 @@
        sodipodi:cx="30"
        sodipodi:cy="500"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 43,500 c 0,7.1797 -5.820298,13 -13,13 -7.179702,0 -13,-5.8203 -13,-13 0,-7.1797 5.820298,-13 13,-13 7.179702,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        id="line6976"
        y2="513.72546"
@@ -119,8 +117,7 @@
        sodipodi:cx="60"
        sodipodi:cy="500"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 73,500 c 0,7.1797 -5.820298,13 -13,13 -7.179702,0 -13,-5.8203 -13,-13 0,-7.1797 5.820298,-13 13,-13 7.179702,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        id="line6980"
        y2="513.72546"
@@ -138,8 +135,7 @@
        sodipodi:cx="90"
        sodipodi:cy="500"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 103,500 c 0,7.1797 -5.820298,13 -13,13 -7.179702,0 -13,-5.8203 -13,-13 0,-7.1797 5.820298,-13 13,-13 7.179702,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        id="line6984"
        y2="513.72546"
@@ -157,8 +153,7 @@
        sodipodi:cx="120"
        sodipodi:cy="500"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 133,500 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        id="line6988"
        y2="513.72546"
@@ -176,8 +171,7 @@
        sodipodi:cx="150"
        sodipodi:cy="500"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 163,500 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        id="line6992"
        y2="513.72546"
@@ -195,8 +189,7 @@
        sodipodi:cx="180"
        sodipodi:cy="500"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 193,500 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        id="line6996"
        y2="513.72546"
@@ -214,8 +207,7 @@
        sodipodi:cx="210"
        sodipodi:cy="500"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 223,500 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        id="line7000"
        y2="513.72546"
@@ -233,8 +225,7 @@
        sodipodi:cx="240"
        sodipodi:cy="500"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 253,500 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        id="line7004"
        y2="513.72546"
@@ -252,8 +243,7 @@
        sodipodi:cx="270"
        sodipodi:cy="500"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 283,500 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        id="line7008"
        y2="513.72546"
@@ -271,8 +261,7 @@
        sodipodi:cx="300"
        sodipodi:cy="500"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 313,500 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        id="line7012"
        y2="513.72546"
@@ -290,8 +279,7 @@
        sodipodi:cx="330"
        sodipodi:cy="500"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 343,500 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        id="line7016"
        y2="513.72546"
@@ -309,8 +297,7 @@
        sodipodi:cx="360"
        sodipodi:cy="500"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 373,500 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        id="line7020"
        y2="513.72546"
@@ -328,8 +315,7 @@
        sodipodi:cx="390"
        sodipodi:cy="500"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 403,500 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        id="line7024"
        y2="513.72546"
@@ -347,8 +333,7 @@
        sodipodi:cx="420"
        sodipodi:cy="500"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 433,500 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <circle
        transform="matrix(-1,0,0,1,691.37256,13.72549)"
        id="circle7028"
@@ -359,8 +344,7 @@
        sodipodi:cx="450"
        sodipodi:cy="500"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 463,500 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
   </g>
   <text
      xml:space="preserve"
@@ -404,8 +388,7 @@
        sodipodi:cx="324.5098"
        sodipodi:cy="864.70587"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 337.5098,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7096"
@@ -423,8 +406,7 @@
        sodipodi:cx="354.5098"
        sodipodi:cy="864.70587"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 367.5098,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7100"
@@ -442,8 +424,7 @@
        sodipodi:cx="384.5098"
        sodipodi:cy="864.70587"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 397.5098,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7104"
@@ -461,8 +442,7 @@
        sodipodi:cx="414.5098"
        sodipodi:cy="864.70587"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 427.5098,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7108"
@@ -480,8 +460,7 @@
        sodipodi:cx="444.5098"
        sodipodi:cy="864.70587"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 457.5098,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7112"
@@ -499,8 +478,7 @@
        sodipodi:cx="474.5098"
        sodipodi:cy="864.70587"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 487.5098,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7116"
@@ -518,8 +496,7 @@
        sodipodi:cx="504.5098"
        sodipodi:cy="864.70587"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 517.5098,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7120"
@@ -537,8 +514,7 @@
        sodipodi:cx="534.50983"
        sodipodi:cy="864.70587"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 547.50983,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7124"
@@ -556,8 +532,7 @@
        sodipodi:cx="564.50983"
        sodipodi:cy="864.70587"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 577.50983,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7128"
@@ -575,8 +550,7 @@
        sodipodi:cx="594.50983"
        sodipodi:cy="864.70587"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 607.50983,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7132"
@@ -594,8 +568,7 @@
        sodipodi:cx="624.50983"
        sodipodi:cy="864.70587"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 637.50983,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7136"
@@ -613,8 +586,7 @@
        sodipodi:cx="654.50983"
        sodipodi:cy="864.70587"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 667.50983,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7140"
@@ -632,8 +604,7 @@
        sodipodi:cx="684.50983"
        sodipodi:cy="864.70587"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 697.50983,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7144"
@@ -651,8 +622,7 @@
        sodipodi:cx="714.50983"
        sodipodi:cy="864.70587"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 727.50983,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7148"
@@ -670,8 +640,7 @@
        sodipodi:cx="744.50983"
        sodipodi:cy="864.70587"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 757.50983,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
     <circle
        transform="translate(-90,0)"
        style="fill:#ff0000;stroke:#000000"
@@ -682,8 +651,7 @@
        sodipodi:cx="774.50983"
        sodipodi:cy="864.70587"
        sodipodi:rx="13"
-       sodipodi:ry="13"
-       d="m 787.50983,864.70587 c 0,7.1797 -5.8203,13 -13,13 -7.17971,0 -13,-5.8203 -13,-13 0,-7.1797 5.82029,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       sodipodi:ry="13" />
   </g>
   <text
      xml:space="preserve"
@@ -713,7 +681,6 @@
        r="13"
        cy="190.19611"
        cx="-776.48676"
-       d="m -763.48676,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
        sodipodi:cx="-776.48676"
        sodipodi:cy="190.19611"
        sodipodi:rx="13"
@@ -732,7 +699,6 @@
        r="13"
        cy="190.19611"
        cx="-746.48676"
-       d="m -733.48676,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
        sodipodi:cx="-746.48676"
        sodipodi:cy="190.19611"
        sodipodi:rx="13"
@@ -751,7 +717,6 @@
        r="13"
        cy="190.19611"
        cx="-716.48676"
-       d="m -703.48676,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
        sodipodi:cx="-716.48676"
        sodipodi:cy="190.19611"
        sodipodi:rx="13"
@@ -770,7 +735,6 @@
        r="13"
        cy="190.19611"
        cx="-686.48676"
-       d="m -673.48676,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
        sodipodi:cx="-686.48676"
        sodipodi:cy="190.19611"
        sodipodi:rx="13"
@@ -789,7 +753,6 @@
        r="13"
        cy="190.19611"
        cx="-656.48676"
-       d="m -643.48676,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
        sodipodi:cx="-656.48676"
        sodipodi:cy="190.19611"
        sodipodi:rx="13"
@@ -808,7 +771,6 @@
        r="13"
        cy="190.19611"
        cx="-626.48676"
-       d="m -613.48676,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
        sodipodi:cx="-626.48676"
        sodipodi:cy="190.19611"
        sodipodi:rx="13"
@@ -827,7 +789,6 @@
        r="13"
        cy="190.19611"
        cx="-596.48676"
-       d="m -583.48676,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
        sodipodi:cx="-596.48676"
        sodipodi:cy="190.19611"
        sodipodi:rx="13"
@@ -846,7 +807,6 @@
        r="13"
        cy="190.19611"
        cx="-566.48676"
-       d="m -553.48676,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
        sodipodi:cx="-566.48676"
        sodipodi:cy="190.19611"
        sodipodi:rx="13"
@@ -865,7 +825,6 @@
        r="13"
        cy="190.19611"
        cx="-536.48676"
-       d="m -523.48676,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
        sodipodi:cx="-536.48676"
        sodipodi:cy="190.19611"
        sodipodi:rx="13"
@@ -884,7 +843,6 @@
        r="13"
        cy="190.19611"
        cx="-506.48679"
-       d="m -493.48679,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
        sodipodi:cx="-506.48679"
        sodipodi:cy="190.19611"
        sodipodi:rx="13"
@@ -903,7 +861,6 @@
        r="13"
        cy="190.19611"
        cx="-476.48679"
-       d="m -463.48679,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
        sodipodi:cx="-476.48679"
        sodipodi:cy="190.19611"
        sodipodi:rx="13"
@@ -922,7 +879,6 @@
        r="13"
        cy="190.19611"
        cx="-446.48679"
-       d="m -433.48679,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
        sodipodi:cx="-446.48679"
        sodipodi:cy="190.19611"
        sodipodi:rx="13"
@@ -941,7 +897,6 @@
        r="13"
        cy="190.19611"
        cx="-416.48679"
-       d="m -403.48679,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
        sodipodi:cx="-416.48679"
        sodipodi:cy="190.19611"
        sodipodi:rx="13"
@@ -960,7 +915,6 @@
        r="13"
        cy="190.19611"
        cx="-386.48679"
-       d="m -373.48679,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
        sodipodi:cx="-386.48679"
        sodipodi:cy="190.19611"
        sodipodi:rx="13"
@@ -979,7 +933,6 @@
        r="13"
        cy="190.19611"
        cx="-356.48679"
-       d="m -343.48679,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
        sodipodi:cx="-356.48679"
        sodipodi:cy="190.19611"
        sodipodi:rx="13"
@@ -991,7 +944,6 @@
        r="13"
        cy="190.19611"
        cx="-326.48679"
-       d="m -313.48679,190.19611 c 0,7.1797 -5.82029,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.17971 5.8203,-13 13,-13 7.17971,0 13,5.82029 13,13 z"
        sodipodi:cx="-326.48679"
        sodipodi:cy="190.19611"
        sodipodi:rx="13"
@@ -1019,28 +971,6 @@
        id="tspan9231"
        x="85.411766"
        y="161.76471" /></text>
-  <text
-     xml:space="preserve"
-     style="font-size:40px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century SchoolBook URW;-inkscape-font-specification:Century SchoolBook URW Medium"
-     x="540"
-     y="68.920082"
-     id="text9287"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       id="tspan9289"
-       x="540"
-       y="68.920082">indicates beginning of the sequence</tspan></text>
-  <circle
-     cx="-128.08131"
-     cy="31.183964"
-     r="13"
-     id="circle7276-1"
-     style="fill:#ffaaaa;stroke:#000000"
-     transform="matrix(-1,0,0,1,10.145718,23.724165)"
-     sodipodi:cx="-128.08131"
-     sodipodi:cy="31.183964"
-     sodipodi:rx="13"
-     sodipodi:ry="13" />
   <g
      id="g8951">
     <line
