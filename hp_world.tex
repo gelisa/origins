@@ -9,7 +9,8 @@
 \usepackage{geometry}
 \usepackage[normalem]{ulem}
 \usepackage{amsmath}
-
+\usepackage{amssymb}
+% \usepackage{showkeys}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Place any additional macros here.  Please use \newcommand* where
 %% possible, and avoid layout-changing macros (which are not used
@@ -142,11 +143,7 @@ mechanisms of chain polymerizations, it has been clear that chain syntheses are 
 the concentrations of longer chains are exponentially smaller than of shorter chains. 
 
 Correspondingly, 
-\sout{it is known that}\footnote{\red{Here, we say it is known then one can get 
-only short sequences, and then mention studies. It looks like people tried to prove this point with 
-their studies, but they in fact tried to overcome difficulties, like no polymerization in water 
-solutions at all. }} 
-\textbf{experimental studies which are intended to find out possible ways of } 
+experimental studies which are intended to find out possible ways of 
 prebiotic polymerizations of 
 amino acids and nucleotides 
 lead predominantly to short chains. Leman et al. 
@@ -188,7 +185,8 @@ negligible concentrations of $\propto 10^{-19} $ mol/L.
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\columnwidth]{pictures/flory2.pdf} 
-  \caption{The Flory length distribution that arises from spontaneous polymerization processes.}
+  \caption{The Flory length distribution that arises from spontaneous polymerization processes. 
+Green line gives $\bar l = 6$, magenta one corresponds to $\bar l =2$}
   \label{fig:flory}
 \end{figure}
 
@@ -196,9 +194,10 @@ The Flory distribution is a good model of prebiotic syntheses of peptide and nuc
 acid chains.  Figure~\ref{fig:some_flory} shows that the Flory model fits known length 
 distributions from various prebiotic syntheses (sometimes data is fit to an exponential law, 
 $f(a)\propto const^l$, which is slightly simpler but nearly identical in form 
-~\cite{nowak2008prevolutionary,Derr2012}).  So, since prebiotic chemistry appears to give 
+~\cite{nowak2008prevolutionary,Derr2012}).  So, since experiments on a.a. polymerization and 
+prebiotic chemistry appears to give 
 submillimolar or submicromolar 
-concentrations\cite{Aubrey2009,Kanavarioti2001,Lazcano1996}\red{check citations} of monomers, 
+concentrations\cite{Stribling1987,Huber1998,Aubrey2009,Kanavarioti2001,Lazcano1996} of monomers, 
 longer chains have been expected to be 
 present in negligible concentrations.  The Flory 
 problem is not solved by improving the catalyst~\cite{Derr2012}. The problem is in the equilibrium, 
@@ -207,7 +206,7 @@ bonding each monomer into the chain.
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=\columnwidth]{pictures/some_flory.pdf} 
+  \includegraphics[width=\columnwidth]{pictures/some_flory.png} 
   \caption{Chain-length distributions of peptides and nucleic acids synthesized under prebiotic 
 conditions.  The lines show curve fits to the Flory distribution for polymerization processes. Data 
 points: red -- Kanavarioti~\cite{Kanavarioti2001}, cyan -- Ding~\cite{Ding1996}, 
@@ -265,22 +264,14 @@ easily activated and therefore any given polymer in solution elongates by an add
 with rate $\ga$.  
 Without loss of generality we set the rate units of this model so that this parameter 
 equals 1; all other rates are taken relative to this growth rate.  We assume all polymers also 
-undergo spontaneous hydrolysis; any bond can be broken with rate constant $d_h$. Such a system 
-follows Flory dynamics and long polymers are rarely observed (see figure \ref{fig:sim_pure_flory}
-\begin{figure*}[ht!]
-  \centering
-  (a)\includegraphics[width=0.45\textwidth]{pictures/floryDistrOnly16.pdf} 
-  (b)\includegraphics[width=0.45\textwidth]{pictures/scatter01916.png} 
-  \caption{\footnotesize{(a) length distribution of the sequences. (b) Populations of the 
-individual sequences}}
-  \label{fig:sim_pure_flory}
-\end{figure*}
+undergo spontaneous hydrolysis; any bond can be broken with rate constant $d_h$. 
 
  Now, in addition to this basic polymerization dynamics, we also account 
  for the fact that some sequences will fold into native HP structures, protecting its hydrophobic 
 core residues from hydrolysis.  In the standard definition for HP polymers, we regard a chain as 
 folded if it has a unique lowest-energy structure.  That is, some sequences have only a single 
-conformation giving a maximum number of HH noncovalent contacts.  (Most sequences, in contrast, have 
+conformation giving a maximum number of HH non-covalent contacts.  (Most sequences, in contrast, 
+have 
 many low-energy states; we do not count these as folded structures.)  The conformational energy of 
 the native fold ($E_{nat}$) of any particular folded sequence equals the number of hydrophobic 
 interactions ($n_{h\phi}$) $\times$ the energy $E_H$, of one hydrophobic interaction, which is known 
@@ -294,63 +285,100 @@ sequence, we can readily compute the folding and unfolding rate coefficients fro
  \ln\pt{\frac{k_f}{k_u}}=-\gD G/kT = E_{nat}/kT-N\ln z,
 \end{equation} 
 for reversible folding, where $z$ is the number of rotational degrees of freedom per peptide bond.  
-For proteins in aqueous solution, the parameters are known~\cite{Ghosh2010,Dill2011} \red{(see 
-appendix)}, 
-giving the following expressions for folding and unfolding rates:
-\begin{equation}
-\begin{split}
-  k_u &= \exp[16.15-1.28 \sqrt{N} -E_H(0.5 N + 1.34)],\\
-  k_f &= k_u\exp(\gD G)
-\end{split}
-\end{equation}
 
-\red{\textbf{Check constants with final simulation results}}
+When sequence is folded it cannot continue growing, it also cannot be hydrolyzed. Still, because 
+the reaction of folding is reversible, folded sequences can unfold and go back to the pool of the 
+sequences that grow and get hydrolyzed. Although non-polar monomers naturally tend to be buried 
+inside the core of the fold, some sequence in their native state have patches of hydrophobic 
+monomers exposed to the surface. For those sequences same force that 
+forces them inside would attract another hydrophobes from the solution
+If the exposed patch is long enough, then it can serve as a landing pad for a 
+growing sequence and hydrophobic monomer, thus holding both 
+together and lowering the activation barrier for the polymerization reaction. Therefore catalysis 
+rate is proportional to the exponent of hydrophobic energy $E_H$ and number of contacting 
+hydrophobes $n_c$: $\ga\cdot\exp(E_{H}\cdot n_{c}/kT)$(see figure \ref{fig:fold-cat}). 
+\begin{figure}[htb!]
+  \centering
+  \includegraphics[width=\columnwidth]{pictures/fold-cat.pdf} 
+  \caption{\footnotesize{(a) 
+When folded chain has a patch of at least three exposed non-polar 
+monomers, we call it a catalyst. This patch serves as a landing site for the growing chain and a 
+hydrophobic monomer, facilitating polymerization by holding them together and lowering activation 
+energy.} (b) The majority of the chains in their native states don't have enough hydrophobes 
+exposed and cannot serve as catalysts.}
+  \label{fig:fold-cat}
+\end{figure}
+\begin{figure}[hbt!]
+  \centering
+  \includegraphics[width=\columnwidth]{pictures/hp-statistics.pdf} 
+  \caption{\footnotesize{Number of all sequences (gray), foldable (blue) and catalytic (red) up to 
+length $x$ , }}
+  \label{fig:hp-statistics}
+\end{figure}
 
-\blue{E -- We need more methods description here.  (1) We need to say how the folding and 
-unfolding rates affect polymerization.  Which chains get removed from further elongation?  And, we 
-need to similarly describe how aggregation adds or eliminates chains from polymerization.  We need a 
-little description of how each sequence gets treated within your kinetics modeling.  Maybe give a 
-descriptive example or two: a protein that doesn't fold can be hydrolyzed everywhere, a protein that 
-does fold is only hydrolyzable at certain sites, a protein that folds and has a hydrophobic surface 
-patch can also catalyze another chain, ...}
+For the modeling we set minimum size of the landing pad to be 3. Thus catalysts facilitate $HH$ to 
+$H$ connections. So every polymer, which has $HHH$ in its sequence can benefit from catalysis. 
+Foldable sequences constitute a small fraction of the folded sequences (about $2.3\% $for the 
+lengths up to 25) and chains, which can serve as catalysts constitute even smaller fraction 
+-- about $12.7\%$ of foldable sequences or $0.3\%$ of the whole sequence space. These ratios 
+conserve as chain length grows -- see figure \ref{fig:hp-statistics}
 
-Catalysis rate is proportional to the exponent of hydrophobic energy $E_H$ and number of 
-contacting hydrophobes $n_c$: $\ga\cdot\exp(E_{H}\cdot n_{c}/kT)$. Some experiments also include 
-aggregation reactions for the long hydrophobic chains.
 
-Here is how we perform each calculation.  Monomers enter the system with rate constant $a\gg1$.  
-\blue{E - What is the rate that monomers enter? }\red{200. It's pretty random number just 
-any which is big enough} \blue{Is it different than the rate that activated monomers enter?} 
-\red{They don't enter}  \blue{Is there a rate that activated monomers leave?  If so, why? What's the 
-physics you envision } \red{Every molecule can leave, not only monomers. It represents dilution, 
-diffusion or whichever sink we can imagine.}
- 
+ Our first 
+computational experiment was aimed to test if this system 
+follows Flory dynamics. We set hydrophobic energy to $0$ and run simulations without folding or 
+catalysis. One can see from figure \ref{fig:sim_pure_flory} that length distribution 
+has a fast decaying exponential tail and long polymers are rarely observed. We show sequences that, 
+$E_h$ could've fold in blue, and those, which could've catalyze as red. In the conditions, when 
+$E_h=0$, they behave similar to any other sequence. For more details see 
+Simulations. Experiment 1.
+\begin{figure*}[hbt!]
+  \centering
+  \includegraphics[width=0.45\textwidth]{pictures/distrPlain-many.pdf} (a)
+  \includegraphics[width=0.45\textwidth]{pictures/scatter01918.png} (b)
+  \caption{\footnotesize{Results of the Experiment 1: no folding, no catalysis polymerization. This 
+is the base case to which we compare all other systems. Each data point is an average of 
+$10^6$ time points in the steady state interval. (a) 
+A single line shows length distribution for one simulation run (we run total of 30 simulations). 
+Populations decay exponentially as length grows. (b) Populations of the individual sequences, based 
+on the results of a single simulation run. 
+We set $E_h=0$, but still show sequences,which can fold as 
+blue, and sequences which can catalyze as red. They follow the same distribution as other 
+sequences.}}
+  \label{fig:sim_pure_flory}
+\end{figure*}
 
 
 
 \section{HP chain folding alone does not solve the Flory Problem}
-Our first computational experiment asks whether HP chain folding alone is sufficient to 
-alter the Flory chain-length polymerization distribution.  In short, we ask whether the few randomly 
+Our second computational experiment asks whether HP chain folding alone is sufficient to 
+alter the Flory length distribution.  In short, we ask whether the few randomly 
 synthesized sequences that happen to fold, which therefore also happen to protect their interior 
-residues from hydrolysis, lead to changing the Flory length distribution?  Details are in 
-experiment 
-2; see Simulations, compared to Simulations  Experiment 1, which has the 
-hydrophobic energy set to 0 and run simulations without folding or catalysis.  
+residues from hydrolysis, lead to changing the Flory length distribution.  Details are in 
+experiment 2; see Simulations. 
 Figure~\ref{fig:sim.flory-fold} 
 shows that chain folding alone, of the few foldable sequences, is not sufficient to escape the Flory 
 problem of the exponentially diminishing concentrations of chains with length.  Folding does 
-increase the abundances of some of the folded sequences.  But, their instances are so rare that they 
+increase the abundances of some of the folded sequences.  Yet, their instances are so rare that 
+they 
 do not alter the distribution.  Thus, folding alone does not appear to explain how prebiotic 
 polymers escape the Flory Problem.
-
-\begin{figure}[h!]
+\begin{figure*}[hbt!]
   \centering
-  \includegraphics[width=\columnwidth]{pictures/flory-and-fold.pdf} 
-  \caption{Dashed lines represent polymerization without folding or catalysis. Solid lines 
-correspond to simulations run with folding but without catalysis. For details of simulations see 
-section \ref{sec:mat-sim}, Experiment 2. }
+  \includegraphics[width=0.9\columnwidth]{pictures/distr-folded-many.pdf} (a)
+   \includegraphics[width=0.9\columnwidth]{pictures/scatter209.png}(b)
+  \caption{\footnotesize{Results of the Experiment 2: Polymerization with folding, but with no 
+catalysis. Each data point is an average of 
+$10^6$ time points in the steady state interval. (a) 
+A single line shows length distribution for one simulation run (we run total of 30 simulations). 
+Blue lines are result of the Experiment 2, gray ones -- Experiment 1. Addition of folding to the 
+basic model doesn't change the nature of distribution. (b) Populations of the individual sequences, 
+based on the relults of a single simulation run. Gray dots -- unfoldable sequences, blue ones -- 
+foldable. In this simulation we disallow catalysis, but we still show catalysts, to show, that they 
+behave similarly to regular folders. Foldable sequence have advantage compared to unfoldable ones.
+}}
   \label{fig:sim.flory-fold}
-\end{figure}
+\end{figure*}
 
 \section{Some HP-foldamers can also be catalysts}
 
@@ -396,11 +424,12 @@ that can estimate the size of protein sequence space relevant for such catalysis
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.9\columnwidth]{pictures/hp-catalysis.pdf} 
-  \caption{Chain $A$ folds so that it has exposed hydrophobic monomers on its surface.  This patch 
+  \caption{\footnotesize{Chain $A$ folds so that it has exposed hydrophobic monomers on its 
+surface.  This patch 
 can serve as a sticky spot for another HP molecule $B$ and for an H monomer $C$.  Hydrophobic 
 interaction between three of them localizes growing chain and next monomer and reduces the kinetic 
 barrier of polymerization for $B$ and $C$ molecules by 3-4 hydrophobic interactions, increasing the 
-polymerization rate around $ 100$-fold }
+polymerization rate around $ 100$-fold }}
   \label{fig:hp-catalysis}
 \end{figure}
 
@@ -438,42 +467,36 @@ necessary.
 
 
 
-\begin{figure}[h!]
+\begin{figure*}[htb!]
   \centering
-  \includegraphics[width=\columnwidth]{pictures/twoDistr16.pdf} 
-  \caption{\footnotesize{Gray line represents polymerization without folding or catalysis. Red one 
-corresponds to a simulation run with folding and catalysis. For details of simulations see 
-section \ref{sec:mat-sim}, Experiment 2. }}
+  \includegraphics[width=0.9\columnwidth]{pictures/distrHP-plain-many.pdf}(a) 
+  \includegraphics[width=0.9\columnwidth]{pictures/scatter1837.png}(b) 
+  \caption{\footnotesize{Results of the Experiment 3: polymerization with folding and catalysis 
+enabled. Each data point is an average of 
+$10^6$ time points in the steady state interval. (a) Gray lines represent polymerization without 
+folding or catalysis. Red ones corresponds to a simulation run with folding and catalysis. A single 
+line shows length distribution for one simulation run (we run total of 30 simulations). For details 
+of simulations see 
+section Simulations, Experiment 3. (b) Populations of individual sequences are shown 
+as functions of their length. Autocatalytic sequences are shown in red, sequences that can fold but 
+cannot act as  catalysts -- in blue, and all the other sequences in gray. Lower limit of $10^{-6}$ 
+is due to computational precision -- there are $10^6$ time steps over which we calculate average to 
+get a point on the graph. Therefore the minimum possible population correspond to the case when 
+sequence appeared only for one time instance. The data is an example based on one simulation}}
   \label{fig:sim.flory-fold}
-\end{figure}
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=\columnwidth]{pictures/scatter0101-26.png} 
-  \caption{\footnotesize{This figure shows populations of individual sequences as functions of 
-their length. Autocatalytic sequences are shown in red, sequences that can fold but cannot act as 
-catalysts -- in blue, and all the other sequences in gray. Lower limit of $10^{-6}$ is due to 
-computational precision -- there are $10^6$ time steps over which we calculate average to get a 
-point on the graph. Therefore the minimum possible population correspond to the case when sequence 
-appeared only for one time instance.}}
-  \label{fig:stats-scatter-018}
-\end{figure}
+\end{figure*}
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\columnwidth]{pictures/biomass.pdf} 
-  \caption{\footnotesize{Gray line represents polymerization without folding or catalysis. Red one 
-corresponds to a simulation run with folding and catalysis. }}
-  \label{fig:biomass}
-\end{figure}
-
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=\columnwidth]{pictures/hp-statistics.pdf} 
-  \caption{\red{To be enlarged. Also should go to the section on HP-model }}
+  \caption{\footnotesize{A single red line shows what ratio of the biomass of the given length 
+is due to autocatalysts for a single simulation run. Each data point is an average of 
+$10^6$ time points in the steady state interval. Black line is a median over 30 simulations }}
   \label{fig:biomass}
 \end{figure}
 
 
-\section{Bootstrapping and autocatalysis: HP foldamers can elongate other HP chains.} 
+
+\section{Discussion}
 \label{sec:evolution}
  It has long been recognized that life's origins 
  require some form of autocatalysis~\cite{Kauffman1986,Dyson1985,Eigen1978}.  But, what mechanism 
@@ -482,32 +505,36 @@ Here, we find that a form of autocatalysis, or positive feedback, is inherent in
 process:  HP polymers are synthesized randomly; a small fraction of those HP polymers fold into 
 relatively stable compact states; a fraction of those folded structures provide relatively stable 
 `landing pad' hydrophobic surfaces; those surfaces can help to catalyze the elongation of other HP 
-molecules having foldable sequences.  Figure XXX illustrates this process.
- 
- \blue{E -- Can we make a series of figures showing an example of this?  
- We want specific HP sequences that fold into native structures, we then want to show their landing 
-pad surfaces, and we want to show some other HP chain that then gets catalyzed on it.}
- \blue{E -- Can we say anything about what fraction of sequence space contributes?  
- I think your argument is saying that a non-trivial fraction of HP sequences are themselves 
-foldamers (2\% is a number Chan and I found previously).  Etc.  It looks to me like your argument is 
-saying that we have a very simple answer to a seemingly challenging question.  We don't need fancy 
-explanations of auto-catalysis.  We just need to say that lots of chains can fold and create landing 
-pads, and ALL of them essentially contribute to solving the Flory Problem.  Right?  Maybe we just 
-need a little more detail and clarity in your paragraph below, which looks like it's making that 
-point.}
- 
- 
-In the case of hydrophobicity based interactions yet the story is different. Sequences that have 
-too many $P$ residues don't fold well, and hence will be hydrolyzed rapidly.  Overly hydrophobic 
-chains don't fold to unique native states as well; they are also prone to aggregation. This leaves 
-only polymers with 50-80\% of hydrophobes. 
-Our model supposes that only relatively unique folds are stable over long enough times to be able 
-to bind and catalyze reactions.  Autocatalytic chains occupy even smaller fraction of 
-sequence space due to extra requirements on structure. Yet promiscuity of the catalysis mechanism 
-we employ doesn't limit them to just 1 or 2 ideal sequences, keeping their number reasonably high 
--- about 10\% of sequence space.  We found these sequences as we sought an explanation for 
-the results of Figure~\ref{fig:sim.flory-fold}.  Some of the sequences and folds of these autocats 
-are shown in Figure~\ref{fig:example1}.
+molecules having foldable sequences.  Figure \ref{fig:kinExamples} illustrates this process.
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.9\columnwidth]{pictures/catalysis-kinEx-all.pdf}
+  \caption{\footnotesize{Two examples of cross and autocatalytic interaction naturally embedded in 
+HP-polymers dynamics. Dashed arrows (\textbf{-\,-\,-}) are shorten representation of multiple 
+reactions of chain among which there are $\cdots HH - H$ catalyzed reactions. Catalysis is 
+represented by red solid arrows (\red{\textbf{\textemdash}}). Solid black lines 
+(\textbf{\textemdash}) are folding reactions. Chains, which we call ``autocatalytic'' experience 
+catalysis during one (or more often several) of the steps of elongation. Then, when they reach the 
+length at which they can fold ($A_u,\, B_u,\, C_u$), they fold and serve as catalysts them selves 
+($A_f,\, B_f,\, C_f$). Mutual catalysis cat happen between different sequences (here A and B) and 
+between different instances of the same sequence (here C).}}
+  \label{fig:kinExamples}
+\end{figure}
+
+About $2.1-2.4\%$ of all the sequences are foldable and about $0.3\%$ are what we call 
+``autocatalytic''. This follows from explicit counting of sequences in HP-model. This and 
+successful design of foldable, biologically active proteins based on a simple hydrophobic-polar 
+rule\cite{Murphy2015} suggests that given a big sample of chains, finding an active one is not a 
+rare event and every such chain due to it's folding and catalytic properties will contribute to 
+solving a Flory problem. As chain length grows, number of possible autocatalysts also grows, making 
+effect increasing with chain length.
+
+It is important to notice here that a 
+lot of results from 2D HP-model are transferable to naturally occurring 3D proteins. In particular, 
+for 2D chains of length around 16 and above, the two-dimensional model gives a surface to volume 
+ratio that matches that of proteins of length around 100 and above, providing better result than a 
+3D variant~\cite{Giugliarelli2000}~. 
+
 
 It is also important to mention that, while we work with just binary polymers in the actual 
 biological systems of, say, proteins a couple of $H$ and $P$ corresponds to 20 different amino 
@@ -516,95 +543,85 @@ $\log_2(20^n)$ in fact. An evolutionary search in such an enormous space is an o
 that can lead to generating sequences with biological function. This is another advantage of 
 choosing hydrophobic interaction as a leading catalytic mechanism: it unites selection with 
 diversity.
-%%%%%DO NOT DELETE!%%%%%%%%%%
-% reviewers might ask for experiment on adaptive evolution
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Discussion}
 
 
-Here are some examples of other models using autocatalytic sets
-\begin{itemize}
- \item Several studies\cite{Eigen1978,Dyson1985,Kauffman1986} focused on how such self-sustaining 
-systems could work if they already exist. They investigated under which conditions these systems 
-indeed are self-maintaining.
 
-\item In a more recent series of works \cite{segre1998graded,Segre2000,Markovitch2012} 
- authors numerically studied auto and cross catalysis in an artificial chemical system of 
- small mutually catalyzing  molecules. They found parameters of the system for which one can 
-observe 
-diversity and replication fidelity.
- Appearance of these desirable properties requires high mutual catalysis propensity.
+% Here are some examples of other models using autocatalytic sets
+% \begin{itemize}
+%  \item Several studies\cite{Eigen1978,Dyson1985,Kauffman1986} focused on how such self-sustaining 
+% systems could work if they already exist. They investigated under which conditions these systems 
+% indeed are self-maintaining.
+% 
+% \item In a more recent series of works \cite{segre1998graded,Segre2000,Markovitch2012} 
+%  authors numerically studied auto and cross catalysis in an artificial chemical system of 
+%  small mutually catalyzing  molecules. They found parameters of the system for which one can 
+% observe 
+% diversity and replication fidelity.
+%  Appearance of these desirable properties requires high mutual catalysis propensity.
+% 
+% \item In \cite{Tkachenko2014} authors studied random heteropolymers capable of template 
+% assisted ligation and random breakage. In such a system, they showed,  long-chained
+% polymers  can be sustained by the mutual catalysis of the ligation reaction. They discovered
+% that a system with ligation and hydrolysis is capable of first order phase transition, depending 
+% concentration. 
+% In their system the maximum length of heteropolymers is determined kinetically as a simple function 
+% of the ratio
+% between ligation and breakage rates
+% 
+% \item In \cite{Walker2012} authors considered a system with finite monomer source, spontaneous 
+% reversible polymerization
+% and template ligation of binary polymers. With stochastic simulations, they studied how kinetic 
+% rates of polymerization/degradation
+% affect ability of sequences to explore sequence space. Similarly to our results, the higher the 
+% ratio of degradation rate
+% over polymerization rate (in our case (hydrolysis and hydrophobic energy), the higher the diversity 
+% of the pool, and the lower it, the higher number of functional sequences is observed (functional 
+% polymers are randomly assigned). Functional sequences are able to emerge spontaneously,
+% they don't dominate the pool, allowing for further pool exploration. While \cite{Walker2012} and our 
+% system are kinetically different they experience rather similar dynamics.
+% \end{itemize}
+% 
+% Many studies focused on how in a particular situation autocatalytic systems could arise and on 
+% different properties of the emergent results based on type of autocatalytic mechanisms.
+% \begin{itemize}
+% \item The idea of 
+% autocatalysis was applied by Wu and Higgs\cite{Wu2009} to homo-polymers: while system of 
+% homopolymers cannot be 
+% complex and capable of storing information, authors showed that their system has bi-stability and 
+% increased proportion of long polymers.
+%  \item In a series of works \cite{nowak2008prevolutionary,Ohtsuki2009,Chen2012,Derr2012} 
+%  authors investigated binary polymers 
+% either capable of autocatalysis or replication. They showed that while autocatalytic system has 
+% bi-stability and increased ratio of longer polymers, one has to increase catalysis rate 
+% exponentially in order to get exponential growth of longer chains. Self-replication system on the 
+% other hand didn't show bi-stability, but on a positive side, relatively low replication rate 
+% constant brought up significant growth of longer polymers. It was also shown that self-replication 
+% enhances complexity of the system. The autocatalysis mechanism of this series is however very 
+% simple It's a self-replication performed by means of catalysis: for every reaction catalyst has to 
+% get attached to a growing molecule and then dissociate from it.
+% 
+% 
+% Significant progress has been made in attempts to make artificial autocatalytic sets in a 
+% laboratory\cite{VonKiedrowski1986,Lincoln2009,Vaidya2012}. These experiments, while working with 
+% simple artificially designed systems, exhibit a nice example of original principle.
+% 
+% 
+% They key difference with our work is 
+% that hydrophobic interaction provides a simple physical set up which produces non-linear dynamics 
+% with complex feedback.
+% This enables system to develop a non-trivial selection mechanism. Our system, as being based on 
+% \cite{Ohtsuki2009} model, experience bi-stability, has semi-periodic fluctuations  
+% and polynomial length distribution \red{??} 
+% \end{itemize}
+% 
+% \red{
+% \begin{itemize}
+%  \item Hordijk2010.
+% \end{itemize}
+% }
 
-\item In \cite{Tkachenko2014} authors studied random heteropolymers capable of template 
-assisted ligation and random breakage. In such a system, they showed,  long-chained
-polymers  can be sustained by the mutual catalysis of the ligation reaction. They discovered
-that a system with ligation and hydrolysis is capable of first order phase transition, depending 
-concentration. 
-In their system the maximum length of heteropolymers is determined kinetically as a simple function 
-of the ratio
-between ligation and breakage rates
-
-\item In \cite{Walker2012} authors considered a system with finite monomer source, spontaneous 
-reversible polymerization
-and template ligation of binary polymers. With stochastic simulations, they studied how kinetic 
-rates of polymerization/degradation
-affect ability of sequences to explore sequence space. Similarly to our results, the higher the 
-ratio of degradation rate
-over polymerization rate (in our case (hydrolysis and hydrophobic energy), the higher the diversity 
-of the pool, and the lower it, the higher number of functional sequences is observed (functional 
-polymers are randomly assigned). Functional sequences are able to emerge spontaneously,
-they don't dominate the pool, allowing for further pool exploration. While \cite{Walker2012} and our 
-system are kinetically different they experience rather similar dynamics.
-\end{itemize}
-
-Many studies focused on how in a particular situation autocatalytic systems could arise and on 
-different properties of the emergent results based on type of autocatalytic mechanisms.
-\begin{itemize}
-\item The idea of 
-autocatalysis was applied by Wu and Higgs\cite{Wu2009} to homo-polymers: while system of 
-homopolymers cannot be 
-complex and capable of storing information, authors showed that their system has bi-stability and 
-increased proportion of long polymers.
- \item In a series of works \cite{nowak2008prevolutionary,Ohtsuki2009,Chen2012,Derr2012} 
- authors investigated binary polymers 
-either capable of autocatalysis or replication. They showed that while autocatalytic system has 
-bi-stability and increased ratio of longer polymers, one has to increase catalysis rate 
-exponentially in order to get exponential growth of longer chains. Self-replication system on the 
-other hand didn't show bi-stability, but on a positive side, relatively low replication rate 
-constant brought up significant growth of longer polymers. It was also shown that self-replication 
-enhances complexity of the system. The autocatalysis mechanism of this series is however very 
-simple It's a self-replication performed by means of catalysis: for every reaction catalyst has to 
-get attached to a growing molecule and then dissociate from it.
 
 
-Significant progress has been made in attempts to make artificial autocatalytic sets in a 
-laboratory\cite{VonKiedrowski1986,Lincoln2009,Vaidya2012}. These experiments, while working with 
-simple artificially designed systems, exhibit a nice example of original principle.
-
-
-They key difference with our work is 
-that hydrophobic interaction provides a simple physical set up which produces non-linear dynamics 
-with complex feedback.
-This enables system to develop a non-trivial selection mechanism. Our system, as being based on 
-\cite{Ohtsuki2009} model, experience bi-stability, has semi-periodic fluctuations  
-and polynomial length distribution \red{??} 
-\end{itemize}
-
-\red{
-\begin{itemize}
- \item Hordijk2010.
-\end{itemize}
-}
-
-
-\subsection{2D-3D}
-\begin{itemize}
- \item Folding and unfolding rates are likely underestimated in 2D case
- \item Overall length dependence is steeper in 2D case
- \item However cases are very similar and it's possible to do a mapping between them: there's a 
-direct mapping between surface to volume ratio in 3D case to perimeter to area ratio in 2D case
-\end{itemize}
 
 
 \section{Materials and methods}\label{sec:mat}
@@ -612,28 +629,34 @@ direct mapping between surface to volume ratio in 3D case to perimeter to area r
 To test our hypothesis we performed direct stochastic simulations on several sets of parameters. We 
 used 
 \blue{PDMmod} method \cite{Bernatskiy}
-% \footnote{C++ library and description can be found here: https://github.com/abernatskiy/pdmmod}. 
+\footnote{C++ library and description can be found here: https://github.com/abernatskiy/pdmmod}. 
 Stochastic simulations keep track of each 
 molecular specie in the system. However simulations are limited due to computational reasons. 
-First 
-of all we have to explore conformational space of every polymer. This task is NP-hard (we use 
+First of all we have to explore conformational space of every polymer. This task is NP-hard (we use 
 HPSandbox algorithm\cite{lau1989lattice,Dill2008} \footnote{Python implementation and description 
 can be found here: http://hp-lattice.readthedocs.org/en/latest/}), so we had to limit 
 maximum chain lengths to 25. We also try to keep total number of species in the low thousands, to 
-avoid computational costs. We do it by introducing dilution parameter $d$: molecules are being 
+limit computational costs. We do it by introducing dilution parameter $d$: molecules are being 
 removed from the system with probabilities $\propto d$. 
 This either can mimic a protocell splitting and loose of materials due to it or in the case when 
 system isn't bounded by any borders the fact that some molecules will diffuse away. Total number of 
 molecules varies from simulation to simulation, 
-however it mostly holds in the region \red{insert}.
+however it mostly holds in the region $10^2-10^4$.
 
 We start our simulations with a small pool of monomers, usually below 100 molecules. 
 \begin{itemize}
- \item We assume that there are enough of activated monomers in the system, so that their 
-concentrations are constant. This way we don't have to track them in the simulations.
-
-\item Polymers can therefore spontaneously grow with the rate $\ga$. Without loss of generality we 
-can put this parameter equal 1; all other rates with be relative to the growth rate in this case.
+ \item Monomers can be react with each other and with polymers to produce polymerization reaction 
+with rate 
+$\ga = 1$
+\begin{equation}
+ 1\mbox{-mer}+n\mbox{-mer} \xrightarrow{\ga} (n+1)\mbox{mer}
+\end{equation}
+\item These monomers are being imported in the system. with rate $a\gg1$. It is safe to assume that 
+we would have enough monomers in the system and import of monomers wouldn't be a bottleneck of 
+reactions chain. Therefore we explore big values of $a\propto 10^3\ga$
+\begin{equation}
+ \emptyset \xrightarrow{a} H\,\,\mbox{or}\,\,P
+\end{equation}
 
 \item Hydrolysis has constant rate $d_h$ per bond. Half-life time of hydrolysis bonds in neutral 
 conditions and temperatures around room temperature are on the order of hundreds of 
@@ -641,204 +664,177 @@ years\footnote{Hydrolysis rate constants of oligopeptides in
 neutral conditions are of the order of $10^{-11}-10^{-10}$: $1.3  10^{-10} M^{-1}s^{-1} $ 
 for benzoylglycylphenylalanine ($t_{1/2} = 128 y$)\cite{Bryant1996}, $6.3  10^{-11} M^{-1} s^{-1}$
 ($t_{1/2}=350 y$) for glycylglycine and $9.3 10^{-11}M^{-1} s^{-1}$ for glycylvaline
-\cite{Smith1998}.}. We test hydrolysis rate constants to be about $0.001-1$ of polymerization rate 
+\cite{Smith1998}.}. We test hydrolysis rate constants to be about $0.01-1$ of polymerization rate 
 constants. This way we account for polymerization conditions, which happens on the order of days 
 to years.
+\begin{equation}
+ n\mbox{-mer} \xrightarrow{d_h} l\mbox{-mer}+(n-l)\mbox{-mer}
+\end{equation}
 
-\item We also import monomers into system with rate $a\gg1$. It is safe to assume that we would 
-have enough monomers in the system and import of monomers wouldn't be a bottleneck of reactions 
-chain. Therefore we explore big values of $a\propto 
-10^2,10^3\ga$
 
-\item Dilution parameter $d$ mimics cell division and loss of the matter because of that. From 
-\ref{sec:nowak-steady} we see that total mass of the system is  $ M\propto\frac{a}{\ga}, \qquad 
-d\approx \ga\quad \mbox{or}\quad d\gg \ga$ and $M\propto \frac{a}{\ga}\frac{d}{2\ga} ,\qquad 
-d\ll\ga$. Therefore we explore valued of $d$ from $\propto 0.01\ga$ to $\propto 1\ga$. Given 
-values of $a$ we'll explore various populations from $\propto 10^2$ to $\propto 10^5$ monomers per 
+
+\item Dilution parameter $d$ mimics cell division and loss of the matter because of that. This 
+parameter also serves utilitarian role of limiting total population of the cell. We 
+explore valued of $d$ from $\propto 0.01\ga$ to $\propto 1\ga$. Given 
+values of $a$ we'll explore various populations from $\propto 10^2$ to $\propto 10^4$ polymers per 
 cell.
+\begin{equation}
+ \mbox{anything} \xrightarrow{d}\emptyset
+\end{equation}
 
-\item (\red{Fix this after discussion}) Folding and unfolding reactions happen very quickly with 
-the unfolding rate constants of 
-$k_{unf}\gg\ga$ and folding rate constant of $k_{unf}\cdot\exp(E_{native}/kT)$.
+
+\item Folding and unfolding reactions happen very quickly with 
+the unfolding rate constants of $k_f\gg k_{u}\gg\ga$. 
+\begin{equation}
+\begin{split}
+ \mbox{folded chain}&\xrightarrow{k_u}\mbox{unfoled chain}  \\
+ \mbox{unfoled chain}&\xrightarrow{k_f}\mbox{folded chain}
+\end{split}
+\end{equation}
+The folding rate constant taken 
+from~\cite{Ghosh2009}:
+\begin{equation}
+ \ln\pt{\frac{k_f}{k_u}}=-\gD G/kT = E_{nat}/kT-N\ln z,
+\end{equation} 
+ where $z$ is the number of rotational degrees of freedom per peptide bond. 
+ \red{Explain calculations}
+For proteins in aqueous solution, the parameters are known~\cite{Ghosh2010,Dill2011}, 
+giving the following expressions for folding and unfolding rates:
+\begin{equation}
+\begin{split}
+  k_u &= \exp[12-0.1 \sqrt{N} -E_H(0.5 N + 1.34)],\\
+  k_f &= k_u\exp(\gD G)
+\end{split}
+\end{equation}
 
 $E_h$ in our experiments is around $1-2$kT\red{\cite{?}}. $k_{unf}$ we keep $\propto 10^2$, which 
 gives us range of unfolding rates from a reaction per hours and days and range of folding rates 
 from a reaction per hours to fractions of a second.
 
 \item Catalysis rate is proportional to the exponent of hydrophobic energy $E_h$ and number of 
-contacting hydrophobes $n_c$: $\ga\cdot\exp(E_{h}\cdot n_{c}/kT)$. Number of hydrophobic contacts 
-for the short HP-sequences is about $3-6$. With the hydrophobic energies of $1-2$kT this gives us 
-catalysis rates around hours and days for one reaction.
+contacting hydrophobes $n_c$: $\ga_{cat}=\ga\cdot\exp(E_{h}\cdot n_{c}/kT)$. Number of hydrophobic 
+contacts 
+for the short HP-sequences varies in the range $3-6$.Ther reaction is:
+\begin{equation}
+\mbox{Cat.}+H+ \underbrace{\cdots HH}_{l-1} 
+\xrightarrow{\ga_{cat}}\mbox{Cat.}+\underbrace{\cdots HHH}
+\end{equation}
+ With the hydrophobic energies of $1-2$kT this gives us 
+catalysis rates around hours and days for one reaction. Because the PDMmod supports only binary 
+reactions, we divided the reaction above into to steps: interaction of catalyst with a monomer with 
+rate $\ga$ and reaction of this complex with a polymer with the rate $\ga_{cat}$. 
 
 % \item Some experiments also include aggregation reactions for the long hydrophobic chains.
 \end{itemize}
-We looked at the lengths distribution in steady state. In order to account for stochastic effects 
-we took average over several realizations. We also looked at the time evolutions of specific 
-chains to investigate correlations between sequences and internal dynamics. The simulations were 
-performed on Computing Cluster of Laufer Center. See \blue{appendix} for simulation details.
-\begin{center}
-\begin{table*}[h]
-\begin{tabular}{| p{3.5cm} | l | p{3cm}| p{3.4cm}| p{3.4cm} |}
-\hline
-Constant name & Symbol  & Normalized simulation value & Simulation 
-value (deduced) per $1M$& Value from literature, per $1M$\\
-\hline
-Polymerization rate constant & $\ga$ &  1 & $\propto 1\,month^{-1}$ & ??\\
-\hline
-Hydrolysis  rate constant & $d_h$ & $\propto 10^{-1}\textendash10^{-4}$ & $\propto 1\,month^{-1}-- 
-10^{-3}year^{-1}$ & $\propto 10^{-3}year^{-1}$ 
-\cite{Bryant1996,Smith1998,Danger2012}\\
-\hline
-Dilution rate constant & $d$&$\propto 10^{-2}-1$ & $\propto 0.1year^{-1} -- 
-10^{-3}year^{-1}$ & \begin{center}\textemdash \end{center}
- Is\,used\,to\,keep model from 
-overflowing \\
-\hline
-Monomer import rate constant & $a$ & $\propto 10^2-10^3$  & $\propto 1 - 10^2 day^{-1}$ & ??\\
-\hline
-Number of rotational freedoms& $z$ & $1.5-2.5$  & $1.5-2.5$ & 
-??\\
-\hline 
-Hydrophobic energy per $kT$ & $e_h$ & $1-2$ & $1-2$ & $0-3.3$ \cite{Wimley1996}
-\\ \hline
-\end{tabular}
-\caption{Parameters of our simulations: we set polymerization rate constant to 1. All other rate 
-constants were 
-measured in terms of it. However mapping one of the constants to lab/prebiotic values fixes the 
-rest of the rate 
-constants. We compare them with the ones found in the origins of life literature.}
-\label{tab:methods}
-\end{table*}
-\end{center}
+We investigated the behavior of the system in the steady state. To determined, when it was reached 
+we looked at the total populations of all the chains, of all folders and of all catalysts 
+separately. When all the populations stopped growing and started fluctuating around constant value, 
+we say the steady state was reached. In order 
+to account for stochasticity we repeated every simulation for 30 times for every experiment, and 
+considered the resulting ensembles. We ran all the simulation for $140s$ of internal simulation time 
+during which $10^6-10^9$ individual reactions has occurred. We took measurements every $10^{-6}s.$ 
+For all the trajectories steady state behavior was reached no later than $40s$ from the start of 
+a simulation. Thus we considered only last $100s$ (one million recordings) for each simulation. All 
+the data points we used in the figures are averages over these recordings.
+
+
+For all the experiments below we have the following parameters:
+\begin{enumerate}
+ \item $\ga = 1$
+ \item $a=1000$
+ \subitem With values $a\ll 1000\,\,\mbox{or}\,\,a\gg1000$ some of the experiments have total 
+number of sequences and populations either to high to calculate or to low to make conclusions. 
+Values around $a=1000$ allow to run all the experiments with the same parameters without those 
+complications.
+ \item $d_h=d=0.1$.
+ \subitem When $3d\lessapprox d_h\leq\ga$, hydrolysis is very strong and in 
+non-catalytic case there's explosion of short sequences, which makes simulations computationally 
+nearly impossible. 
+\subitem When $3d_h\lessapprox d\leq\ga$, hydrolysis is very weak and nothing limits the 
+growth of longer sequences, and with the chains shorter than 25-mers, there are considerable 
+populations of 10-20-mers even without any folding or catalysis, besides high $d$ makes total 
+populations too low for any statistical calculations. 
+\subitem When $0.05\lessapprox d\approx d_h \lessapprox 0.5$ the forces of dilution and hydrolysis 
+are relatively balanced and populations don't drop and don't explode.
+ \item $E_h = 2kT$
+ \item $z=1.2$
+\end{enumerate}
+
+
+
+The simulations were 
+performed on Computing Cluster of Laufer Center. Source files of the models, parameters, initial 
+conditions and random seeds can be obtained at \url{https://github.com/gelisa/hp_world_data}
+% \begin{center}
+% \begin{table*}[h]
+% \begin{tabular}{| p{3.5cm} | l | p{3cm}| p{3.4cm}| p{3.4cm} |}
+% \hline
+% Constant name & Symbol  & Normalized simulation value & Simulation 
+% value (deduced) per $1M$& Value from literature, per $1M$\\
+% \hline
+% Polymerization rate constant & $\ga$ &  1 & $\propto 1\,month^{-1}$ & ??\\
+% \hline
+% Hydrolysis  rate constant & $d_h$ & $\propto 10^{-1}\textendash10^{-4}$ & $\propto 1\,month^{-1}-- 
+% 10^{-3}year^{-1}$ & $\propto 10^{-3}year^{-1}$ 
+% \cite{Bryant1996,Smith1998,Danger2012}\\
+% \hline
+% Dilution rate constant & $d$&$\propto 10^{-2}-1$ & $\propto 0.1year^{-1} -- 
+% 10^{-3}year^{-1}$ & \begin{center}\textemdash \end{center}
+%  Is\,used\,to\,keep model from 
+% overflowing \\
+% \hline
+% Monomer import rate constant & $a$ & $\propto 10^2-10^3$  & $\propto 1 - 10^2 day^{-1}$ & ??\\
+% \hline
+% Number of rotational freedoms& $z$ & $1.5-2.5$  & $1.5-2.5$ & 
+% ??\\
+% \hline 
+% Hydrophobic energy per $kT$ & $e_h$ & $1-2$ & $1-2$ & $0-3.3$ \cite{Wimley1996}
+% \\ \hline
+% \end{tabular}
+% \caption{Parameters of our simulations: we set polymerization rate constant to 1. All other rate 
+% constants were 
+% measured in terms of it. However mapping one of the constants to lab/prebiotic values fixes the 
+% rest of the rate 
+% constants. We compare them with the ones found in the origins of life literature.}
+% \label{tab:methods}
+% \end{table*}
+% \end{center}
 
 \paragraph{Experiment 1. Reproduction of Flory distribution.}\label{sec:expt1}
-We started simulations with small pool of monomers (20 H and 20 P). We ran 30 identical  
-simulations for 200 s each, with measurements taken every 0.1s. Steady state is being achieved 
-around 30-50s. To calculate length distribution, we took one trajectory and calculated average 
-over time over all time points after 100s; so we got 1000 time points for every chain length, over 
-which we averaged. The rate of conversion of activated monomers into regular ones is $a=100$. We 
-took dilution rate of $d=0.5$. We ran experiments for 2 hydrolysis rates: $d_h=0.3$ and $d_h=0.03$.
-We varied hydrolysis and dilution rates. Experiments with $d_h=0$ reproduce accurate exponential 
-curves; adding hydrolysis, however, slows down distribution around short lengths. This effect is 
-due to constant concentration of activated monomers: there's no competition for ``food''. This 
-enriches population of short chains, however doesn't affect longer chains significantly, leaving 
-their distribution nearly exponential.
+We started simulations with a small pool of chains up to 3-mers. To calculate length distribution, 
+for each trajectory we calculated average population of every sequence over time over all 
+recordings 
+after 40s, resulting in a million time steps, then we sum up all the populations of a given length, 
+get total populations for all $n$-mers, $n\in[1,25]$, and then divide every population to the sum 
+of them:
+\begin{equation}
+ p_n = \frac{\sum\mbox{all n-mers}}{\sum\mbox{total population}}
+\end{equation}
+giving probability to encounter an $n$-mer, when randomly taking a chain out of a ``tube''
+
+The source file of the model and parameters of the simulation are located at 
+\url{https://github.com/gelisa/hp_world_data/tree/master/001}
 
 \paragraph{Experiment 2. Introduction of HP-folding}
-
+We start with the same starting population as in Experiment 1. But now we introduce hydrophobic 
+energy $E_h= 2kT$. To calculate length distribution, 
+for each trajectory we calculated average population of every sequence over time over all 
+recordings 
+after 40s, resulting in a million time steps. The source file of the model and parameters of the 
+simulation are located at \url{https://github.com/gelisa/hp_world_data/tree/master/002}
 
 
 \paragraph{Experiment 3. Introduction of HP-catalysis.}
-\textbf{\red{Set of parameters. Do not delete so far.} }\\
-Experiment ``test-dhd''. Simulations \# 07-13
-\begin{enumerate}
- \item 'aggregation = 100.0',
- \item  'importH = 200.0',
-\item   'eH = 2.0',
-\item   'importP = 200.0',
-  \item 'growth = 1.0',
-  \item 'maxLength = 25',
-  \item 'aggrAt = 1.0',
-\item 'z = 1.2',
-  \item 'degradation = 0.3',
-  \item hydrolysis = 0.001 0.003 0.005 0.01 0.03 0.05 0.1
-\end{enumerate}
-Simulations with degradation = 0.1 are also very interesting
-
-
 In addition to folding in this \textit{in-silico} experiment we introduced interaction between 
 proteins. All parameters are as above. We varied parameters of the simulations, and noticed 
-significant stability of the length distribution towards change of $d_h$ and $d$. distribution is 
-sensitive towards hydrophobic energy, as expected. Chain length distribution has a noticeably 
-non-exponential behavior in the region when $E_h= 1-3 kT$
+significant stability of the length distribution towards change of $d_h$ and $d$: $0.05\lessapprox 
+d\approx d_h \lessapprox 0.5$. Distribution is very sensitive towards hydrophobic energy, as 
+expected. Chain length distribution is drastically different compared to Experiments 1 and 2 in the 
+region when $E_h= 1-3 kT$
 
 
 
  \newpage
-\appendix
-\section{HP catalysis}
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=0.9\columnwidth]{pictures/hp-catalysis-b.pdf} 
-  \caption{Catalyst catalyzes a growing of an unfolded hp-polymer. 
-           Having just 3-4 hydrophobic contacts is enough to lower an 
-           activation barrier for $\propto 100$ times at room 
-           temperature.}
-  \label{fig:hp-catalysis-b}
-\end{figure}
-
-
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=\columnwidth]{pictures/flory-and-hp.pdf} 
-  \caption{}
-  \label{fig:flory-and-hp}
-\end{figure}
-
-\section{Details of the kinetic model.}
-\red{\textbf{Change}}
-
-% We describe here briefly the Nowak model \cite{nowak2008prevolutionary,Ohtsuki2009,Chen2012}
-% 
-% \blue{E - Is ours different than Nowak's?  If so, spell out how it's different.}
-% 
-% We enumerate all the polymers, so that $x_i$ is population of $i^{th}$ monomer, and $x_{i'}$ is a 
-% population of its precursor.
-% 
-% Equations are:
-%   \begin{eqnarray}
-%    \mbox{One mers:}&& \dot{x_i}=a-2\ga x_i-dx_i \\
-%      \mbox{2+ mers:}&& \dot{x_i}=\ga x_{i'}-(2\ga+d)x_i
-%   \end{eqnarray}
-% 
-% Now, we consider the dynamics of the steady state, $\dot{x_i}=0$
-%   \begin{eqnarray}
-%    \mbox{One mers:}&& 0=a-2\ga x_i-dx_i \\
-%      \mbox{2+ mers:}&& 0=\ga x_{i'}-(2\ga+d)x_i
-%   \end{eqnarray}
-%   So we have:
-%    \begin{eqnarray}
-%    \mbox{One mers:}&& x_i=\frac{a}{2\ga+d} \\
-%      \mbox{2+ mers:}&& x_i=\frac{\ga}{2\ga+d}x_{i'}
-%   \end{eqnarray}   
-%  Therefore for every sequence of length $l$ we get:
-%    \begin{equation}
-%    \boxed{ x_l=\frac{a}{\ga}\pt{\frac{\ga}{2\ga+d}}^l}
-%    \end{equation} 
-% 
-% Population of all the sequence of length $l$ is therefore:
-%   \begin{equation}
-%     p_l=\frac{a}{\ga}\pt{\frac{\ga}{2\ga+d}}^l2^l=\frac{a}{\ga}\pt{\frac{2\ga}{2\ga+d}}^l=
-%     \frac{a}{\ga}\pt{\frac{1}{1+d/2\ga}}^l
-%   \end{equation} 
-% If we denote $x\equiv\frac{d}{2\ga}$, population of all the sequences of length $l$ will be:
-% \begin{equation}
-% \boxed{ p_l=\frac{a}{\ga}\pt{\frac{1}{1+x}}^l}
-% \end{equation} 
-% Total mass of all the sequences is:
-% \begin{equation}
-%  M=\sum_{l=0}^{\infty}lp_l
-% \end{equation} 
-% \begin{equation}
-%  M=\sum_{l=0}^{\infty}\frac{a}{\ga}l\pt{\frac{1}{1+x}}^l
-% \end{equation} 
-% According to \cite{Gradstein1980} the sum will be
-% \begin{equation}
-%  M=\frac{a}{\ga}\frac{\frac{1}{1+x}}{\pt{1-\frac{1}{1+x}}^2}=\frac{a}{\ga}\pt{\frac{1+x}{x}}
-% \end{equation}
-% Therefore total mass is:
-%   \begin{equation}
-%    M=\frac{a}{\ga}\pt{1+\frac{1}{x}}
-%   \end{equation} 
-% Remember that $x=d/2\ga$. It means that values of $d$ $d\approx \ga$ or $d\gg \ga$ produce total 
-% masses 
-% \begin{equation}
-%  M\propto\frac{a}{\ga}, \qquad d\approx \ga\quad \mbox{or}\quad d\gg \ga
-% \end{equation} 
-% while very small values of $d:\,d\ll\ga$ produce total masses 
-% \begin{equation}
-% M\propto \frac{a}{\ga}\frac{d}{2\ga} ,\qquad d\ll\ga
-% \end{equation}
 
 
 
