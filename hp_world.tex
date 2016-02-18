@@ -87,8 +87,7 @@
 %% a running title from the author: this should be supplied as an
 %% optional argument to \title.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\title[]{What molecular structures constitute the autocatalytic set that might produce long 
-informational polymers prebiotically?}
+\title[]{A mechanism for how prebiotic polymers may have become informational}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Some journals require a list of abbreviations or keywords to be
@@ -107,21 +106,18 @@ informational polymers prebiotically?}
 
 \begin{document}
 \abstract{\footnotesize We propose a model for how the random prebiotic polymerization of short 
-chains could have led to longer-chain autocatalytic sets of informational polymers.  The essential 
-requirement is for polymers of hydrophobic ($H$) and polar ($P$) monomers, such as in present-day 
-proteins.\red{I don't see how it is essential}  The principal tool for rigorous study of random 
-sequences of such polymers is the $HP$ 
-lattice model. \red{2D model can't be called rigorous, only toy}  It is known that a significant 
-fraction of random $HP$ sequences can fold into 
-relatively structured compact structures.  We show that a significant fraction of those foldamers 
-will have clusters of hydrophobic residues on the surface.  For HP polymers, such binding sites can 
-help catalyze the elongation of other HP polymers.  A unique aspect of this proposal is that it 
-gives specific guidance about what monomer sequences define the autocatalytic set, and a mechanism. 
- 
-Even in random "soups" of HP chains, enough may be able to fold and provide primitive catalytic 
-surfaces to bootstrap the growth of the lengths and informational content of the set.  We believe, 
-this 
-mechanism is relevant in the early origins of life.}
+chains could have led to longer-chain autocatalytic sets of informational polymers.  The central 
+idea is to focus on polymers of hydrophobic ($H$) and polar ($P$) monomers, such as in present-day 
+proteins.  A principal tool for studying random sequences of such polymers is the $HP$ lattice 
+model. It is known 
+that a significant fraction of random $HP$ sequences can fold into relatively structured compact 
+structures.  We show that a significant fraction of those foldamers will have clusters of 
+hydrophobic residues on the surface.  For HP polymers, such binding sites can help catalyze the 
+elongation of other HP polymers.  A unique aspect of this proposal is that it gives specific 
+guidance about what monomer sequences define the autocatalytic set, and a mechanism. Even in random 
+"soups" of HP chains, enough of them may be able to fold and provide primitive catalytic surfaces to 
+bootstrap the growth of the lengths and informational content of the set.  We believe, 
+this mechanism is relevant in the early origins of life.}
 
 %%%MAIN TEXT%%%%
 
@@ -135,60 +131,84 @@ prebiotic experiments; and that could have led to selective amplification of pop
 particular sequences (on the road to biology) from underlying processes that are otherwise random 
 chemical polymerizations.  
  
- We first give some background.  Main question we ask in the paper is how the Chemistry-To-Biology 
-(CTB) 
- transition might have happened to initiate the earliest life.  Our focus is not on the 
+ We first give some background.  The main question we ask here is how the Chemistry-To-Biology 
+(CTB) transition might have happened to initiate the earliest life.  Many chemical processes tend 
+toward equilibria.  Biological processes are non-equilibria that are both self-sustaining and 
+self-supporting.  Our focus is not on the 
 chemical types of monomers and polymer, on on the conditions needed.  Rather, our question here is 
-the matter of physical principle of what chemical polymerization processes might lead from random 
-to informational chains, from short to long chains, and to autocatalytic sets that could be 
+the matter of physical principle of what chemical polymerization processes might lead from random to 
+informational chains, from short to long chains, and to autocatalytic sets that could be 
 self-sustaining.  We review briefly below other work on those questions.
  
- \section{The Autocatalysis Problem:  What molecules were the initial autocatalysis, and how did 
-they get started?}
+ \section{The Autocatalysis Puzzle}
  
- Early on, it was recognized by Eigen, Kaufmann, Dyson and others that the CTB transition requires 
- autocatalysis, ie some form of positive feedback or 
+ What molecules might have catalyzed the CTB transition?  Early on, it was recognized by Eigen, 
+Kaufmann, Dyson and others that the CTB transition requires autocatalysis, ie some form of positive 
+feedback or 
 bootstrapping~\cite{Eigen1978,Dyson1985,Prigogine1989,Kauffman1986}.  These works established the 
-importance of 
-autocatalysis for sustaining stable biochemical networks. More recently, artificial chemical systems 
-have been sustained by mutually catalyzing 
-small molecules~\cite{segre1998graded,Segre2000,Markovitch2012}.  A theoretical model shows how 
-long-chain polymers can be self-sustaining by template-assisted ligation and random breakage 
-\cite{Tkachenko2014}.  A model, supported by stochastic simulations show how the sequence diversity 
-can arise from random 
-polymerizations~\cite{Derr2012}.  Wu and Higgs\cite{Wu2009} have shown how autocatalytic 
-bistability can increase chain lengths in mono-polymers by the autocatalytic mechanism.  Studies of 
-binary polymers either 
-capable of autocatalysis or replication showed that while autocatalytic system has bi-stability and 
-increased ratio of longer polymers, one has to increase catalysis rate exponentially in order to 
-get 
-exponential growth of longer chains~\cite{nowak2008prevolutionary,Ohtsuki2009,Chen2012}. 
-Self-replicating systems on the other hand didn't show bistability, but substantial polymer growth 
-was found to arise from low replication rates. It was also shown that self-replication enhances 
-complexity of the system. The autocatalysis mechanism of this series is however very simple It's a 
-self-replication performed by means of catalysis: for every reaction catalyst has to get attached 
-to 
-a growing molecule and then dissociate from it.
+importance of autocatalysis for sustaining stable biochemical networks. Since then there were many 
+works, which studied various artificial chemical systems with different implementations of positive 
+feedback. Various aspects of these systems has been investigated, such as for example ability to 
+reach biologically reasonable lengths (for polymeric systems), maintain exponential growth, 
+inheritance, evolvability. And what mechanism of positive feedback gives all the desirable 
+properties if any. Here we provide several example of such works. 
 
- Significant progress has been made in attempts to make artificial autocatalytic sets in a 
- laboratory\cite{VonKiedrowski1986,Lincoln2009,Vaidya2012}: systems designed so that a pair of 
-molecules catalyze each other assemlance show autocatalytic behavior/experience exponential growth.
+In several works~\cite{segre1998graded,Segre2000,Markovitch2012}, an artificial chemistry system is 
+modeled as sustained by mutually 
+catalyzing small molecules. Collections of small molecules of different types, some of which were 
+randomly chosen to be chemically active, were allowed to interact and their evolution through time 
+and cell division has been studied. Those works showed that such systems can maintain a 
+collective identity, expressed through the types of molecules (the ``composome'') that survive 
+through cell ``divisions'', and respond to certain changes of the external conditions. This model 
+corresponds to a lipid world scenario, but being a rather general metabolism-first model, it can be 
+used to study various aspects of systems of mutually interacting small molecules, which is a very 
+interesting area of studies given the attractiveness of the metabolism-first scenario and problems 
+in encounters in close-to-biological chemistries (see for example~\cite{Orgel2008a}).
+
+Wu and Higgs~\cite{Wu2009} have shown how autocatalysis in mono-polymeric artificial chemistry 
+systems produce a 
+bi-stability and increase chain lengths of polymers. The model is very simple, but incorporates 
+only one type of monomers, which removes evolution, diversity and effects of ``parasitic'' species 
+on a system out of consideration and makes it a very simplistic toy model.  A similar theoretical 
+model shows how long-chain polymers can be self-sustaining by template-assisted  ligation and random 
+breakage~\cite{Tkachenko2014}, they show that under certain condition, system goes through a phase 
+transition, where system produces longer chains and maintain it self. The system effectively doesn't 
+distinguish between polymers of different composition and therefore is the subject to similar 
+limitations as~\cite{Wu2009}.
+
+Theoretical studies of binary polymers either 
+capable of autocatalysis or 
+replication~\cite{nowak2008prevolutionary,Ohtsuki2009,Chen2012,Derr2012}. The system used in these 
+studies is a very simple one, with unlimited ``food'' molecules, which restricts the model only to 
+non-competing systems. The autocatalysis mechanism of these series is very simple one: a selected 
+sequence has an ability to accelerate growth of it's own precursors only (either full or partial). 
+This limits results of the models to a RNA-like-world, with molecules capable of direct templating 
+(in the case of replication) or of some sort of self-recognition (in the case of catalysis),maybe 
+also through direct templating.
+The studies  showed that while autocatalytic system has bi-stability and increased ratio of longer 
+polymers, one has to increase catalysis rate exponentially in order to get exponential growth of 
+longer chains. Self-replicating systems on the other hand didn't show bi-stability, but substantial 
+polymer growth was found to arise from low replication rates. It was also shown that 
+self-replication enhances diversity of the system and compensate for possible chemical bias. The 
+nature of the model, may however severely limit its application, due to the fact that it 
+focuses only on molecules already capable of self-recognition, while recognition of ``self'' is in 
+fact a difficult question in chemistry of the origin of life.
+
  
- \blue{needs a summary of differences with us:  some don't make structural predictions.  
- some are toy systems with no connection to real biological polymers.  some are just homopolymers, 
-so they don't give insights into the random-to-sequence-specific problem.  let's put each of these 
-complaints right after the description of each of the methods above.  Also, each of the methods 
-above is too concise -- they need a little more description, so the reader can see how our 
-criticism 
-is relevant.}
+ Significant progress has been made in attempts to make artificial autocatalytic sets in the  
+ laboratory~\cite{VonKiedrowski1986,Lincoln2009,Vaidya2012}. Such systems are designed so that a 
+pair of molecules catalyze each other, giving autocatalysis and exponential growth. These studies 
+are important for our understanding of autocatalysis, but are simple toy models. [E - Toy models 
+how?  What important aspects are they missing?]
+ 
  
  \section{The `Flory Problem': polymerization processes produce mostly short chains}
  \label{sec:flory} 
 
-Many experiments show that either amino acids or nucleotides can polymerize into 
-short-chain molecules under prebiotic conditions without the presence of 
-enzymes~\cite{Shock1992,Martin1998,PAECHT-HOROWITZ1970,Leman2004a,Orgel2004}.  It is also known 
-that 
+A key puzzle in biopolymer origins is how to produce sufficiently long chains?  Many experiments 
+show that either amino acids or nucleotides can polymerize into short-chain molecules under 
+prebiotic conditions without the presence of 
+enzymes~\cite{Shock1992,Martin1998,PAECHT-HOROWITZ1970,Leman2004a,Orgel2004}.  It is also known that 
 the yields of such short-chain oligomers can be increased under prebiotically plausible conditions 
 by such processes as adsorption to clays~\cite{Rao1980,Lambert2008} or 
 minerals~\cite{Bernal1949,Ferris1996}, by evaporation of tidal pools~\cite{Nelson2001}, by 
@@ -247,8 +267,8 @@ Green line gives $\bar l = 6$, magenta one corresponds to $\bar l =2$}
 
 The Flory distribution is a good model for various known prebiotic syntheses of peptide and nucleic 
 acid chains.  Figure~\ref{fig:some_flory} shows that the Flory model fits known length 
-distributions 
-from various prebiotic syntheses (sometimes data is fit to an exponential law, $f(a)\propto 
+distributions from various prebiotic syntheses (sometimes data is fit to an exponential law, 
+$f(a)\propto 
 const^l$, which is slightly simpler but nearly identical in form 
 ~\cite{nowak2008prevolutionary,Derr2012}).  So, since experiments on a.a. polymerization and 
 prebiotic chemistry appears to give submillimolar or submicromolar 
@@ -339,7 +359,8 @@ analysis below is only applicable to foldamers, it is not limited to proteins.
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\columnwidth]{pictures/tst-seqs.pdf} 
-  \caption{\footnotesize{HH interactions are favorable in water, leading to different compact states 
+  \caption{\footnotesize{HH interactions are favorable in water, leading to different compact 
+states 
 for different 
 HP sequences.}}
   \label{fig:hydro-effect}
@@ -355,9 +376,7 @@ an addition of a monomer, at rate $\ga$. Without loss of
 generality we define the unit rate by setting $\ga = 1$.  All other rates are taken relative to 
 this 
 chain growth rate.  We assume all polymers also undergo spontaneous hydrolysis; any bond can be 
-broken with rate constant $d_h$.  \blue{E - we've kept all our other variables to a single letter.  
-Can 
-we use a single letter instead of $d_h$ too?}
+broken with rate constant $h$.  
 
  Now, in addition to this basic polymerization dynamics, we also account for the fact that some 
 sequences 
@@ -380,10 +399,11 @@ sequence, we can readily compute the folding and unfolding rate coefficients fro
 for reversible folding, where $z$ is the number of rotational degrees of freedom per peptide bond.  
 
 We suppose that chains that fold are prevented from further growth, and also are protected from 
-hydrolysis.  
-\blue{E - do we need to assume no further growth?  Readers will wonder.}\red{Ken, of course, if an 
-end tail is possibly hidden, how can something grow?}  Still, the reversibility of the folding 
-reaction leads to occasional unfolding and thus to possible further growth and degradation.
+hydrolysis.  This simply reflects that open chains are much more accessible to degradation from the 
+solvent or adsorption onto surfaces than are folded chains.  Even so, folding in our model is a 
+reversible equilibrium, as it is for natural proteins, so some small fraction of the time even 
+folded chains are unfolded, and in that proportion, our model allows them further growth and 
+degradation.
  
 
 
@@ -438,7 +458,8 @@ A single line shows length distribution for one simulation run (we run total of 
 Blue lines are result of the Experiment 2, gray ones -- Experiment 1. Addition of folding to the 
 basic model doesn't change the nature of distribution. (b) Populations of the individual sequences, 
 based on the relults of a single simulation run. Gray dots -- unfoldable sequences, blue ones -- 
-foldable. In this simulation we disallow catalysis, but we still show potential catalysts in red, to 
+foldable. In this simulation we disallow catalysis, but we still show potential catalysts in red, 
+to 
 show, that they 
 behave similarly to regular folders. Foldable sequence have advantage compared to unfoldable ones.}}
   \label{fig:sim.flory-fold}
@@ -484,9 +505,9 @@ For the modeling we set minimum size of the landing pad to be 3. Thus catalysts 
 HH$ to 
 $H$ connections. So every polymer, which has $HHH$ in its sequence can benefit from catalysis. 
 
-\begin{figure}[htb!]
+\begin{figure*}[htb!]
   \centering
-  \includegraphics[width=\columnwidth]{pictures/fold-cat.pdf} 
+  \includegraphics[width=0.98\textwidth]{pictures/fold-cat.pdf} 
   \caption{\footnotesize{(a) 
 When folded chain has a patch of at least three exposed nonpolar monomers, it can be a catalyst. 
 This patch serves as a landing site for the growing chain and a hydrophobic monomer, facilitating 
@@ -494,7 +515,7 @@ the action of linking the monomer to the chain, by holding them together and low
 energy.} (b) Most chains in their native states don't have enough hydrophobes exposed and cannot 
 serve as catalysts.}
   \label{fig:fold-cat}
-\end{figure}
+\end{figure*}
 
  At this point, we note what our model is, and what it is not.  Our model is not intended as an 
  accurate atomistic depiction of a real catalytic mechanism.  It is a coarse-grained toy model, of 
@@ -544,10 +565,6 @@ necessary.
 length $x$ , }}
   \label{fig:hp-statistics}
 \end{figure}
-
-\blue{Eliza -- Let's make another figure of 6-8 sequence-structure pairs of autocats and 6-8 pairs 
-of 
-foldamers that are not autocats.  You made one before; let's include it here.}
 
 
 \begin{figure*}[htb!]
@@ -615,8 +632,7 @@ suggests that folding in HP polymers is not rare.
   The present model provides an experimentally testable prediction for what early 
   polymer sequences could be autocatalytic, and provides a structural and kinetic mechanism for 
 their action.  This model also provides a view about how selection and diversity may be related, 
-and 
-may be evolvable, arising from chain syntheses that are otherwise random.
+and may be evolvable, arising from chain syntheses that are otherwise random.
 
 
 
@@ -628,8 +644,7 @@ may be evolvable, arising from chain syntheses that are otherwise random.
 \section{Materials and methods}\label{sec:mat}
 \subsection{Simulations}\label{sec:mat-sim}
 To test our hypothesis we performed direct stochastic simulations on several sets of parameters. We 
-used 
-\blue{PDMmod} method \cite{Bernatskiy}
+used the \blue{PDMmod} method \cite{Bernatskiy}
 \footnote{C++ library and description can be found here: https://github.com/abernatskiy/pdmmod}. 
 Stochastic simulations keep track of each 
 molecular specie in the system. However simulations are limited due to computational reasons. 
@@ -659,7 +674,7 @@ reactions chain. Therefore we explore big values of $a\propto 10^3\ga$
  \emptyset \xrightarrow{a} H\,\,\mbox{or}\,\,P
 \end{equation}
 
-\item Hydrolysis has constant rate $d_h$ per bond. Half-life time of hydrolysis bonds in neutral 
+\item Hydrolysis has constant rate $h$ per bond. Half-life time of hydrolysis bonds in neutral 
 conditions and temperatures around room temperature are on the order of hundreds of 
 years\footnote{Hydrolysis rate constants of oligopeptides in 
 neutral conditions are of the order of $10^{-11}-10^{-10}$: $1.3  10^{-10} M^{-1}s^{-1} $ 
@@ -669,7 +684,7 @@ for benzoylglycylphenylalanine ($t_{1/2} = 128 y$)\cite{Bryant1996}, $6.3  10^{-
 constants. This way we account for polymerization conditions, which happens on the order of days 
 to years.
 \begin{equation}
- n\mbox{-mer} \xrightarrow{d_h} l\mbox{-mer}+(n-l)\mbox{-mer}
+ n\mbox{-mer} \xrightarrow{h} l\mbox{-mer}+(n-l)\mbox{-mer}
 \end{equation}
 
 
@@ -748,15 +763,15 @@ For all the experiments below we have the following parameters:
 number of sequences and populations either to high to calculate or to low to make conclusions. 
 Values around $a=1000$ allow to run all the experiments with the same parameters without those 
 complications.
- \item $d_h=d=0.1$.
- \subitem When $3d\lessapprox d_h\leq\ga$, hydrolysis is very strong and in 
+ \item $h=d=0.1$.
+ \subitem When $3d\lessapprox h\leq\ga$, hydrolysis is very strong and in 
 non-catalytic case there's explosion of short sequences, which makes simulations computationally 
 nearly impossible. 
-\subitem When $3d_h\lessapprox d\leq\ga$, hydrolysis is very weak and nothing limits the 
+\subitem When $3h\lessapprox d\leq\ga$, hydrolysis is very weak and nothing limits the 
 growth of longer sequences, and with the chains shorter than 25-mers, there are considerable 
 populations of 10-20-mers even without any folding or catalysis, besides high $d$ makes total 
 populations too low for any statistical calculations. 
-\subitem When $0.05\lessapprox d\approx d_h \lessapprox 0.5$ the forces of dilution and hydrolysis 
+\subitem When $0.05\lessapprox d\approx h \lessapprox 0.5$ the forces of dilution and hydrolysis 
 are relatively balanced and populations don't drop and don't explode.
  \item $E_h = 2kT$
  \item $z=1.2$
@@ -775,7 +790,7 @@ Source files of the models, parameters, initial conditions and random seeds can 
 % \hline
 % Polymerization rate constant & $\ga$ &  1 & $\propto 1\,month^{-1}$ & ??\\
 % \hline
-% Hydrolysis  rate constant & $d_h$ & $\propto 10^{-1}\textendash10^{-4}$ & $\propto 
+% Hydrolysis  rate constant & $h$ & $\propto 10^{-1}\textendash10^{-4}$ & $\propto 
 %1\,month^{-1}-- 
 % 10^{-3}year^{-1}$ & $\propto 10^{-3}year^{-1}$ 
 % \cite{Bryant1996,Smith1998,Danger2012}\\
@@ -830,8 +845,8 @@ simulation are located at \url{https://github.com/gelisa/hp_world_data/tree/mast
 \paragraph{Experiment 3. Introduction of HP-catalysis.}
 In addition to folding in this \textit{in-silico} experiment we introduced interaction between 
 proteins. All parameters are as above. We varied parameters of the simulations, and noticed 
-significant stability of the length distribution towards change of $d_h$ and $d$: $0.05\lessapprox 
-d\approx d_h \lessapprox 0.5$. Distribution is very sensitive towards hydrophobic energy, as 
+significant stability of the length distribution towards change of $h$ and $d$: $0.05\lessapprox 
+d\approx h \lessapprox 0.5$. Distribution is very sensitive towards hydrophobic energy, as 
 expected. Chain length distribution is drastically different compared to Experiments 1 and 2 in the 
 region when $E_h= 1-3 kT$
 
