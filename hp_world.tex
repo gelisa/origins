@@ -505,9 +505,9 @@ For the modeling we set minimum size of the landing pad to be 3. Thus catalysts 
 HH$ to 
 $H$ connections. So every polymer, which has $HHH$ in its sequence can benefit from catalysis. 
 
-\begin{figure*}[htb!]
+\begin{figure}[htb!]
   \centering
-  \includegraphics[width=0.98\textwidth]{pictures/fold-cat.pdf} 
+  \includegraphics[width=\columnwidth]{pictures/fold-cat.pdf} 
   \caption{\footnotesize{(a) 
 When folded chain has a patch of at least three exposed nonpolar monomers, it can be a catalyst. 
 This patch serves as a landing site for the growing chain and a hydrophobic monomer, facilitating 
@@ -515,7 +515,7 @@ the action of linking the monomer to the chain, by holding them together and low
 energy.} (b) Most chains in their native states don't have enough hydrophobes exposed and cannot 
 serve as catalysts.}
   \label{fig:fold-cat}
-\end{figure*}
+\end{figure}
 
  At this point, we note what our model is, and what it is not.  Our model is not intended as an 
  accurate atomistic depiction of a real catalytic mechanism.  It is a coarse-grained toy model, of 
@@ -644,18 +644,20 @@ and may be evolvable, arising from chain syntheses that are otherwise random.
 \section{Materials and methods}\label{sec:mat}
 \subsection{Simulations}\label{sec:mat-sim}
 To test our hypothesis we performed direct stochastic simulations on several sets of parameters. We 
-used the \blue{PDMmod} method \cite{Bernatskiy}
-\footnote{C++ library and description can be found here: https://github.com/abernatskiy/pdmmod}. 
+used the expandable partial propensity method (EPDM)~\cite{Guseva2016b}.
+\footnote{C++ library and description can be found here: https://github.com/abernatskiy/epdm}. 
 Stochastic simulations keep track of each 
 molecular specie in the system. However simulations are limited due to computational reasons. 
-First of all we have to explore conformational space of every polymer. This task is NP-hard (we use 
+First of all we have to explore conformational space of every polymer. This task is NP-hard (we 
+use 
 HPSandbox algorithm\cite{lau1989lattice,Dill2008} \footnote{Python implementation and description 
 can be found here: http://hp-lattice.readthedocs.org/en/latest/}), so we had to limit 
 maximum chain lengths to 25. We also try to keep total number of species in the low thousands, to 
 limit computational costs. We do it by introducing dilution parameter $d$: molecules are being 
 removed from the system with probabilities $\propto d$. 
 This either can mimic a protocell splitting and loose of materials due to it or in the case when 
-system isn't bounded by any borders the fact that some molecules will diffuse away. Total number of 
+system isn't bounded by any borders the fact that some molecules will diffuse away. Total number 
+of 
 molecules varies from simulation to simulation, 
 however it mostly holds in the region $10^2-10^4$.
 
@@ -667,7 +669,8 @@ $\ga = 1$
 \begin{equation}
  1\mbox{-mer}+n\mbox{-mer} \xrightarrow{\ga} (n+1)\mbox{mer}
 \end{equation}
-\item These monomers are being imported in the system. with rate $a\gg1$. It is safe to assume that 
+\item These monomers are being imported in the system. with rate $a\gg1$. It is safe to assume 
+that 
 we would have enough monomers in the system and import of monomers wouldn't be a bottleneck of 
 reactions chain. Therefore we explore big values of $a\propto 10^3\ga$
 \begin{equation}
@@ -736,7 +739,7 @@ for the short HP-sequences varies in the range $3-6$.Ther reaction is:
 \xrightarrow{\ga_{cat}}\mbox{Cat.}+\underbrace{\cdots HHH}
 \end{equation}
  With the hydrophobic energies of $1-2$kT this gives us 
-catalysis rates around hours and days for one reaction. Because the PDMmod supports only binary 
+catalysis rates around hours and days for one reaction. Because the EPDM supports only binary 
 reactions, we divided the reaction above into to steps: interaction of catalyst with a monomer with 
 rate $\ga$ and reaction of this complex with a polymer with the rate $\ga_{cat}$. 
 
