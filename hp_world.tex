@@ -321,14 +321,26 @@ parameters.
 
    Here is the overview of the mechanism that is supported by our model simulations below.  
    Suppose that a polymer molecule $A$ folds so that it has exposed hydrophobic monomers on its 
-surface. \red{We propose} this patch can serve as a sticky spot for another HP molecule $B$ and for 
-an H monomer 
-$C$.  Hydrophobic interaction between three of them localizes growing chain and next monomer and 
-reduces the kinetic barrier of polymerization for $B$ and $C$ molecules; see Fig. 
-\ref{fig:hp-catalysis}.  A typical hydrophobic interaction is $1-2kT$.  Consequently chain $A$ is a 
+surface.
+\red{Such exposed cluster of hydrophobes or ``hydrophobic patches'' are fairly common for real 
+life proteins; their locations generally coincide with binding sites of ligands or other 
+proteins~\cite{Lijnzaad1996}. They are exploited in recognition, binding of substrates 
+and increasing rate of catalysis \cite{MitchellGuss1983,Lijnzaad1996,VanEe1997,Witt1998}. For 
+example hydrophobic patches on the surface of lipases serve as initiation sites; 
+hydrophobic tail of a surfactant interacts with the patch first~\cite{VanEe1997}. Hydrophobic patch 
+in Cytochrome-c Oxidase one the other hand doesn't serve as recognition element but increases 
+$k_{cat}$~\cite{Witt1998}. A survey of hydrophobic patches on the surface of 112 soluble, monomeric 
+proteins\cite{Lijnzaad1996} showed that the largest patches average around $400$\textit{\AA}$^2$ 
+but can range from $200$ to $1,200$\textit{\AA}$^2$.}
+
+ We propose thus that exposed hydrophobes on the surfaces of folded $HP$ sequences can serve in a 
+similar way as sticky spots for unfolded $HP$ chains with hydrophobic tails and for H monomers; see 
+Fig. \ref{fig:hp-catalysis}.  Hydrophobic interaction between three of them localizes growing chain 
+and next monomer and reduces the kinetic barrier of polymerization for the growing chain and an $H$ 
+molecule.  A typical hydrophobic interaction is $1-2kT$.  Consequently chain $A$ is a 
 catalyst that provides a hydrophobic landing pad and reduces activation energy by 3-4 hydrophobic 
-interactions, thereby increasing the polymerization rate around $ 100$-fold 
-(fig.~\ref{fig:hp-catalysis-b}).  Of course, this rate enhancement is much smaller than the 
+interactions, thereby increasing the polymerization rate around $ 100$-fold.  Of course, this rate 
+enhancement is much smaller than the 
 $10^7$-fold of modern ribosomes~\cite{Sievers2004a}. Nevertheless, it gives a conceptual basis for 
 how peptide-bond formation rate enhancements might have had their prebiotic beginnings.  
 
@@ -338,10 +350,10 @@ sequences will lead to some selection that can concentrate some sequences and st
 others.  Second, some folded $HP$ sequences can have primitive catalytic and autocatalytic 
 abilities, based on their exposed hydrophobic surfaces, whereby certain chains can help to 
 polymerize other chains.  So, the folding and binding sites of $HP$ polymers could explain how 
-prebiotic chemistry might escape the Flory Problem. \blue{It is not clear from what’s written here 
+prebiotic chemistry might escape the Flory Problem. \blue{It is not clear from what's written here 
 thus far: is having exposed hydrophobic groups a well documented concept to achieve some rate 
 enhancement (in which case we should reference it), or is this an assertion of this manuscript?} 
-\red{It is assertion, I mentioned this above.}
+\red{see red above.} 
    
    \begin{figure}[h!]
   \centering
@@ -392,7 +404,7 @@ HP sequences.}}
 
  We consider a soup containing a sufficient supply of activated $H$ and $P$ monomers in solution.  
  \blue{If there is room, I think a simple figure showing the relevant players and rates would be 
-very helpful and satisfying to the reader.}\red{I need to think how I can show that.}
+very helpful and satisfying to the reader.}\red{See right before Discussion section}
  Activated $H$ and $P$ monomers are supplied by an external source with rate $a$.  Any molecule can 
 be removed from the system with rate $d$.  A given chain elongates through the 
 an addition of a monomer, at rate $\ga$. Without loss of 
@@ -508,23 +520,23 @@ polymeric structures -- is that it can resemble a microscale solid, with very pr
 of 
 different chemical moieties over sufficiently long time scales that substrates and transition 
 states 
-can `recognize', bind, and react on them.  
-\blue{I think it is an interesting point: How much margin of safety do we have here?  In other 
-words, what are the relative timescales for chain rearrangements, to binding to a transition state 
-and reducing its free energy?  Is it order and orders?  Or is it just barely enough to be 
-discernable? } \red{I will have to calculate it, but it can be done, I believe.}
+can ``recognize'', bind, and react on them. 
 For example, serine proteases utilize a catalytic triad 
 of 3 amino acids.  So, foldability in some type of prebiotic polymer, could conceivably have had a 
 special role in allowing for primitive catalysis.  Here, we use a toy model to capture that simple 
 idea, namely that a folded polymer can position a small number of residues in a way that can 
-catalyze a reaction.  
+catalyze a reaction. \blue{I think it is an interesting point: How much margin of safety do we have 
+here?  In other 
+words, what are the relative timescales for chain rearrangements, to binding to a transition state 
+and reducing its free energy?  Is it order and orders?  Or is it just barely enough to be 
+discernable? } \red{that requires some literature search and calculations. it might be possible to 
+do it.}
 
 
 \subsection{How chain elongation is catalyzed}
 
 For  the foldable $HP$ sequences with exposed hydrophobic patches the same force that folds them 
-by forcing $H$ monomers inside will attract another hydrophobes from the solution. \blue{Wouldn't a 
-cleft be better than an exposed patch?}
+by forcing $H$ monomers inside will attract another hydrophobes from the solution. 
 If the exposed patch is long enough, then it can serve as a landing pad for a growing sequence and 
 hydrophobic monomer, thus holding both together and lowering the activation barrier for the 
 polymerization reaction. Therefore catalysis rate are proportional to the exponent of hydrophobic 
@@ -538,13 +550,12 @@ $H$ connections. So every polymer, which has $HHH$ in its sequence can benefit f
   \centering
   \includegraphics[width=\columnwidth]{pictures/fold-cat.pdf} 
   \caption{\footnotesize{(a) 
-When folded chain has a patch of at least three exposed nonpolar monomers, it can be a catalyst. 
+When folded chain has a patch of at least three exposed nonpolar monomers in its native state, it 
+can be a catalyst. 
 This patch serves as a landing site for the growing chain and a hydrophobic monomer, facilitating 
 the action of linking the monomer to the chain, by holding them together and lowering activation 
 energy.} (b) Most chains in their native states don't have enough hydrophobes exposed and cannot 
-serve as catalysts. \blue{I don't know if we make this point clear: Are the rare catalytic folded 
-sequences with exposed hydrophobic patches in their native state? Or are we saying they are 
-kinetically trapped?}}
+serve as catalysts.}
   \label{fig:fold-cat}
 \end{figure}
 
@@ -555,8 +566,7 @@ the two reactants, polymer $B$ and monomer $C$, in the chain extension reaction.
 model is 2-dimensional, extensive previous studies have shown that it captures many important 
 principles of folding and sequence-to-structure relationships.  At the present time, this type of 
 model is the only unbiased, complete and practical way to explore plausibilities of physical 
-hyotheses such as the present one. \blue{These points are very important!  I think they can be 
-echoed more strongly in the abstract, cover letter, conclusion, etc.}
+hypotheses such as the present one.
 
 
 \subsection{Modeling shows that HP foldamer-catalysts can solve the Flory Problem}
@@ -626,6 +636,22 @@ given length is due to autocatalysts for a single simulation run. Each data poin
 $10^6$ time points in the steady state interval. Black line is a median over 30 simulations }}
   \label{fig:biomass}
 \end{figure}
+Figure \ref{fig:mainplayers}(a) shows some top sequences as they emerge out of one of our 
+simulations in Experiment 3. Sequences are shown as triangles, with the color of triangles 
+corresponding to the hydrophobicity of the chains. The folds of some top sequences are shown in 
+(b) panel of the figure. For the most of the cases in this particular simulation have 
+$k_cat\approx400$. For different values of hydrophobic energies $E_h$ those values might range 
+from $50-50,000$, with effect of autocatalysis being visible.
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\columnwidth]{pictures/mainPlayers.pdf} 
+  \caption{\footnotesize{(a) Show several top autocatalytic sequences. Their color indicate their 
+hydrophobicity with more red being more hydrophobic. Green line -- is the median of the 
+populations. Top autocatalysts always have several orders higher population, which is generally 
+constitutes bulk part of the given length biomass. Biomass as function of length is shown in 
+gray. (b) Shows top sequences and their fold for the longest length}}
+  \label{fig:mainplayers}
+\end{figure}
 
 
 \section{Discussion}
@@ -656,13 +682,12 @@ between different instances of the same sequence (here C).}}
  The HP model allows for precise counting of sequences that fold, or don't fold, 
  and have any particular structural property.  A non-negligible fraction of all possible HP 
 sequences fold to unique structures ($2.3\% $ for lengths up to 25-mers) \blue{do we need to define 
-“unique”.  It is an interesting question.} \red{Yes, otherwise model will become too complex for 
+``unique''.  It is an interesting question.} \red{Yes, otherwise model will become too complex for 
 any calculation.}.  The fraction of all 
 possible HP sequences that have catalytic surfaces (as defined above) is $12.7\%$ of foldable 
 sequences, or $0.3\%$ of the whole sequence space. \blue{this is a little unclear to me: Isn't 
 there  a minimum length to fold?  earlier we suggest 30-60 monomers are needed.  Why do we say 
-anything less than 25mer?} \red{This is a very good point, which it's hard to address, because short 
-sequence ``folding'' is a key aspect for our model to work. We basically redefine a ``fold'' from a 
+anything less than 25mer?} \red{ We basically redefine a ``fold'' from a 
 solid classical structure to a semi-molten globule type structure and this should be addressed, 
 possibly several times through the paper. Maybe we should call them sequences with unique lowest 
 free energy folded state?}  These ratios remain relatively constant with 
