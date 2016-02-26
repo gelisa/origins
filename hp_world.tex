@@ -105,24 +105,7 @@
 
 
 \begin{document}
-\abstract{\footnotesize We propose a model for how the random prebiotic polymerization of short 
-chains could have led to longer-chain autocatalytic sets of informational polymers.  The central 
-idea is to focus on polymers of hydrophobic ($H$) and polar ($P$) monomers, such as in present-day 
-proteins.  A principal tool for studying random sequences of such polymers is the $HP$ lattice 
-model. It is known 
-that a significant fraction of random $HP$ sequences can fold into relatively structured compact 
-structures.  We show that a significant fraction of those foldamers will have clusters of 
-hydrophobic residues on the surface.  For HP polymers, such binding sites can help catalyze the 
-elongation of other HP polymers.  A unique aspect of this 
-proposal is that it suggests a single mechanism that gives a simple 
-rule relating monomer sequences with their autocatalytic ability. Based on the sequence one can 
-predict the fold, and from the fold one can determine catalytic properties of the chain. Thus by 
-determining only parameters of hydrophobic interaction we can predict catalytic powers of 
-$HP$ sequences and their interactions. Our work demonstrates that even in a random
-soups of HP chains, enough of them may be able to fold and provide primitive catalytic surfaces 
-to 
-bootstrap the growth of the lengths and informational content of the set.  We believe, 
-this mechanism is relevant in the early origins of life.}
+\abstract{\footnotesize We are interested in three puzzles of how prebiotic chemistry might have led towards biology.  (1) Most current prebiotic chain syntheses produce only short chains, yet biology is thought to require longer chains.  (2) How might random sequences have selectively become informational?  (3) The Chemistry-to-Biology transition is thought to require \emph{autocatalytic sets}.  What is a plausible molecular structural basis for such sets?  Our hypothesis is that non-negligible fractions of random short polymers of hydrophobic ($H$) and polar ($P$) monomers, such as constitute present-day proteins, can collapse into relatively compact structures with exposed hydrophobic surfaces that can act as primitive catalysts for the elongation of other such HP polymers.  Using the HP lattice model, which can explore sequence-space properties without bias, we find that such processes are autocatalytic, lead from short chains to longer ones, and are sequence selective.  This mechanism may be relevant to the early origins of life.}
 
 %%%MAIN TEXT%%%%
 
@@ -136,79 +119,23 @@ prebiotic experiments; and that could have led to selective amplification of pop
 particular sequences (on the road to biology) from underlying processes that are otherwise random 
 chemical polymerizations.  
  
- We first give some background.  The main question we ask here is how the Chemistry-To-Biology 
-(CTB) transition might have happened to initiate the earliest life.  Biological processes are 
-non-equilibria that are both self-sustaining and 
-self-supporting.  Our focus is not on the 
-chemical types of monomers and polymer, on on the conditions needed.  Rather, our question here is 
-the matter of physical principle of what chemical polymerization processes might lead from random to 
-informational chains, from short to long chains, and to autocatalytic sets that could be 
-self-sustaining.  We review briefly below other work on those questions.
+ The main question we ask here is how the Chemistry-To-Biology (CTB) transition might have happened to initiate subsequent stages of the earliest life.  Biological processes are non-equilibria that are both self-sustaining and self-supporting.  Our question here is not about which monomers or polymers were the first, or on what synthesis conditions were plausibly prebiotic.  Rather, we seek a physical principle of polymerization that might have spontaneously created sufficiently long chains, that might have led from random to informational chains, from short to long chains, and for a structural principle of autocatalytic sets that could be 
+self-sustaining.  Here is a short summary of prior work.
  
  \section{The Autocatalysis Puzzle}
  
- What molecules might have triggered the CTB transition?  Early on, it was recognized by Eigen, 
-Kaufmann, Dyson and others that the CTB transition requires autocatalysis, ie some form of positive 
-feedback or 
-bootstrapping~\cite{Eigen1978,Dyson1985,Prigogine1989,Kauffman1986}.  These works established the 
-importance of autocatalysis for sustaining stable biochemical networks. Since then there were many 
-works, which studied various artificial chemical systems with different implementations of positive 
-feedback. Various aspects of these systems have been investigated, such as ability to 
-reach biologically reasonable lengths (for polymeric systems), maintain exponential growth, 
-inheritance and evolvability. And what mechanism of positive feedback gives all the desirable 
-properties if any. Here we provide several example of such works. 
-
-In several works~\cite{segre1998graded,Segre2000,Markovitch2012}, an artificial chemistry system is 
-modeled as sustained by mutually 
-catalyzing small molecules. Collections of small molecules of different types, some of which were 
-randomly chosen to be chemically active, were allowed to interact and their evolution through time 
-and cell division was studied. Those works showed that such systems can maintain a 
-collective identity, expressed through the types of molecules (the ``composome'') that survive 
-through cell ``divisions'', and respond to certain changes of the external conditions. This model 
-corresponds to a lipid world scenario, but being a rather general metabolism-first model, it can be 
-used to study various aspects of systems of mutually interacting small molecules, which is a very 
-interesting area of studies given the attractiveness of the metabolism-first scenario and problems 
-in encounters in close-to-biological chemistries (see for example~\cite{Orgel2008a}).
-
-Wu and Higgs~\cite{Wu2009} have shown how autocatalysis in mono-polymeric artificial chemistry 
-systems produce a 
-bi-stability and increase chain lengths of polymers. The model is very simple, but incorporates 
-only one type of monomer, which removes evolution, diversity and effects of ``parasitic'' species 
-on a system out of consideration and makes it a very simplistic toy model.  A similar theoretical 
-model shows how long-chain polymers can be self-sustaining by template-assisted  ligation and random 
-breakage~\cite{Tkachenko2014}, they show that under certain condition, system goes through a phase 
-transition, where system produces longer chains and maintains itself. The system effectively 
-doesn't 
-distinguish between polymers of different composition and therefore is the subject to similar 
-limitations as in the work of Wu ad Higgs~\cite{Wu2009}.
-
-Theoretical studies of binary polymers either 
-capable of autocatalysis or 
-replication~\cite{nowak2008prevolutionary,Ohtsuki2009,Chen2012,Derr2012} showed that while 
-autocatalytic system has bi-stability and increased ratio of longer 
-polymers, one has to increase catalysis rate exponentially in order to get exponential growth of 
-longer chains. Self-replicating systems on the other hand didn't show bi-stability, but substantial 
-polymer growth was found to arise from low replication rates. It was also shown that 
-self-replication enhances diversity of the system and compensate for possible chemical bias. The 
-system used in these 
-studies is a very simple one, with unlimited ``food'' molecules, which restricts the model only to 
-non-competing systems. The autocatalysis mechanism of these series is very simple one: a selected 
-sequence has an ability to accelerate growth of it's own precursors only (either full or partial). 
-This, however, severely limits model application due to the fact 
-that it 
-focuses only on molecules already capable of self-recognition, while recognition of ``self'' is in 
-fact a difficult question in chemistry of the origin of life.
-
-
+ Early on, it was recognized by Eigen, Kaufmann, Dyson, Prigogine and others that the CTB transition requires autocatalysis, \emph{i.e.} some form of positive feedback or bootstrapping among molecules in some way~\cite{Eigen1978,Dyson1985,Prigogine1989,Kauffman1986}.  These works postulated that autocatalysis was a necessary step for sustaining stable biochemical networks.  
  
- Significant progress has been made in attempts to make artificial autocatalytic sets in the  
- laboratory~\cite{VonKiedrowski1986,Lincoln2009,Vaidya2012}. Such systems are designed so that a 
-pair of molecules catalyze each other, giving autocatalysis and exponential growth. These studies 
-are important for our understanding of autocatalysis. Unfortunately, due to natural complexity of 
-life-like systems those studies are focused only on very simple parts of the systems consisting 
-only of two or three specifically designed molecules. Thus emergence of autocatalytic sets is not 
-within the scope of the studies.
+ Subsequent work has been of both abstract theoretical models and experiments.  First, we review the theory.  There have been studies of a class of theoretical models called GARD (Graded Autocatalysis Replication Domain)~\cite{segre1998graded,Segre2000,Markovitch2012}, which showed that hypothetical autocatalytic chemico-kinetic networks should lead to self-replication, and the growth of concentrations of certain chemical species, which they call compositional bias.  This class of models focuses on mixtures of small molecules, and thus is a class of `metabolism-first model', hence does not address the question of the lengths and sequences of biological polymers.
  
+ [keep?:  This model corresponds to a lipid world scenario, but being a rather general metabolism-first model, it can be used to study various aspects of systems of mutually interacting small molecules, which is a very interesting area of studies given the attractiveness of the metabolism-first scenario and problems 
+in encounters in close-to-biological chemistries (see for example~\cite{Orgel2008a})]
+
+Wu and Higgs~\cite{Wu2009} have developed a model of RNA chain-length autocatalysis.  They envision that some chains have the capability to act as polymerase ribozymes.  If so, chain length can grow in an autocatalytic way.  A variant of that theoretical model assumes a mechanism of template-assisted ligation and random breakage~\cite{Tkachenko2014}.  These authors too predict an autocatalytic phase transition, whereby certain conditions cause the system to produce longer chains and become self-sustaining.  These are abstract models insofar as they do not postulate molecular structures that might explain the autocatalytic step.  Nor do they address the heteropolymeric or informational aspects of the chains.  Another class of abstract model does consider a system of random heteropolymeric sequences constructed from an alphabet of different monomer types~\cite{nowak2008prevolutionary,Ohtsuki2009,Chen2012,Derr2012}.  In these models, it is assumed that some form selection and mutation acts on the polymers, and that polymers serve as their own templates.  In this case, the autocatalytic mechanism is that a selected sequence has an ability to accelerate the growth of its own precursors only.  What is not specified is the basis in molecular structure for these processes.
+ 
+ In addition, there have been many experimental studies.  There has been work to create artificial autocatalytic sets in the laboratory~\cite{VonKiedrowski1986,Lincoln2009,Vaidya2012}. Such systems are designed so that a pair of molecules catalyze each other, giving autocatalysis and exponential growth.  For example, mixtures of RNA fragments are shown to self-assemble spontaneously into self-replicating ribozymes that can form catalytic networks that can compete with others.  One limitation, however, in applying such studies to prebiotic origins is that these are fragments taken from existing ribozymes, so they don't address the question of the origins from more primitive and random beginnings.
+ 
+  Here, we describe a theoretical model.  It differs from others in: (1) addressing the three questions together: chain-elongations, information growth, and autocatalysis, and (2) in giving a specific mechanism and structural basis for the autocatalytic process, to predict what molecules might be autocatalytic, with rough estimates for the rate enhancements.
  
  \section{The `Flory Problem': polymerization processes produce mostly short chains}
  \label{sec:flory} 
@@ -247,7 +174,7 @@ Na$^+$-montmorillonite, Ferris et al. observed chains averaging lengths 20-40 af
 25\textcelsius\ \cite{Ferris1996}.  It is not yet understood how prebiotic polymerizations could 
 lead to the types of long protein or nucleic-acid chains that are found in present-day cells.
 
-The standard stochastic processes of chain polymerization lead to the the Flory or 
+The standard processes of chain polymerization lead to the the Flory or 
 Flory-Schulz distribution of the concentrations of chains of different chain 
 lengths~\cite{Flory1953}. 
 \begin{equation}
@@ -269,8 +196,9 @@ negligible concentrations of $\propto 10^{-19} $ mol/L.
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\columnwidth]{pictures/flory2.pdf} 
-  \caption{The Flory length distribution that arises from spontaneous polymerization processes. 
-Green line gives $\bar l = 6$, magenta one corresponds to $\bar l =2$}
+  \caption{\textbf{Polymerization processes lead to mostly short chains.}  Spontaneous 
+polymerization processes typically lead to the Flory distribution of chain lengths. 
+Green line gives $\langle  l \rangle= 6$, magenta one corresponds to $\langle l \rangle=2$}
   \label{fig:flory}
 \end{figure}
 
@@ -292,8 +220,8 @@ exponential nature of the law.
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\columnwidth]{pictures/some_flory.png} 
-  \caption{Chain-length distributions of peptides and nucleic acids synthesized under prebiotic 
-conditions.  The lines show curve fits to the Flory distribution for polymerization processes. Data 
+  \caption{\textbf{Prebiotic syntheses of peptides and nucleic acids lead approximately to the 
+Flory length distribution.}  Data 
 points: red -- Kanavarioti~\cite{Kanavarioti2001}, cyan -- Ding~\cite{Ding1996}, 
 magenta -- Ferris~\cite{Ferris1999}}
   \label{fig:some_flory}
@@ -349,11 +277,11 @@ prebiotic chemistry might escape the Flory Problem.
    \begin{figure}[h!]
   \centering
   \includegraphics[width=0.9\columnwidth]{pictures/hp-catalysis.pdf} 
-  \caption{\footnotesize{Chain $A$ folds so that it has exposed hydrophobic monomers on its surface.
- This patch can serve as a sticky spot for another $HP$ molecule $B$ and for an $H$ monomer $C$.  
-Hydrophobic interaction between three of them localizes growing chain and next monomer and reduces 
-the kinetic barrier of polymerization for $B$ and $C$ molecules by 3-4 hydrophobic interactions, 
-increasing the polymerization rate around $100$-fold }}
+  \caption{\footnotesize{\textbf{Some HP foldamers have hydrophobic patches, which serve as 
+landing pads that can catalyze the elongation of other HP chains.}  Chain $A$ folds and exploses 
+hydrophobic monomers on its surface.
+ That serves as a sticky spot for another $HP$ molecule $B$, in addition to an $H$ monomer $C$.  
+This localization action reduces the barrier to the polymerization of chain $B$ to monomer $C$.  If the landing pad is 3-4 hydrophobic residues, this localization can reduce the barrier by $100$-fold, the sticking energy.}}
   \label{fig:hp-catalysis}
 \end{figure} 
 
@@ -383,10 +311,8 @@ analysis below is only applicable to foldamers, it is not limited to proteins.
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\columnwidth]{pictures/tst-seqs.pdf} 
-  \caption{\footnotesize{HH interactions are favorable in water, leading to different compact 
-states 
-for different 
-HP sequences.}}
+  \caption{\footnotesize{\textbf{HP sequences that fold to unique native structures in the HP 
+lattice model.}}}
   \label{fig:hydro-effect}
 \end{figure}
 
@@ -449,17 +375,18 @@ Simulations. Experiment 1.
   \centering
   \includegraphics[width=0.45\textwidth]{pictures/distrPlain-many.pdf} (a)
   \includegraphics[width=0.45\textwidth]{pictures/scatter01918.png} (b)
-  \caption{\footnotesize{Results of the Experiment 1: no folding, no catalysis polymerization. This 
+  \caption{\footnotesize{\textbf{A.  Reference experiment.  The HP model, treated without folding 
+or catalysis, leads to the Flory distribution, as expected.}  Results of the Experiment 1: no 
+folding, no catalysis polymerization. This 
 is the base case to which we compare all other systems. Each data point is an average of 
-$10^6$ time points in the steady state interval. (a) 
-A single line shows length distribution for one simulation run (we run total of 30 simulations). 
-Populations decay exponentially as length grows. (b) Populations of the individual sequences, based 
+$10^6$ time points in the steady state interval. (a) A single line shows the length distribution for one simulation run (we run total of 30 simulations). \bf{Some specific sequences.}  Populations of the individual sequences, based 
 on the results of a single simulation run. 
 We set $E_h=0$, but still show sequences,which could've fold (if not $E_h=0$) as 
 blue, and sequences which could've catalyze as red. As expected, they follow the same distribution 
 as other sequences.}}
   \label{fig:sim_pure_flory}
 \end{figure*}
+[Eliza -- The distinction between A and B is not clear.  You have specific sequences too in A?  How about if we put (B) into SI, and keep (A) here.  It focuses our story better.  Same for fig 6 below.]
 
 
 \section{Folding alone does not solve the Flory Problem}
@@ -479,24 +406,22 @@ how prebiotic polymers escape the Flory Problem.
   \centering
   \includegraphics[width=0.9\columnwidth]{pictures/distr-folded-many.pdf} (a)
    \includegraphics[width=0.9\columnwidth]{pictures/scatter209.png}(b)
-  \caption{\footnotesize{Results of the Experiment 2: Polymerization with folding, but with no 
-catalysis. Each data point is an average of $10^6$ time points in the steady state interval. (a) 
+  \caption{\footnotesize{\textbf{Experiment 2: HP polymerization, now including folding, but not 
+including catalysis.  This, too, only gives the Flory distribution.}  Each data point is an average 
+of $10^6$ time points in the steady state interval. (a) 
 A single line shows length distribution for one simulation run (we run total of 30 simulations). 
 Blue lines are result of the Experiment 2, gray ones -- Experiment 1. Addition of folding to the 
 basic model doesn't change the nature of distribution. (b) Populations of the individual sequences, 
 based on the results of a single simulation run. Gray dots -- unfoldable sequences, blue ones -- 
 foldable. In this simulation we disallow catalysis, but we still show potential catalysts in red, 
-to 
-show, that they 
-behave similarly to regular folders. Foldable sequence have advantage compared to unfoldable ones.}}
+to show, that they behave similarly to regular folders. Foldable sequence have advantage compared to unfoldable ones.}}
   \label{fig:sim.flory-fold}
 \end{figure*}
 
 \section{Primitive foldamers can also be primitive catalysts}
 
  In our third experiment, we also accounted for the effect of some HP foldamers to catalyze 
-reactions.  
-Of course, present-day foldamers (proteins and RNA molecules) can catalyze reactions very 
+reactions.  Of course, present-day foldamers (proteins and RNA molecules) can catalyze reactions very 
 efficiently -- including the reaction in the ribosome that synthesizes the peptide 
 bond~\cite{Stachelhaus1998}. These modern catalysts have evolved over a long time towards 
 exceptional catalytic functionalities.  Of course, prebiotic functionalities are likely to have 
@@ -504,16 +429,11 @@ been
 much more primitive.  Our interest here is in how the most primitive catalysts might have begun.  
 Precision and complexity isn't a requirement for peptides to perform biological function. Studies 
 show that folded proteins generated from random libraries can sustain the growth of living 
-cells~\cite{Fisher2011} and specific bindings between them and small molecules are not 
+cells~\cite{Fisher2011} and specific binding actions between those random peptides and small molecules are not 
 rare~\cite{Cherny2012}. These findings imply that some primitive foldamers could have had some 
-primitive catalytic capability.  The unique power in catalysis of a foldamer -- in contrast to 
-other 
-polymeric structures -- is that it can resemble a microscale solid, with very precise positioning 
-of 
-different chemical moieties over sufficiently long time scales that substrates and transition 
-states 
-can ``recognize'', bind, and react on them. 
-For example, serine proteases utilize a catalytic triad 
+primitive catalytic capability.  The unique power that foldable molecules have for catalyzing reactions -- in contrast to 
+other nonfoldable polymeric structures -- is that foldamers lead to precisely fixing atomic interrelationships in relative stable ways over the folding time of the molecule.  It resembles a microscale solid, with the capability that substrates and transition 
+states can recognize, bind, and react to those stable surfaces. For example, serine proteases utilize a catalytic triad 
 of 3 amino acids.  So, foldability in some type of prebiotic polymer, could conceivably have had a 
 special role in allowing for primitive catalysis.  Here, we use a toy model to capture that simple 
 idea, namely that a folded polymer can position a small number of residues in a way that can 
@@ -536,15 +456,14 @@ $H$ connections. So every polymer, which has $HHH$ in its sequence can benefit f
 \begin{figure}[htb!]
   \centering
   \includegraphics[width=\columnwidth]{pictures/fold-cat.pdf} 
-  \caption{\footnotesize{(a) 
-When folded chain has a patch of at least three exposed nonpolar monomers in its native state, it 
-can be a catalyst. 
-This patch serves as a landing site for the growing chain and a hydrophobic monomer, facilitating 
-the action of linking the monomer to the chain, by holding them together and lowering activation 
-energy.} (b) Most chains in their native states don't have enough hydrophobes exposed and cannot 
-serve as catalysts.}
+  \caption{\footnotesize{\textbf{(a) HP lattice chains that are found to be in the autocatalytic 
+set: they fold and catalyze the elongation of each other.  (b) HP foldamers that are not 
+catalysts.}  Most chains are not catalysts, but the size of the autocatalytic set is 
+non-negligible; see Fig.~\ref{fig:hp-statistics}.}}
   \label{fig:fold-cat}
 \end{figure}
+
+[E -- Lets make this figure a little clearer visually.  (1) Separate column 1 from column 2 a little more.  And (2) put a label at the top of each column:  (left) Foldamer catalysts  (right) Foldamers that are not catalysts.]
 
  At this point, we note what our model is, and what it is not.  Our model is not intended as an 
  accurate atomistic depiction of a real catalytic mechanism.  It is a coarse-grained toy model, of 
@@ -564,8 +483,7 @@ based on all those foldamers that have three $H$ monomers on their surfaces in t
 folded states (see SI for details). Presence of catalysis in the system skews the distribution 
 significantly. This distribution is fairly stable towards hydrolysis and dilution
 parameters. It allows for 1 order of magnitude change in those parameters without significant 
-change 
-in the behavior of the system.
+change in the behavior of the system.
 
 This figure represent one of the key finding of this paper: a simple physical mechanism, such as 
 hydrophobic interaction is capable of generating autocatalytic sets of non-trivial structure (for 
@@ -591,8 +509,9 @@ necessary.
 \begin{figure}[hbt!]
   \centering
   \includegraphics[width=\columnwidth]{pictures/hp-statistics.pdf} 
-  \caption{\footnotesize{Number of all sequences (gray), foldable (blue) and catalytic (red) up to 
-length $x$ , }}
+  \caption{\footnotesize{\textbf{The number of all HP sequences grows exponentially with chain 
+length (gray).  The number of foldamers (blue) and foldamer catalysts (red) also grow 
+exponentially.}}}
   \label{fig:hp-statistics}
 \end{figure}
 
@@ -601,8 +520,9 @@ length $x$ , }}
   \centering
   \includegraphics[width=0.9\columnwidth]{pictures/distrHP-plain-many.pdf}(a) 
   \includegraphics[width=0.9\columnwidth]{pictures/scatter1837.png}(b) 
-  \caption{\footnotesize{Results of the Experiment 3: polymerization with folding and catalysis 
-enabled. Each data point is an average of 
+  \caption{\footnotesize{\textbf{Experiment 3: Because some HP chains are foldamer-catalysts, it 
+bends the Flory curve, giving an amplification of longer chains.}  Each data point is an average 
+of 
 $10^6$ time points in the steady state interval. (a) Gray lines represent polymerization without 
 folding or catalysis. Red ones corresponds to a simulation run with folding and catalysis. A single 
 line shows length distribution for one simulation run (we run total of 30 simulations). For details 
@@ -615,6 +535,10 @@ get a point on the graph. Therefore the minimum possible population correspond t
 sequence appeared only for one time instance. The data is an example based on one simulation}}
   \label{fig:stats-scatter-018}
 \end{figure*}
+
+[E -- Can we move fig b into SI?  And, let's make the figcap more concise: some of the discussion can be in the main text, rather than the figcap.]
+
+
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\columnwidth]{pictures/biomass.pdf} 
@@ -646,17 +570,17 @@ gray. (b) Shows top sequences and their fold for the longest length}}
   \label{fig:mainplayers}
 \end{figure}
 
+[E -- Can you clarify?  I don't understand what point the two figures above are making?]
+
 
 \section{Discussion}
 \label{sec:evolution}
- It has long been recognized that life's origins require some form of 
- autocatalysis~\cite{Kauffman1986,Dyson1985,Eigen1978}.  But, what mechanism at the molecular 
-structural level might explain some type of molecular structural bootstrapping?  Here, we find that 
-a form of autocatalysis, or positive feedback, is inherent in the following process:  HP polymers 
+ It has been recognized that life's origins require some form of autocatalysis~\cite{Kauffman1986,Dyson1985,Eigen1978}.  But, what molecular structural mechanism might explain it?  Here, we find that autocatalysis is inherent in the following process (see Figure \ref{fig:kinExamples}):  HP polymers 
 are synthesized randomly; a small fraction of those HP polymers fold into relatively stable compact 
 states; a fraction of those folded structures provide relatively stable `landing pad' hydrophobic 
 surfaces; those surfaces can help to catalyze the elongation of other HP molecules having foldable 
-sequences.  Figure \ref{fig:kinExamples} illustrates this process.
+sequences.
+
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.9\columnwidth]{pictures/catalysis-kinEx-all.pdf}
@@ -672,8 +596,7 @@ between different instances of the same sequence (here C).}}
   \label{fig:kinExamples}
 \end{figure}
 
- The HP model allows for precise counting of sequences that fold, or don't fold, 
- and have any particular structural property.  A non-negligible fraction of all possible HP 
+ The HP model allows for unbiased counting of sequences that do fold, don't fold, or fold and have a potentially catalytic hydrophobic landing pad.  A non-negligible fraction of all possible HP 
 sequences fold to unique structures ($2.3\% $ for lengths up to 25-mers). The fraction of all 
 possible HP sequences that have catalytic surfaces (as defined above) is $12.7\%$ of foldable 
 sequences, or $0.3\%$ of the whole sequence space.  These ratios remain relatively constant with 
@@ -685,11 +608,6 @@ suggests that folding in HP polymers is not rare.
   polymer sequences could be autocatalytic, and provides a structural and kinetic mechanism for 
 their action.  This model also provides a view about how selection and diversity may be related, 
 and may be evolvable, arising from chain syntheses that are otherwise random.
-
-
-
-
-
 
 
 
