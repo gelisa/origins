@@ -58,7 +58,7 @@
      id="layer1">
     <g
        id="g94129"
-       transform="translate(-421.77798,52.407393)">
+       transform="translate(-427.77798,52.407393)">
       <g
          id="g38622"
          transform="matrix(0.9216605,0,0,0.9216605,86.609025,-688.08797)">
@@ -297,7 +297,7 @@
          cx="-764.44916" />
     </g>
     <g
-       transform="matrix(0.80441064,0,0,0.9453121,-219.61892,65.655191)"
+       transform="matrix(0.77542318,0,0,0.94533148,-217.12595,65.647444)"
        id="g94096">
       <line
          style="stroke:#000000;stroke-width:9.21660519"
@@ -519,7 +519,7 @@
     </g>
     <g
        id="g93700"
-       transform="matrix(0,-1,1,0,291.23971,890.13885)">
+       transform="matrix(0,-1,1,0,317.23971,890.13885)">
       <line
          id="line5922"
          y2="532.97485"
@@ -739,7 +739,7 @@
          transform="matrix(0.9216605,0,0,0.9216605,86.148212,-161.77649)" />
     </g>
     <g
-       transform="matrix(0.80333697,0,0,0.94531179,321.25017,-292.12146)"
+       transform="matrix(0.77529966,0,0,0.94533049,355.66157,-292.13603)"
        id="g93733">
       <line
          id="line5984"
@@ -960,7 +960,7 @@
          transform="matrix(0.9216605,0,0,0.9216605,86.148212,-161.77649)" />
     </g>
     <g
-       transform="matrix(0.80441064,0,0,0.9453121,-219.11722,73.655985)"
+       transform="matrix(0.77542318,0,0,0.94533148,-216.64233,73.648402)"
        id="g94063">
       <line
          style="stroke:#000000;stroke-width:9.21660519"
@@ -1182,7 +1182,7 @@
     </g>
     <g
        id="g94026"
-       transform="translate(-419.7057,59.121923)">
+       transform="translate(-425.7057,59.121923)">
       <line
          style="stroke:#000000;stroke-width:9.21660519"
          id="line5509"
@@ -1421,31 +1421,9 @@
          id="path38604"
          inkscape:connector-curvature="0" />
     </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:36px;line-height:125%;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       x="-150.57288"
-       y="33.414391"
-       id="text94981"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan94983"
-         x="-150.57288"
-         y="33.414391">(a)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:36px;line-height:125%;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       x="389.14377"
-       y="34.287384"
-       id="text94985"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan94987"
-         x="389.14377"
-         y="34.287384">(b)</tspan></text>
     <g
        id="g3837"
-       transform="matrix(0.91979633,0,0,0.91979633,463.11454,-764.2876)">
+       transform="matrix(0.91979633,0,0,0.91979633,489.11454,-764.2876)">
       <line
          id="line5550"
          y2="936.64789"
@@ -1666,7 +1644,7 @@
     </g>
     <g
        id="g3870"
-       transform="matrix(0.7389064,0,0,0.8694943,587.81931,-730.18267)">
+       transform="matrix(0.71311779,0,0,0.8695115,612.92717,-730.20591)">
       <line
          id="line5612"
          y2="917.13806"
@@ -1887,7 +1865,7 @@
     </g>
     <g
        id="g123646"
-       transform="matrix(0.92035398,0,0,0.92035398,-448.24995,-24.150263)">
+       transform="matrix(0.92035398,0,0,0.92035398,-422.24995,-24.150263)">
       <line
          id="line5426"
          y2="561.64789"
@@ -2092,7 +2070,7 @@
     </g>
     <g
        id="g124634"
-       transform="matrix(0.73751645,0,0,0.86310028,-139.67774,-12.823123)">
+       transform="matrix(0.71177635,0,0,0.86311736,-89.179469,-12.832168)">
       <line
          id="line5488"
          y2="613.4126"
@@ -2297,7 +2275,7 @@
     </g>
     <g
        id="g123910"
-       transform="matrix(0.92035398,0,0,0.92035398,-422.00626,-51.384453)">
+       transform="matrix(0.92035398,0,0,0.92035398,-396.00626,-51.384453)">
       <line
          id="line6294"
          y2="398.79077"
@@ -2502,7 +2480,7 @@
     </g>
     <g
        id="g124570"
-       transform="matrix(0.73751645,0,0,0.86310028,-142.65345,-32.012598)">
+       transform="matrix(0.71177635,0,0,0.86311736,-92.051324,-32.022023)">
       <line
          id="line6356"
          y2="464.16327"
@@ -2707,7 +2685,7 @@
     </g>
     <g
        id="g124153"
-       transform="matrix(0.91910978,0,0,0.91910978,-997.32086,265.07637)">
+       transform="matrix(0.91910978,0,0,0.91910978,-1003.3209,265.07637)">
       <g
          transform="translate(723.62892,-651.94202)"
          id="g38627">
@@ -2947,7 +2925,7 @@
     </g>
     <g
        id="g124700"
-       transform="matrix(0.73850215,0,0,0.86310056,-683.55404,286.50563)">
+       transform="matrix(0.71188975,0,0,0.86311825,-664.34287,286.50241)">
       <line
          style="stroke:#000000;stroke-width:10"
          id="line4951"
@@ -3168,7 +3146,7 @@
     </g>
     <g
        id="g124667"
-       transform="matrix(0.73850215,0,0,0.86310056,-680.65535,306.51372)">
+       transform="matrix(0.71188975,0,0,0.86311825,-661.54863,306.51091)">
       <line
          id="line4579"
          y2="246.89124"
@@ -3373,7 +3351,7 @@
     </g>
     <g
        id="g124397"
-       transform="matrix(0.92466119,0,0,0.92466119,-1005.6191,292.98391)">
+       transform="matrix(0.92466119,0,0,0.92466119,-1011.6191,292.98391)">
       <line
          id="line4517"
          y2="274.68784"
@@ -3609,7 +3587,7 @@
     </g>
     <g
        id="g125584"
-       transform="matrix(0.92307692,0,0,0.92307692,123.71243,-240.60495)">
+       transform="matrix(0.92307692,0,0,0.92307692,149.71243,-240.60495)">
       <line
          id="line5674"
          y2="957.86359"
@@ -3814,7 +3792,7 @@
     </g>
     <g
        id="g125551"
-       transform="matrix(0.74222243,0,0,0.86448182,318.16773,-191.30964)">
+       transform="matrix(0.71631809,0,0,0.86449892,352.68671,-191.32222)">
       <line
          id="line5736"
          y2="992.27533"
@@ -4019,7 +3997,7 @@
     </g>
     <g
        id="g125650"
-       transform="matrix(0.92307692,0,0,0.92307692,-595.96089,-83.81765)">
+       transform="matrix(0.92307692,0,0,0.92307692,-569.96089,-83.81765)">
       <line
          id="line5798"
          y2="1009.5051"
@@ -4224,7 +4202,7 @@
     </g>
     <g
        id="g125617"
-       transform="matrix(0.74222248,0,0,0.86448182,-259.26928,-40.828825)">
+       transform="matrix(0.71631813,0,0,0.86449892,-204.59714,-40.838424)">
       <line
          id="line5860"
          y2="994.89722"
@@ -4445,7 +4423,7 @@
     </g>
     <g
        id="g126284"
-       transform="matrix(0.74321438,0,0,0.8644821,-868.94069,670.04268)">
+       transform="matrix(0.71643217,0,0,0.86449982,-843.04899,670.04732)">
       <line
          style="stroke:#000000;stroke-width:10"
          id="line4703"
@@ -4650,7 +4628,7 @@
     </g>
     <g
        id="g126251"
-       transform="matrix(0.74321438,0,0,0.8644821,-866.89208,670.82586)">
+       transform="matrix(0.71643217,0,0,0.86449982,-841.0742,670.83052)">
       <line
          id="line5447"
          y2="169.53499"
@@ -4855,7 +4833,7 @@
     </g>
     <g
        id="g126317"
-       transform="matrix(0.92307692,0,0,0.92307692,-1229.8165,665.1723)">
+       transform="matrix(0.92307692,0,0,0.92307692,-1235.8165,665.1723)">
       <path
          inkscape:connector-curvature="0"
          id="path38610"
@@ -5091,7 +5069,7 @@
     </g>
     <g
        id="g126353"
-       transform="matrix(0.92307692,0,0,0.92307692,-1229.0684,656.49569)">
+       transform="matrix(0.92307692,0,0,0.92307692,-1235.0684,656.49569)">
       <line
          id="line5385"
          y2="203.68758"
@@ -5325,5 +5303,27 @@
          id="path38620"
          inkscape:connector-curvature="0" />
     </g>
+    <text
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Century SchoolBook URW';-inkscape-font-specification:'Century SchoolBook URW Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="-154.85715"
+       y="-21.923532"
+       id="text34528"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan34530"
+         x="-154.85715"
+         y="-21.923532">(a) Catalytic foldamers</tspan></text>
+    <text
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Century SchoolBook URW';-inkscape-font-specification:'Century SchoolBook URW Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="414.28574"
+       y="-23.3521"
+       id="text34532"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan34534"
+         x="414.28574"
+         y="-23.3521">(b) Non-catalytic foldamers</tspan></text>
   </g>
 </svg>
