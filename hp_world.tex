@@ -115,7 +115,8 @@ hypothesis is that non-negligible fractions of random short polymers of hydropho
 structures with exposed hydrophobic surfaces that can act as primitive catalysts for the elongation 
 of other such HP polymers.  Using the HP lattice model, which can explore sequence-space properties 
 without bias, we find that such processes are autocatalytic, lead from short chains to longer ones, 
-and are sequence selective.  This mechanism may be relevant to the early origins of life.\sout{We 
+and are sequence selective.  This mechanism may be relevant to the early origins of life.
+\sout{We 
 propose a model for how the random prebiotic polymerization of short 
 chains could have led to longer-chain autocatalytic sets of informational polymers.  The central 
 idea is to focus on polymers of hydrophobic ($H$) and polar ($P$) monomers, such as in present-day 
@@ -133,7 +134,8 @@ $HP$ sequences and their interactions. Our work demonstrates that even in a rand
 soups of HP chains, enough of them may be able to fold and provide primitive catalytic surfaces 
 to 
 bootstrap the growth of the lengths and informational content of the set.  We believe, 
-this mechanism is relevant in the early origins of life.}}
+this mechanism is relevant in the early origins of life.}
+}
 
 %%%MAIN TEXT%%%%
 
@@ -161,8 +163,9 @@ self-sustaining.  Here is a short summary of prior work.
  
  Early on, it was recognized by Eigen, Kaufmann, Dyson, Prigogine and others that the CTB 
 transition requires autocatalysis, \emph{i.e.} some form of positive feedback or bootstrapping 
-among molecules in some way~\cite{Eigen1977,Eigen1978,Dyson1985,Prigogine1989,Kauffman1986}.  These 
-works postulated that autocatalysis was a necessary step for sustaining stable biochemical 
+among molecules in some 
+way~\cite{eigen1971selforganization,Eigen1977,Eigen1978,Dyson1985,Prigogine1989,Kauffman1986}.  
+These works postulated that autocatalysis was a necessary step for sustaining stable biochemical 
 networks.  
  
  Subsequent work has been of both abstract theoretical models and experiments.  First, we review 
@@ -181,30 +184,20 @@ template-assisted ligation and random breakage~\cite{Tkachenko2014}.  These auth
 autocatalytic phase transition, whereby certain conditions cause the system to produce longer 
 chains and become self-sustaining.  These are abstract models insofar as they do not postulate 
 molecular structures that might explain the autocatalytic step.  Nor do they address the 
-heteropolymeric or informational aspects of the chains.  Another class of abstract model does 
+heteropolymeric or informational aspects of the chains. 
+Another class of abstract model does 
 consider a system of random heteropolymeric sequences constructed from an alphabet of different 
-monomer types~\cite{nowak2008prevolutionary,Ohtsuki2009,Chen2012,Derr2012}.  In these models, it is 
-assumed that some form of selection and mutation acts on the polymers\red{does it?}, and that 
-polymers serve as their own templates.  In this case, the autocatalytic mechanism is that a 
-selected sequence has an ability to accelerate the growth of its own precursors only.  What is not 
-specified is the basis in molecular structure for these processes. \sout{Theoretical studies of 
-binary polymers either 
-capable of autocatalysis or 
-replication~\cite{nowak2008prevolutionary,Ohtsuki2009,Chen2012,Derr2012} showed that while 
-autocatalytic system has bi-stability and increased ratio of longer 
-polymers, one has to increase catalysis rate exponentially in order to get exponential growth of 
-longer chains. Self-replicating systems on the other hand didn't show bi-stability, but 
-substantial 
-polymer growth was found to arise from low replication rates. It was also shown that 
-self-replication enhances diversity of the system and compensate for possible chemical bias. The 
-system used in these 
-studies is a very simple one, with unlimited ``food'' molecules, which restricts the model only to 
-non-competing systems. The autocatalysis mechanism of these series is very simple one: a selected 
-sequence has an ability to accelerate growth of it's own precursors only (either full or partial). 
-This, however, severely limits model application due to the fact 
-that it 
-focuses only on molecules already capable of self-recognition, while recognition of ``self'' is in 
-fact a difficult question in chemistry of the origin of life.}
+monomer types~\cite{nowak2008prevolutionary,Ohtsuki2009,Chen2012,Derr2012}.  
+In these models, it is 
+assumed that polymers serve as their own templates.  In this case, the autopoietic mechanism is 
+that a certain sequence has an ability to accelerate the growth of its own precursors, either by 
+means of catalysis or replication. It was shown that for such systems replication is a more 
+favorable mechanism: while in the both cases ratio of long sequences goes up, in the case 
+of autocatalysis one has to increase catalysis rate exponentially in order to get exponential 
+growth of, longer chains; in the same time replication also increased diversity of the population 
+and compensated for possible chemical bias. These studies heavily rely on ability of chemical 
+molecules to recognize ``self''. Yet in fact self-recognition a difficult question in chemistry of 
+the origin of life and thus application of the studies are limited to the post-informational world.
  
  In addition, there have been many experimental studies.  There has been work to create artificial 
 autocatalytic sets in the laboratory~\cite{VonKiedrowski1986,Lincoln2009,Vaidya2012}. Such systems 
@@ -428,7 +421,7 @@ broken with rate constant $h$.
 
  Now, in addition to this basic polymerization dynamics, we also account for the fact that some 
 sequences 
-will fold into native HP structures, protecting its hydrophobic core residues from hydrolysis. It 
+will fold into native HP structures, protecting its hydrophobic core residues from hydrolysis.  It 
 is important to note though that, what we call folding doesn't have to be a tight folding, which 
 happens in long proteins which went through evolution, but can be merely a molten globule state -- 
 something that gives certain stability to the structure.
@@ -436,6 +429,8 @@ the standard definition for HP polymers, we regard a chain as folded if it has a
 lowest-energy structure.  That is, some sequences have only a single conformation giving a maximum 
 number of HH non-covalent contacts.  (Most sequences, in contrast, 
 have many low-energy states; we do not count these as folded structures.)  
+We use a two state model of folding: chains are either unfolded or folded in 
+thermodynamic minimum. 
 The conformational energy of the native fold ($E_{nat}$) of any particular folded sequence equals 
 the number of hydrophobic interactions ($n_{h\phi}$) $\times$ the energy $E_H$, of one hydrophobic 
 interaction, which is known to be $\approx 1-2kT$~\cite{Ghosh2009}:
@@ -489,10 +484,7 @@ blue, and sequences which could've catalyze as red. As expected, they follow the
 as other sequences.}}
   \label{fig:sim_pure_flory}
 \end{figure*}
-\blue{Eliza -- The distinction between A and B is not clear.  You have specific sequences too in A? 
- How about if we put (B) into SI, and keep (A) here.  It focuses our story better.  Same for fig 6 
-below.} \red{I believe it's very important to show not only an average, but also the distribution, 
-because average oftentimes has no physical meaning. I would prefer to leave it here.}
+
 
 
 \section{Folding alone does not solve the Flory Problem}
@@ -610,11 +602,18 @@ Figure\,\ref{fig:stats-scatter-018}(b) show populations of individual sequence a
 their 
 length. Colors represent type of the sequence: red -- for autocatalysts, blue -- for foldable, 
 gray 
--- for the rest. While autocatalysts alone constitute a minority of the sequence space ( $\approx 
+-- for the rest. The distribution inside the length, as one can see is drastically different 
+compared to the case with folding only and without folding at all. For those cases, populations 
+are clustered near average -- the typical $n$-mer is close to mean. When we introduce catalysis, 
+there is no typical member anymore, there are many (often more than  50\% of all $n$-mers) 
+sequences with very low populations and few with very high ones. In fact, the distribution within 
+length is polynomial. Autocatalysts alone constitute a minority of the sequence space ( 
+$\approx 
 0.6\%$ 
 of all the represented in the experiment sequences; foldable but inactive sequences occupy 
 $\approx 
-2.3\%$, regular sequences -- $\approx97.1\%$), their contribution to the total mass is impressive: 
+2.3\%$, regular sequences -- $\approx97.1\%$), however their contribution to the total mass is 
+impressive: 
 $\approx 15.7\%$; inactive folders -- $\approx 29.2\%;$ regular sequences $\approx 55.1\%$. 
 Moreover, the longer the chain length, the higher the input of autocatalysts into total mass of 
 that length (see figure \ref{fig:biomass}). This happens first of all due to increasing number of 
@@ -664,11 +663,13 @@ given length is due to autocatalysts for a single simulation run. Each data poin
 $10^6$ time points in the steady state interval. Black line is a median over 30 simulations }}
   \label{fig:biomass}
 \end{figure}
-Figure \ref{fig:mainplayers}(a) shows top sequences as they emerge out of one of our 
-simulations in Experiment 3(other simulations produce very similar results, sometimes with 
-different leaders). Sequences are shown as triangles, with the color of triangles 
-corresponding to the hydrophobicity of the chains -- they are mostly $>50\%$ hydrophobic, but 
-never reach very high numbers. The folds of these top sequences are shown in 
+
+Average hydrophobicity of those sequences which dominate their length is $68\%$ (average is 
+taken over 30 simulation runs in Experiment 3).
+Figure \ref{fig:mainplayers} illustrates what kind of sequences and structures dominate. Panel 
+(a) shows one top chain for every length, where autocatalysts have significant input in the 
+total populations. They are shown as triangles, with the color of triangles 
+corresponding to the hydrophobicity of the chains. The folds of these top sequences are shown in 
 (b) panel of the figure. For the most of the cases in this particular simulation have 
 $k_cat\approx400$. For different values of hydrophobic energies $E_h$ those values might range 
 from $50-50,000$, with effect of autocatalysis being visible. These sequences have tendency to be 
@@ -687,7 +688,8 @@ gray. (b) Shows top sequences and their fold for the longest length}}
   \label{fig:mainplayers}
 \end{figure}
 
-\blue{E -- Can you clarify?  I don't understand what point the two figures above are making?}
+ 
+
 
 
 \section{Discussion}

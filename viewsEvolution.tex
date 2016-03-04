@@ -77,11 +77,39 @@
 \wikilink{viewsEvolution}{Self}
  
  \tableofcontents
- \section{The system}
+ \section{Phenotype to Genotype Relation}
+\subsection{Phenotype=Genotype and origin of life}
+
+Clearly we can see from the working example\cite{Cliff1993} that adaptive evolution is possible in 
+the case when $G=P$. It is not clear, however, if any kind of ``infinite growth of complexity'' is 
+possible in such systems. It's very likely, it's not. It is also not clear what ``complexity'' is. 
+Nevertheless, we can say that despite parameter space can be very big for $G=P$ it is very simple. 
+
+When it comes to RNA evolution, in principle we can say that if $G=P$ doesn't forbid adaptive 
+evolution and von Neumann replicators can function and evolve\cite{Freitas2004}\textbf{(??)} 
+without separation of blueprint and machine then \textbf{RNA on its own is capable of adaptive 
+evolution}.
+
+In RNA case:
+\begin{itemize}
+ \item Genotype -- RNA sequence
+ \item Phenotype -- RNA fold or, catalytic ability or something else. For the fold it seems, 
+thought, we can build function $G\to P$, which is not necessarily reversible: $G\to\{P_i\}$ 
+\item Fitness function \textbf{(both bad, both possibly tautological. I would say the tautology 
+problem is strong here, the following are more of product of selection than function itself.)}:
+  \subitem - Number of RNA copies.
+  \subitem - Number of vesicles  with this type of RNA.
+\item The system can adapt to:
+  \subitem - Skew in monomer distributions
+  \subitem - Fluctuation in food supply
+  \subitem - New chemicals arriving
+\end{itemize}
+
+
+ \subsection{The system}
  
  An entity: it has a phenotype and genotype and some kind of fitness function. It can be the case, 
 when $G=P$ or $G\neq P$
-
  \paragraph{Example systems:}
 \begin{enumerate}
  \item \textbf{Set of vectors.} Vectors are of fixed length and their elements belong to some 
@@ -107,6 +135,47 @@ itself to the target. $G\neq P$
  \subsection{Gradient descent}
  
  \paragraph{Statement.} 
- 
- 
+
+\section{Types of Memory}
+\begin{enumerate}
+ \item Solution memory
+ \item Linage memory
+ \item Lifetime memory
+\end{enumerate}
+
+
+\section{Antifragility}
+\subsection{Conditional of survival}
+Ancient cells/polymers/metabolism systems had to survive and better benefit from:
+\begin{itemize}
+ \item Variation in food supply (as total)
+ \item Variation in ratios of different food types
+ \item Mutations at every level of informational flow
+ \item New arriving chemicals
+ \item Variation in temperature
+ \item Movement around??
+\end{itemize}
+Lineage memory implemented as lifetime memory gives resilience, does it give antifragility? 
+Systems with solution only memory are very fragile \textbf{(are they?)}, because they gradient 
+descent quickly \textbf{(do they?)}.
+
+\paragraph{Copying of I.} A process of copying $I\to I \to I$ through generations can happen with 
+and without mistakes:
+\begin{eqnarray}
+  I_1\to I_1 \to I_1\\
+  I_1\to I_1 \to I_2
+\end{eqnarray}
+Given that mutations are present now and were even more frequent event in the past(no 
+error-fixing mechanism), the system would be better of if it \textbf{benefits} from mutations to a 
+certain degree. Let's say $I_1$ gives a phenotype $P_1$, which is good for condition $C_1$ and 
+$I_2\to P_2@C_2$. Then if the correct mutation $I_1\to I_2$ had happened before change $C_1\to 
+C_2$ happened then our organism will survive. If we have many organisms, then some will survive, 
+however it is a sort of resilience. If we get to keep both $I_1,\,I_2$ in the system, we would be 
+better of -- we loose none at the change. How can we keep both? What will prevent loss of $I$, 
+which is not used currently?
+
+
+
+\bibliographystyle{apalike}
+\bibliography{/data/research/31.mendeleyBibtex/library}
 \end{document}
