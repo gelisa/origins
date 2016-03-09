@@ -138,13 +138,49 @@ itself to the target. $G\neq P$
 
 \section{Types of Memory}
 \begin{enumerate}
- \item Solution memory
- \item Linage memory
- \item Lifetime memory
+ \item \textbf{Immediate memory.} Let us say we have a population of individuals (molecule for 
+example). There are situations for which specie, which already dominates, will continue dominating. 
+This is the system which is in a stable attractor or is heading towards the stable attractor. 
+\begin{figure}[htb!]
+  \centering
+  \includegraphics[width=0.35\columnwidth]{pictures/solmem.jpg}(a)
+  \includegraphics[width=0.35\columnwidth]{pictures/solmem2.jpg}(b)
+  \caption{}
+  \label{fig:solmem}
+\end{figure}
+ If we have a system with simple selection mechanism, then if the individual is in some point of 
+fitness landscape, we know that it came from a point with worse fitness and if say there are two 
+basins of attraction (see fig \ref{fig:solmem} (a)) then we know that the individual is within a 
+certain genotype space. This kind of memory is also realized in a system with competing 
+autocatalysts, say A and B. Given some time a better one will dominates the population. However if 
+we switch the selection criterion for what is better, or change external condition, in which A is 
+performing better than B, to the condition in which B is performing better, then the system will 
+switch into another attractor, and when we revert conditions, the system will have no memory what 
+soever about the fact that it was in such condition before. 
+
+Thus, this kind of memory is fragile under changes of external conditions with periods bigger 
+than it takes the system to reach steady state, if steady state involves extinction of some of the 
+individuals in the system. When B is extinct from the system and conditions are hostile to A, then 
+the whole system will die, no matter how big or successful it was before.
+ 
+ 
+ \item \textbf{Linage memory.} A specie has a memory of all its linage members. This kind of memory 
+is characteristic of a novelty search algorithm (memory of all the phenotypes) or genetic diversity 
+mechanism (memory of all the genotypes). In these algorithms selection is for the new 
+phenotype/genotype -- the one, which hasn't been in the linage yet. System avoids being stuck in 
+local minima, and is capable of novel functions.
+
+ \item \textbf{Lifetime memory.} Is typical of modern organism, such as, say E.coli. E.coli, if it 
+lives, say on glucose, doesn't express proteins, which allow it to live on say lactose. But it has 
+a gene corresponding to lactose-proteins -- a memory that it can live on lactose. Thus, despite, 
+absence of ``winning'' protein, it can produce it, thus it is resilient to change in condition 
+unlike Immediate memory system. Lifetime memory is sort of implementation of linage memory in 
+organisms. Through the evolutionary history organisms learned new functions and able to store some 
+of the inventions in the DNA.
 \end{enumerate}
 
 
-\section{Antifragility}
+\section{Volatility as main evolution driver}
 \subsection{Conditional of survival}
 Ancient cells/polymers/metabolism systems had to survive and better benefit from:
 \begin{itemize}
@@ -155,9 +191,24 @@ Ancient cells/polymers/metabolism systems had to survive and better benefit from
  \item Variation in temperature
  \item Movement around??
 \end{itemize}
-Lineage memory implemented as lifetime memory gives resilience, does it give antifragility? 
+Lineage memory implemented as lifetime memory gives resilience, does it give advantage in volatile 
+conditions? 
 Systems with solution only memory are very fragile \textbf{(are they?)}, because they gradient 
-descent quickly \textbf{(do they?)}.
+descent quickly \textbf{(do they?)}. 
+
+Extinction events had happened on Earth, rapid changes of conditions had happened; they brought up 
+the kind of physical systems which can survive them. If we try to originate life in a steady state, 
+we perhaps will reach some results, but it will be nothing close to the life on Earth, we might not 
+even notice the result, because we define life based on what we see alive around us. A system in a 
+closed bottle can be very successful and capable of adaptive evolution, but if we put it to 
+constantly changing environment (often very strongly) will it survive there. What we see as life 
+now is a tiny portion of adaptable systems which possibly existed on Earth, and they are the ones, 
+which had properties to survive or better benefit from harsh volatility Earth environment was and 
+is. 
+If the system has lifetime memory of better lineage memory it is more adaptable, and thus more 
+resilient. It seems one would want to invent a food-cheap memory storage, where one can amass 
+complexity, complexity in the sense of infinitely many stable attractors. A storage which will 
+allow to remember old functions and invent new ones.
 
 \paragraph{Copying of I.} A process of copying $I\to I \to I$ through generations can happen with 
 and without mistakes:
