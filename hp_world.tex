@@ -105,18 +105,24 @@
 
 
 \begin{document}
-\abstract{\footnotesize We explore three questions of prebiotic chemistry:  (1) Current prebiotic 
+\abstract{\footnotesize{ We explore three questions of prebiotic chemistry:  (1) Current 
+prebiotic 
 polymer syntheses produce mainly short chains.  How did longer chains -- which are thought to be 
 needed to initiate the first stages of biology -- arise?  (2) How might random chain polymerizations 
 have led to specific informational sequences?  (3) The Chemistry-to-Biology (CTB) transition is 
-thought to require \emph{autocatalytic sets}.  What molecular conformations might have been 
+thought to require autocatalytic sets.  What molecular conformations might have been 
 involved?  We use the HP lattice model of protein-like chains, which can explore sequence-structure 
 relationships in an exhaustive and unbiased way.  We hypothesize that short random-sequence polymers 
-of hydrophobic ($H$) and polar ($P$) monomers collapse into relatively compact structures, exposing 
-hydrophobic surfaces, which act as primitive versions of today's protein catalysts and elongating 
-other such HP polymers.  Random HP chains are plausibly autocatalytic, able to generate longer 
-informational sequences.  This mechanism may be relevant to the early origins of life.\red{for 
-discussion - think later}}
+of hydrophobic ($H$) and polar ($P$) monomers collapse into relatively compact structures, which 
+exposes hydrophobic surfaces, acting as primitive versions of today's protein catalysts and 
+elongating 
+other such HP polymers.  We show that our mechanism leads to  autocatalytic 
+dynamics of random HP chains; it produces populations that slowly increase in the overall degree 
+of polymerization,  leading to domination of longer chains, and is sequence selective. 
+Another feature of our model is its multimodality-capacity to settle at multiple distinct 
+quasistable states characterized by different groups of dominating polymers.
+We believe that
+this mechanism is relevant to the early origins of life.}}
 
 %%%MAIN TEXT%%%%
 
@@ -127,8 +133,7 @@ nucleic-acid-like molecules~\cite{Joyce1987,Abel2005}?  Specifically: What polym
 are autocatalytic?  How could they have produced chains that are longer than are currently observed 
 in model prebiotic experiments?  And, how could they have led from random to informational polymers 
 during the Chemistry-to-Biology (CTB) transition?  Our questions here are about the physics, not 
-about the chemistry of the monomers, polymers or synthesis conditions.  Here is a short summary of 
-prior work.
+about the chemistry of the monomers, polymers or synthesis conditions.  
  
  \subsection{The Chemistry-to-Biology transition has been postulated to entail an autocatalysis 
 process}
@@ -162,7 +167,9 @@ ability of molecules to recognize ``self'', but doesn't specify how.  In another
 model~\cite{Walker2012}, chains can undergo sequence-independent template-directed replication.  
 This model produces not only functional sequences from the pool of none-functional ones, but also 
 effectively explores sequence space.  Both types of post-informational models predict that 
-template-directed replication enhances diversity~\cite{Derr2012}.  
+template-directed replication enhances diversity~\cite{Derr2012}.   These are abstract
+models insofar as they do not postulate molecular structures that might explain the autocatalytic 
+step. Nor do they address the heteropolymeric or informational aspects of the chains.
  
  In addition, there have been many experimental studies.  There has been work to create artificial 
 autocatalytic sets in the laboratory~\cite{VonKiedrowski1986,Lincoln2009,Vaidya2012}. Such systems 
@@ -226,7 +233,7 @@ in Fig~\ref{fig:flory}):
 {
 \pq{1~\mathrm{mers}}}\propto10^{-9}
 \end{equation} 
-Thus, for a synthetic process that starts with micro-molar concentrations of monomers, the 
+Thus, for a synthetic process that starts with micromolar concentrations of monomers, the 
 average chain length would be $\langle l \rangle = 2$ and 40-mers would have 
 negligible concentrations of $\propto 10^{-19} $ mol/L. 
 \begin{figure}[h!]
@@ -299,12 +306,14 @@ evidence~\cite{Lim1991,Kamtekar1993,Wei2003,Brisendine2015}.
 
 \item [b.]
 We assume that HP foldamers have exposed hydrophobic surfaces and that they are sites of binding 
-and catalysis. Such exposed cluster of hydrophobes or ``hydrophobic patches'' are fairly common for 
+and catalysis. Such exposed hydrophobic clusters or patches are fairly common for 
 real life proteins; their locations generally coincide with binding sites of ligands or other 
-proteins~\cite{Lijnzaad1996}. These patches are exploited in recognition, binding of substrates and 
+proteins~\cite{Lijnzaad1996}. These clusters are exploited in the recognition, binding of 
+substrates and 
 increasing rate of catalysis~\cite{MitchellGuss1983,Lijnzaad1996,VanEe1997,Witt1998}. For example 
-hydrophobic patches on the surface of lipases serve as initiation sites; hydrophobic tail of a 
-surfactant interacts with the patch first~\cite{VanEe1997}. A hydrophobic patch on Cytochrome-c 
+hydrophobic clusters on the surface of lipases serve as initiation sites where the hydrophobic 
+tail of a surfactant interacts with the patch first~\cite{VanEe1997}. A hydrophobic 
+cluster on Cytochrome-c 
 Oxidase is not a recognition element, but does increase $k_{cat}$~\cite{Witt1998}. A survey of 
 hydrophobic patches on the surface of 112 soluble, monomeric proteins~\cite{Lijnzaad1996} showed 
 that the largest patches average around $400$\textit{\AA}$^2$ but can range from $200$ to 
@@ -373,7 +382,7 @@ the polymerization of chain $B$ to monomer $C$.}}
 consider a soup containing a sufficient supply of activated $H$ and $P$ monomers in solution.  Both 
 current life and early life must be out-of-equilibrium.  In our modeling, that means that activated 
 $H$ and $P$ monomers are supplied by an external source with rate $a$.  A given chain elongates 
-through the an addition of a monomer, at rate $\ga$. Without loss of generality we define the unit 
+through an addition of a monomer, at rate $\ga$. Without loss of generality we define the unit 
 rate by setting $\ga = 1$.  All other rates are taken relative to this chain growth rate.  To 
 maintain steday state we allow any
 molecule to be removed from the system with rate $d$, modeling removal of molecules from the system, 
@@ -406,8 +415,8 @@ that a folded chain is prevented from further growth, and also are protected fro
 simply reflects that open chains are much more accessible to degradation from the solvent or 
 adsorption onto surfaces than are folded chains.  Even so, folding in our model is a reversible, as 
 it is for natural proteins, so some small fraction of the time even folded chains are unfolded, and 
-in that proportion, our model allows further growth or degradation.   In the SI, we describe the 
-full stochastic model of the dynamics of adding 
+in that proportion, our model allows further growth or degradation.   In the section Simulations, 
+we describe the details of model of the dynamics of adding 
 monomers to growing chains, across HP sequence space, their folding (or not), and their adsorption 
 and elongation on folded HP chains.  The results of the simulations are given below.
  
@@ -421,7 +430,8 @@ molecule is a catalyst for elongation of other chains.
 \section{Results: some basic tests of the dynamics of polymerization and folding}
 
  First, we performed some reference-state tests.  We first `turned off' folding and catalysis by 
-setting the hydrophobic energy to $0$ (see Experment 1, SI).  Figure \ref{fig:sim_pure_flory}(a) 
+setting the hydrophobic energy to $0$ (see Experment 1, Simulations).  Figure 
+\ref{fig:sim_pure_flory}(a) 
 shows that, as expected, this model captures the Flory model length distribution, having an 
 exponential tail.  Figure \ref{fig:sim_pure_flory}(b) shows populations of individual sequences in a 
 randomly chosen realization of the experiment.
@@ -432,22 +442,18 @@ randomly chosen realization of the experiment.
   \includegraphics[width=0.45\textwidth]{pictures/scatter01918.png} (b)
   \caption{\footnotesize{\textbf{A.  Reference test.  Without folding or catalysis, the model gives 
 the Flory distribution.  Average over sequence space.}  (a) A single line shows the length 
-distribution 
-for one simulation run (we run total of 30 simulations). \blue{E -- We need more info.  Each 
-simulation line is over sequence space?  You run 30 just to collect good statistics?}  (b) \bf{Some 
-particular sequences.} \blue{E -- Caption needs clarifying.  What is each dot?  What is each 
-color?  Why multiple dots at each length?}
-Populations of the individual sequences, based 
-on the results of a single simulation run. 
-We set $E_h=0$, but still show sequences,which could've fold (if not $E_h=0$) as 
-blue, and sequences which could've catalyze as red. As expected, they follow the same distribution 
-as other sequences.}}
+distribution for one simulation run with total of 30 lines corresponding to 30 simulations. 
+ (b) Some particular sequences. Each point on the graph represents a population of an
+individual sequence, based on the results of a single simulation run. Each data point on both 
+panels is a result of averaging across $10^6$ time points in the steady state interval. 
+}}
   \label{fig:sim_pure_flory}
 \end{figure*}
 
 \subsection{Folding alone does not solve the Flory Problem}
  Second, we tested whether HP chain folding alone would be sufficient to bend the Flory length 
-distribution curve (see Experiment 2, SI).  If a chain folds, it protects its interior residues from 
+distribution curve (see Experiment 2, Simulations).  If a chain folds, it protects its interior 
+residues from 
 hydrolysis.  Is this protection from folding sufficient to lead to longer chains?  
 Figure~\ref{fig:sim.flory-fold} shows that the answer is no.  In our model, chain folding alone is 
 not sufficient to escape the Flory problem of the exponentially diminishing concentrations of longer 
@@ -457,7 +463,7 @@ whole distribution.
 \begin{figure*}[hbt!]
   \centering
   \includegraphics[width=0.9\columnwidth]{pictures/distr-folded-many.pdf} (a)
-   \includegraphics[width=0.9\columnwidth]{pictures/scatter209.png}(b)
+   \includegraphics[width=0.9\columnwidth]{pictures/scatter2009.png}(b)
   \caption{\footnotesize{\textbf{Experiment 2: HP polymerization and folding, but not 
 including catalysis.  This, too, only gives the Flory distribution.}  Each data point is an 
 average of $10^6$ time points in the steady state interval. (a) 
@@ -465,9 +471,9 @@ A single line shows length distribution for one simulation run (we run total of 
 Blue lines are result of the Experiment 2, gray ones -- Experiment 1. Addition of folding to the 
 basic model doesn't change the nature of distribution. (b) Populations of the individual 
 sequences, 
-based on the results of a single simulation run. Gray dots -- unfoldable sequences, blue ones -- 
-foldable. In this simulation we disallow catalysis, but we still show potential catalysts in red, 
-to show, that they behave similarly to regular folders. Foldable sequence have advantage compared 
+based on the results of a single simulation run. Here we have two types of sequences: the ones 
+which can fold are depicted as blue, and the ones which can't as gray. Foldable sequence have 
+advantage compared 
 to unfoldable ones.}}
   \label{fig:sim.flory-fold}
 \end{figure*}
@@ -476,7 +482,8 @@ to unfoldable ones.}}
 \subsection{Modeling shows that HP foldamer-catalysts can solve the Flory Problem}
 
 Third, we tested whether accounting for both folding and catalysis could bend the Flory length 
-distribution (see Experiment 3, SI).  Figure~\ref{fig:sim.flory-fold} shows that it does.  The 
+distribution (see Experiment 3, Simulations).  Figure~\ref{fig:sim.flory-fold} shows that it does. 
+ The 
 catalysis capability skews the length distribution significantly, independently of hydrolysis and 
 dilution parameters, over about an order of magnitude in their range.  This is a main result of this 
 paper:  Some HP chains fold, expose some hydrophobic surface, and therefore can reduce the barrier 
@@ -489,7 +496,8 @@ elongation of each other.
   \includegraphics[width=\columnwidth]{pictures/fold-cat.pdf} 
   \caption{\footnotesize{\textbf{(a) HP lattice chains that fold and are autocatalytic.}  They fold 
 into unique structures and have landing pads that can catalyze the elongation of each other.  
-\bf{(b) HP chains that fold, but are not catalytic.}  Most chains are not catalysts, but the size of 
+\textbf{(b) HP chains that fold, but are not catalytic.}  Most chains are not catalysts, but the 
+size of 
 the autocatalytic set is non-negligible; see Fig.~\ref{fig:hp-statistics}.}}
   \label{fig:fold-cat}
 \end{figure}
@@ -647,13 +655,34 @@ suggests that folding in HP polymers is not rare.
  
   The present model provides an experimentally testable prediction for what early 
   polymer sequences could be autocatalytic, and provides a structural and kinetic mechanism for 
-their action.  This model also provides a view about how selection and diversity may be related, 
-and may be evolvable, arising from chain syntheses that are otherwise random.
+their action. 
+Another characteristic 
+feature an $HP$ system is that in the presence of mutual catalytic activity has a capacity for 
+multiple quasistable states. Figure \ref{fig:distr1837-dyn} shows two obvious ones. Possible 
+length distributions fall into two kinds, depending on random seed of the stochastic simulation. 
+These states are characterized by a set of several dominating autocatalytic chains. Thus the 
+system has sequence variability within each quasistable state and has a potential for state 
+switching between at least two states, but possibly more: while our system accounts for two 
+types of monomers, in fact, in the case of proteins they correspond for 20 different amino acids. 
+We believe that potential of the system for the multimodality worth further investigation to look 
+for hints of possible adaptability.
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.9\columnwidth]{pictures/distr1837-dynamics.pdf}
+  \caption{\footnotesize{\textbf{} This figure shows that there the $HP$ catalytic system has at 
+least two attractors. The lines are length distributions from Simulations, Experiment 3. Again each 
+line represents distribution of length in the steady state for one simulation run. It is clear, 
+that there two kind of distribution, which get realized during the simulations. System bifurcates 
+either to a state represented by a green line or to one represented by red one. These are the 
+same lines as on figure \ref{fig:stats-scatter-018}(a), but separated in two sets by a clustering 
+algorithm K-means.}}
+  \label{fig:distr1837-dyn}
+\end{figure}
 
 
-
-\section{Materials and methods}\label{sec:mat}
-\subsection{Simulations}\label{sec:mat-sim}
+\section{Materials and methods}
+\label{sec:mat}
+\subsection{Simulations\label{sec:mat-sim}}
 We performed direct stochastic simulations.  This required development of appropriate simulation 
 code because of the large numbers of different molecular species that we need to treat here.  We 
 used Expandable Partial Propensity Method (EPDM)~\cite{Guseva2016b}.\footnote{The description and 
@@ -802,9 +831,6 @@ are relatively balanced and populations don't drop and don't explode.
 The simulations were performed on the Laufer Center's computing cluster of CPUs. 
 Source files of the models, parameters, initial conditions and random seeds can be obtained at 
 \url{https://github.com/gelisa/hp_world_data}
-
-\appendix
-\section{Supplementary Information}
 
 \paragraph{Experiment 1. Reproduction of Flory distribution.}\label{sec:expt1}
 We started simulations with a small pool of chains up to 3-mers. To calculate length distribution, 
