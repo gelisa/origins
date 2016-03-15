@@ -525,7 +525,8 @@ autocatalysts among longer sequences (see fig.\ref{fig:hp-statistics} and also d
 that 
 folding along isn't capable of reaching longer chains. While at the shorter chains preservation 
 from hydrolysis by means of folding is enough at longer chains active influence of catalysis is 
-necessary.
+necessary. Average hydrophobicity of those sequences which dominate their length is $68\%$ (average 
+is taken over 30 simulation runs in Experiment 3).
 \begin{figure}[hbt!]
   \centering
   \includegraphics[width=\columnwidth]{pictures/hp-statistics.pdf} 
@@ -568,29 +569,10 @@ $10^6$ time points in the steady state interval. Black line is a median over 30 
   \label{fig:biomass}
 \end{figure}
 
-Average hydrophobicity of those sequences which dominate their length is $68\%$ (average is 
-taken over 30 simulation runs in Experiment 3).
-Figure \ref{fig:mainplayers} illustrates what kind of sequences and structures dominate. Panel 
-(a) shows one top chain for every length, where autocatalysts have significant input in the 
-total populations. They are shown as triangles, with the color of triangles 
-corresponding to the hydrophobicity of the chains. The folds of these top sequences are shown in 
-(b) panel of the figure. For the most of the cases in this particular simulation have 
-$k_cat\approx400$. For different values of hydrophobic energies $E_h$ those values might range 
-from $50-50,000$, with effect of autocatalysis being visible. These sequences have tendency to be 
-main contributors into the total population of the polymers of their length (gray line shows sum 
-of all the populations of all the sequences as function of length). They are also notably far from 
-the median population (green line), with some exceptions: there are autocatalysts among 11-14 
-mers, but none of them managed to emerge above average and aren't shown on the picture.
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=\columnwidth]{pictures/mainPlayers.pdf} 
-  \caption{\footnotesize{(a) Show several top autocatalytic sequences. Their color indicate their 
-hydrophobicity with more red being more hydrophobic. Green line -- is the median of the 
-populations. Top autocatalysts always have several orders higher population, which is generally 
-constitutes bulk part of the given length biomass. Biomass as function of length is shown in 
-gray. (b) Shows top sequences and their fold for the longest length}}
-  \label{fig:mainplayers}
-\end{figure}
+
+
+
+
 
  At this point, we note what our model is, and what it is not.  Our model is not intended as an 
  accurate atomistic depiction of a real catalytic mechanism.  It is a coarse-grained toy model, of 
@@ -657,41 +639,67 @@ suggests that folding in HP polymers is not rare.
   polymer sequences could be autocatalytic, and provides a structural and kinetic mechanism for 
 their action. 
 Another characteristic 
-feature an $HP$ system is that in the presence of mutual catalytic activity has a capacity for 
-multiple quasistable states. Figure \ref{fig:distr1837-dyn} shows two obvious ones. Possible 
+feature an $HP$ system is that in the presence of mutual catalytic activity it has a capacity for 
+multiple quasistable states. Figure \ref{fig:distr1837-dyn}(a) shows two obvious ones.
+Possible 
 length distributions fall into two kinds, depending on random seed of the stochastic simulation. 
-These states are characterized by a set of several dominating autocatalytic chains. Thus the 
-system has sequence variability within each quasistable state and has a potential for state 
-switching between at least two states, but possibly more: while our system accounts for two 
-types of monomers, in fact, in the case of proteins they correspond for 20 different amino acids. 
+Both of these ``macrostates'' however correspond to a set of ``microstates'' characterized by a 
+collection of several dominating autocatalytic chains. Thus presence of two stable distributions 
+represents an emerge phenomenon in the system.
+The sets characteristic dominating sequences on the other hand, might or might not form a 
+quasistable state by themselves. This aspect of the model requires further investigation. 
+Nevertheless, one can notice a certain pattern in the ``microstates''.
+Some of these dominating sequences are common to 
+all microstates across both macrostates; they are likely to be important dynamical hubs of the 
+system. Some sequences are common to the most of the microstates inside a certain macrostate; they 
+appear to be a ``signature chains'' of this macrostate. Some sequences, on the other hand appear 
+only once across all the realizations. 
+
+It is possible that the system has not two but many quasistable states and thus it has a sequence 
+variability and a potential for state switching.
+Moreover, our system accounts for two 
+types of monomers, yet in fact, in the case of proteins they correspond for 20 different amino 
+acids, which of them have different hydrophobicities and can participate in slightly different 
+reactions, thus, plausibly further increasing  
 We believe that potential of the system for the multimodality worth further investigation to look 
 for hints of possible adaptability.
+Figure \ref{fig:distr1837-dyn}(b) shows the structure of the sequences, which \textit{most often} 
+are main contributors into the total population of the polymers of their length. They are also 
+notably far from the median population, with some exceptions: there are autocatalysts 
+among 16mers (red) and 17mers (green), but none of them managed to emerge above median and aren't 
+shown on the picture.
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.9\columnwidth]{pictures/distr1837-dynamics.pdf}
-  \caption{\footnotesize{\textbf{} This figure shows that there the $HP$ catalytic system has at 
-least two attractors. The lines are length distributions from Simulations, Experiment 3. Again each 
-line represents distribution of length in the steady state for one simulation run. It is clear, 
-that there two kind of distribution, which get realized during the simulations. System bifurcates 
-either to a state represented by a green line or to one represented by red one. These are the 
-same lines as on figure \ref{fig:stats-scatter-018}(a), but separated in two sets by a clustering 
-algorithm K-means.}}
+  \includegraphics[width=\columnwidth]{pictures/distr1837-dynamics.pdf}
+  \caption{\footnotesize{\textbf{} (a) This figure shows that there the $HP$ catalytic system has 
+at least two attractors. The lines are length distributions from Simulations, Experiment 3. Again, 
+each line represents distribution of length in the steady state for one simulation run. It is 
+clear, that there two kind of distribution, which get realized during the simulations. System 
+bifurcates either to a state represented by a green line or to one represented by red one. These 
+are the same lines as on figure \ref{fig:stats-scatter-018}(a), but separated in two sets by a 
+clustering algorithm K-means. (b) Structure of the sequences, which \textit{most often} 
+are main contributors into the total population of the polymers of their length. Top panel 
+corresponds to the macrostate shown in red on the panel (a), lower one, to the one shown in green. 
+}}
   \label{fig:distr1837-dyn}
 \end{figure}
 
-
-\section{Materials and methods}
+\appendix
+\section{Supplementary Information}
 \label{sec:mat}
 \subsection{Simulations\label{sec:mat-sim}}
 We performed direct stochastic simulations.  This required development of appropriate simulation 
 code because of the large numbers of different molecular species that we need to treat here.  We 
-used Expandable Partial Propensity Method (EPDM)~\cite{Guseva2016b}.\footnote{The description and 
-C++ library can be found at: https://github.com/abernatskiy/epdm}. The challenge for simulations is 
+used Expandable Partial Propensity Method\footnote{The description and 
+C++ library can be found at: https://github.com/abernatskiy/epdm.} (EPDM)~\cite{Guseva2016b}. The 
+challenge for simulations is 
 keeping track of all the molecular species and to search the full conformational spaces of each 
 chain; this task is NP-hard.  We use the HP Sandbox 
-algorithm~\cite{lau1989lattice,Dill2008}\footnote{A Python implementation and description can be 
-found at: http://hp-lattice.readthedocs.org/en/latest/}), which is limited to maximum chain lengths 
-of 25.  To handle computational constraints, we limited the total number of species to the few 
+algorithm\cite{lau1989lattice,Dill2008} \footnote{A Python implementation and description can be 
+found at: http://hp-lattice.readthedocs.org/en/latest/}, which is 
+limited to maximum chain lengths 
+of 25.  To handle computational constraints, we 
+limited the total number of species to the few 
 thousands.  We impose this limit by introducing a dilution parameter $d$: molecules are randomly 
 removed from the system with probability $\propto d$.  Physically, such This either can mimic a 
 protocell splitting and loose of materials due to it or in the case when system isn't bounded by any 
