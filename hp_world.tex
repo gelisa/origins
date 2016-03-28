@@ -410,29 +410,25 @@ accelerations might have been relevant for prebiotic processes.
 
 \subsection{Folding alone does not solve the Flory Problem.  But folding plus catalysis does.}
 
- Our first test is a comparison of three situations; see Figure xxx.  In all three cases, polymers 
-grow and degrade, as above.  Case 1 (fig xx.a) is a reference test in which no other factors 
-contribute.  In case 1, we `turned off' folding and catalysis by setting $e_H = 0$.  Case 1 simply 
-recovers the Flory distribution, as expected, with exponentially decaying populations with chain 
-length.  Case 2 (fig xx.b) allows for chain folding, but not for catalysis [E - what did you turn 
-off here?].  When chains can fold, they can bury some monomers in their folded cores.  So, chains 
-that are compact or folded degrade more slowly than chains that don't fold.  However, Fig xx.b 
+ We compare three cases:  Case 1 is a reference test in which sequences grow and undergo hydrolysis 
+but no other factors 
+contribute, Case 2 allows for chain folding, but not for catalysis and Case 3 allows for both chain 
+folding and catalysis.  Case  1 simply recovers the Flory distribution, as expected, with 
+exponentially decaying populations with chain 
+length (see figure \ref{fig:sim.flory-fold}(a)).  In the Case 2 when chains can fold, they can 
+bury some monomers in their folded cores.  So, chains that are compact or folded degrade more 
+slowly than chains that don't fold.  However, 
 shows that this situation does not solve the Flory problem either.  Folding does increase the 
 populations of some foldamer sequences relative to others, but the effects are too small affect the 
-shape of the overall distribution.  Case 3 (fig xx.c) allows for both chain folding and catalysis.  
-Case 3 gives considerably larger populations of longer chains than cases 1 or 2 give.  When chains 
+shape of the overall distribution (see figure \ref{fig:sim.flory-fold}(b)).  
+Case 3 gives considerably larger populations of longer chains than cases 1 or 2 give (figure 
+\ref{fig:sim.flory-fold}(c)).  When chains 
 can both fold by themselves and also catalyze the elongation of others, such polymerization 
 processes will `bend' the Flory distribution.  This effect is relatively robust over an order of 
 magnitude of the hydrolysis and dilution parameters.  The result is that some HP chains can fold, 
 expose some hydrophobic surface, and reduce the kinetic barrier for elongating other chains.  These 
 enhanced populations of longer chains occur even though the degree of barrier reduction is 
 relatively small.
- 
- [Eliza -- How about if we make fig 4a and 4b and 5a into 3 panels of a single figure here, 
-labelled xx.a, xx.b, and xx.c above.  Then, we will move the statistical distributions down to 
-later 
-in the text.]
- 
 \begin{figure*}[h!]
   \centering
   \includegraphics[width=0.9\textwidth]{pictures/distr-many-not-good.pdf}
@@ -481,8 +477,6 @@ sequence appeared only for one time instance. The data is an example based on on
   \label{fig:stats-scatter-018}
 \end{figure*}
 
-[E -- let's leave the gray points out of this plot.  It will indicate more clearly how the blue and 
-red are broadly distributed.] 
 
 \subsection{The foldamer-catalyst sequences form an autocatalytic set.}
 
