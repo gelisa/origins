@@ -21,7 +21,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -34,15 +34,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1879"
-     inkscape:window-height="1025"
+     inkscape:window-width="1609"
+     inkscape:window-height="995"
      id="namedview7278"
      showgrid="true"
      inkscape:zoom="0.51"
-     inkscape:cx="487.15686"
+     inkscape:cx="144.01961"
      inkscape:cy="363.95636"
-     inkscape:window-x="39"
-     inkscape:window-y="32"
+     inkscape:window-x="66"
+     inkscape:window-y="25"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg6778">
     <inkscape:grid
@@ -63,7 +63,7 @@
          y="647.05884" /></flowRegion><flowPara
        id="flowPara7436" /></flowRoot>  <g
      id="g4412"
-     transform="translate(-3.37256,-98.72549)">
+     transform="translate(-3.37256,-114.72549)">
     <line
        id="line6968"
        y2="513.72546"
@@ -77,11 +77,7 @@
        r="13"
        cy="500"
        cx="0"
-       style="fill:#ff0000;stroke:#000000"
-       sodipodi:cx="0"
-       sodipodi:cy="500"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       style="fill:#ff0000;stroke:#000000" />
     <line
        id="line6972"
        y2="513.72546"
@@ -95,11 +91,7 @@
        r="13"
        cy="500"
        cx="30"
-       style="fill:#ff0000;stroke:#000000"
-       sodipodi:cx="30"
-       sodipodi:cy="500"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       style="fill:#ff0000;stroke:#000000" />
     <line
        id="line6976"
        y2="513.72546"
@@ -113,11 +105,7 @@
        r="13"
        cy="500"
        cx="60"
-       style="fill:#ff0000;stroke:#000000"
-       sodipodi:cx="60"
-       sodipodi:cy="500"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       style="fill:#ff0000;stroke:#000000" />
     <line
        id="line6980"
        y2="513.72546"
@@ -131,11 +119,7 @@
        r="13"
        cy="500"
        cx="90"
-       style="fill:#0000ff;stroke:#000000"
-       sodipodi:cx="90"
-       sodipodi:cy="500"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       style="fill:#0000ff;stroke:#000000" />
     <line
        id="line6984"
        y2="513.72546"
@@ -149,11 +133,7 @@
        r="13"
        cy="500"
        cx="120"
-       style="fill:#ff0000;stroke:#000000"
-       sodipodi:cx="120"
-       sodipodi:cy="500"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       style="fill:#ff0000;stroke:#000000" />
     <line
        id="line6988"
        y2="513.72546"
@@ -167,11 +147,7 @@
        r="13"
        cy="500"
        cx="150"
-       style="fill:#ff0000;stroke:#000000"
-       sodipodi:cx="150"
-       sodipodi:cy="500"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       style="fill:#ff0000;stroke:#000000" />
     <line
        id="line6992"
        y2="513.72546"
@@ -185,11 +161,7 @@
        r="13"
        cy="500"
        cx="180"
-       style="fill:#0000ff;stroke:#000000"
-       sodipodi:cx="180"
-       sodipodi:cy="500"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       style="fill:#0000ff;stroke:#000000" />
     <line
        id="line6996"
        y2="513.72546"
@@ -203,11 +175,7 @@
        r="13"
        cy="500"
        cx="210"
-       style="fill:#ff0000;stroke:#000000"
-       sodipodi:cx="210"
-       sodipodi:cy="500"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       style="fill:#ff0000;stroke:#000000" />
     <line
        id="line7000"
        y2="513.72546"
@@ -221,11 +189,7 @@
        r="13"
        cy="500"
        cx="240"
-       style="fill:#0000ff;stroke:#000000"
-       sodipodi:cx="240"
-       sodipodi:cy="500"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       style="fill:#0000ff;stroke:#000000" />
     <line
        id="line7004"
        y2="513.72546"
@@ -239,11 +203,7 @@
        r="13"
        cy="500"
        cx="270"
-       style="fill:#ff0000;stroke:#000000"
-       sodipodi:cx="270"
-       sodipodi:cy="500"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       style="fill:#ff0000;stroke:#000000" />
     <line
        id="line7008"
        y2="513.72546"
@@ -257,11 +217,7 @@
        r="13"
        cy="500"
        cx="300"
-       style="fill:#0000ff;stroke:#000000"
-       sodipodi:cx="300"
-       sodipodi:cy="500"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       style="fill:#0000ff;stroke:#000000" />
     <line
        id="line7012"
        y2="513.72546"
@@ -275,11 +231,7 @@
        r="13"
        cy="500"
        cx="330"
-       style="fill:#ff0000;stroke:#000000"
-       sodipodi:cx="330"
-       sodipodi:cy="500"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       style="fill:#ff0000;stroke:#000000" />
     <line
        id="line7016"
        y2="513.72546"
@@ -293,11 +245,7 @@
        r="13"
        cy="500"
        cx="360"
-       style="fill:#ff0000;stroke:#000000"
-       sodipodi:cx="360"
-       sodipodi:cy="500"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       style="fill:#ff0000;stroke:#000000" />
     <line
        id="line7020"
        y2="513.72546"
@@ -311,11 +259,7 @@
        r="13"
        cy="500"
        cx="390"
-       style="fill:#0000ff;stroke:#000000"
-       sodipodi:cx="390"
-       sodipodi:cy="500"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       style="fill:#0000ff;stroke:#000000" />
     <line
        id="line7024"
        y2="513.72546"
@@ -329,48 +273,40 @@
        r="13"
        cy="500"
        cx="420"
-       style="fill:#0000ff;stroke:#000000"
-       sodipodi:cx="420"
-       sodipodi:cy="500"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       style="fill:#0000ff;stroke:#000000" />
     <circle
        transform="matrix(-1,0,0,1,691.37256,13.72549)"
        id="circle7028"
        r="13"
        cy="500"
        cx="450"
-       style="fill:#ffaaaa;stroke:#000000"
-       sodipodi:cx="450"
-       sodipodi:cy="500"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       style="fill:#ffaaaa;stroke:#000000" />
   </g>
   <text
      xml:space="preserve"
-     style="font-size:50px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century SchoolBook URW;-inkscape-font-specification:Century SchoolBook URW Medium"
+     style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:50px;line-height:125%;font-family:'Century SchoolBook URW';-inkscape-font-specification:'Century SchoolBook URW Medium';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;enable-background:accumulate"
      x="116.66668"
-     y="433.33331"
+     y="417.33331"
      id="text7418"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan7420"
        x="116.66668"
-       y="433.33331">63%H</tspan></text>
+       y="417.33331">63%H</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:50px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century SchoolBook URW;-inkscape-font-specification:Century SchoolBook URW Medium"
+     style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:50px;line-height:125%;font-family:'Century SchoolBook URW';-inkscape-font-specification:'Century SchoolBook URW Medium';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;enable-background:accumulate"
      x="114.70588"
-     y="657.84308"
+     y="631.84308"
      id="text7414"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan7416"
        x="114.70588"
-       y="657.84308">69%H</tspan></text>
+       y="631.84308">69%H</tspan></text>
   <g
      id="g4574"
-     transform="translate(4.4902039,1.294128)">
+     transform="translate(4.4902039,-36.705872)">
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7092"
@@ -384,11 +320,7 @@
        id="circle7094"
        r="13"
        cy="864.70587"
-       cx="324.5098"
-       sodipodi:cx="324.5098"
-       sodipodi:cy="864.70587"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       cx="324.5098" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7096"
@@ -402,11 +334,7 @@
        id="circle7098"
        r="13"
        cy="864.70587"
-       cx="354.5098"
-       sodipodi:cx="354.5098"
-       sodipodi:cy="864.70587"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       cx="354.5098" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7100"
@@ -420,11 +348,7 @@
        id="circle7102"
        r="13"
        cy="864.70587"
-       cx="384.5098"
-       sodipodi:cx="384.5098"
-       sodipodi:cy="864.70587"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       cx="384.5098" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7104"
@@ -438,11 +362,7 @@
        id="circle7106"
        r="13"
        cy="864.70587"
-       cx="414.5098"
-       sodipodi:cx="414.5098"
-       sodipodi:cy="864.70587"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       cx="414.5098" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7108"
@@ -456,11 +376,7 @@
        id="circle7110"
        r="13"
        cy="864.70587"
-       cx="444.5098"
-       sodipodi:cx="444.5098"
-       sodipodi:cy="864.70587"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       cx="444.5098" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7112"
@@ -474,11 +390,7 @@
        id="circle7114"
        r="13"
        cy="864.70587"
-       cx="474.5098"
-       sodipodi:cx="474.5098"
-       sodipodi:cy="864.70587"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       cx="474.5098" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7116"
@@ -492,11 +404,7 @@
        id="circle7118"
        r="13"
        cy="864.70587"
-       cx="504.5098"
-       sodipodi:cx="504.5098"
-       sodipodi:cy="864.70587"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       cx="504.5098" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7120"
@@ -510,11 +418,7 @@
        id="circle7122"
        r="13"
        cy="864.70587"
-       cx="534.50983"
-       sodipodi:cx="534.50983"
-       sodipodi:cy="864.70587"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       cx="534.50983" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7124"
@@ -528,11 +432,7 @@
        id="circle7126"
        r="13"
        cy="864.70587"
-       cx="564.50983"
-       sodipodi:cx="564.50983"
-       sodipodi:cy="864.70587"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       cx="564.50983" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7128"
@@ -546,11 +446,7 @@
        id="circle7130"
        r="13"
        cy="864.70587"
-       cx="594.50983"
-       sodipodi:cx="594.50983"
-       sodipodi:cy="864.70587"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       cx="594.50983" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7132"
@@ -564,11 +460,7 @@
        id="circle7134"
        r="13"
        cy="864.70587"
-       cx="624.50983"
-       sodipodi:cx="624.50983"
-       sodipodi:cy="864.70587"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       cx="624.50983" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7136"
@@ -582,11 +474,7 @@
        id="circle7138"
        r="13"
        cy="864.70587"
-       cx="654.50983"
-       sodipodi:cx="654.50983"
-       sodipodi:cy="864.70587"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       cx="654.50983" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7140"
@@ -600,11 +488,7 @@
        id="circle7142"
        r="13"
        cy="864.70587"
-       cx="684.50983"
-       sodipodi:cx="684.50983"
-       sodipodi:cy="864.70587"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       cx="684.50983" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7144"
@@ -618,11 +502,7 @@
        id="circle7146"
        r="13"
        cy="864.70587"
-       cx="714.50983"
-       sodipodi:cx="714.50983"
-       sodipodi:cy="864.70587"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       cx="714.50983" />
     <line
        style="stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
        id="line7148"
@@ -636,34 +516,26 @@
        id="circle7150"
        r="13"
        cy="864.70587"
-       cx="744.50983"
-       sodipodi:cx="744.50983"
-       sodipodi:cy="864.70587"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       cx="744.50983" />
     <circle
        transform="translate(-90,0)"
        style="fill:#ff0000;stroke:#000000"
        id="circle7152"
        r="13"
        cy="864.70587"
-       cx="774.50983"
-       sodipodi:cx="774.50983"
-       sodipodi:cy="864.70587"
-       sodipodi:rx="13"
-       sodipodi:ry="13" />
+       cx="774.50983" />
   </g>
   <text
      xml:space="preserve"
-     style="font-size:50px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century SchoolBook URW;-inkscape-font-specification:Century SchoolBook URW Medium"
+     style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:50px;line-height:125%;font-family:'Century SchoolBook URW';-inkscape-font-specification:'Century SchoolBook URW Medium';text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;enable-background:accumulate"
      x="114.70588"
-     y="883.33331"
+     y="845.33331"
      id="text7422"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan7424"
        x="114.70588"
-       y="883.33331">81%H</tspan></text>
+       y="845.33331">81%H</tspan></text>
   <g
      id="g4379"
      transform="translate(1.5132141,-0.19610596)">
@@ -972,7 +844,8 @@
        x="85.411766"
        y="161.76471" /></text>
   <g
-     id="g8951">
+     id="g8951"
+     transform="translate(-6,-26)">
     <line
        id="line5968"
        y2="640"
@@ -986,12 +859,7 @@
        r="11"
        cy="100"
        cx="0"
-       sodipodi:cx="0"
-       sodipodi:cy="100"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
-       transform="matrix(1.2,0,0,1.2,778.2,556)"
-       d="m 11,100 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.075132 4.9248678,-11 11,-11 6.0751322,0 11,4.924868 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,778.2,556)" />
     <line
        id="line5972"
        y2="604"
@@ -1004,13 +872,8 @@
        r="11"
        cy="70"
        cx="0"
-       sodipodi:cx="0"
-       sodipodi:cy="70"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,778.2,556)"
-       d="m 11,70 c 0,6.075132 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.924868 -11,-11 0,-6.075132 4.9248678,-11 11,-11 6.0751322,0 11,4.924868 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,778.2,556)" />
     <line
        id="line5976"
        y2="604"
@@ -1023,13 +886,8 @@
        r="11"
        cy="40"
        cx="0"
-       sodipodi:cx="0"
-       sodipodi:cy="40"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,778.2,556)"
-       d="m 11,40 c 0,6.075132 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.924868 -11,-11 0,-6.075132 4.9248678,-11 11,-11 6.0751322,0 11,4.924868 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,778.2,556)" />
     <line
        id="line5980"
        y2="568"
@@ -1042,13 +900,8 @@
        r="11"
        cy="40"
        cx="30"
-       sodipodi:cx="30"
-       sodipodi:cy="40"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,778.2,556)"
-       d="m 41,40 c 0,6.075132 -4.924868,11 -11,11 -6.075132,0 -11,-4.924868 -11,-11 0,-6.075132 4.924868,-11 11,-11 6.075132,0 11,4.924868 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,778.2,556)" />
     <line
        id="line5984"
        y2="568"
@@ -1061,13 +914,8 @@
        r="11"
        cy="10"
        cx="30"
-       sodipodi:cx="30"
-       sodipodi:cy="10"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,778.2,556)"
-       d="M 41,10 C 41,16.075132 36.075132,21 30,21 23.924868,21 19,16.075132 19,10 19,3.9248678 23.924868,-1 30,-1 36.075132,-1 41,3.9248678 41,10 z" />
+       transform="matrix(1.2,0,0,1.2,778.2,556)" />
     <line
        id="line5988"
        y2="604"
@@ -1080,13 +928,8 @@
        r="11"
        cy="10"
        cx="60"
-       sodipodi:cx="60"
-       sodipodi:cy="10"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,778.2,556)"
-       d="M 71,10 C 71,16.075132 66.075132,21 60,21 53.924868,21 49,16.075132 49,10 49,3.9248678 53.924868,-1 60,-1 66.075132,-1 71,3.9248678 71,10 z" />
+       transform="matrix(1.2,0,0,1.2,778.2,556)" />
     <line
        id="line5992"
        y2="604"
@@ -1099,13 +942,8 @@
        r="11"
        cy="40"
        cx="60"
-       sodipodi:cx="60"
-       sodipodi:cy="40"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,778.2,556)"
-       d="m 71,40 c 0,6.075132 -4.924868,11 -11,11 -6.075132,0 -11,-4.924868 -11,-11 0,-6.075132 4.924868,-11 11,-11 6.075132,0 11,4.924868 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,778.2,556)" />
     <line
        id="line5996"
        y2="640"
@@ -1118,13 +956,8 @@
        r="11"
        cy="40"
        cx="90"
-       sodipodi:cx="90"
-       sodipodi:cy="40"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,778.2,556)"
-       d="m 101,40 c 0,6.075132 -4.924868,11 -11,11 -6.075132,0 -11,-4.924868 -11,-11 0,-6.075132 4.924868,-11 11,-11 6.075132,0 11,4.924868 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,778.2,556)" />
     <line
        id="line6000"
        y2="676"
@@ -1137,13 +970,8 @@
        r="11"
        cy="70"
        cx="90"
-       sodipodi:cx="90"
-       sodipodi:cy="70"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,778.2,556)"
-       d="m 101,70 c 0,6.075132 -4.924868,11 -11,11 -6.075132,0 -11,-4.924868 -11,-11 0,-6.075132 4.924868,-11 11,-11 6.075132,0 11,4.924868 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,778.2,556)" />
     <line
        id="line6004"
        y2="676"
@@ -1156,13 +984,8 @@
        r="11"
        cy="100"
        cx="90"
-       sodipodi:cx="90"
-       sodipodi:cy="100"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,778.2,556)"
-       d="m 101,100 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.075132 4.924868,-11 11,-11 6.075132,0 11,4.924868 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,778.2,556)" />
     <line
        id="line6008"
        y2="712"
@@ -1175,13 +998,8 @@
        r="11"
        cy="100"
        cx="60"
-       sodipodi:cx="60"
-       sodipodi:cy="100"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,778.2,556)"
-       d="m 71,100 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.075132 4.924868,-11 11,-11 6.075132,0 11,4.924868 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,778.2,556)" />
     <line
        id="line6012"
        y2="712"
@@ -1194,13 +1012,8 @@
        r="11"
        cy="130"
        cx="60"
-       sodipodi:cx="60"
-       sodipodi:cy="130"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,778.2,556)"
-       d="m 71,130 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,778.2,556)" />
     <line
        id="line6016"
        y2="676"
@@ -1213,13 +1026,8 @@
        r="11"
        cy="130"
        cx="30"
-       sodipodi:cx="30"
-       sodipodi:cy="130"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,778.2,556)"
-       d="m 41,130 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,778.2,556)" />
     <line
        id="line6020"
        y2="640"
@@ -1232,13 +1040,8 @@
        r="11"
        cy="100"
        cx="30"
-       sodipodi:cx="30"
-       sodipodi:cy="100"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,778.2,556)"
-       d="m 41,100 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.075132 4.924868,-11 11,-11 6.075132,0 11,4.924868 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,778.2,556)" />
     <line
        id="line6024"
        y2="640"
@@ -1251,28 +1054,19 @@
        r="11"
        cy="70"
        cx="30"
-       sodipodi:cx="30"
-       sodipodi:cy="70"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,778.2,556)"
-       d="m 41,70 c 0,6.075132 -4.924868,11 -11,11 -6.075132,0 -11,-4.924868 -11,-11 0,-6.075132 4.924868,-11 11,-11 6.075132,0 11,4.924868 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,778.2,556)" />
     <circle
        transform="matrix(1.0222222,0,0,1.0222222,788.46668,568.44445)"
-       sodipodi:ry="13"
-       sodipodi:rx="13"
-       sodipodi:cy="70"
-       sodipodi:cx="60"
        style="fill:#ff0000;stroke:#000000"
        id="circle6028"
        r="13"
        cy="70"
-       cx="60"
-       d="m 73,70 c 0,7.179702 -5.820298,13 -13,13 -7.179702,0 -13,-5.820298 -13,-13 0,-7.179702 5.820298,-13 13,-13 7.179702,0 13,5.820298 13,13 z" />
+       cx="60" />
   </g>
   <g
-     id="g8984">
+     id="g8984"
+     transform="translate(-6,-16)">
     <line
        id="line6092"
        y2="397.79999"
@@ -1285,13 +1079,8 @@
        r="11"
        cy="400"
        cx="0"
-       sodipodi:cx="0"
-       sodipodi:cy="400"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,851,-46.2)"
-       d="m 11,400 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,851,-46.2)" />
     <line
        id="line6096"
        y2="361.79999"
@@ -1304,13 +1093,8 @@
        r="11"
        cy="370"
        cx="0"
-       sodipodi:cx="0"
-       sodipodi:cy="370"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,851,-46.2)"
-       d="m 11,370 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,851,-46.2)" />
     <line
        id="line6100"
        y2="361.79999"
@@ -1323,13 +1107,8 @@
        r="11"
        cy="340"
        cx="0"
-       sodipodi:cx="0"
-       sodipodi:cy="340"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,851,-46.2)"
-       d="m 11,340 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,851,-46.2)" />
     <line
        id="line6104"
        y2="397.79999"
@@ -1342,13 +1121,8 @@
        r="11"
        cy="340"
        cx="30"
-       sodipodi:cx="30"
-       sodipodi:cy="340"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,851,-46.2)"
-       d="m 41,340 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,851,-46.2)" />
     <line
        id="line6108"
        y2="397.79999"
@@ -1361,13 +1135,8 @@
        r="11"
        cy="370"
        cx="30"
-       sodipodi:cx="30"
-       sodipodi:cy="370"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,851,-46.2)"
-       d="m 41,370 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,851,-46.2)" />
     <line
        id="line6112"
        y2="433.79999"
@@ -1380,13 +1149,8 @@
        r="11"
        cy="370"
        cx="60"
-       sodipodi:cx="60"
-       sodipodi:cy="370"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,851,-46.2)"
-       d="m 71,370 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,851,-46.2)" />
     <line
        id="line6116"
        y2="433.79999"
@@ -1399,13 +1163,8 @@
        r="11"
        cy="400"
        cx="60"
-       sodipodi:cx="60"
-       sodipodi:cy="400"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,851,-46.2)"
-       d="m 71,400 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,851,-46.2)" />
     <line
        id="line6120"
        y2="469.79999"
@@ -1418,13 +1177,8 @@
        r="11"
        cy="400"
        cx="30"
-       sodipodi:cx="30"
-       sodipodi:cy="400"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,851,-46.2)"
-       d="m 41,400 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,851,-46.2)" />
     <line
        id="line6124"
        y2="469.79999"
@@ -1437,13 +1191,8 @@
        r="11"
        cy="430"
        cx="30"
-       sodipodi:cx="30"
-       sodipodi:cy="430"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,851,-46.2)"
-       d="m 41,430 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,851,-46.2)" />
     <line
        id="line6128"
        y2="469.79999"
@@ -1456,13 +1205,8 @@
        r="11"
        cy="430"
        cx="0"
-       sodipodi:cx="0"
-       sodipodi:cy="430"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,851,-46.2)"
-       d="m 11,430 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,851,-46.2)" />
     <line
        id="line6132"
        y2="433.79999"
@@ -1475,13 +1219,8 @@
        r="11"
        cy="430"
        cx="-30"
-       sodipodi:cx="-30"
-       sodipodi:cy="430"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,851,-46.2)"
-       d="m -19,430 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,851,-46.2)" />
     <line
        id="line6136"
        y2="397.79999"
@@ -1494,13 +1233,8 @@
        r="11"
        cy="400"
        cx="-30"
-       sodipodi:cx="-30"
-       sodipodi:cy="400"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,851,-46.2)"
-       d="m -19,400 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,851,-46.2)" />
     <line
        id="line6140"
        y2="397.79999"
@@ -1513,13 +1247,8 @@
        r="11"
        cy="370"
        cx="-30"
-       sodipodi:cx="-30"
-       sodipodi:cy="370"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,851,-46.2)"
-       d="m -19,370 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,851,-46.2)" />
     <line
        id="line6144"
        y2="361.79999"
@@ -1532,13 +1261,8 @@
        r="11"
        cy="370"
        cx="-60"
-       sodipodi:cx="-60"
-       sodipodi:cy="370"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,851,-46.2)"
-       d="m -49,370 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,851,-46.2)" />
     <line
        id="line6148"
        y2="361.79999"
@@ -1551,28 +1275,19 @@
        r="11"
        cy="340"
        cx="-60"
-       sodipodi:cx="-60"
-       sodipodi:cy="340"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,851,-46.2)"
-       d="m -49,340 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,851,-46.2)" />
     <circle
        style="fill:#ffaaaa;stroke:#000000"
        transform="matrix(1.0222222,0,0,1.0222222,845.26672,14.244444)"
-       sodipodi:ry="13"
-       sodipodi:rx="13"
-       sodipodi:cy="340"
-       sodipodi:cx="-30"
        id="circle6152"
        r="13"
        cy="340"
-       cx="-30"
-       d="m -17,340 c 0,7.1797 -5.820298,13 -13,13 -7.179702,0 -13,-5.8203 -13,-13 0,-7.1797 5.820298,-13 13,-13 7.179702,0 13,5.8203 13,13 z" />
+       cx="-30" />
   </g>
   <g
-     id="g8918">
+     id="g8918"
+     transform="translate(-6,-38)">
     <line
        id="line6216"
        y2="808.79999"
@@ -1585,13 +1300,8 @@
        r="11"
        cy="600"
        cx="0"
-       sodipodi:cx="0"
-       sodipodi:cy="600"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ffaaaa;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,780,124.8)"
-       d="m 11,600 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,780,124.8)" />
     <line
        id="line6220"
        y2="808.79999"
@@ -1604,13 +1314,8 @@
        r="11"
        cy="570"
        cx="0"
-       sodipodi:cx="0"
-       sodipodi:cy="570"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,780,124.8)"
-       d="m 11,570 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,780,124.8)" />
     <line
        id="line6224"
        y2="808.79999"
@@ -1623,13 +1328,8 @@
        r="11"
        cy="570"
        cx="30"
-       sodipodi:cx="30"
-       sodipodi:cy="570"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,780,124.8)"
-       d="m 41,570 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,780,124.8)" />
     <line
        id="line6228"
        y2="808.79999"
@@ -1642,13 +1342,8 @@
        r="11"
        cy="570"
        cx="60"
-       sodipodi:cx="60"
-       sodipodi:cy="570"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,780,124.8)"
-       d="m 71,570 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,780,124.8)" />
     <line
        id="line6232"
        y2="844.79999"
@@ -1661,13 +1356,8 @@
        r="11"
        cy="570"
        cx="90"
-       sodipodi:cx="90"
-       sodipodi:cy="570"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,780,124.8)"
-       d="m 101,570 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,780,124.8)" />
     <line
        id="line6236"
        y2="844.79999"
@@ -1680,13 +1370,8 @@
        r="11"
        cy="600"
        cx="90"
-       sodipodi:cx="90"
-       sodipodi:cy="600"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,780,124.8)"
-       d="m 101,600 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,780,124.8)" />
     <line
        id="line6240"
        y2="880.79999"
@@ -1699,13 +1384,8 @@
        r="11"
        cy="600"
        cx="60"
-       sodipodi:cx="60"
-       sodipodi:cy="600"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,780,124.8)"
-       d="m 71,600 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,780,124.8)" />
     <line
        id="line6244"
        y2="880.79999"
@@ -1718,13 +1398,8 @@
        r="11"
        cy="630"
        cx="60"
-       sodipodi:cx="60"
-       sodipodi:cy="630"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,780,124.8)"
-       d="m 71,630 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,780,124.8)" />
     <line
        id="line6248"
        y2="916.79999"
@@ -1737,13 +1412,8 @@
        r="11"
        cy="630"
        cx="90"
-       sodipodi:cx="90"
-       sodipodi:cy="630"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,780,124.8)"
-       d="m 101,630 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,780,124.8)" />
     <line
        id="line6252"
        y2="916.79999"
@@ -1756,13 +1426,8 @@
        r="11"
        cy="660"
        cx="90"
-       sodipodi:cx="90"
-       sodipodi:cy="660"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,780,124.8)"
-       d="m 101,660 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,780,124.8)" />
     <line
        id="line6256"
        y2="916.79999"
@@ -1775,13 +1440,8 @@
        r="11"
        cy="660"
        cx="60"
-       sodipodi:cx="60"
-       sodipodi:cy="660"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,780,124.8)"
-       d="m 71,660 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,780,124.8)" />
     <line
        id="line6260"
        y2="916.79999"
@@ -1794,13 +1454,8 @@
        r="11"
        cy="660"
        cx="30"
-       sodipodi:cx="30"
-       sodipodi:cy="660"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,780,124.8)"
-       d="m 41,660 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,780,124.8)" />
     <line
        id="line6264"
        y2="880.79999"
@@ -1813,13 +1468,8 @@
        r="11"
        cy="660"
        cx="0"
-       sodipodi:cx="0"
-       sodipodi:cy="660"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,780,124.8)"
-       d="m 11,660 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,780,124.8)" />
     <line
        id="line6268"
        y2="880.79999"
@@ -1832,13 +1482,8 @@
        r="11"
        cy="630"
        cx="0"
-       sodipodi:cx="0"
-       sodipodi:cy="630"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,780,124.8)"
-       d="m 11,630 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,780,124.8)" />
     <line
        id="line6272"
        y2="844.79999"
@@ -1851,28 +1496,19 @@
        r="11"
        cy="630"
        cx="30"
-       sodipodi:cx="30"
-       sodipodi:cy="630"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,780,124.8)"
-       d="m 41,630 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,780,124.8)" />
     <circle
        style="fill:#ff0000;stroke:#000000"
        transform="matrix(1.0222222,0,0,1.0222222,785.33333,231.86667)"
-       sodipodi:ry="13"
-       sodipodi:rx="13"
-       sodipodi:cy="600"
-       sodipodi:cx="30"
        id="circle6276"
        r="13"
        cy="600"
-       cx="30"
-       d="m 43,600 c 0,7.1797 -5.820298,13 -13,13 -7.179702,0 -13,-5.8203 -13,-13 0,-7.1797 5.820298,-13 13,-13 7.179702,0 13,5.8203 13,13 z" />
+       cx="30" />
   </g>
   <g
-     id="g9017">
+     id="g9017"
+     transform="translate(-6,0)">
     <line
        id="line6340"
        y2="190"
@@ -1885,13 +1521,8 @@
        r="11"
        cy="900"
        cx="0"
-       sodipodi:cx="0"
-       sodipodi:cy="900"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)"
-       d="m 11,900 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
     <line
        id="line6344"
        y2="190"
@@ -1904,13 +1535,8 @@
        r="11"
        cy="870"
        cx="0"
-       sodipodi:cx="0"
-       sodipodi:cy="870"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)"
-       d="m 11,870 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
     <line
        id="line6348"
        y2="190"
@@ -1923,13 +1549,8 @@
        r="11"
        cy="870"
        cx="30"
-       sodipodi:cx="30"
-       sodipodi:cy="870"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)"
-       d="m 41,870 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
     <line
        id="line6352"
        y2="226"
@@ -1942,13 +1563,8 @@
        r="11"
        cy="870"
        cx="60"
-       sodipodi:cx="60"
-       sodipodi:cy="870"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)"
-       d="m 71,870 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
     <line
        id="line6356"
        y2="226"
@@ -1961,13 +1577,8 @@
        r="11"
        cy="900"
        cx="60"
-       sodipodi:cx="60"
-       sodipodi:cy="900"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)"
-       d="m 71,900 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
     <line
        id="line6360"
        y2="262"
@@ -1980,13 +1591,8 @@
        r="11"
        cy="900"
        cx="30"
-       sodipodi:cx="30"
-       sodipodi:cy="900"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)"
-       d="m 41,900 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
     <line
        id="line6364"
        y2="262"
@@ -1999,13 +1605,8 @@
        r="11"
        cy="930"
        cx="30"
-       sodipodi:cx="30"
-       sodipodi:cy="930"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)"
-       d="m 41,930 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
     <line
        id="line6368"
        y2="262"
@@ -2018,13 +1619,8 @@
        r="11"
        cy="930"
        cx="0"
-       sodipodi:cx="0"
-       sodipodi:cy="930"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)"
-       d="m 11,930 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
     <line
        id="line6372"
        y2="226"
@@ -2037,13 +1633,8 @@
        r="11"
        cy="930"
        cx="-30"
-       sodipodi:cx="-30"
-       sodipodi:cy="930"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)"
-       d="m -19,930 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
     <line
        id="line6376"
        y2="190"
@@ -2056,13 +1647,8 @@
        r="11"
        cy="900"
        cx="-30"
-       sodipodi:cx="-30"
-       sodipodi:cy="900"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)"
-       d="m -19,900 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
     <line
        id="line6380"
        y2="154"
@@ -2075,13 +1661,8 @@
        r="11"
        cy="870"
        cx="-30"
-       sodipodi:cx="-30"
-       sodipodi:cy="870"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)"
-       d="m -19,870 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
     <line
        id="line6384"
        y2="154"
@@ -2094,13 +1675,8 @@
        r="11"
        cy="840"
        cx="-30"
-       sodipodi:cx="-30"
-       sodipodi:cy="840"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)"
-       d="m -19,840 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
     <line
        id="line6388"
        y2="118"
@@ -2113,13 +1689,8 @@
        r="11"
        cy="840"
        cx="0"
-       sodipodi:cx="0"
-       sodipodi:cy="840"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)"
-       d="m 11,840 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
     <line
        id="line6392"
        y2="118"
@@ -2132,13 +1703,8 @@
        r="11"
        cy="810"
        cx="0"
-       sodipodi:cx="0"
-       sodipodi:cy="810"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)"
-       d="m 11,810 c 0,6.07513 -4.9248678,11 -11,11 -6.0751322,0 -11,-4.92487 -11,-11 0,-6.07513 4.9248678,-11 11,-11 6.0751322,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
     <line
        id="line6396"
        y2="154"
@@ -2151,28 +1717,19 @@
        r="11"
        cy="810"
        cx="30"
-       sodipodi:cx="30"
-       sodipodi:cy="810"
-       sodipodi:rx="11"
-       sodipodi:ry="11"
        style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)"
-       d="m 41,810 c 0,6.07513 -4.924868,11 -11,11 -6.075132,0 -11,-4.92487 -11,-11 0,-6.07513 4.924868,-11 11,-11 6.075132,0 11,4.92487 11,11 z" />
+       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
     <circle
        id="circle6400"
        r="13"
        cy="840"
        cx="30"
-       sodipodi:cx="30"
-       sodipodi:cy="840"
-       sodipodi:rx="13"
-       sodipodi:ry="13"
        style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.0222222,0,0,1.0222222,819.53328,-704.26667)"
-       d="m 43,840 c 0,7.1797 -5.820298,13 -13,13 -7.179702,0 -13,-5.8203 -13,-13 0,-7.1797 5.820298,-13 13,-13 7.179702,0 13,5.8203 13,13 z" />
+       transform="matrix(1.0222222,0,0,1.0222222,819.53328,-704.26667)" />
   </g>
   <g
-     id="g8761">
+     id="g8761"
+     transform="translate(0,-26)">
     <line
        id="line8025"
        y2="640"
@@ -2185,13 +1742,8 @@
        r="13"
        cy="200"
        cx="0"
-       sodipodi:cx="0"
-       sodipodi:cy="200"
-       sodipodi:rx="13"
-       sodipodi:ry="13"
        style="fill:#ffaaaa;stroke:#000000"
-       transform="translate(239,440)"
-       d="m 13,200 c 0,7.1797 -5.8202983,13 -13,13 -7.1797017,0 -13,-5.8203 -13,-13 0,-7.1797 5.8202983,-13 13,-13 7.1797017,0 13,5.8203 13,13 z" />
+       transform="translate(239,440)" />
     <line
        id="line8029"
        y2="640"
@@ -2204,13 +1756,8 @@
        r="13"
        cy="200"
        cx="30"
-       sodipodi:cx="30"
-       sodipodi:cy="200"
-       sodipodi:rx="13"
-       sodipodi:ry="13"
        style="fill:#ff0000;stroke:#000000"
-       transform="translate(239,440)"
-       d="m 43,200 c 0,7.1797 -5.820298,13 -13,13 -7.179702,0 -13,-5.8203 -13,-13 0,-7.1797 5.820298,-13 13,-13 7.179702,0 13,5.8203 13,13 z" />
+       transform="translate(239,440)" />
     <line
        id="line8033"
        y2="640"
@@ -2223,13 +1770,8 @@
        r="13"
        cy="200"
        cx="60"
-       sodipodi:cx="60"
-       sodipodi:cy="200"
-       sodipodi:rx="13"
-       sodipodi:ry="13"
        style="fill:#ff0000;stroke:#000000"
-       transform="translate(239,440)"
-       d="m 73,200 c 0,7.1797 -5.820298,13 -13,13 -7.179702,0 -13,-5.8203 -13,-13 0,-7.1797 5.820298,-13 13,-13 7.179702,0 13,5.8203 13,13 z" />
+       transform="translate(239,440)" />
     <line
        id="line8037"
        y2="640"
@@ -2242,13 +1784,8 @@
        r="13"
        cy="200"
        cx="90"
-       sodipodi:cx="90"
-       sodipodi:cy="200"
-       sodipodi:rx="13"
-       sodipodi:ry="13"
        style="fill:#ff0000;stroke:#000000"
-       transform="translate(239,440)"
-       d="m 103,200 c 0,7.1797 -5.820298,13 -13,13 -7.179702,0 -13,-5.8203 -13,-13 0,-7.1797 5.820298,-13 13,-13 7.179702,0 13,5.8203 13,13 z" />
+       transform="translate(239,440)" />
     <line
        id="line8041"
        y2="640"
@@ -2261,13 +1798,8 @@
        r="13"
        cy="200"
        cx="120"
-       sodipodi:cx="120"
-       sodipodi:cy="200"
-       sodipodi:rx="13"
-       sodipodi:ry="13"
        style="fill:#0000ff;stroke:#000000"
-       transform="translate(239,440)"
-       d="m 133,200 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       transform="translate(239,440)" />
     <line
        id="line8045"
        y2="640"
@@ -2280,13 +1812,8 @@
        r="13"
        cy="200"
        cx="150"
-       sodipodi:cx="150"
-       sodipodi:cy="200"
-       sodipodi:rx="13"
-       sodipodi:ry="13"
        style="fill:#0000ff;stroke:#000000"
-       transform="translate(239,440)"
-       d="m 163,200 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       transform="translate(239,440)" />
     <line
        id="line8049"
        y2="640"
@@ -2299,13 +1826,8 @@
        r="13"
        cy="200"
        cx="180"
-       sodipodi:cx="180"
-       sodipodi:cy="200"
-       sodipodi:rx="13"
-       sodipodi:ry="13"
        style="fill:#ff0000;stroke:#000000"
-       transform="translate(239,440)"
-       d="m 193,200 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       transform="translate(239,440)" />
     <line
        id="line8053"
        y2="640"
@@ -2318,13 +1840,8 @@
        r="13"
        cy="200"
        cx="210"
-       sodipodi:cx="210"
-       sodipodi:cy="200"
-       sodipodi:rx="13"
-       sodipodi:ry="13"
        style="fill:#0000ff;stroke:#000000"
-       transform="translate(239,440)"
-       d="m 223,200 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       transform="translate(239,440)" />
     <line
        id="line8057"
        y2="640"
@@ -2337,13 +1854,8 @@
        r="13"
        cy="200"
        cx="240"
-       sodipodi:cx="240"
-       sodipodi:cy="200"
-       sodipodi:rx="13"
-       sodipodi:ry="13"
        style="fill:#ff0000;stroke:#000000"
-       transform="translate(239,440)"
-       d="m 253,200 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       transform="translate(239,440)" />
     <line
        id="line8061"
        y2="640"
@@ -2356,13 +1868,8 @@
        r="13"
        cy="200"
        cx="270"
-       sodipodi:cx="270"
-       sodipodi:cy="200"
-       sodipodi:rx="13"
-       sodipodi:ry="13"
        style="fill:#0000ff;stroke:#000000"
-       transform="translate(239,440)"
-       d="m 283,200 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       transform="translate(239,440)" />
     <line
        id="line8065"
        y2="640"
@@ -2375,13 +1882,8 @@
        r="13"
        cy="200"
        cx="300"
-       sodipodi:cx="300"
-       sodipodi:cy="200"
-       sodipodi:rx="13"
-       sodipodi:ry="13"
        style="fill:#ff0000;stroke:#000000"
-       transform="translate(239,440)"
-       d="m 313,200 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       transform="translate(239,440)" />
     <line
        id="line8069"
        y2="640"
@@ -2394,13 +1896,8 @@
        r="13"
        cy="200"
        cx="330"
-       sodipodi:cx="330"
-       sodipodi:cy="200"
-       sodipodi:rx="13"
-       sodipodi:ry="13"
        style="fill:#0000ff;stroke:#000000"
-       transform="translate(239,440)"
-       d="m 343,200 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       transform="translate(239,440)" />
     <line
        id="line8073"
        y2="640"
@@ -2413,13 +1910,8 @@
        r="13"
        cy="200"
        cx="360"
-       sodipodi:cx="360"
-       sodipodi:cy="200"
-       sodipodi:rx="13"
-       sodipodi:ry="13"
        style="fill:#ff0000;stroke:#000000"
-       transform="translate(239,440)"
-       d="m 373,200 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       transform="translate(239,440)" />
     <line
        id="line8077"
        y2="640"
@@ -2432,13 +1924,8 @@
        r="13"
        cy="200"
        cx="390"
-       sodipodi:cx="390"
-       sodipodi:cy="200"
-       sodipodi:rx="13"
-       sodipodi:ry="13"
        style="fill:#ff0000;stroke:#000000"
-       transform="translate(239,440)"
-       d="m 403,200 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       transform="translate(239,440)" />
     <line
        id="line8081"
        y2="640"
@@ -2451,24 +1938,14 @@
        r="13"
        cy="200"
        cx="420"
-       sodipodi:cx="420"
-       sodipodi:cy="200"
-       sodipodi:rx="13"
-       sodipodi:ry="13"
        style="fill:#ff0000;stroke:#000000"
-       transform="translate(239,440)"
-       d="m 433,200 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       transform="translate(239,440)" />
     <circle
        id="circle8085"
        r="13"
        cy="200"
        cx="450"
-       sodipodi:cx="450"
-       sodipodi:cy="200"
-       sodipodi:rx="13"
-       sodipodi:ry="13"
        style="fill:#ff0000;stroke:#000000"
-       transform="translate(239,440)"
-       d="m 463,200 c 0,7.1797 -5.8203,13 -13,13 -7.1797,0 -13,-5.8203 -13,-13 0,-7.1797 5.8203,-13 13,-13 7.1797,0 13,5.8203 13,13 z" />
+       transform="translate(239,440)" />
   </g>
 </svg>
