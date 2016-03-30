@@ -96,11 +96,12 @@ processes -- drove the autocatalytic transition from simple chemistry to biology
 lattice model of polymer sequence spaces, we find that random sequences of hydrophobic ($H$) and 
 polar ($P$) monomers can collapse into relatively compact structures, exposing hydrophobic 
 surfaces, acting as primitive versions of today's protein catalysts, elongating other such HP 
-polymers, as ribosomes would now do.  This is a testable hypothesis about specific molecular 
-structures that could constitute the autocatalytic set, how random short-chain driven 
-polymerizations lead to longer informational chains, how the autocatalytic set grows with the size 
-of sequence space, and how such systems can be `adaptable' (i.e. having multiple dynamic 
-attractors), perhaps during early stages of the origins of life.
+polymers, as ribosomes would now do.  We show that our mechanism leads to  autocatalytic 
+dynamics of random HP chains; it produces populations that slowly increase in the overall degree 
+of polymerization,  leading to domination of longer chains, and is sequence selective. 
+The model has capacity for the multimodality: ability to settle at multiple distinct 
+quasi-stable states characterized by different groups of dominating polymers.
+We believe that this mechanism is relevant to the early origins of life.
 \end{abstract}
 % 
 % % 
@@ -208,7 +209,7 @@ less populated than shorter chains.
 Standard polymerization mechanisms lead to the the Flory or Flory-Schulz distribution of the 
 concentrations of chains of different chain lengths~\cite{Flory1953}, 
 \begin{equation}
- f(a)=a^2l(1-a)^{l-1},\label{eq:flory}
+ f(l)=a^2l(1-a)^{l-1},\label{eq:flory}
 \end{equation} 
 where $l$ is the chain length and $a$ is the probability that any monomer addition is a chain 
 termination.  The average chain length is given by $\langle l \rangle = a(2- a)$; see Figure 
@@ -226,8 +227,8 @@ constant$^l$~\cite{nowak2008prevolutionary,Derr2012}).
   \includegraphics[width=0.9\columnwidth]{pictures/flory-two.pdf} \\
 %  (b) \includegraphics[width=0.9\columnwidth]{pictures/some_flory.pdf} 
   \caption{\textbf{Polymerization processes lead to mostly short chains.} (a)  Spontaneous 
-polymerization processes typically lead to the Flory distribution of chain lengths. 
-Green line gives $\langle  l \rangle= 6$, magenta one corresponds to $\langle l \rangle=2$
+polymerization processes typically lead to a Flory distribution of chain lengths. 
+Green line gives $\langle  l \rangle= 6$, blue corresponds to $\langle l \rangle=2$
 (b) Fitted distributions from experiments on prebiotic polymerization: red -- 
 Kanavarioti~\cite{Kanavarioti2001}, cyan -- Ding~\cite{Ding1996}, 
 magenta -- Ferris~\cite{Ferris1999}}
@@ -324,6 +325,14 @@ synthesized.  We assume chains can undergo spontaneous hydrolysis due to interac
 any bond can be broken at a rate $h$. Without loss of generality we define the unit rate by setting 
 $\beta = 1$.  All other rates are taken relative to this chain growth rate.
  
+ \begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.8\columnwidth]{pictures/tst-seqs.pdf} 
+  \caption{\footnotesize{Examples of HP sequences that fold to unique native structures in the 
+HP lattice model. Red (or pink if in the beginning of the sequence) corresponds $H$ monomers and, 
+Blue to $P$.}}
+  \label{fig:hydro-effect}
+\end{figure}
  \textbf{Chain folding in the model.}  In addition, our model also allows for how the collapse 
 properties of the different sequences affect the populations that polymerization produces.  A 
 standard way to study the properties of HP sequence spaces is using the 2D HP lattice 
@@ -354,13 +363,7 @@ of 3-dimensional proteins is because the determinative physics is in the surface
 (because the driving force is burial of H residues).  And, it is helpful that the 10-30-mers that 
 can be studied in 2D have the same surface-to-volume ratios as typical 3D proteins, which are 
 100-200-mers~\cite{Giugliarelli2000}.
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=0.8\columnwidth]{pictures/tst-seqs.pdf} 
-  \caption{\footnotesize{HP sequences that fold to unique native structures in the HP 
-lattice model.}}
-  \label{fig:hydro-effect}
-\end{figure}
+
 
  We assume that folded and unfolded states behave differently, as they do in modern proteins.  We 
 suppose that a folded chain is prevented from further growth, and also are protected from 
@@ -390,7 +393,8 @@ localization give?  Here is a rough estimate.
   \centering
   \includegraphics[width=0.8\columnwidth]{pictures/hp-catalysis.pdf} 
   \caption{\footnotesize{\textbf{Some HP foldamers have hydrophobic patches, which serve as 
-`landing pads' that can catalyze the elongation of other HP chains.}  Chain $A$ folds and exposes a 
+``landing pads'' that can catalyze the elongation of other HP chains.}  Chain $A$ folds and 
+exposes a 
 hydrophobic sticky spot, or landing pad, where another $HP$ molecule $B$, as well as an $H$ monomer 
 $C$, can bind.  This localization reduces the barrier for adding monomer $C$ to growing chain $B$.}}
   \label{fig:hp-catalysis}
@@ -409,7 +413,49 @@ accelerations might have been relevant for prebiotic processes.
 \section{Results}
 
 \subsection{Folding alone does not solve the Flory Problem.  But folding plus catalysis does.}
-
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\columnwidth]{pictures/all-three-distrs}
+%     \includegraphics[width=0.45\textwidth]{pictures/distrPlain-many.pdf} (a)
+%   \includegraphics[width=0.45\textwidth]{pictures/scatter01918.png} (b)\\
+%   \includegraphics[width=0.9\columnwidth]{pictures/distr-folded-many.pdf} (c)
+%    \includegraphics[width=0.9\columnwidth]{pictures/scatter2009.png}(d)
+  \caption{\footnotesize{This figure represents our main results. It shows chain length 
+distributions for the three cases. \textbf{Case 1 (gray):} sequences don't fold and thus don't 
+catalyze. Distribution quickly degrades as length grow. \textbf{Case 2 (blue):} sequences do fold 
+but can't catalyze. Distributions behave marginally better at the bigger lengths, but not 
+substentially different. \textbf{Case 3 (red):} Sequence are allowed to fold and some of them act 
+as catalysts. In this case the decay of the distribution is very slow and allows for significant 
+populations of longer chains. We run 30 simulations for every case. To produce every line 
+we took a time average over $10^6$ time points in the steady state interval, then calculated 
+molecule counts for each length and divided it it by the total molecular count.}}
+  \label{fig:sim.flory-fold}
+\end{figure}
+\begin{figure*}[htb!]
+  \centering
+  \includegraphics[width=\textwidth]{pictures/scatter-all-three.pdf}
+  \caption{\footnotesize{\textbf{Results for 
+individual sequences across the cases.} We show the populations (molecule counts of individual 
+sequences) for the three cases: in case 1 we don't allow folding or catalysis, in case 2 
+we allow folding but not catalysis, and in case 3 both folding and catalysis are allowed. For 
+all the cases gray dots represent populations of the sequences that cannot fold, 
+blue -- sequences that fold, but cannot 
+catalyze and red -- sequences which act as catalysts and for which at least one elongation 
+reaction 
+has been catalyzed.  For cases 1 and 2, populations of the sequences of the given length are 
+distributed exponentially. Thus we can take mean or median population for the given length as a 
+faithful representation of the behavior of average sequence of that length. The case 3 is a 
+drastically different: the populations of the sequences of the given lengths are distributed 
+polynomially. While most of the sequences have very low population for the longer chains, 
+several sequences (mostly autocatalytic ones) have very high ones and constitute most of the 
+biomass. 
+For the case 3 neither mean or median are good representations of the behavior of the chains, 
+as we can see from the figure, all the chains basically separate into two groups with different 
+distributions, this information cannot be shown in the mean or median.  Every 
+point on the panels is a time average over $10^6$ time points in the steady state interval. Lower 
+limit of $10^{-6}$ is due to computational precision.}}
+  \label{fig:stats-scatter-018}
+\end{figure*}
  We compare three cases:  Case 1 is a reference test in which sequences grow and undergo hydrolysis 
 but no other factors 
 contribute, Case 2 allows for chain folding, but not for catalysis and Case 3 allows for both chain 
@@ -429,53 +475,7 @@ magnitude of the hydrolysis and dilution parameters.  The result is that some HP
 expose some hydrophobic surface, and reduce the kinetic barrier for elongating other chains.  These 
 enhanced populations of longer chains occur even though the degree of barrier reduction is 
 relatively small.
-\begin{figure*}[h!]
-  \centering
-  \includegraphics[width=0.9\textwidth]{pictures/distr-many-not-good.pdf}
-%     \includegraphics[width=0.45\textwidth]{pictures/distrPlain-many.pdf} (a)
-%   \includegraphics[width=0.45\textwidth]{pictures/scatter01918.png} (b)\\
-%   \includegraphics[width=0.9\columnwidth]{pictures/distr-folded-many.pdf} (c)
-%    \includegraphics[width=0.9\columnwidth]{pictures/scatter2009.png}(d)
-  \caption{\footnotesize{
-\textbf{(a, b) Without folding or catalysis, the model gives the Flory distribution,} Experiment 1. 
- (a) Each line shows the length distribution for one simulation run averaged over all of sequence 
-space.  Shown here are 30 simulations.
- (b) Some particular sequences. Each point on the graph represents a population of an
-individual sequence, based on the results of a single simulation run. Each data point on both 
-panels is a result of averaging across $10^6$ time points in the steady state interval.   
-    \textbf{(c, d) With folding, but not catalysis, the model still gives the Flory distribution,} 
-Experiment 2.  
-    [E -- I'm not clear.]  Each data point is an 
-average of $10^6$ time points in the steady state interval. (c) 
-A single line shows length distribution for one simulation run (we run total of 30 simulations). 
-Blue lines are result of the Experiment 2, gray ones -- Experiment 1. Addition of folding to the 
-basic model doesn't change the nature of distribution. (d) Populations of the individual 
-sequences, 
-based on the results of a single simulation run. Here we have two types of sequences: the ones 
-which can fold are depicted as blue, and the ones which can't as gray. Foldable sequence have 
-advantage compared 
-to unfoldable ones.}}
-  \label{fig:sim.flory-fold}
-\end{figure*}
 
-\begin{figure*}[htb!]
-  \centering
-  \includegraphics[width=0.9\columnwidth]{pictures/distrHP-plain-many.pdf}(a) 
-  \includegraphics[width=0.9\columnwidth]{pictures/scatter1837.png}(b) 
-  \caption{\footnotesize{\textbf{(a) Folding plus catalysis of random HP chains bends the Flory 
-curve, giving larger populations of longer chains,} Experiment 3.  Each data point is an average 
-of $10^6$ time points in the steady state interval. (a) Gray lines represent polymerization without 
-folding or catalysis. Red ones corresponds to a simulation run with folding and catalysis. A 
-single line shows length distribution for one simulation run (we run total of 30 simulations). For 
-details of simulations see section \ref{sec:experiments}, Experiment 3. \textbf{(b) Results for 
-individual 
-sequences.}  Autocatalytic sequences are shown in red, sequences that can fold but 
-cannot act as  catalysts -- in blue, and all the other sequences in gray. Lower limit of $10^{-6}$ 
-is due to computational precision -- there are $10^6$ time steps over which we calculate average 
-to get a point on the graph. Therefore the minimum possible population correspond to the case when 
-sequence appeared only for one time instance. The data is an example based on one simulation}}
-  \label{fig:stats-scatter-018}
-\end{figure*}
 
 
 \subsection{The foldamer-catalyst sequences form an autocatalytic set.}
@@ -507,13 +507,14 @@ while $B$ is also able to elongate $A$.  The bottom row of Figure~\ref{fig:kinEx
   \centering
   \includegraphics[width=0.9\columnwidth]{pictures/catalysis-kinEx-all.pdf}
   \caption{\footnotesize{Two examples of cross and autocatalytic interaction naturally embedded in 
-HP-polymers dynamics. Dashed arrows (\textbf{-\,-\,-}) are shorten representation of multiple 
-reactions of chain among which there are $\cdots HH - H$ catalyzed reactions. Catalysis is 
+HP-polymers dynamics. Dashed arrows (\textbf{-\,-\,-}) represent multiple 
+reactions of chain growth. Among them there are both $\cdots HH+H\to \cdots HHH$ catalyzed 
+reactions and spontaneous chain elongations. Catalysis is 
 represented by red solid arrows (\red{\textbf{\textemdash}}). Solid black lines 
 (\textbf{\textemdash}) are folding reactions. Chains, which we call ``autocatalytic'' experience 
 catalysis during one (or more often several) of the steps of elongation. Then, when they reach the 
 length at which they can fold ($A_u,\, B_u,\, C_u$), they fold and serve as catalysts them selves 
-($A_f,\, B_f,\, C_f$). Mutual catalysis cat happen between different sequences (here A and B) and 
+($A_f,\, B_f,\, C_f$). Mutual catalysis can happen between different sequences (here A and B) and 
 between different instances of the same sequence (here C).}}
   \label{fig:kinExamples}
 \end{figure}
@@ -531,7 +532,6 @@ model sequence space), and the fraction of HP sequences that are also catalysts 
 (about 0.6\% of sequence space).  On the other hand, Figure~\ref{fig:hp-statistics} shows that the 
 populations of both foldamers and foldamer-cats grow in proportion to the size of sequence space.  
 The implication is that the space of autocats in the CTB might have been huge.
-
 \begin{figure}[hbt!]
   \centering
   \includegraphics[width=0.9\columnwidth]{pictures/hp-statistics.pdf} 
@@ -540,7 +540,6 @@ length (gray).  The number of foldamers (blue) and foldamer catalysts (red) also
 exponentially.}}
   \label{fig:hp-statistics}
 \end{figure}
-
  Figure \ref{fig:biomass} makes a closely related point.  It shows that for longer chains, the 
 fraction of biomass that is produced by autocatalysts completely takes over and dominates the 
 polymerization process, relative to just the basic polymerization dynamics itself, even though the 
@@ -548,12 +547,13 @@ catalytic enhancements are quite modest.  This is due to two factors: (1) the nu
 autocatalysts grow longer sequences (see fig.\ref{fig:hp-statistics} and (2) folding alone is not 
 sufficient to populate longer chains.  We find that the average hydrophobicity of the dominant 
 sequences in these runs is $68\%$.
- 
-\begin{figure}[h!]
+ \begin{figure}[h!]
   \centering
   \includegraphics[width=0.9\columnwidth]{pictures/biomass.pdf} 
-  \caption{\footnotesize{Each red line shows how the biomass of autocats grows with chain length in 
-a particular dynamical run of the simulation.  The black line shows the median over 30 simulations 
+  \caption{\footnotesize{\textbf{The longer chains the chains the bigger the contribution of the 
+autocatalysts.} Each red line shows how the contribution of autocatalytic chains to the biomass 
+of the given length grows with chain length. Different red lines correspond to different 
+simulation runs.  The black line shows the median over 30 simulations.
 }}
   \label{fig:biomass}
 \end{figure}
@@ -585,7 +585,7 @@ to larger numbers of attractors.
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.9\columnwidth]{pictures/distr1837-dynamics.pdf}
+  \includegraphics[width=0.9\columnwidth]{pictures/distr-1837-dynamics.pdf}
   \caption{\footnotesize{\textbf{} (a) This figure shows that there the $HP$ catalytic system has 
 at least two attractors. The lines are length distributions from Simulations, Experiment 3. Again, 
 each line represents distribution of length in the steady state for one simulation run. It is 
