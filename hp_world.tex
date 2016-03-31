@@ -330,7 +330,7 @@ $\beta = 1$.  All other rates are taken relative to this chain growth rate.
   \includegraphics[width=0.8\columnwidth]{pictures/tst-seqs.pdf} 
   \caption{\footnotesize{Examples of HP sequences that fold to unique native structures in the 
 HP lattice model. Red (or pink if in the beginning of the sequence) corresponds $H$ monomers and, 
-Blue to $P$.}}
+blue to $P$.}}
   \label{fig:hydro-effect}
 \end{figure}
  \textbf{Chain folding in the model.}  In addition, our model also allows for how the collapse 
@@ -411,8 +411,6 @@ smaller than the $10^7$-fold of modern ribosomes~\cite{Sievers2004a}, but even s
 accelerations might have been relevant for prebiotic processes.
   
 \section{Results}
-
-\subsection{Folding alone does not solve the Flory Problem.  But folding plus catalysis does.}
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\columnwidth]{pictures/all-three-distrs}
@@ -431,6 +429,7 @@ we took a time average over $10^6$ time points in the steady state interval, the
 molecule counts for each length and divided it it by the total molecular count.}}
   \label{fig:sim.flory-fold}
 \end{figure}
+\subsection{Folding alone does not solve the Flory Problem.  But folding plus catalysis does.}
 \begin{figure*}[htb!]
   \centering
   \includegraphics[width=\textwidth]{pictures/scatter-all-three.pdf}
@@ -444,7 +443,7 @@ catalyze and red -- sequences which act as catalysts and for which at least one 
 reaction 
 has been catalyzed.  For cases 1 and 2, populations of the sequences of the given length are 
 distributed exponentially. Thus we can take mean or median population for the given length as a 
-faithful representation of the behavior of average sequence of that length. The case 3 is a 
+faithful representation of the behavior of average sequence of that length. The case 3 is 
 drastically different: the populations of the sequences of the given lengths are distributed 
 polynomially. While most of the sequences have very low population for the longer chains, 
 several sequences (mostly autocatalytic ones) have very high ones and constitute most of the 
@@ -461,22 +460,35 @@ but no other factors
 contribute, Case 2 allows for chain folding, but not for catalysis and Case 3 allows for both chain 
 folding and catalysis.  Case  1 simply recovers the Flory distribution, as expected, with 
 exponentially decaying populations with chain 
-length (see figure \ref{fig:sim.flory-fold}(a)).  In the Case 2 when chains can fold, they can 
-bury some monomers in their folded cores.  So, chains that are compact or folded degrade more 
+length (see figure \ref{fig:sim.flory-fold} gray lines).  In the Case 2 when chains can fold, they 
+can bury some monomers in their folded cores.  So, chains that are compact or folded degrade more 
 slowly than chains that don't fold.  However, 
 shows that this situation does not solve the Flory problem either.  Folding does increase the 
 populations of some foldamer sequences relative to others, but the effects are too small affect the 
-shape of the overall distribution (see figure \ref{fig:sim.flory-fold}(b)).  
+shape of the overall distribution (see figure \ref{fig:sim.flory-fold} blue lines).  
 Case 3 gives considerably larger populations of longer chains than cases 1 or 2 give (figure 
 \ref{fig:sim.flory-fold}(c)).  When chains 
 can both fold by themselves and also catalyze the elongation of others, such polymerization 
-processes will `bend' the Flory distribution.  This effect is relatively robust over an order of 
+processes will ``bend'' the Flory distribution.  This effect is robust over an order of 
 magnitude of the hydrolysis and dilution parameters.  The result is that some HP chains can fold, 
 expose some hydrophobic surface, and reduce the kinetic barrier for elongating other chains.  These 
 enhanced populations of longer chains occur even though the degree of barrier reduction is 
 relatively small.
 
-
+We also would like to mention that distributions of the populations of a given length change it's 
+nature as one switches from cases 1 and 2 to case 3. For cases 1 and 2, populations of the 
+sequences of the given length are 
+distributed exponentially. The spread around the mean population might be big, but nevertheless 
+mean or median population for the given length as a 
+faithful representation of the behavior of average sequence of that length (see figure 
+\ref{fig:stats-scatter-018}). The case 3 is different: the populations of the sequences of the 
+given lengths are distributed 
+polynomially. While most of the sequences have very low population for the longer chains, 
+several sequences (mostly autocatalytic ones) have very high ones and constitute most of the 
+biomass. 
+For the case 3 neither mean or median are good representations of the behavior of the chains.
+As we can see from the figure \ref{fig:stats-scatter-018}(Case 3) all the chains basically 
+separate into two groups with different distributions.
 
 \subsection{The foldamer-catalyst sequences form an autocatalytic set.}
 
@@ -485,8 +497,7 @@ set -- which HP sequences and native structures are in it, and which ones are no
 \ref{fig:fold-cat} shows a few of the HP sequences that fold to single native structures.  Figure 
 \ref{fig:fold-cat} (a) shows those foldamers that are catalysts while Figure \ref{fig:fold-cat} (b) 
 shows those foldamers that are not catalysts.  
- 
-\begin{figure}[htb!]
+ \begin{figure}[htb!]
   \centering
   \includegraphics[width=\columnwidth]{pictures/fold-cat.pdf} 
   \caption{\footnotesize{\textbf{(a) HP lattice chains that fold and are autocatalytic.}  They fold 
@@ -499,9 +510,9 @@ size of the autocatalytic set is non-negligible; see Fig.~\ref{fig:hp-statistics
  In short, all HP sequences that are foldamer-catalysts are members of the autocatalytic set: any 
 two HP foldamer-catalyst sequences are autocatalytic for each other.  Figure~\ref{fig:kinExamples} 
 shows two examples of autocatalytic paired chain elongations.  The top row of 
-Figure~\ref{fig:kinExamples} shows \emph{trans-catalysis}: a polymer $A$ elongates a polymer $B$ 
+Figure~\ref{fig:kinExamples} shows \emph{crosscatalysis}: a polymer $A$ elongates a polymer $B$ 
 while $B$ is also able to elongate $A$.  The bottom row of Figure~\ref{fig:kinExamples} shows 
-\emph{cis-catalysis}: one molecule $C$ elongates a another $C$ molecule in solution.
+\emph{autocatalysis}: one molecule $C$ elongates a another $C$ molecule in solution.
 
 \begin{figure}[h!]
   \centering
@@ -558,41 +569,46 @@ simulation runs.  The black line shows the median over 30 simulations.
   \label{fig:biomass}
 \end{figure}
 
-\subsection{Adaptability and evolvability of HP ensembles}
+\subsection{Evolvability of HP ensembles}
 There are a few problems CTB models in general and autocatalytic models in particular encounter. 
-One of them is lack of variability. Due to the compositional bias or poor dynamical structure of 
+One of them is lack of variability and evolvability. Due to the compositional bias or poor 
+dynamical structure of 
 the model such systems converge to one state (attractor or attractor basin) determined by 
 internal dynamics of the system and do not response to directional 
-selection (see discussions in \cite{Derr2012,Vasas2015} for example). For the complex system that 
+selection (see discussions in \cite{Derr2012,Vasas2015} for example). For a complex system that 
 has many attractors a  perturbation can move the system over a threshold to the basin of another 
 attractor. This allows for exploration of the sequence space and thus possible evolvability of the 
 system. 
 
-HP ensembles have, we believe, two possible scenarios, which allow for the exploration of the 
-sequence space.  First, we observe very broad and different ensembles of foldamers and 
-foldamer-cats in each dynamical trajectory.  Figure  Figure 
-\ref{fig:distr1837-dyn}(a) shows that simulation trajectories split distinctively between two 
+HP ensembles have, we believe, two possible attractors, which allow for the exploration 
+of the sequence space.  First, as one can see from the figure 
+\ref{fig:distr1837-dyn}(a) trajectories split distinctively between two 
 attraction distributions. There are no trajectories that lay in between the two attractors, which 
-shows that there's no switching between the attractors  Figure 
-\ref{fig:distr1837-dyn}(b) shows a few of the structures in the protein ensembles in the red 
-`species' vs. the green species.  The red and green species differ simply by different starting 
-seeds for the simulations.  Each of the two attractors has its own `signature ensemble' of HP 
+shows that there's no switching between the attractors and the separation is not result of 
+stochasticity. In addition to that Each of the distribution has a set of specific sequences which 
+most often dominate the populations. Figure \ref{fig:distr1837-dyn}(b) shows a few of the 
+structures dominating HP ensembles for the ``green'' distribution and for the ``red'' ones.  The 
+red and green species differ simply by different starting 
+seeds for the simulations.  Each of the two attractors has its own ``signature ensemble'' of HP 
 sequences that is an emergent property of the dynamics.  It is possible that adding more realism to 
-our model (20 monomer types, rather than 2; or ranges of hydrophobic interactions; etc) could lead 
+our model (20 monomer types, rather than 2; allowing for longer chains; etc) could lead 
 to larger numbers of attractors.
- 
-
-
+Second, our simulations are limited to 25mers, but in fact the chains can grow longer. This fact 
+allows for the further exploration of the sequence and functionality space beyond what can be seen 
+in our simulations. If we are talking about protein-like molecules, some of the chains will act 
+not only as autocats but also would be capable of binding other molecules, which could result in a 
+chemical innovation.
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.9\columnwidth]{pictures/distr-1837-dynamics.pdf}
-  \caption{\footnotesize{\textbf{} (a) This figure shows that there the $HP$ catalytic system has 
-at least two attractors. The lines are length distributions from Simulations, Experiment 3. Again, 
+  \caption{\footnotesize{\textbf{} (a) $HP$ catalytic system has 
+at least two attractors. The lines are length distributions from case 3. Again, 
 each line represents distribution of length in the steady state for one simulation run. It is 
-clear, that there two kinds of distribution, which get realized during the simulations. System 
+clear, that there are two kinds of distribution which get realized during the simulations. 
+The system 
 bifurcates either to a state represented by a green line or to one represented by red one. These 
-are the same lines as on figure \ref{fig:stats-scatter-018}(a), but separated in two sets by a 
-clustering algorithm K-means. (b) Structure of the sequences, which \textit{most often} 
+are the same lines as on figure \ref{fig:stats-scatter-018}(a), but separated in two sets by the 
+clustering algorithm k-means. (b) Structure of the sequences which most often
 are main contributors into the total population of the polymers of their length. Top panel 
 corresponds to the macrostate shown in red on the panel (a), lower one, to the one shown in green. 
 }}
