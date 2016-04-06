@@ -21,7 +21,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -38,9 +38,9 @@
      inkscape:window-height="995"
      id="namedview7278"
      showgrid="true"
-     inkscape:zoom="0.51"
-     inkscape:cx="144.01961"
-     inkscape:cy="363.95636"
+     inkscape:zoom="0.72124892"
+     inkscape:cx="641.84709"
+     inkscape:cy="585.79378"
      inkscape:window-x="66"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
@@ -1506,227 +1506,207 @@
        cy="600"
        cx="30" />
   </g>
-  <g
-     id="g9017"
-     transform="translate(-6,0)">
-    <line
-       id="line6340"
-       y2="190"
-       y1="226"
-       x2="814.20001"
-       x1="814.20001"
-       style="stroke:#000000;stroke-width:12" />
-    <circle
-       id="circle6342"
-       r="11"
-       cy="900"
-       cx="0"
-       style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
-    <line
-       id="line6344"
-       y2="190"
-       y1="190"
-       x2="850.20001"
-       x1="814.20001"
-       style="stroke:#000000;stroke-width:12" />
-    <circle
-       id="circle6346"
-       r="11"
-       cy="870"
-       cx="0"
-       style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
-    <line
-       id="line6348"
-       y2="190"
-       y1="190"
-       x2="886.20001"
-       x1="850.20001"
-       style="stroke:#000000;stroke-width:12" />
-    <circle
-       id="circle6350"
-       r="11"
-       cy="870"
-       cx="30"
-       style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
-    <line
-       id="line6352"
-       y2="226"
-       y1="190"
-       x2="886.20001"
-       x1="886.20001"
-       style="stroke:#000000;stroke-width:12" />
-    <circle
-       id="circle6354"
-       r="11"
-       cy="870"
-       cx="60"
-       style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
-    <line
-       id="line6356"
-       y2="226"
-       y1="226"
-       x2="850.20001"
-       x1="886.20001"
-       style="stroke:#000000;stroke-width:12" />
-    <circle
-       id="circle6358"
-       r="11"
-       cy="900"
-       cx="60"
-       style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
-    <line
-       id="line6360"
-       y2="262"
-       y1="226"
-       x2="850.20001"
-       x1="850.20001"
-       style="stroke:#000000;stroke-width:12" />
-    <circle
-       id="circle6362"
-       r="11"
-       cy="900"
-       cx="30"
-       style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
-    <line
-       id="line6364"
-       y2="262"
-       y1="262"
-       x2="814.20001"
-       x1="850.20001"
-       style="stroke:#000000;stroke-width:12" />
-    <circle
-       id="circle6366"
-       r="11"
-       cy="930"
-       cx="30"
-       style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
-    <line
-       id="line6368"
-       y2="262"
-       y1="262"
-       x2="778.20001"
-       x1="814.20001"
-       style="stroke:#000000;stroke-width:12" />
-    <circle
-       id="circle6370"
-       r="11"
-       cy="930"
-       cx="0"
-       style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
-    <line
-       id="line6372"
-       y2="226"
-       y1="262"
-       x2="778.20001"
-       x1="778.20001"
-       style="stroke:#000000;stroke-width:12" />
-    <circle
-       id="circle6374"
-       r="11"
-       cy="930"
-       cx="-30"
-       style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
-    <line
-       id="line6376"
-       y2="190"
-       y1="226"
-       x2="778.20001"
-       x1="778.20001"
-       style="stroke:#000000;stroke-width:12" />
-    <circle
-       id="circle6378"
-       r="11"
-       cy="900"
-       cx="-30"
-       style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
-    <line
-       id="line6380"
-       y2="154"
-       y1="190"
-       x2="778.20001"
-       x1="778.20001"
-       style="stroke:#000000;stroke-width:12" />
-    <circle
-       id="circle6382"
-       r="11"
-       cy="870"
-       cx="-30"
-       style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
-    <line
-       id="line6384"
-       y2="154"
-       y1="154"
-       x2="814.20001"
-       x1="778.20001"
-       style="stroke:#000000;stroke-width:12" />
-    <circle
-       id="circle6386"
-       r="11"
-       cy="840"
-       cx="-30"
-       style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
-    <line
-       id="line6388"
-       y2="118"
-       y1="154"
-       x2="814.20001"
-       x1="814.20001"
-       style="stroke:#000000;stroke-width:12" />
-    <circle
-       id="circle6390"
-       r="11"
-       cy="840"
-       cx="0"
-       style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
-    <line
-       id="line6392"
-       y2="118"
-       y1="118"
-       x2="850.20001"
-       x1="814.20001"
-       style="stroke:#000000;stroke-width:12" />
-    <circle
-       id="circle6394"
-       r="11"
-       cy="810"
-       cx="0"
-       style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
-    <line
-       id="line6396"
-       y2="154"
-       y1="118"
-       x2="850.20001"
-       x1="850.20001"
-       style="stroke:#000000;stroke-width:12" />
-    <circle
-       id="circle6398"
-       r="11"
-       cy="810"
-       cx="30"
-       style="fill:#0000ff;stroke:#000000"
-       transform="matrix(1.2,0,0,1.2,814.2,-854)" />
-    <circle
-       id="circle6400"
-       r="13"
-       cy="840"
-       cx="30"
-       style="fill:#ff0000;stroke:#000000"
-       transform="matrix(1.0222222,0,0,1.0222222,819.53328,-704.26667)" />
-  </g>
+  <line
+     style="stroke:#000000;stroke-width:12"
+     x1="808.20001"
+     x2="808.20001"
+     y1="226"
+     y2="190"
+     id="line6340" />
+  <circle
+     style="fill:#ff0000;stroke:#000000;stroke-width:1.20000005"
+     cx="808.20001"
+     cy="226"
+     r="13.2"
+     id="circle6342" />
+  <line
+     style="stroke:#000000;stroke-width:12"
+     x1="808.20001"
+     x2="844.20001"
+     y1="190"
+     y2="190"
+     id="line6344" />
+  <circle
+     style="fill:#ff0000;stroke:#000000;stroke-width:1.20000005"
+     cx="808.20001"
+     cy="190"
+     r="13.2"
+     id="circle6346" />
+  <line
+     style="stroke:#000000;stroke-width:12"
+     x1="844.20001"
+     x2="880.20001"
+     y1="190"
+     y2="190"
+     id="line6348" />
+  <circle
+     style="fill:#ff0000;stroke:#000000;stroke-width:1.20000005"
+     cx="844.20001"
+     cy="190"
+     r="13.2"
+     id="circle6350" />
+  <line
+     style="stroke:#000000;stroke-width:12"
+     x1="880.20001"
+     x2="880.20001"
+     y1="190"
+     y2="226"
+     id="line6352" />
+  <circle
+     style="fill:#0000ff;stroke:#000000;stroke-width:1.20000005"
+     cx="880.20001"
+     cy="190"
+     r="13.2"
+     id="circle6354" />
+  <line
+     style="stroke:#000000;stroke-width:12"
+     x1="880.20001"
+     x2="844.20001"
+     y1="226"
+     y2="226"
+     id="line6356" />
+  <circle
+     style="fill:#0000ff;stroke:#000000;stroke-width:1.20000005"
+     cx="880.20001"
+     cy="226"
+     r="13.2"
+     id="circle6358" />
+  <line
+     style="stroke:#000000;stroke-width:12"
+     x1="844.20001"
+     x2="844.20001"
+     y1="226"
+     y2="262"
+     id="line6360" />
+  <circle
+     style="fill:#ff0000;stroke:#000000;stroke-width:1.20000005"
+     cx="844.20001"
+     cy="226"
+     r="13.2"
+     id="circle6362" />
+  <line
+     style="stroke:#000000;stroke-width:12"
+     x1="844.20001"
+     x2="808.20001"
+     y1="262"
+     y2="262"
+     id="line6364" />
+  <circle
+     style="fill:#0000ff;stroke:#000000;stroke-width:1.20000005"
+     cx="844.20001"
+     cy="262"
+     r="13.2"
+     id="circle6366" />
+  <line
+     style="stroke:#000000;stroke-width:12"
+     x1="808.20001"
+     x2="772.20001"
+     y1="262"
+     y2="262"
+     id="line6368" />
+  <circle
+     style="fill:#0000ff;stroke:#000000;stroke-width:1.20000005"
+     cx="808.20001"
+     cy="262"
+     r="13.2"
+     id="circle6370" />
+  <line
+     style="stroke:#000000;stroke-width:12"
+     x1="772.20001"
+     x2="772.20001"
+     y1="262"
+     y2="226"
+     id="line6372" />
+  <circle
+     style="fill:#0000ff;stroke:#000000;stroke-width:1.20000005"
+     cx="772.20001"
+     cy="262"
+     r="13.2"
+     id="circle6374" />
+  <line
+     style="stroke:#000000;stroke-width:12"
+     x1="772.20001"
+     x2="772.20001"
+     y1="226"
+     y2="190"
+     id="line6376" />
+  <circle
+     style="fill:#ff0000;stroke:#000000;stroke-width:1.20000005"
+     cx="772.20001"
+     cy="226"
+     r="13.2"
+     id="circle6378" />
+  <line
+     style="stroke:#000000;stroke-width:12"
+     x1="772.20001"
+     x2="772.20001"
+     y1="190"
+     y2="154"
+     id="line6380" />
+  <circle
+     style="fill:#ff0000;stroke:#000000;stroke-width:1.20000005"
+     cx="772.20001"
+     cy="190"
+     r="13.2"
+     id="circle6382" />
+  <line
+     style="stroke:#000000;stroke-width:12"
+     x1="772.20001"
+     x2="808.20001"
+     y1="154"
+     y2="154"
+     id="line6384" />
+  <circle
+     style="fill:#0000ff;stroke:#000000;stroke-width:1.20000005"
+     cx="772.20001"
+     cy="154"
+     r="13.2"
+     id="circle6386" />
+  <line
+     style="stroke:#000000;stroke-width:12"
+     x1="808.20001"
+     x2="808.20001"
+     y1="154"
+     y2="118"
+     id="line6388" />
+  <circle
+     style="fill:#ff0000;stroke:#000000;stroke-width:1.20000005"
+     cx="808.20001"
+     cy="154"
+     r="13.2"
+     id="circle6390" />
+  <line
+     style="stroke:#000000;stroke-width:12"
+     x1="808.20001"
+     x2="844.20001"
+     y1="118"
+     y2="118"
+     id="line6392" />
+  <circle
+     style="fill:#0000ff;stroke:#000000;stroke-width:1.20000005"
+     cx="808.20001"
+     cy="118"
+     r="13.2"
+     id="circle6394" />
+  <line
+     style="stroke:#000000;stroke-width:12"
+     x1="844.20001"
+     x2="844.20001"
+     y1="118"
+     y2="154"
+     id="line6396" />
+  <circle
+     style="fill:#0000ff;stroke:#000000;stroke-width:1.20000005"
+     cx="844.20001"
+     cy="118"
+     r="13.2"
+     id="circle6398" />
+  <circle
+     style="fill:#ffaaaa;stroke:#000000;stroke-width:1.02222216"
+     cx="844.19995"
+     cy="154.39998"
+     r="13.288889"
+     id="circle6400" />
   <g
      id="g8761"
      transform="translate(0,-26)">

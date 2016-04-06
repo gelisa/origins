@@ -129,8 +129,7 @@ different chemistries of monomers or polymer types or polymerization conditions,
  
  \section{The Chemistry-to-Biology transition has been postulated to entail an autocatalytic 
 process}
- 
- Living systems are self-serving, whereas prebiotic chemistry was not.  Early on, it was 
+  Early on, it was 
 recognized 
 that the transition to biological self-supporting behavior requires autocatalysis, \emph{i.e.} some 
 form of positive feedback or 
@@ -142,8 +141,9 @@ entity can be autocatalytic for another.  We review here some of the key subsequ
 from theory and modeling.  A class of models called GARD (Graded Autocatalysis Replication 
 Domain)~\cite{segre1998graded,Segre2000,Markovitch2012} predicts that artificial autocatalytic 
 chemico-kinetic networks can lead to self-replication, with a corresponding amplification of some 
-chemicals over others. Such systems are capable of adaptive evolution and display some degree of 
-inheritance.  GARD models are a subset of `metabolism-first' mechanisms, which envision that 
+chemicals over others. Such systems  display some degree of 
+inheritance and adaptability.  GARD models are a subset of `metabolism-first' 
+mechanisms, which envision that 
 small-molecule chemical processes precede information transfer and precede the first biopolymers.  
 Focusing on polymers, Wu and Higgs~\cite{Wu2009} developed a model of RNA chain-length 
 autocatalysis.  They envision that some of the RNA chains can spontaneously serve as polymerase 
@@ -173,7 +173,8 @@ autocatalytic sets in the laboratory~\cite{VonKiedrowski1986,Lincoln2009,Vaidya2
 are designed so that pairs of molecules can catalyze each other (i.e. autocatalysis), leading to 
 exponential growth of the autocatalytic members.  For example, mixtures of RNA fragments are shown 
 to self-assemble spontaneously into self-replicating ribozymes that can form catalytic networks 
-that can compete with others [e - refs].  One limitation, however, is that these are fragments 
+that can compete with others\cite{Robertson2014}.  One limitation, however, is that these are 
+fragments 
 taken from existing ribozymes, so they don't explain the origins from more primitive and random 
 beginnings.
  
@@ -230,7 +231,7 @@ distribution (or exponential law $f(l)\propto$
 constant$^l$)~\cite{nowak2008prevolutionary,Derr2012}).
 
 
-\begin{figure}[h!]
+\begin{figure}[ht!]
   \centering
   \includegraphics[width=0.9\columnwidth]{pictures/flory-two.pdf} \\
 %  (b) \includegraphics[width=0.9\columnwidth]{pictures/some_flory.pdf} 
@@ -266,15 +267,14 @@ become longer and more protein-like.
 
 \subsection{Here are the premises of the model}
  
- \begin{itemize}
+ \begin{enumerate}
  \item Some random HP sequences can fold into compact structures.
  \item Some of those foldamers will have exposed hydrophobic ``landing pad'' surfaces.
  \item Foldamers with landing pads can catalyze the elongation of other HP chains.
  \item These foldamer-catalysts form an autocatalytic set.
-\end{itemize}
-
+\end{enumerate}
 Here is evidence for these premises.
-\begin{itemize}
+\begin{enumerate}
 \item Non-designed random $HP$ sequences are known to fold.  $HP$ polymers have been studied 
 extensively as a model for the folding and evolution of 
 proteins~\cite{lau1989lattice,Chan1991,Miller1995,Yue1995,agarwala1997local}.  Those studies show 
@@ -286,9 +286,9 @@ confirmed by experiments~\cite{Lim1991,Kamtekar1993,Wei2003,Brisendine2015}.
 soluble monomeric proteins~\cite{Lijnzaad1996} found patches ranging from $200$ to 
 $1,200$\textit{\AA}$^2$, averaging around $400$\textit{\AA}$^2$; they are often binding sites for 
 ligands or other proteins.  Modern proteins have many sites of interaction with other proteins, 
-typically nearly a dozen partners~\cite{Tonddast-Navaei2015}.  Nearly 3/4 of protein surfaces have 
-geometrical properties that are amenable to interactions [e -refs] and those sites are enriched in 
-hydrophobes.
+typically nearly a dozen partners.  Almost 3/4 of protein surfaces have 
+geometrical properties that are amenable to interactions and those sites are enriched in 
+hydrophobes~\cite{Tonddast-Navaei2015}.
 
 \item  Surface hydrophobic patches on proteins are often sites of 
 catalysis~\cite{MitchellGuss1983,Lijnzaad1996,VanEe1997,Witt1998}. For example, hydrophobic 
@@ -305,7 +305,7 @@ out in nonpolar environments~\cite{Manabe2001,Manabe2002}, such as protein surfa
 major route of protein synthesis in simple organisms such as bacteria and fungi utilizes 
 nonribosomal peptide synthetases, and which don't involve 
 mRNAs~\cite{Stachelhaus1998,marahiel2009working}.
-\end{itemize}
+\end{enumerate}
 
 
 \section{Modeling the dynamics of HP chain growth and selection}
@@ -322,7 +322,7 @@ any bond can be broken at a rate $h$. Without loss of generality we define the u
 setting 
 $\beta = 1$.  All other rates are taken relative to this chain-growth rate.
  
- \begin{figure}[h!]
+ \begin{figure}[ht!]
   \centering
   \includegraphics[width=0.8\columnwidth]{pictures/tst-seqs.pdf} 
   \caption{\footnotesize{\bf{Examples of HP sequences that fold to unique native structures in the 
@@ -388,7 +388,7 @@ localization of the reacting components.  A protein $A$ (the catalyst molecule) 
 localizing them long enough to form a bond that grows the chain.  How much rate acceleration could 
 such a localization give?  Here is a rough estimate.  
 
-   \begin{figure}[h!]
+   \begin{figure}[ht!]
   \centering
   \includegraphics[width=0.8\columnwidth]{pictures/hp-catalysis.pdf} 
   \caption{\footnotesize{\textbf{Some HP foldamers have hydrophobic patches, which serve as 
@@ -411,7 +411,7 @@ smaller than the $10^7$-fold of modern ribosomes~\cite{Sievers2004a}, but even s
 accelerations might have been relevant for prebiotic processes.
   
 \section{Results}
-\begin{figure}[h!]
+\begin{figure}[ht!]
   \centering
   \includegraphics[width=\columnwidth]{pictures/all-three-distrs}
 %     \includegraphics[width=0.45\textwidth]{pictures/distrPlain-many.pdf} (a)
@@ -428,7 +428,8 @@ time average over $10^6$ time points in the steady state interval, then counted 
 length and divided it it by the total molecular count.}}
   \label{fig:sim.flory-fold}
 \end{figure}
-\subsection{Folding alone does not solve the Flory Problem.  But folding plus catalysis does.}
+\subsection{Folding alone does not solve the Flory Length Problem.  But folding plus catalysis 
+does.}
 \begin{figure*}[htb!]
   \centering
   \includegraphics[width=\textwidth]{pictures/scatter-all-three.pdf}
@@ -464,12 +465,13 @@ exponentially decaying populations with chain
 length (see figure \ref{fig:sim.flory-fold} gray lines).  In the Case 2 when chains can fold, they 
 can bury some monomers in their folded cores.  So, chains that are compact or folded degrade more 
 slowly than chains that don't fold.  However, 
-shows that this situation does not solve the Flory problem either.  Folding does increase the 
+shows that this situation does not solve the Flory length problem either.  Folding does increase 
+the 
 populations of some foldamer sequences relative to others, but the effects are too small affect 
 the 
 shape of the overall distribution (see figure \ref{fig:sim.flory-fold} blue lines).  
-Case 3 gives considerably larger populations of longer chains than cases 1 or 2 give (figure 
-\ref{fig:sim.flory-fold}(c)).  When chains 
+Case 3 gives considerably larger populations of longer chains than cases 1 or 2 give (red lines on 
+figure~\ref{fig:sim.flory-fold}).  When chains 
 can both fold by themselves and also catalyze the elongation of others, such polymerization 
 processes will ``bend'' the Flory distribution.  This effect is robust over an order of 
 magnitude of the hydrolysis and dilution parameters.  The result is that some HP chains can fold, 
@@ -510,7 +512,7 @@ Figure~\ref{fig:kinExamples} shows \emph{crosscatalysis}: a polymer $A$ elongate
 while $B$ is also able to elongate $A$.  The bottom row of Figure~\ref{fig:kinExamples} shows 
 \emph{autocatalysis}: one molecule $C$ elongates a another $C$ molecule in solution.
 
-\begin{figure}[h!]
+\begin{figure}[ht!]
   \centering
   \includegraphics[width=0.9\columnwidth]{pictures/catalysis-kinEx-all.pdf}
   \caption{\footnotesize{\bf{Top: Cross-catalysis of 2 different sequences.  Bottom:  
@@ -555,7 +557,7 @@ catalytic enhancements are quite modest.  This is due to two factors: (1) the nu
 autocatalysts grow longer sequences (see fig.\ref{fig:hp-statistics} and (2) folding alone is not 
 sufficient to populate longer chains.  We find that the average hydrophobicity of the dominant 
 sequences in these runs is $68\%$.
- \begin{figure}[h!]
+ \begin{figure}[ht!]
   \centering
   \includegraphics[width=0.9\columnwidth]{pictures/biomass.pdf} 
   \caption{\footnotesize{\textbf{The longer chains the chains, the bigger the contribution of the 
@@ -582,7 +584,7 @@ of the sequence space.  First, as one can see from the figure
 \ref{fig:distr1837-dyn}(a) trajectories split distinctively between two 
 attraction distributions. There are no trajectories that lay in between the two attractors, which 
 shows that there's no switching between the attractors and the separation is not result of 
-stochasticity. In addition to that Each of the distribution has a set of specific sequences which 
+stochasticity. In addition to that each of the distribution has a set of specific sequences which 
 most often dominate the populations. Figure \ref{fig:distr1837-dyn}(b) shows a few of the 
 structures dominating HP ensembles for the ``green'' distribution and for the ``red'' ones.  The 
 red and green species differ simply by different starting 
@@ -596,7 +598,7 @@ allows for the further exploration of the sequence and functionality space beyon
 in our simulations. If we are talking about protein-like molecules, some of the chains will act 
 not only as autocats but also would be capable of binding other molecules, which could result in a 
 chemical innovation.
-\begin{figure}[h!]
+\begin{figure}[ht!]
   \centering
   \includegraphics[width=0.9\columnwidth]{pictures/distr-1837-dynamics.pdf}
   \caption{\footnotesize{\textbf{} (a) $HP$ catalytic system has 
@@ -665,7 +667,7 @@ suggests that folding in HP polymers is not rare.
   polymer sequences could be autocatalytic, and provides a structural and kinetic mechanism for 
 their action. 
 
-
+\appendix
  \section{Simulations}
 To perform our stochastic simulations, we first needed to developappropriate simulation code 
 because of the large numbers of different molecular species that must be treated here.  A 
