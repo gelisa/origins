@@ -1,4 +1,4 @@
-\documentclass[journal=jacsat,manuscript=article,layout=twocolumn]{achemso}
+\documentclass[twocolumn,letterpaper]{revtex4}
 %\documentclass[5p,times]{elsarticle}
 
 \usepackage[T1]{fontenc}       % Use modern font encodings
@@ -6,12 +6,12 @@
 
 \usepackage{xcolor}
 \usepackage{textcomp}
-\usepackage{geometry}
+%\usepackage{geometry}
 \usepackage[normalem]{ulem}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{graphicx}
-\usepackage{lineno,hyperref}
+% \usepackage{lineno,hyperref}
 % \hypersetup{
 %     colorlinks=true,
 %      linkcolor=blue,
@@ -49,45 +49,28 @@
 % \renewcommand{\baselinestretch}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Meta-data block
-%% ---------------
-%% Each author should be given as a separate \author command.
-%%
-%% Corresponding authors should have an e-mail given after the author
-%% name as an \email command. Phone and fax numbers can be given
-%% using \phone and \fax, respectively; this information is optional.
-%%
-%% The affiliation of authors is given after the authors; each
-%% \affiliation command applies to all preceding authors not already
-%% assigned an affiliation.
-%%
-%% The affiliation takes an option argument for the short name.  This
-%% will typically be something like "University of Somewhere".
-%%
-%% The \altaffiliation macro should be used for new address, etc.
-%% On the other hand, \alsoaffiliation is used on a per author basis
-%% when authors are associated with multiple institutions.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\author{Elizaveta Guseva}
-\email{elizaveta.guseva@stonybrook.edu}
-\affiliation[Stony Brook University]
-{Laufer Center for Physical and Quantitative Biology, and Departments of Physics \& 
- Astronomy and Chemistry, Stony Brook University, Stony Brook, NY, (United States)}
-% \altaffiliation{A shared footnote}
-\author{Ronald N Zuckermann}
-\affiliation{Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)}
-\author{Ken A Dill}
-\email{dill@laufercenter.org}
-\phone{+1631 632 5400}
-\fax{+1631 632 5405}
-\affiliation[Stony Brook University]
-{Laufer Center for Physical and Quantitative Biology, and Departments of Physics \& 
- Astronomy and Chemistry, Stony Brook University, Stony Brook, NY, (United States)}
+\begin{document}
 
 \title{How did prebiotic polymers become informational foldamers?}
+
+\author{Elizaveta Guseva}
+ \email{eguseva@tutanota.com}
+\affiliation{Laufer Center for Physical and Quantitative Biology, \& 
+Departments of Physics and   Astronomy and Chemistry, Stony Brook University, Stony Brook, NY, 
+(United States)}
+
+%  
+% %  \altaffiliation{A shared footnote}
+\author{Ronald N Zuckermann}
+ \affiliation{Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)}
+\author{Ken A Dill}
+\email{dill@laufercenter.org}
+\affiliation{Laufer Center for Physical and Quantitative Biology, and Departments of Physics \& 
+ Astronomy and Chemistry, Stony Brook University, Stony Brook, NY, (United States)}
+
+
 \keywords{prebiotic polymerization, origins of life, autocatalytic sets}
-\begin{document}
+
 
 
 % % 
@@ -118,10 +101,10 @@ mechanism that we believe is relevant to the early origins of life.
 \end{abstract}
 % 
 % % 
-
+\maketitle
 %%%MAIN TEXT%%%%
 % \linenumbers
-\section{Introduction} 
+\section*{Introduction} 
 
  Among the most interesting and mysterious processes in chemistry is how the spontaneous 
 transition 
@@ -137,7 +120,7 @@ model prebiotic experiments?  And, how might random chain sequences have become 
 self-serving?  Our questions here are about physical spontaneous mechanisms, not about the 
 different chemistries of monomers or polymer types or polymerization conditions, \emph{per se}.  
  
- \section{The Chemistry-to-Biology transition has been postulated to entail an autocatalytic 
+ \section*{The Chemistry-to-Biology transition has been postulated to entail an autocatalytic 
 process}
   Early on, it was 
 recognized 
@@ -193,7 +176,7 @@ world, across the Chemistry-to-Biology transition.  We seek a physical basis for
 could have led to longer chains, for how random chains led to specific sequences, and for a 
 structural basis and plausible kinetics for a prebiotic autocatalytic transition.
    
- \section{The `Flory Length Problem': polymerization processes produce mostly short chains}
+ \section*{The `Flory Length Problem': polymerization processes produce mostly short chains}
  \label{sec:flory} 
 
 Prebiotic polymerization experiments rarely produce long chains.  It is commonly assumed that the 
@@ -255,7 +238,7 @@ magenta -- Ferris~\cite{Ferris1999}}
 \end{figure}
 
 
-\section{The foldamer-autocat mechanism: Short HP chains fold and catalyze the elongation of other 
+\section*{The foldamer-autocat mechanism: Short HP chains fold and catalyze the elongation of other 
 HP chains}
 
  We propose that the key to the Chemistry-to-Biology transition may have been \emph{foldable 
@@ -275,7 +258,7 @@ computer simulations that lead to
 the conclusion that short random HP chains carry within them the capacity to autocatalytically 
 become longer and more protein-like.  
 
-\subsection{Here are the premises of the model}
+\subsection*{Here are the premises of the model}
  
  \begin{enumerate}
  \item Some random HP sequences can fold into compact structures.
@@ -318,7 +301,7 @@ mRNAs~\cite{Stachelhaus1998,marahiel2009working}.
 \end{enumerate}
 
 
-\section{Modeling the dynamics of HP chain growth and selection}
+\section*{Modeling the dynamics of HP chain growth and selection}
  
  \textbf{The dynamics of the model.}  We assume that chain polymerization takes place within a 
 surrounding solution that contains a sufficient supply of activated $H$ and $P$ monomers.  Since 
@@ -425,7 +408,7 @@ We used Expandable Partial Propensity Method (EPDM)~\cite{Guseva2016b}. Descript
 corresponding C++ library, can be found at: 
 https://github.com/abernatskiy/epdm. 
   
-\section{Results}
+\section*{Results}
 \begin{figure}[ht!]
   \centering
   \includegraphics[width=\columnwidth]{pictures/all-three-distrs}
@@ -443,7 +426,7 @@ time average over $10^6$ time points in the steady state interval, then counted 
 length and divided it it by the total molecular count.}}
   \label{fig:sim.flory-fold}
 \end{figure}
-\subsection{Folding alone does not solve the Flory Length Problem.  But folding plus catalysis 
+\subsection*{Folding alone does not solve the Flory Length Problem.  But folding plus catalysis 
 does.}
 \begin{figure*}[htb!]
   \centering
@@ -501,7 +484,7 @@ variances, they have well-defined mean values that diminish exponentially with c
 nor median are good representations of the behavior of the chains; see figure 
 \ref{fig:stats-scatter-018}(Case 3).
 
-\subsection{The foldamer-catalyst sequences form an autocatalytic set.}
+\subsection*{The foldamer-catalyst sequences form an autocatalytic set.}
 
  The present model makes specific predictions about what molecules constitutes the autocatalytic 
 set -- which HP sequences and native structures are in it, and which ones are not.  Figure 
@@ -544,7 +527,7 @@ between different instances of the same sequence (here C).}}
   \label{fig:kinExamples}
 \end{figure}
 
-\subsection{The size of the autocatalytic set grows with the size of the sequence space.}
+\subsection*{The size of the autocatalytic set grows with the size of the sequence space.}
 
  An important question is how the size of an autocatalytic set grows with the size of the sequence 
 space.  Imagine first the situation in which the chemistry-to-biology transition required one or 
@@ -583,7 +566,7 @@ simulation runs.  The black line shows the median over 30 simulations.
   \label{fig:biomass}
 \end{figure}
 
-\subsection{Evolvability of HP ensembles}
+\subsection*{Evolvability of HP ensembles}
 There are a few problems CTB models in general and autocatalytic models in particular encounter. 
 One of them is lack of variability and evolvability. Due to the compositional bias or poor 
 dynamical structure of 
@@ -658,7 +641,7 @@ polymer can position a small number of residues in a way that can catalyze a rea
 
 
 
-\section{Conclusions}
+\section*{Conclusions}
 \label{sec:evolution}
  It has been recognized that life's origins require some form of 
 autocatalysis~\cite{Kauffman1986,Dyson1985,Eigen1978}.  But, what molecular structural mechanism 
@@ -682,10 +665,196 @@ suggests that folding in HP polymers is not rare.
   polymer sequences could be autocatalytic, and provides a structural and kinetic mechanism for 
 their action. 
 
+\section*{Acknowledgments}
+
+\newpage
+\appendix
+ \section*{SI: Simulations}
+To perform our stochastic simulations, we first needed to develop appropriate simulation code 
+because of the large numbers of different molecular species that must be treated here.  A 
+description of the method, called the Expandable Partial Propensity Method (EPDM), and the 
+corresponding C++ library, can be found at: 
+https://github.com/abernatskiy/epdm~\cite{Guseva2016b}. 
+The challenge is to keep track of all the molecular species and to search the full conformational 
+spaces of each 
+chain.  This is NP-hard.  We use the HP Sandbox algorithm\cite{lau1989lattice,Dill2008a} 
+\footnote{A 
+Python implementation and description can be found at: 
+http://hp-lattice.readthedocs.org/en/latest/}, which is limited to maximum chain lengths of 25 
+monomers.  To handle computational limitations, we restricted the total number of species to the 
+level of a few thousands.  We impose this limit by introducing a dilution parameter $d$: molecules 
+are randomly removed from the system with probability $\propto d$.  Physically, it represents 
+molecules that diffuse out of the reaction volume.  The total numbers of molecules within the 
+reaction volume vary in the range of $10^2-10^4$.  We start our simulations with a small pool of 
+monomers, usually fewer than 100 molecules.  Here are the dynamical steps:
+
+\begin{itemize}
+ \item Polymerization happens when monomers react with other monomers or polymers at a rate $\beta 
+= 1$:
+\begin{equation}
+ 1\mbox{-mer}+n\mbox{-mer} \xrightarrow{\beta} (n+1)\mbox{mer}
+\end{equation}
+
+
+\item New monomers are imported into the system at high rate $a\gg1$. 
+
+[E - Explain the notation below.  You mean something like the end of a chain starts empty and then 
+adds an H or P?]
+
+\begin{equation}
+ \emptyset \xrightarrow{a} H\,\,\mbox{or}\,\,P
+\end{equation}
+
+\item We assume a chain can break at any internal site by hydrolysis.  This happens with rate $h$ 
+per chain bond. 
+\begin{equation}
+ n\mbox{-mer} \xrightarrow{h} l\mbox{-mer}+(n-l)\mbox{-mer}
+\end{equation}
+Typical values for the half-time for the hydrolysis of a bond under neutral conditions and room 
+temperature are on the order of hundreds of years\footnote{The hydrolysis rate constants of 
+oligopeptides in neutral conditions are of the order of $10^{-11}-10^{-10}$: $1.3  10^{-10} 
+M^{-1}s^{-1} $ for benzoylglycylphenylalanine ($t_{1/2} = 128 y$)\cite{Bryant1996}, $6.3  10^{-11} 
+M^{-1} s^{-1}$($t_{1/2}=350 y$) for glycylglycine and $9.3 10^{-11}M^{-1} s^{-1}$ for glycylvaline
+\cite{Smith1998}.}. Here, we explored a range of hydrolysis rates that are about $0.01-1$ of the 
+polymerization rate.  Hence, our model polymerization rates are on the order of days to years.
+
+\item We assume the system becomes diluted, at rate $d$.  This has the practical purpose of 
+limiting the total population of polymer in the system.  We explored values of $d$ from $\propto 
+0.01- 1\beta$.  Given the values of $a$ we used, it results in $\propto 10^2- 10^4$ chains in the 
+simulation volume.  [E - explain the equation below.]
+\begin{equation}
+ \mbox{anything} \xrightarrow{d}\emptyset
+\end{equation}
+
+\item Folding and unfolding reactions happen much faster than the polymerization processes, with 
+corresponding rate coefficients of $k_f\gg k_{u}\gg\beta$:
+\begin{equation}
+\begin{split}
+ \mbox{folded chain}&\xrightarrow{k_u}\mbox{unfolded chain}  \\
+ \mbox{unfolded chain}&\xrightarrow{k_f}\mbox{folded chain}
+\end{split}
+\end{equation}
+ We used the most realistic values we could obtain for these rates and for the folding free 
+energies for proteins.  We took $E_{nat}$ from the HP model, known folding free energies from 
+experimental data~\cite{Ghosh2010,Dill2011}, and we used the relationship~\cite{Ghosh2009}:
+\begin{equation}
+ \ln\pt{\frac{k_f}{k_u}}=-\gD G/kT = E_{nat}/kT-N\ln z,
+\end{equation} 
+ where $z$ is the number of rotational degrees of freedom per peptide bond.  To account for the 
+difference between the 2D model and real 3D proteins, we calibrated the parameters taken from the 
+literature to yield unfolding/folding rates that are meaningful in the context of the other rates 
+in our model: folding is much faster than growth and for any of the sequence in our pool 
+$k_f/k_u\in (10^2,10^4)$~\cite{Ghosh2010,Dill2011} for 3D proteins.  Because the literature models 
+are only mean-field, averaged over sequences, and in order to retain sequence dependence here, we 
+set the unfolding rate of all sequences to the average for their lengths, and assigned all the 
+sequence dependence to $k_f$.  So, we used: 
+significantly.
+\begin{equation}
+\begin{split}
+  k_u &= \exp[12-0.1 \sqrt{N} -E_H(0.5 N + 1.34)],\\
+  k_f &= k_u\exp(\gD G)
+\end{split}
+\end{equation}
+The model is not sensitive to varying these parameters over a wide range.  We use $E_h \approx 
+1-2$kT, so $k_{unf} \approx 10^2$, which leads to a range of unfolding rates from [E - the 
+following needs clarifying:] a reaction per hours and days and range of folding rates from a 
+reaction per hours to fractions of a second.
+
+\item The catalytic step is:
+\begin{equation}
+\mbox{Catalyst}+H+ \underbrace{\cdots HH}_{l-1} 
+\xrightarrow{\beta_{cat}}\mbox{Catalyst}+\underbrace{\cdots HHH}.
+\end{equation}
+ The rate enhancement is $\beta_{cat}=\beta\cdot\exp(E_{h}\cdot n_{c}/kT)$, where hydrophobic 
+sticking energy is $e_H$, the number of contacting hydrophobes is $n_c$, which varies in the range 
+$3-6$. With the hydrophobic energies of $e_H = 1-2$kT, this gives catalysis rates around hours to 
+days per reaction. Because the EPDM supports only binary reactions, we divided the reaction above 
+into to steps: interaction of catalyst with a monomer with rate $\beta$ and the reaction of this 
+complex with a polymer has the rate $\beta_{cat}$. 
+\end{itemize}
+
+For each trajectory, we collected statistics only after the system reached an unchanging steady 
+state.  In order 
+to explore the stochasticity, we repeated every simulation for 30 times for every experiment. We 
+ran all the simulations for $140s$ of internal simulation time, during which $10^6-10^9$ 
+individual 
+reactions had occurred. We took measurements every $10^{-6}s.$ 
+For all the trajectories steady state behavior was reached no longer than $40s$ after the start of 
+a simulation. Thus we considered only the last $100s$ (one million recordings) for each 
+simulation. 
+All the data points we used in the figures are averages over these recordings.
+
+
+For all the experiments below, we used the following parameters:
+\begin{enumerate}
+ \item $\beta = 1$
+ \item $E_h = 2kT$
+ \item $z=1.2$
+ 
+ \item $a=1000$
+ \subitem Values of $a\ll 1000\,\,\mbox{or}\,\,a\gg1000$ are problematic, having numbers of 
+sequences or populations either too high to calculate or too low to draw conclusions.
+ 
+ \item $h=d=0.1$.
+ \subitem When $3d\lessapprox h\leq\beta$, hydrolysis is dominates and without catalysis, there's 
+an 
+explosion of short sequences. 
+\subitem When $3h\lessapprox d\leq\beta$, hydrolysis is unphysically small, so nothing limits the 
+growth of longer sequences, even in the absence of catalysis. 
+\subitem When $0.05\lessapprox d\approx h \lessapprox 0.5$ the forces of dilution and hydrolysis 
+are relatively balanced and populations are neither too small or too large.
+ 
+\end{enumerate}
+
+
+\subsection*{\textit{In-silico} experiments}\label{sec:experiments}
+The simulations were performed on the Laufer Center's computing cluster of CPUs. 
+Source files of the models, parameters, initial conditions and random seeds can be obtained at 
+\url{https://github.com/gelisa/hp_world_data}.  We performed the following computational 
+experiments:
+
+
+\textbf{Experiment 1: Does our bare polymerization reproduce the Flory 
+distribution?}\label{sec:expt1}
+We started simulations with a small pool of chains up to 3-mers. To calculate the length 
+distributions, 
+we calculated for each trajectory the average population of every sequence over time over all 
+recordings after 40s, resulting in a million time steps.  Then we summed all the populations of a 
+given 
+length, obtained total populations for all $n$-mers, $n\in[1,25]$, and then computed every 
+population as:
+\begin{equation}
+ p_n = \frac{\sum\mbox{all n-mers}}{\sum\mbox{total population}}
+\end{equation}
+giving probability of finding an $n$-mer of a randomly chosen molecule in the system.
+
+The source file of the model and parameters of the simulation are located at 
+\url{https://github.com/gelisa/hp_world_data/tree/master/001}
+
+\textbf{Experiment 2. What is the effect on the distribution of just HP folding?}
+We started with the same initial population as in Experiment 1. But now we introduce the 
+hydrophobic 
+energy $e_h= 2kT$. To calculate the resultin length distribution, we computed the average 
+population 
+of every sequence for each trajectory over time over all the recordings after 40s, resulting in a 
+million time steps. The source file of the model and parameters of the 
+simulation are located at \url{https://github.com/gelisa/hp_world_data/tree/master/002}
+
+
+\textbf{Experiment 3. What is the effect on the distribution of both folding and catalysis?}
+In addition to folding in this \textit{in-silico} experiment, we also accounted for the pairwise 
+contact interactions between two proteins, with the parameters as indicated above. We explored 
+ranges of parameters.  We observed significant stability of the length distribution towards change 
+of $h$ and $d$: $0.05\lessapprox d\approx h \lessapprox 0.5$. [E - what does this mean?]  The 
+distributions we observe are quite sensitive to the choice of hydrophobic energy, as expected for 
+chemical reactions, since this enters into the exponent of the rate expression. In the generally 
+physical range of $e_h= 1-3 kT$, we observe a bending of the Flory distribution, as noted in the 
+text. The source file of the model and parameters of the 
+simulation are located at \url{https://github.com/gelisa/hp_world_data/tree/master/003}
 
 
 \bibliography{library}
-\bibliographystyle{achemso}
+ \bibliographystyle{achemso}
 \end{document}
 
 %%% Local Variables:
