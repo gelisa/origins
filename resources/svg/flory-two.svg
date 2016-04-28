@@ -19,7 +19,7 @@
    sodipodi:docname="flory-two.svg"><metadata
      id="metadata4142"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
      id="defs4140"><inkscape:path-effect
        effect="spiro"
        id="path-effect5076"
@@ -206,7 +206,7 @@
      id="namedview4138"
      showgrid="true"
      inkscape:zoom="0.43622065"
-     inkscape:cx="262.34639"
+     inkscape:cx="-138.82673"
      inkscape:cy="-267.62101"
      inkscape:window-x="66"
      inkscape:window-y="25"
@@ -1169,23 +1169,23 @@
 <text
        xml:space="preserve"
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:50px;line-height:125%;font-family:'Century SchoolBook URW';-inkscape-font-specification:'Century SchoolBook URW Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       x="1049.9274"
-       y="638.17682"
+       x="-50.072571"
+       y="-3.8231812"
        id="text12035"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan12037"
-         x="1049.9274"
-         y="638.17682">(a)</tspan></text>
+         x="-50.072571"
+         y="-3.8231812">(a)</tspan></text>
 <text
        xml:space="preserve"
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:50px;line-height:125%;font-family:'Century SchoolBook URW';-inkscape-font-specification:'Century SchoolBook URW Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       x="1049.9274"
-       y="1430.4762"
+       x="-50.072571"
+       y="690.4762"
        id="text12039"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan12041"
-         x="1049.9274"
-         y="1430.4762">(b)</tspan></text>
+         x="-50.072571"
+         y="690.4762">(b)</tspan></text>
 </g></svg>
