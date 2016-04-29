@@ -93,12 +93,190 @@
 \title[]
   {Supplementary Information for ``How did prebiotic polymers become informational foldamers?''}
 
+  
 
 
 
 \begin{document}
+\section{Simulations}
+To perform our stochastic simulations, we first needed to develop appropriate simulation code 
+because of the large numbers of different molecular species that must be treated here.  A 
+description of the method, called the Expandable Partial Propensity Method (EPDM), and the 
+corresponding C++ library, can be found at: 
+https://github.com/abernatskiy/epdm~\cite{Guseva2016b}. 
+The challenge is to keep track of all the molecular species and to search the full conformational 
+spaces of each 
+chain.  This is NP-hard.  We use the HP Sandbox algorithm\cite{lau1989lattice,Dill2008a} 
+\footnote{A 
+Python implementation and description can be found at: 
+http://hp-lattice.readthedocs.org/en/latest/}, which is limited to maximum chain lengths of 25 
+monomers.  To handle computational limitations, we restricted the total number of species to the 
+level of a few thousands.  We impose this limit by introducing a dilution parameter $d$: molecules 
+are randomly removed from the system with probability $\propto d$.  Physically, it represents 
+molecules that diffuse out of the reaction volume.  The total numbers of molecules within the 
+reaction volume vary in the range of $10^2-10^4$.  We start our simulations with a small pool of 
+monomers, usually fewer than 100 molecules.  Here are the dynamical steps:
+
+\begin{itemize}
+ \item Polymerization happens when monomers react with other monomers or polymers at a rate $\beta 
+= 1$:
+\begin{equation}
+ 1\mbox{-mer}+n\mbox{-mer} \xrightarrow{\beta} (n+1)\mbox{mer}
+\end{equation}
 
 
+\item New monomers are imported into the system at high rate $a\gg1$. From the point of view of the 
+system molecules appear out of nothing ($\emptyset$)
+\begin{equation}
+ \emptyset \xrightarrow{a} H\,\,\mbox{or}\,\,P
+\end{equation}
+
+\item We assume a chain can break at any internal site by hydrolysis.  This happens with rate $h$ 
+per chain bond. 
+\begin{equation}
+ n\mbox{-mer} \xrightarrow{h} l\mbox{-mer}+(n-l)\mbox{-mer}
+\end{equation}
+Typical values for the half-time for the hydrolysis of a bond under neutral conditions and room 
+temperature are on the order of hundreds of years\footnote{The hydrolysis rate constants of 
+oligopeptides in neutral conditions are of the order of $10^{-11}-10^{-10}$: $1.3  10^{-10} 
+M^{-1}s^{-1} $ for benzoylglycylphenylalanine ($t_{1/2} = 128 y$)\cite{Bryant1996}, $6.3  10^{-11} 
+M^{-1} s^{-1}$($t_{1/2}=350 y$) for glycylglycine and $9.3 10^{-11}M^{-1} s^{-1}$ for glycylvaline
+\cite{Smith1998}.}. Here, we explored a range of hydrolysis rates that are about $0.01-1$ of the 
+polymerization rate.  Hence, our model polymerization rates are on the order of days to years.
+
+\item We assume the system becomes diluted, at rate $d$.  This has the practical purpose of 
+limiting the total population of polymer in the system.  We explored values of $d$ from $\propto 
+0.01- 1\beta$.  Given the values of $a$ we used, it results in $\propto 10^2- 10^4$ chains in the 
+simulation volume.
+\begin{equation}
+ \mbox{anything} \xrightarrow{d}\emptyset
+\end{equation}
+
+\item Folding and unfolding reactions happen much faster than the polymerization processes, with 
+corresponding rate coefficients of $k_f\gg k_{u}\gg\beta$:
+\begin{equation}
+\begin{split}
+ \mbox{folded chain}&\xrightarrow{k_u}\mbox{unfolded chain}  \\
+ \mbox{unfolded chain}&\xrightarrow{k_f}\mbox{folded chain}
+\end{split}
+\end{equation}
+ We used the most realistic values we could obtain for these rates and for the folding free 
+energies for proteins.  We took $E_{nat}$ from the HP model, known folding free energies from 
+experimental data~\cite{Ghosh2010,Dill2011}, and we used the relationship~\cite{Ghosh2009}:
+\begin{equation}
+ \ln\pt{\frac{k_f}{k_u}}=-\gD G/kT = E_{nat}/kT-N\ln z,
+\end{equation} 
+ where $z$ is the number of rotational degrees of freedom per peptide bond.  To account for the 
+difference between the 2D model and real 3D proteins, we calibrated the parameters taken from the 
+literature to yield unfolding/folding rates that are meaningful in the context of the other rates 
+in our model: folding is much faster than growth and for any of the sequence in our pool 
+$k_f/k_u\in (10^2,10^4)$~\cite{Ghosh2010,Dill2011} for 3D proteins.  Because the literature models 
+are only mean-field, averaged over sequences, and in order to retain sequence dependence here, we 
+set the unfolding rate of all sequences to the average for their lengths, and assigned all the 
+sequence dependence to $k_f$.  So, we used: 
+significantly.
+\begin{equation}
+\begin{split}
+  k_u &= \exp[12-0.1 \sqrt{N} -E_H(0.5 N + 1.34)],\\
+  k_f &= k_u\exp(\gD G)
+\end{split}
+\end{equation}
+The model is not sensitive to varying these parameters over a wide range.  We use $E_h \approx 
+(1-2)$kT, so $k_{unf} \approx 10^2$, which leads to a range of unfolding rates from  one unfolding 
+per hour to one unfolding per day. Folding rates vary from a 
+reaction per hour to a reaction per fraction of a second.
+
+\item The catalytic step is:
+\begin{equation}
+\mbox{Catalyst}+H+ \underbrace{\cdots HH}_{l-1} 
+\xrightarrow{\beta_{cat}}\mbox{Catalyst}+\underbrace{\cdots HHH}.
+\end{equation}
+ The rate enhancement is $\beta_{cat}=\beta\cdot\exp(E_{h}\cdot n_{c}/kT)$, where hydrophobic 
+sticking energy is $e_H$, the number of contacting hydrophobes is $n_c$, which varies in the range 
+$3-6$. With the hydrophobic energies of $e_H = 1-2$kT, this gives catalysis rates around hours to 
+days per reaction. Because the EPDM supports only binary reactions, we divided the reaction above 
+into to steps: interaction of catalyst with a monomer with rate $\beta$ and the reaction of this 
+complex with a polymer has the rate $\beta_{cat}$. 
+\end{itemize}
+
+For each trajectory, we collected statistics only after the system reached an unchanging steady 
+state.  In order 
+to explore the stochasticity, we repeated every simulation for 30 times for every experiment. We 
+ran all the simulations for $140s$ of internal simulation time, during which $10^6-10^9$ 
+individual 
+reactions had occurred. We took measurements every $10^{-6}s.$ 
+For all the trajectories steady state behavior was reached no longer than $40s$ after the start of 
+a simulation. Thus we considered only the last $100s$ (one million recordings) for each 
+simulation. 
+All the data points we used in the figures are averages over these recordings.
+
+
+For all the experiments below, we used the following parameters:
+\begin{enumerate}
+ \item $\beta = 1$
+ \item $E_h = 2kT$
+ \item $z=1.2$
+ 
+ \item $a=1000$
+ \subitem Values of $a\ll 1000\,\,\mbox{or}\,\,a\gg1000$ are problematic, having numbers of 
+sequences or populations either too high to calculate or too low to draw conclusions.
+ 
+ \item $h=d=0.1$.
+ \subitem When $3d\lessapprox h\leq\beta$, hydrolysis is dominates and without catalysis, there's 
+an 
+explosion of short sequences. 
+\subitem When $3h\lessapprox d\leq\beta$, hydrolysis is unphysically small, so nothing limits the 
+growth of longer sequences, even in the absence of catalysis. 
+\subitem When $0.05\lessapprox d\approx h \lessapprox 0.5$ the forces of dilution and hydrolysis 
+are relatively balanced and populations are neither too small or too large.
+ 
+\end{enumerate}
+
+
+\subsection*{\textit{In-silico} experiments}\label{sec:experiments}
+The simulations were performed on the Laufer Center's computing cluster of CPUs. 
+Source files of the models, parameters, initial conditions and random seeds can be obtained at 
+\url{https://github.com/gelisa/hp_world_data}.  We performed the following computational 
+experiments:
+
+
+\textbf{Experiment 1: Does our bare polymerization reproduce the Flory 
+distribution?}\label{sec:expt1}
+We started simulations with a small pool of chains up to 3-mers. To calculate the length 
+distributions, 
+we calculated for each trajectory the average population of every sequence over time over all 
+recordings after 40s, resulting in a million time steps.  Then we summed all the populations of a 
+given 
+length, obtained total populations for all $n$-mers, $n\in[1,25]$, and then computed every 
+population as:
+\begin{equation}
+ p_n = \frac{\sum\mbox{all n-mers}}{\sum\mbox{total population}}
+\end{equation}
+giving probability of finding an $n$-mer of a randomly chosen molecule in the system.
+
+The source file of the model and parameters of the simulation are located at 
+\url{https://github.com/gelisa/hp_world_data/tree/master/001}
+
+\textbf{Experiment 2. What is the effect on the distribution of just HP folding?}
+We started with the same initial population as in Experiment 1. But now we introduce the 
+hydrophobic 
+energy $e_h= 2kT$. To calculate the result in length distribution, we computed the average 
+population 
+of every sequence for each trajectory over time over all the recordings after 40s, resulting in a 
+million time steps. The source file of the model and parameters of the 
+simulation are located at \url{https://github.com/gelisa/hp_world_data/tree/master/002}
+
+
+\textbf{Experiment 3. What is the effect on the distribution of both folding and catalysis?}
+In addition to folding in this \textit{in-silico} experiment, we also accounted for the pairwise 
+contact interactions between two proteins, with the parameters as indicated above. We explored 
+ranges of parameters.  We observed significant stability of the length distribution towards change 
+of $h$ and $d$ in the range: $0.05\lessapprox d\approx h \lessapprox 0.5$.  The 
+distributions we observe are quite sensitive to the choice of hydrophobic energy, as expected for 
+chemical reactions, since this enters into the exponent of the rate expression. In the generally 
+physical range of $e_h= 1-3 kT$, we observe a bending of the Flory distribution, as noted in the 
+text. The source file of the model and parameters of the 
+simulation are located at \url{https://github.com/gelisa/hp_world_data/tree/master/003}
 
  \bibliography{library}
  \bibliographystyle{achemso}

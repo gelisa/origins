@@ -1,6 +1,4 @@
 \documentclass[journal=jacsat,manuscript=article,layout=twocolumn]{achemso}
-%\documentclass[5p,times]{elsarticle}
-
 \usepackage[T1]{fontenc}       % Use modern font encodings
 
 
@@ -12,13 +10,6 @@
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage{lineno,hyperref}
-% \hypersetup{
-%     colorlinks=true,
-%      linkcolor=blue,
-% %     filecolor=magenta,      
-%      urlcolor=blue,
-% }
-% \modulolinenumbers[5]
 
 \newcommand*{\ga}{\alpha}
 \newcommand*{\gb}{\beta}
@@ -45,30 +36,7 @@
 \newcommand*{\figref}[1]{\figurename~\ref{#1}}
 \newcommand*{\red}[1]{\textcolor{red}{#1}}
 \newcommand*{\blue}[1]{\textcolor{blue}{#1}}
-% \newcommand*{\gray}[1]{\textcolor{gray}{#1}}
-% \renewcommand{\baselinestretch}
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Meta-data block
-%% ---------------
-%% Each author should be given as a separate \author command.
-%%
-%% Corresponding authors should have an e-mail given after the author
-%% name as an \email command. Phone and fax numbers can be given
-%% using \phone and \fax, respectively; this information is optional.
-%%
-%% The affiliation of authors is given after the authors; each
-%% \affiliation command applies to all preceding authors not already
-%% assigned an affiliation.
-%%
-%% The affiliation takes an option argument for the short name.  This
-%% will typically be something like "University of Somewhere".
-%%
-%% The \altaffiliation macro should be used for new address, etc.
-%% On the other hand, \alsoaffiliation is used on a per author basis
-%% when authors are associated with multiple institutions.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \author{Elizaveta Guseva}
 \email{elizaveta.guseva@stonybrook.edu}
 \affiliation[Stony Brook University]
@@ -89,20 +57,6 @@
 \keywords{prebiotic polymerization, origins of life, autocatalytic sets}
 \begin{document}
 
-
-% % 
-% \author[addr1]{Elizaveta Guseva}
-% \ead{eguseva@tutanota.com}
-% \author[addr2]{Ronald N Zuckermann}
-% \ead{rnzuckermann@lbl.gov }
-% \author[addr1]{Ken A Dill\corref{mycorrespondingauthor}}
-% \cortext[mycorrespondingauthor]{Corresponding author}
-% \ead{dill@laufercenter.org}
-% % % 
-% \address[addr1]{Laufer Center for Physical and Quantitative Biology, and Departments of Physics \& 
-% Astronomy and Chemistry, Stony Brook University, Stony Brook, NY, (United States)}
-% \address[addr2]{Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)}
-% 
 \begin{abstract}
 A mystery about the origins of life is which molecular structures -- and what spontaneous 
 processes -- drove the autocatalytic transition from simple chemistry to biology?  Using the HP 
@@ -116,11 +70,8 @@ multimodality: ability to settle at multiple distinct
 quasi-stable states characterized by different groups of dominating polymers. This is a testable 
 mechanism that we believe is relevant to the early origins of life.
 \end{abstract}
-% 
-% % 
-
 %%%MAIN TEXT%%%%
-% \linenumbers
+
 \section{Introduction} 
 
  Among the most interesting and mysterious processes in chemistry is how the spontaneous 
@@ -243,9 +194,9 @@ constant$^l$)~\cite{nowak2008prevolutionary,Derr2012}).
 
 \begin{figure}[ht!]
   \centering
-  \includegraphics[width=0.9\columnwidth]{pictures/flory-two.pdf} \\
-%  (b) \includegraphics[width=0.9\columnwidth]{pictures/some_flory.pdf} 
-  \caption{\textbf{Polymerization processes lead to mostly short chains.} (a)  Spontaneous 
+  \includegraphics[width=0.9\columnwidth]{pictures/flory-two.pdf} 
+  \caption{\textbf{Polymerization 
+processes lead to mostly short chains.} (a)  Spontaneous 
 polymerization processes typically lead to a Flory distribution of chain lengths. 
 Green line gives $\langle  l \rangle= 6$, blue corresponds to $\langle l \rangle=2$
 (b) Fitted distributions from experiments on prebiotic polymerization: red -- 
@@ -429,10 +380,6 @@ https://github.com/abernatskiy/epdm.
 \begin{figure}[ht!]
   \centering
   \includegraphics[width=\columnwidth]{pictures/all-three-distrs}
-%     \includegraphics[width=0.45\textwidth]{pictures/distrPlain-many.pdf} (a)
-%   \includegraphics[width=0.45\textwidth]{pictures/scatter01918.png} (b)\\
-%   \includegraphics[width=0.9\columnwidth]{pictures/distr-folded-many.pdf} (c)
-%    \includegraphics[width=0.9\columnwidth]{pictures/scatter2009.png}(d)
   \caption{\footnotesize{\bf{Chains become elongated by foldamer-catalyst HP sequences.}  
 \textbf{Case 1 (gray):} A soup of chains has a Flory-like length distribution in the absence of 
 folding and catalysis.  \textbf{Case 2 (blue):} A soup of chains still has a Flory-like length 
@@ -690,12 +637,3 @@ thanks to Anton Bernatskiy for fruitful discussions.
 \bibliographystyle{achemso}
 \end{document}
 
-%%% Local Variables:
-%%% mode: latex
-%%% TeX-master: t
-%%% End:
-
-%  LocalWords:  prebiotic prebiotically nucleotides polypeptides mers
-%  LocalWords:  enzymatically oligomers clays asymptote biopolymers
-%  LocalWords:  peptides et al montmorillonite hectorite Gly unf dx
-%  LocalWords:  oligouridylates phosphoimidazolide lp
